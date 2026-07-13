@@ -39,7 +39,9 @@ sources:
   - name: ethanchlebowski
     mode: link_through
     discovery: native_feed
-    feed_url: "https://www.ethanchlebowski.com/blog?format=rss"  # verify (Squarespace)
+    # Squarespace collection RSS = <collection-url>?format=rss; his recipes live
+    # at /cooking-techniques-recipes (confirmed via search).
+    feed_url: "https://www.ethanchlebowski.com/cooking-techniques-recipes?format=rss"
     scraper_host: ethanchlebowski.com
 
   - name: andycooks
