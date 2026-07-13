@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 17:38:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 20:40:05 +0000</lastBuildDate>
     <item>
       <title>Perfect Nashville Hot Fried Chicken at Home (2 Ways)</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/perfect-nashville-hot-fried-chicken-at-home-2-ways-c5ece224.html</link>
@@ -113,6 +113,34 @@
       <description>The Fluffiest Pancakes You’ll Ever Make (2 Ways)</description>
       <guid isPermaLink="false">efc860016321b60c2727fa0cdead749ad8366c81</guid>
       <pubDate>Tue, 13 Jan 2026 14:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Homemade New York Bagels</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-homemade-new-york-bagels-4fccce62.html</link>
+      <description>The Best Homemade New York Bagels</description>
+      <guid isPermaLink="false">4fccce6209504ee1834969ac8a581ddb51194d76</guid>
+      <pubDate>Tue, 13 Jan 2026 14:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making McDonald’s McGriddle Breakfast Meal At Home | But Better</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/making-mcdonald-s-mcgriddle-breakfast-meal-at-home-but-better-d5ce6d8a.html</link>
+      <description>Making McDonald’s McGriddle Breakfast Meal At Home | But Better</description>
+      <guid isPermaLink="false">d5ce6d8a6e19fdcec7dfd015bbe91d96efc258b8</guid>
+      <pubDate>Tue, 19 Aug 2025 20:56:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>The 3 Dollar Breakfast Sandwich Meal | But Cheaper</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-3-dollar-breakfast-sandwich-meal-but-cheaper-7bdd5ec5.html</link>
+      <description>The 3 Dollar Breakfast Sandwich Meal | But Cheaper</description>
+      <guid isPermaLink="false">7bdd5ec5fb8fb24b584f6efdd67ea07938e9a09a</guid>
+      <pubDate>Sun, 03 Aug 2025 19:05:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Cooked Without A Kitchen</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/i-cooked-without-a-kitchen-9cb06fe4.html</link>
+      <description>I Cooked Without A Kitchen</description>
+      <guid isPermaLink="false">9cb06fe42bf44dafe4a10342d9fed912cf6c131b</guid>
+      <pubDate>Sun, 03 Aug 2025 19:02:27 +0000</pubDate>
     </item>
   </channel>
 </rss>
