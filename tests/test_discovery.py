@@ -1,4 +1,4 @@
-from melarss.discovery import native_feed, sitemap
+from melarss.discovery import index_page, native_feed, sitemap
 
 from conftest import load_fixture
 
@@ -62,6 +62,42 @@ def test_sitemap_with_xml_comments_does_not_crash():
     entries, nested = sitemap.parse_sitemap(xml)
     assert entries == [("https://x.com/recipes/a", None)]
     assert nested == []
+
+
+def test_index_page_extracts_anchors_and_json_paths():
+    html = """
+    <html><body>
+      <a href="/recipes/perfect-pizza">Pizza</a>
+      <a href="/recipes/best-bread/">Bread</a>
+      <a href="/recipes">All recipes</a>            <!-- index page, excluded -->
+      <a href="/categories/main-dishes">Mains</a>   <!-- category, excluded -->
+      <a href="https://www.joshuaweissman.com/recipes/full-url-dish">Abs</a>
+      <script>window.__DATA__ = {"slug":"/recipes/embedded-dish","x":1}</script>
+    </body></html>
+    """
+    urls = index_page.extract_index_links(
+        html, "https://www.joshuaweissman.com/recipes",
+        r"joshuaweissman\.com/recipes/[a-z0-9-]+$",
+    )
+    assert "https://www.joshuaweissman.com/recipes/perfect-pizza" in urls
+    assert "https://www.joshuaweissman.com/recipes/best-bread" in urls
+    assert "https://www.joshuaweissman.com/recipes/full-url-dish" in urls
+    assert "https://www.joshuaweissman.com/recipes/embedded-dish" in urls
+    # the index and category pages themselves are excluded by the pattern
+    assert "https://www.joshuaweissman.com/recipes" not in urls
+    assert all("/categories/" not in u for u in urls)
+
+
+def test_index_page_urls_dedupes_across_pages():
+    class Http:
+        def get(self, url):
+            return '<a href="/recipes/a">a</a><a href="/recipes/b">b</a>'
+
+    urls = index_page.index_page_urls(
+        "https://s.com/recipes", r"s\.com/recipes/[a-z]+$", Http(),
+        extra_index_urls=("https://s.com/categories/x",),
+    )
+    assert urls == ["https://s.com/recipes/a", "https://s.com/recipes/b"]
 
 
 def test_native_feed_with_xml_comments_does_not_crash():

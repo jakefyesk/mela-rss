@@ -13,7 +13,7 @@ import yaml
 
 from .models import Category, Mode
 
-VALID_DISCOVERY = {"sitemap", "native_feed", "chef_page", "instagram"}
+VALID_DISCOVERY = {"sitemap", "native_feed", "chef_page", "instagram", "index_page"}
 
 
 @dataclass
@@ -28,6 +28,7 @@ class SourceConfig:
     sitemap: str | None = None
     feed_url: str | None = None
     url: str | None = None
+    index_urls: list[str] | None = None  # extra listing pages for index_page discovery
     seed_file: str | None = None
     url_pattern: str | None = None
 
@@ -79,6 +80,7 @@ def _coerce_source(name: str, raw: dict, defaults: dict) -> SourceConfig:
         sitemap=merged.get("sitemap"),
         feed_url=merged.get("feed_url"),
         url=merged.get("url"),
+        index_urls=merged.get("index_urls"),
         seed_file=merged.get("seed_file"),
         url_pattern=merged.get("url_pattern"),
         scraper_host=merged.get("scraper_host"),

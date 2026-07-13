@@ -9,7 +9,7 @@ from __future__ import annotations
 from ..config import SourceConfig
 from ..extract import extract_recipe
 from ..models import Recipe
-from . import mob_chef, native_feed, sitemap
+from . import index_page, mob_chef, native_feed, sitemap
 from .instagram import InstagramAdapter
 
 
@@ -45,6 +45,16 @@ class GenericAdapter:
                 return []
             urls = _filter(mob_chef.mob_chef_recipe_urls(self.cfg.url, self.http), self.cfg.url_pattern)
             return urls[:limit] if limit else urls
+        if d == "index_page":
+            if not self.cfg.url:
+                return []
+            return index_page.index_page_urls(
+                self.cfg.url,
+                self.cfg.url_pattern,
+                self.http,
+                extra_index_urls=tuple(self.cfg.index_urls or ()),
+                limit=limit,
+            )
         return []
 
     def fetch_and_parse(self, ref: str) -> Recipe | None:

@@ -27,9 +27,18 @@ sources:
 
   - name: joshuaweissman
     mode: rehost           # his site has no usable JSON-LD -> we re-emit clean JSON-LD
-    discovery: sitemap
-    sitemap: "https://www.joshuaweissman.com/sitemap.xml"      # verify
-    url_pattern: "joshuaweissman\\.com/(recipes|post)/"
+    # His SPA sitemap doesn't list recipes, but the /recipes + category index
+    # pages link to them (anchors + embedded JSON). url_pattern keeps only
+    # individual recipe pages (not the index/category pages themselves).
+    discovery: index_page
+    url: "https://www.joshuaweissman.com/recipes"
+    index_urls:
+      - "https://www.joshuaweissman.com/categories/main-dishes"
+      - "https://www.joshuaweissman.com/categories/breakfast"
+      - "https://www.joshuaweissman.com/categories/baking-desserts"
+      - "https://www.joshuaweissman.com/categories/snacks-sides"
+      - "https://www.joshuaweissman.com/categories/sandwiches-burgers"
+    url_pattern: "joshuaweissman\\.com/recipes/[a-z0-9-]+$"
     scraper_host: joshuaweissman.com
     rehost_author: "Joshua Weissman"
     backfill_limit: 300
