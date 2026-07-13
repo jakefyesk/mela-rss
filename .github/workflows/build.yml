@@ -69,7 +69,13 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     # Only deploy from the primary branch; feature-branch runs still build+commit.
-    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    # `schedule` runs (the 6-hourly cron) fire only on the default branch, but the
+    # scheduled event payload carries no repository.default_branch, so the ref
+    # comparison alone would evaluate false and silently skip publishing. Allow
+    # scheduled runs explicitly so the site actually republishes on cron.
+    if: >-
+      github.event_name == 'schedule'
+      || github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     permissions:
       pages: write
       id-token: write
@@ -77,5 +83,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Requires GitHub Pages enabled with Source = "GitHub Actions"
+      # (repo Settings -> Pages). Without it, deploy-pages@v4 fails with
+      # "Failed to create deployment (status: 404) ... Ensure GitHub Pages has
+      # been enabled". This is a one-time repo setting: the built-in GITHUB_TOKEN
+      # cannot enable Pages (actions/configure-pages' `enablement` needs a PAT or
+      # App token with pages-write + administration-write).
       - id: deployment
         uses: actions/deploy-pages@v4
