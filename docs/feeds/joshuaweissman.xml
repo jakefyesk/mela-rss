@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Joshuaweissman (mela-rss)</title>
+    <link>https://jakefyesk.github.io/mela-rss</link>
+    <description>Auto-curated recipes from Joshuaweissman (mela-rss), ready to import into Mela.</description>
+    <atom:link href="https://jakefyesk.github.io/mela-rss/feeds/joshuaweissman.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>mela-rss</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2026 17:38:32 +0000</lastBuildDate>
+    <item>
+      <title>Perfect Nashville Hot Fried Chicken at Home (2 Ways)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/perfect-nashville-hot-fried-chicken-at-home-2-ways-c5ece224.html</link>
+      <description>Perfect Nashville Hot Fried Chicken at Home (2 Ways)</description>
+      <guid isPermaLink="false">c5ece2248c2fa64df95bd1e24007e53593e41105</guid>
+      <pubDate>Wed, 08 Jul 2026 14:35:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japanese Convenience Store Sandwiches at Home</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/japanese-convenience-store-sandwiches-at-home-5057dba8.html</link>
+      <description>Japanese Convenience Store Sandwiches at Home</description>
+      <guid isPermaLink="false">5057dba8e5bd6f72f2cf0ba29378a55a23ff7891</guid>
+      <pubDate>Wed, 08 Jul 2026 14:35:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick &amp; Easy Aglio e Olio</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-aglio-e-olio-7eb40bd3.html</link>
+      <description>Quick &amp; Easy Aglio e Olio</description>
+      <guid isPermaLink="false">7eb40bd310849cd83dba2df3350ff1f875ff65dc</guid>
+      <pubDate>Tue, 07 Jul 2026 18:24:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Quesa Birria Tacos At Home (Authentic)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-quesa-birria-tacos-at-home-authentic-68780f43.html</link>
+      <description>The Best Quesa Birria Tacos At Home (Authentic)</description>
+      <guid isPermaLink="false">68780f43e78099dd59a3cab6088538e02b120f51</guid>
+      <pubDate>Tue, 07 Jul 2026 17:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate Movie Theater Popcorn</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/ultimate-movie-theater-popcorn-e4912f4d.html</link>
+      <description>Ultimate Movie Theater Popcorn</description>
+      <guid isPermaLink="false">e4912f4d1d2a5e34bbad33f28e3d4fc54ceb00c9</guid>
+      <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best French Dip Sandwich Ever</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-french-dip-sandwich-ever-95b6eee2.html</link>
+      <description>The Best French Dip Sandwich Ever</description>
+      <guid isPermaLink="false">95b6eee2c96e26bbb70fcb064b405cc2e665f334</guid>
+      <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick &amp; Easy Vodka Pasta</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-vodka-pasta-cdc7e15a.html</link>
+      <description>Quick &amp; Easy Vodka Pasta</description>
+      <guid isPermaLink="false">cdc7e15a690233305955e10923cd29af43393730</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick &amp; Easy Pesto Pasta</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-pesto-pasta-19f65d0e.html</link>
+      <description>Quick &amp; Easy Pesto Pasta</description>
+      <guid isPermaLink="false">19f65d0ea96311e9aa30b7d55479033d3db2ea14</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy &amp; Low Calorie 61g Protein Butter Chicken</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/easy-low-calorie-61g-protein-butter-chicken-92ebed54.html</link>
+      <description>Easy &amp; Low Calorie 61g Protein Butter Chicken</description>
+      <guid isPermaLink="false">92ebed54ba5c4cf4cd1a0d4f48f70c068f5ef2ec</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Steak Sandwich Ever</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-steak-sandwich-ever-63ef2823.html</link>
+      <description>The Best Steak Sandwich Ever</description>
+      <guid isPermaLink="false">63ef2823efce2e3fea7874ecf173fdcb3322d462</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Scandinavian-Style Cinnamon Buns</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-scandinavian-style-cinnamon-buns-82609a54.html</link>
+      <description>The Best Scandinavian-Style Cinnamon Buns</description>
+      <guid isPermaLink="false">82609a54fbffe329d02570769e8823ad8db92d31</guid>
+      <pubDate>Wed, 15 Apr 2026 19:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Authentic Chinese Breakfast At Home (Jianbing)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/authentic-chinese-breakfast-at-home-jianbing-07d788ac.html</link>
+      <description>Authentic Chinese Breakfast At Home (Jianbing)</description>
+      <guid isPermaLink="false">07d788acbac8d900007fd3468221b61c16988640</guid>
+      <pubDate>Thu, 02 Apr 2026 03:19:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Breakfast Sandwich at Home</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-breakfast-sandwich-at-home-35335b33.html</link>
+      <description>The Best Breakfast Sandwich at Home</description>
+      <guid isPermaLink="false">35335b33198983b361a897cf3fdf674ff9767729</guid>
+      <pubDate>Thu, 02 Apr 2026 03:19:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy &amp; Low Calorie 53g Protein McGriddle</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/easy-low-calorie-53g-protein-mcgriddle-0519c9a0.html</link>
+      <description>Easy &amp; Low Calorie 53g Protein McGriddle</description>
+      <guid isPermaLink="false">0519c9a012dd6b6468cb46c781ea53a2ff97c9ef</guid>
+      <pubDate>Wed, 04 Mar 2026 20:13:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Fluffiest Pancakes You’ll Ever Make (2 Ways)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-fluffiest-pancakes-you-ll-ever-make-2-ways-efc86001.html</link>
+      <description>The Fluffiest Pancakes You’ll Ever Make (2 Ways)</description>
+      <guid isPermaLink="false">efc860016321b60c2727fa0cdead749ad8366c81</guid>
+      <pubDate>Tue, 13 Jan 2026 14:44:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
