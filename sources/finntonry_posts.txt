@@ -1,0 +1,48 @@
+# finntonry — Instagram seed list (free, no scraping required)
+# =============================================================
+# You curate this list. The most reliable path is to PASTE THE CAPTION inline
+# (100% free, zero scraping). If you only provide a URL, the build makes a
+# best-effort attempt to fetch the caption (Instagram oEmbed if IG_OEMBED_TOKEN
+# is set, else the post's OpenGraph description) — less reliable.
+#
+# FORMAT — entries are separated by a line of "===":
+#
+#   <instagram post/reel url>
+#   image: <optional thumbnail url>       # optional
+#   tags: high-protein, chicken           # optional, comma-separated
+#
+#   Dish Title
+#   Ingredients:
+#   - 200g chicken breast
+#   - 1 tbsp olive oil
+#   Method:
+#   1. Sear the chicken.
+#   2. Rest and slice.
+#   320cal | 45g protein
+#
+# ===
+#
+# Notes:
+#   * The first line up to the first blank line is the header (URL + directives).
+#   * Everything after the blank line is the caption, parsed by caption.py.
+#   * Lines starting with '#' at the top of the file are comments.
+#   * Delete this whole header block once you add real entries, or just add
+#     entries below the "===" — commented lines are ignored.
+#
+# Add your entries below (remove the leading '#' and fill in real posts):
+#
+# ===
+#
+# https://www.instagram.com/reel/REPLACE_ME/
+# tags: high-protein
+#
+# Creamy Peppercorn Chicken
+# Ingredients:
+# - 2 chicken breasts
+# - 1 tbsp black peppercorns, crushed
+# - 100ml double cream
+# Method:
+# 1. Season and sear the chicken until golden.
+# 2. Add peppercorns and cream, simmer to thicken.
+# 3. Return chicken, coat in sauce, serve.
+# 400cal | 42g protein

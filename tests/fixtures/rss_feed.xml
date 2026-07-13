@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Example Recipes</title>
+    <link>https://www.example.com</link>
+    <item>
+      <title>Newest Dish</title>
+      <link>https://www.example.com/recipes/newest-dish</link>
+      <pubDate>Sat, 20 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>A non-recipe announcement</title>
+      <link>https://www.example.com/news/we-moved</link>
+      <pubDate>Fri, 19 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
