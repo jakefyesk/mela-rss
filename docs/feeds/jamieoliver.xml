@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 17:20:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 17:30:01 +0000</lastBuildDate>
     <item>
       <title>Golden chicken &amp; garlicky beans</title>
       <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans</link>
@@ -87,6 +87,20 @@
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Summer cocktail cake</title>
+      <link>https://www.jamieoliver.com/recipes/cake/summer-cocktail-cake/</link>
+      <description>The most spectacular summer cocktail cake inspired by the beautiful flavours of British-favourite, Pimm's – super-fresh, this is summer on a plate! — 12 servings · PT50M</description>
+      <guid isPermaLink="false">52854eaea79ff0bef1d19a578afcf231ab919c34</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Savoury s'mores</title>
+      <link>https://www.jamieoliver.com/recipes/cheese/savoury-smores/</link>
+      <description>Brilliant for your next summer adventure, these quick, easy and fun savoury s'mores are the perfect nibble – experiment with your favourite combos! — 8 items · PT20M</description>
+      <guid isPermaLink="false">79eae49fafb8257950127cc6922bfd07b397fd60</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Grogu's Steak sandwich</title>
       <link>https://www.jamieoliver.com/recipes/beef/5-ingredient-steak-sandwich/</link>
       <description>Bring the galaxy's ultimate comfort food home! Watch Pedro Pascal and Jon Favreau cook Jamie Oliver's 5-ingredient steak sandwich (aka Grogu's Steak Sandwich). Get the full recipe, ingredients list, and cooking tips. — 2 servings · PT14M</description>
@@ -101,6 +115,104 @@
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Picnic pie &amp; pickles</title>
+      <link>https://www.jamieoliver.com/recipes/potato/picnic-pie-and-pickles/</link>
+      <description>Make your next picnic super-special with this perfectly portable picnic pie, made with a slow-cooked onion, cheese and potato filling. Delicious! — 10 servings · PT2H</description>
+      <guid isPermaLink="false">5d8a67ab100d2d6eb948154c525ec5659bcdaf7d</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Matcha fro-yo</title>
+      <link>https://www.jamieoliver.com/recipes/puddings-desserts/matcha-fro-yo/</link>
+      <description>Quick, easy and refreshing, this matcha-fro-yo with a fresh strawberry drizzle and sesame snaps is the perfect sweet treat on a hot summers day. — 4 servings · PT20M</description>
+      <guid isPermaLink="false">bb1c36cf71441f3cb3e83cf356ac4570a353cc7f</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hot honey BBQ chicken</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/hot-honey-bbq-chicken/</link>
+      <description>The sweetness and spice of hot honey, combined with those beautiful BBQ flavours is what makes this chicken recipe so special – totally delicious! — 6 servings · PT1H30M</description>
+      <guid isPermaLink="false">f3c919e7e886a8aa3421ffb79511b138a4bad1bf</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate crab sandwich</title>
+      <link>https://www.jamieoliver.com/recipes/seafood/ultimate-crab-sandwich</link>
+      <description>Bring back fond memories of days spent by the coast with this ultimate crab sandwich, made with saffron mayo, cucumber ribbons and pickled samphire. — 1 serving · PT15M</description>
+      <guid isPermaLink="false">fef9b3543d6a37591c68b731c93bdc761f26da34</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Loaded Caesar salad dip</title>
+      <link>https://www.jamieoliver.com/recipes/dips-salsas/loaded-caesar-salad-dip/</link>
+      <description>Enjoy all the flavours of a Caesar salad as a beautiful sharing platter – perfect for entertaining or a cosy night in! — 4 servings · PT15M</description>
+      <guid isPermaLink="false">a38f0d6a49b4437197c290bb4dc091d0e94791b0</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy energy balls</title>
+      <link>https://www.jamieoliver.com/recipes/fruit/easy-energy-balls/</link>
+      <description>Looking for the perfect pick-me-up after a gym session? These Easy energy balls made with simple ingredients will help your body recover naturally. — 24 items · PT25M</description>
+      <guid isPermaLink="false">188ef5cf828b8bfa69e23d720034fa577f536099</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Italian-style tuna salad</title>
+      <link>https://www.jamieoliver.com/recipes/fish/italian-style-tuna-salad/</link>
+      <description>Celebrate humble tinned tuna in this delicious Italian-style salad, served with bang-in-season tomatoes on toast and beautiful marinated anchovies. — 4 servings · PT20M</description>
+      <guid isPermaLink="false">ddfcb2758bbb26613e5c83aaa2c487a9177b70cf</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hot crispy rostis &amp; smoked salmon</title>
+      <link>https://www.jamieoliver.com/recipes/fish/hot-crispy-rostis-and-smoked-salmon/</link>
+      <description>Made with waves of quality wild smoked salmon, these hot and crispy rostis topped with a fried egg and asparagus ribbons are totally delicious. — 2 servings · PT20M</description>
+      <guid isPermaLink="false">8dfdd0581a3a2283cca9501e053edde4cdef91a4</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sumptuous sardine spaghetti</title>
+      <link>https://www.jamieoliver.com/recipes/fish/sumptuous-sardine-spaghetti/</link>
+      <description>Sardines are the perfect tinned fish – oily, delicious and so full of flavour! Enjoy them in this simple pasta dish for a quick and easy dinner. — 2 servings · PT15M</description>
+      <guid isPermaLink="false">1c9a26fed47b2efaa17b19ca7c8871d625d10239</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supergrains mackerel salad</title>
+      <link>https://www.jamieoliver.com/recipes/fish/supergrains-mackerel-salad/</link>
+      <description>Mackerel is a real nutritional powerhouse, packed with those heart-healthy Omega-3 oils - enjoy it in this beautifully simple grains salad. — 4 servings · PT20M</description>
+      <guid isPermaLink="false">e2ce0cf6dca6019aa674069598bc1870c96df544</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick tuna melt fishcakes</title>
+      <link>https://www.jamieoliver.com/recipes/fish/tuna-melt-fishcakes/</link>
+      <description>These super-tasty fishcakes celebrate beautiful skipjack tuna, tinned at its absolute best. Topped with melty cheese, they're a real family favourite! — 4 servings · PT20M</description>
+      <guid isPermaLink="false">74987b8e2ed49728f82f47bc95fbab78403e6386</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Salsa verde</title>
+      <link>https://www.jamieoliver.com/recipes/fish/salsa-verde/</link>
+      <description>Made with top-quality anchovies, this easy-to-make salsa verde is a great way to add big flavour to all kinds of dishes. Delicious! — 8 servings · PT10M</description>
+      <guid isPermaLink="false">ab11966c01b12e96e1a2c071d9379f3ec210ff3d</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate barbecue brekkie</title>
+      <link>https://www.jamieoliver.com/recipes/sausage/ultimate-barbecue-brekkie/</link>
+      <description>Pick and choose whichever elements excite you to make up your own perfect brekkie or brunch – what a feast! — 4 servings</description>
+      <guid isPermaLink="false">906e632cbc9dd15da38542fc960bcf0748e510ff</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sesame chicken burgers</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/sesame-chicken-burgers/</link>
+      <description>A sizzling sesame burger served in homemade burger buns with gochujang yoghurt and pickled veg – yes please! — 4 servings · PT30M</description>
+      <guid isPermaLink="false">b8dcac423884aef97d0b448878f5fd849a4127a5</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Thai-style mushroom &amp; tofu broth</title>
       <link>https://www.jamieoliver.com/recipes/mushroom/thai-style-mushroom-tofu-broth/</link>
       <description>Enjoy a steaming bowl of this hot and sour mushroom broth. A simple, plant-based dish that delivers a real flavour hit! — 6 servings · PT25M</description>
@@ -108,11 +220,25 @@
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Prawn &amp; cheese tacos</title>
+      <link>https://www.jamieoliver.com/recipes/prawn/prawn-cheese-tacos/</link>
+      <description>Want a prawn taco recipe up your sleeve? Look no further. Taken from Karla Zazueta's debut cookbook Norteña, these are ideal for any north Mexican feast. — 12 items</description>
+      <guid isPermaLink="false">5db73507514147a4ca24d6dea4a6610c49a40192</guid>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Campfire bread</title>
       <link>https://www.jamieoliver.com/recipes/bread/campfire-bread/</link>
       <description>Cooking bread over a campfire is super-fun and really easy! Just make sure you have an adult on hand to help with some of the trickier bits. — 6 servings · PT20M</description>
       <guid isPermaLink="false">0777695e7a41580c9d8877e55ec46eb3132ba07b</guid>
       <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Epic lamb kebabs</title>
+      <link>https://www.jamieoliver.com/recipes/lamb/epic-lamb-kebabs/</link>
+      <description>Gnarly lamb, herby homemade chips, slaw and warm flatbreads – this lamb kebab recipe from Jamie Oliver’s Friday Night Feast makes for an epic weekend! — 8 servings · PT1H30M</description>
+      <guid isPermaLink="false">270e9bd3ccd7d79e46677bce4ab06b61e32960b6</guid>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Quiche lorraine</title>
