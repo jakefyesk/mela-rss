@@ -15,9 +15,12 @@ from dataclasses import dataclass, field
 
 # Section headers we recognise (case-insensitive), mapped to a canonical bucket.
 _INGREDIENT_HEADERS = re.compile(
-    r"^\s*(ingredients?|you(?:'ll)?\s+need|shopping\s+list|for\s+the\b.*)\s*:?\s*$",
+    r"^\s*(ingredients?|you(?:'ll)?\s+need|shopping\s+list)\s*:?\s*$",
     re.IGNORECASE,
 )
+# A "For the sauce:" style ingredient GROUP header: short and colon-terminated,
+# so ordinary prose ("For the best results, ...") does NOT match.
+_INGREDIENT_GROUP_HEADER = re.compile(r"^\s*for\s+the\s+.{1,40}:\s*$", re.IGNORECASE)
 _METHOD_HEADERS = re.compile(
     r"^\s*(method|methods|instructions?|directions?|steps?|how\s+to|recipe)\s*:?\s*$",
     re.IGNORECASE,
@@ -97,7 +100,11 @@ def _first_title(lines: list[str]) -> str:
         # Strip emoji, then drop a trailing "recipe in caption" style CTA.
         text = _strip_emoji(text)
         text = re.sub(
-            r"\brecipe\s+(?:in|below|down|👇).*$", "", text, flags=re.IGNORECASE
+            r"\brecipe\s+(?:in\s+(?:my\s+)?(?:bio|caption|comments?|the\s+comments|link|profile)"
+            r"|below|down\s+below).*$",
+            "",
+            text,
+            flags=re.IGNORECASE,
         )
         text = text.strip(" .!—-·|")
         if text:
@@ -123,12 +130,13 @@ def parse_caption(caption: str) -> ParsedCaption:
         if _HASHTAG_LINE.match(text):
             continue
 
+        if _INGREDIENT_GROUP_HEADER.match(text):
+            # "For the sauce:" — a group title inside the ingredients list.
+            section = "ingredients"
+            result.ingredients.append(f"# {text.rstrip(':').strip()}")
+            continue
         if _INGREDIENT_HEADERS.match(text):
             section = "ingredients"
-            # "For the sauce:" style headers double as ingredient group titles.
-            m = re.match(r"^\s*for\s+the\b.*$", text, re.IGNORECASE)
-            if m:
-                result.ingredients.append(f"# {text.rstrip(':').strip()}")
             continue
         if _METHOD_HEADERS.match(text):
             section = "instructions"
@@ -137,12 +145,20 @@ def parse_caption(caption: str) -> ParsedCaption:
             section = "nutrition"
             continue
 
-        if _is_pure_macro(text) or (section == "nutrition"):
+        # Route a pure-macro line to nutrition from anywhere EXCEPT inside the
+        # ingredients list, where "100g sugar" is a real ingredient.
+        if (section != "ingredients" and _is_pure_macro(text)) or (section == "nutrition"):
             macro_bits.append(text)
             continue
 
+        # Consume a yield line only when it's short and yield-dominant (starts
+        # with the yield word), so instruction steps like "Serve to 4 guests and
+        # garnish generously" are not swallowed.
         ymatch = _YIELD_INLINE.search(text)
-        if ymatch and section != "ingredients":
+        is_yield_line = bool(
+            re.match(r"^\s*(?:serves?|servings?|makes|yield)\b", text, re.IGNORECASE)
+        ) and len(text) <= 24
+        if ymatch and is_yield_line and section != "ingredients":
             if not result.yield_:
                 result.yield_ = ymatch.group(0).strip()
             continue

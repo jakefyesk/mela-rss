@@ -54,6 +54,36 @@ def test_content_change_detected():
     assert changed is True
 
 
+def test_negative_cache_suppresses_then_expires():
+    cat = Catalog()
+    t0 = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    cat.record_failure("s", "badref", "https://src/news", t0)
+    # suppressed immediately after failing
+    assert cat.is_suppressed("badref", t0) is True
+    # still suppressed a day later (backoff >= 2 days for 1 attempt)
+    assert cat.is_suppressed("badref", datetime(2026, 1, 2, tzinfo=timezone.utc)) is True
+    # eventually due for retry
+    assert cat.is_suppressed("badref", datetime(2027, 1, 1, tzinfo=timezone.utc)) is False
+
+
+def test_negative_cache_cleared_on_success():
+    cat = Catalog()
+    now = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    cat.record_failure("s", "ref", "https://src/x", now)
+    cat.clear_failure("ref")
+    assert cat.is_suppressed("ref", now) is False
+
+
+def test_failures_persist_across_save_load(tmp_path):
+    cat = Catalog()
+    now = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    cat.record_failure("s", "ref", "https://src/x", now)
+    path = tmp_path / "c.json"
+    cat.save(path, now)
+    reloaded = Catalog.load(path)
+    assert reloaded.is_suppressed("ref", now) is True
+
+
 def test_mark_in_feed():
     cat = Catalog()
     now = datetime(2026, 1, 1, tzinfo=timezone.utc)

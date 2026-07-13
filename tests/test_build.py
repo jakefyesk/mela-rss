@@ -141,6 +141,48 @@ def test_bundles_written(built):
     assert summary["bundles"]["rehostblog"] >= 1
 
 
+class SuppressFake(FakeHttp):
+    ROUTES = {
+        "https://blog.example/feed2": (
+            '<?xml version="1.0"?><rss version="2.0"><channel>'
+            f"<item><link>{RECIPE_URL}</link></item>"
+            "<item><link>https://blog.example/news/moved</link></item>"
+            "</channel></rss>"
+        ),
+        RECIPE_URL: load_fixture("jsonld_recipe.html"),
+        "https://blog.example/news/moved": load_fixture("no_recipe.html"),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+
+
+def test_non_recipe_ref_is_suppressed(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "Http", SuppressFake)
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        'defaults: {request_delay_seconds: 0}\n'
+        'sources:\n'
+        '  - name: blog\n'
+        '    mode: link_through\n'
+        '    discovery: native_feed\n'
+        '    feed_url: "https://blog.example/feed2"\n',
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog = tmp_path / "data" / "catalog.json"
+
+    s1 = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    cat = json.loads(catalog.read_text())
+    # one real recipe cataloged; the non-recipe link recorded as a failure
+    assert s1["added"] == 1
+    assert len(cat["recipes"]) == 1
+    assert len(cat["failures"]) == 1
+
+    # second run: recipe known, bad ref suppressed -> nothing reprocessed
+    s2 = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    assert s2["added"] == 0
+
+
 def test_idempotent_second_run(tmp_path, monkeypatch):
     monkeypatch.setattr(build, "Http", BuildFake)
     seed = tmp_path / "seed.txt"

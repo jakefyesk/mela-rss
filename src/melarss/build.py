@@ -50,7 +50,12 @@ def _process_source(
         return 0
 
     cap = cfg.backfill_limit if (backfill and cfg.backfill_limit) else cfg.max_new_per_run
-    new_refs = [r for r in refs if not catalog.has(make_dedup_key(cfg.name, r))]
+    new_refs = [
+        r
+        for r in refs
+        if not catalog.has(make_dedup_key(cfg.name, r))
+        and not catalog.is_suppressed(make_dedup_key(cfg.name, r), now)
+    ]
     to_process = new_refs[:cap]
     log.info(
         "[%s] discovered=%d new=%d processing=%d", cfg.name, len(refs), len(new_refs), len(to_process)
@@ -58,13 +63,19 @@ def _process_source(
 
     added = 0
     for ref in to_process:
+        key = make_dedup_key(cfg.name, ref)
         try:
             recipe = adapter.fetch_and_parse(ref)
         except Exception as exc:  # noqa: BLE001
             log.warning("[%s] fetch failed for %s: %s", cfg.name, ref, exc)
+            catalog.record_failure(cfg.name, key, ref, now)
             continue
         if recipe is None:
+            # Non-recipe page (or failed extraction) — suppress so we don't retry
+            # it every run and consume the per-run budget.
+            catalog.record_failure(cfg.name, key, ref, now)
             continue
+        catalog.clear_failure(recipe.dedup_key)
 
         if recipe.mode == Mode.REHOST:
             _finalize_rehost(cfg, adapter, recipe, http, docs_dir, base_url)
@@ -202,21 +213,25 @@ def run(
     docs.mkdir(parents=True, exist_ok=True)
     (docs / ".nojekyll").write_text("", encoding="utf-8")
 
-    configs = [c for c in config.enabled() if (not only or c.name in only)]
+    # --only narrows which sources we PROCESS this run, but feeds/index/bundles
+    # are always written from the full enabled set (from the catalog), so a
+    # targeted run never clobbers the published unified feed.
+    enabled = config.enabled()
+    to_process = [c for c in enabled if (not only or c.name in only)]
     added_total = 0
-    for cfg in configs:
+    for cfg in to_process:
         http = Http(
             user_agent=cfg.user_agent or DEFAULT_UA,
             delay_seconds=cfg.request_delay_seconds,
         )
         added_total += _process_source(cfg, catalog, http, docs, base_url, now, backfill)
 
-    _write_feeds(configs, catalog, docs, base_url)
+    _write_feeds(enabled, catalog, docs, base_url)
     bundles: dict[str, int] = {}
     if make_bundles or backfill:
         http = Http(delay_seconds=0.5)
-        bundles = _write_bundles(configs, catalog, docs, http)
-    _write_index(configs, catalog, docs, base_url, bundles)
+        bundles = _write_bundles(enabled, catalog, docs, http)
+    _write_index(enabled, catalog, docs, base_url, bundles)
     catalog.save(catalog_path, now)
 
     summary = {"added": added_total, "total": len(catalog.records), "bundles": bundles}

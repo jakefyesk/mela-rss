@@ -17,6 +17,8 @@ def parse_feed_links(xml: str) -> list[str]:
         return links
 
     for item in root.iter():
+        if not isinstance(item.tag, str):  # skip comments / processing instructions
+            continue
         local = etree.QName(item).localname.lower()
         if local not in ("item", "entry"):
             continue
@@ -30,6 +32,8 @@ def _extract_link(item) -> str | None:
     # RSS: <link>text</link>. Atom: <link href="..." rel="alternate"/>.
     fallback = None
     for el in item:
+        if not isinstance(el.tag, str):  # skip comments / processing instructions
+            continue
         if etree.QName(el).localname.lower() != "link":
             continue
         href = el.get("href")

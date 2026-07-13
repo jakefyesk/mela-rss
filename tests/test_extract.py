@@ -40,6 +40,19 @@ def test_og_image_fallback():
     assert extract.og_image(html) == "https://example.com/img/article.jpg"
 
 
+def test_extract_recipe_with_keywords_list_does_not_crash():
+    # recipe-scrapers' keywords() returns a list; must not raise (would drop the
+    # recipe for most food blogs, which emit a keywords field).
+    html = load_fixture("jsonld_recipe.html").replace(
+        '"recipeCuisine": "American",',
+        '"recipeCuisine": "American",\n    "keywords": "shrimp, quick, seafood",',
+    )
+    r = extract.extract_recipe_from_html(html, "https://example.com/recipes/shrimp", CFG)
+    assert r is not None
+    assert "shrimp" in [c.lower() for c in r.categories]
+    assert all("," not in c for c in r.categories)
+
+
 def test_mode_and_category_propagate():
     html = load_fixture("jsonld_recipe.html")
     cfg = SourceConfig(name="s", mode=Mode.REHOST, discovery="sitemap", category=Category.COCKTAIL)

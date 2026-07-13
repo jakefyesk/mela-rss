@@ -67,6 +67,25 @@ def test_render_page_without_jsonld_for_unconfident_instagram():
     assert "Test Bread" in html
 
 
-def test_page_relpath_stable():
+def test_page_relpath_stable_and_collision_free():
     r = make_recipe()
-    assert rehost.page_relpath(r) == "recipes/joshuaweissman/test-bread.html"
+    assert rehost.page_relpath(r) == "recipes/joshuaweissman/test-bread-k1.html"
+    # two recipes, same title-slug, different dedup_key -> different paths
+    a = rehost.page_relpath(make_recipe(dedup_key="aaaaaaaa11", title="Same Title"))
+    b = rehost.page_relpath(make_recipe(dedup_key="bbbbbbbb22", title="Same Title"))
+    assert a != b
+
+
+def test_autoescape_escapes_visible_fields():
+    html = rehost.render_recipe_page(make_recipe(title="Fish & Chips <spicy>"), emit_jsonld=False)
+    assert "<title>Fish &amp; Chips &lt;spicy&gt;</title>" in html
+    assert "<spicy>" not in html  # not injected raw
+
+
+def test_jsonld_script_breakout_neutralized():
+    r = make_recipe(text="Sneaky </script><script>alert(1)</script>")
+    html = rehost.render_recipe_page(r, emit_jsonld=True)
+    # the closing tag inside JSON-LD is escaped, so there's exactly one real
+    # ld+json script open and it isn't broken out of
+    assert "</script><script>alert" not in html
+    assert "\\u003c/script" in html

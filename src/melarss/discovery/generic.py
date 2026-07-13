@@ -38,13 +38,13 @@ class GenericAdapter:
         if d == "native_feed":
             if not self.cfg.feed_url:
                 return []
-            urls = native_feed.native_feed_urls(self.cfg.feed_url, self.http, limit=limit)
-            return _filter(urls, self.cfg.url_pattern)
+            urls = _filter(native_feed.native_feed_urls(self.cfg.feed_url, self.http), self.cfg.url_pattern)
+            return urls[:limit] if limit else urls
         if d == "chef_page":
             if not self.cfg.url:
                 return []
-            urls = mob_chef.mob_chef_recipe_urls(self.cfg.url, self.http, limit=limit)
-            return _filter(urls, self.cfg.url_pattern)
+            urls = _filter(mob_chef.mob_chef_recipe_urls(self.cfg.url, self.http), self.cfg.url_pattern)
+            return urls[:limit] if limit else urls
         return []
 
     def fetch_and_parse(self, ref: str) -> Recipe | None:

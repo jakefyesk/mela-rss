@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .models import Category, Mode, Recipe
@@ -96,8 +96,15 @@ def record_to_recipe(rec: dict) -> Recipe:
 
 
 class Catalog:
-    def __init__(self, records: dict[str, dict] | None = None) -> None:
+    def __init__(
+        self,
+        records: dict[str, dict] | None = None,
+        failures: dict[str, dict] | None = None,
+    ) -> None:
         self.records: dict[str, dict] = records or {}
+        # Negative cache of refs that failed extraction (non-recipe pages etc.),
+        # so we don't re-fetch them every run and starve the per-run budget.
+        self.failures: dict[str, dict] = failures or {}
 
     @classmethod
     def load(cls, path: str | Path) -> "Catalog":
@@ -105,7 +112,7 @@ class Catalog:
         if not p.exists():
             return cls({})
         data = json.loads(p.read_text(encoding="utf-8"))
-        return cls(data.get("recipes", {}))
+        return cls(data.get("recipes", {}), data.get("failures", {}))
 
     def save(self, path: str | Path, now: datetime) -> None:
         p = Path(path)
@@ -115,8 +122,34 @@ class Catalog:
             "generated_at": _iso(now),
             "count": len(self.records),
             "recipes": self.records,
+            "failures": self.failures,
         }
         p.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    # -- negative cache ----------------------------------------------------
+    def is_suppressed(self, dedup_key: str, now: datetime) -> bool:
+        """True if this ref failed recently and isn't due for a retry yet."""
+        rec = self.failures.get(dedup_key)
+        if not rec:
+            return False
+        nxt = _parse_iso(rec.get("next_retry"))
+        return nxt is not None and now < nxt
+
+    def record_failure(self, source: str, dedup_key: str, source_url: str, now: datetime) -> None:
+        rec = self.failures.get(dedup_key, {"attempts": 0})
+        attempts = int(rec.get("attempts", 0)) + 1
+        # Exponential backoff, capped at 30 days.
+        backoff_days = min(2 ** min(attempts, 5), 30)
+        self.failures[dedup_key] = {
+            "source": source,
+            "source_url": source_url,
+            "attempts": attempts,
+            "last_attempt": _iso(now),
+            "next_retry": _iso(now + timedelta(days=backoff_days)),
+        }
+
+    def clear_failure(self, dedup_key: str) -> None:
+        self.failures.pop(dedup_key, None)
 
     def has(self, dedup_key: str) -> bool:
         return dedup_key in self.records

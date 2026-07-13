@@ -15,7 +15,10 @@ import re
 from urllib.parse import urlsplit, urlunsplit
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
-_TRACKING_PREFIXES = ("utm_", "fbclid", "gclid", "mc_cid", "mc_eid", "igshid", "ref")
+# Exact param names to drop, vs. prefix families. "ref" is exact so we don't
+# clobber legitimate params like "reference"/"referrer"/"refresh".
+_TRACKING_EXACT = frozenset({"fbclid", "gclid", "igshid", "ref", "mc_cid", "mc_eid"})
+_TRACKING_PREFIXES = ("utm_", "mc_")
 
 
 def slugify(text: str, max_len: int = 80) -> str:
@@ -44,7 +47,7 @@ def canonicalize_url(url: str) -> str:
         if not pair:
             continue
         key = pair.split("=", 1)[0].lower()
-        if any(key == p or key.startswith(p) for p in _TRACKING_PREFIXES):
+        if key in _TRACKING_EXACT or any(key.startswith(p) for p in _TRACKING_PREFIXES):
             continue
         kept.append(pair)
     query = "&".join(sorted(kept))
@@ -96,6 +99,11 @@ def split_categories(*raw: str) -> list[str]:
     for blob in raw:
         if not blob:
             continue
+        # recipe-scrapers' keywords() (and some category() impls) return a list.
+        if isinstance(blob, (list, tuple, set)):
+            blob = ",".join(str(x) for x in blob)
+        elif not isinstance(blob, str):
+            blob = str(blob)
         for piece in re.split(r"[,/\n|]+", blob):
             tag = piece.strip().strip("#").strip()
             if not tag:

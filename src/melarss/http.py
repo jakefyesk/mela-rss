@@ -75,7 +75,11 @@ class Http:
                 resp.raise_for_status()
                 content = resp.content
                 if cache_path:
-                    cache_path.write_bytes(content)
+                    # Write atomically so an interrupted run can't leave a
+                    # truncated cache entry that would be served forever.
+                    tmp = cache_path.with_name(cache_path.name + ".tmp")
+                    tmp.write_bytes(content)
+                    tmp.replace(cache_path)
                 return content
             except requests.RequestException as exc:  # noqa: PERF203
                 last_exc = exc

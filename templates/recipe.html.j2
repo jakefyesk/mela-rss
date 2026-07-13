@@ -10,7 +10,7 @@
   <meta property="og:type" content="article">
   {% if jsonld %}
   <script type="application/ld+json">
-{{ jsonld }}
+{{ jsonld|safe }}
   </script>
   {% endif %}
   <style>

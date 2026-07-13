@@ -52,6 +52,20 @@ def test_ingredients_groups_emit_headers():
     assert out.splitlines() == ["# Batter", "1 cup flour", "2 eggs", "# Sauce", "100ml cream"]
 
 
+def test_split_categories_accepts_list_from_keywords():
+    # recipe-scrapers' keywords() returns a list, not a string
+    tags = normalize.split_categories("Dessert", ["cookies", "easy, quick"])
+    assert tags == ["Dessert", "cookies", "easy", "quick"]
+
+
+def test_canonicalize_keeps_ref_like_params():
+    # exact "ref" is tracking, but "reference"/"referrer" are real params
+    a = normalize.canonicalize_url("https://x.com/p?reference=42")
+    b = normalize.canonicalize_url("https://x.com/p?reference=99")
+    assert a != b
+    assert "ref=" not in normalize.canonicalize_url("https://x.com/p?ref=ig")
+
+
 def test_ingredients_single_group_no_header_falls_back_flat():
     groups = [G(["1 cup flour", "2 eggs"], None)]
     out = normalize.ingredients_to_mela(groups, ["1 cup flour", "2 eggs"])

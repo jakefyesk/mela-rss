@@ -15,7 +15,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader
 
 from .models import Recipe
 from .normalize import slugify
@@ -30,9 +30,12 @@ class _Line:
 
 
 def _env() -> Environment:
+    # autoescape=True (not select_autoescape, which keys off extensions and would
+    # never match "recipe.html.j2"), so every visible field is HTML-escaped. The
+    # JSON-LD block is inserted with |safe after being pre-escaped in render().
     return Environment(
         loader=FileSystemLoader(str(_TEMPLATE_DIR)),
-        autoescape=select_autoescape(["html", "xml"]),
+        autoescape=True,
     )
 
 
@@ -110,14 +113,27 @@ def build_jsonld(recipe: Recipe) -> dict:
 
 
 def page_relpath(recipe: Recipe) -> str:
-    """Deterministic docs-relative path (drives the rehost feed <link>)."""
-    return f"recipes/{recipe.source}/{slugify(recipe.title)}.html"
+    """Deterministic, collision-free docs-relative path (drives the rehost feed
+    <link>). The stable dedup_key suffix prevents two recipes from one source
+    with identical title-slugs from overwriting each other's page/image."""
+    return f"recipes/{recipe.source}/{slugify(recipe.title)}-{recipe.dedup_key[:8]}.html"
+
+
+def _escape_for_script(json_str: str) -> str:
+    """Neutralise HTML-significant chars so a field containing '</script>' can't
+    break out of the <script> block. JSON-LD parsers decode the \\uXXXX escapes
+    back, so the data is unchanged."""
+    return (
+        json_str.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    )
 
 
 def render_recipe_page(recipe: Recipe, emit_jsonld: bool = True) -> str:
     jsonld = ""
     if emit_jsonld:
-        jsonld = json.dumps(build_jsonld(recipe), ensure_ascii=False, indent=2)
+        jsonld = _escape_for_script(
+            json.dumps(build_jsonld(recipe), ensure_ascii=False, indent=2)
+        )
     # Attach a display-only human duration without mutating the dataclass.
     recipe.total_time_human = _human_duration(recipe.total_time)  # type: ignore[attr-defined]
     template = _env().get_template("recipe.html.j2")
