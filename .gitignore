@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+# local HTTP cache used by the build (not the generated site)
+.httpcache/

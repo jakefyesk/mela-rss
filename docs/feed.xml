@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>All recipes (mela-rss)</title>
+    <link>https://jakefyesk.github.io/mela-rss</link>
+    <description>Auto-curated recipes from All recipes (mela-rss), ready to import into Mela.</description>
+    <atom:link href="https://jakefyesk.github.io/mela-rss/feed.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>mela-rss</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2026 16:31:24 +0000</lastBuildDate>
+  </channel>
+</rss>

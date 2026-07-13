@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Atom Recipes</title>
+  <entry>
+    <title>Atom Dish</title>
+    <link rel="alternate" href="https://www.example.com/recipes/atom-dish"/>
+    <link rel="edit" href="https://www.example.com/edit/atom-dish"/>
+    <updated>2026-06-21T12:00:00Z</updated>
+  </entry>
+</feed>

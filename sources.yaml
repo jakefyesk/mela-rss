@@ -1,0 +1,74 @@
+# mela-rss source roster.
+#
+# Adding a source is normally just an entry here (no code) unless it needs a
+# bespoke discovery hook (instagram, chef_page).
+#
+#   mode:      link_through  -> feed item points at the source's own page
+#              rehost         -> we render our own JSON-LD page and point at it
+#   discovery: sitemap | native_feed | chef_page | instagram
+#
+# NOTE: feed/sitemap URLs marked "verify" could not be confirmed from the build
+# sandbox (egress blocked). The build logs-and-skips a source that 404s/403s, so
+# an occasional wrong URL degrades gracefully — fix it once CI surfaces it.
+
+defaults:
+  category: recipe
+  enabled: true
+  max_new_per_run: 20
+  request_delay_seconds: 2.0
+
+sources:
+  # --- PRIMARY TARGETS ---------------------------------------------------
+  - name: finntonry
+    mode: rehost           # Instagram has no recipe page for Mela to read
+    discovery: instagram
+    seed_file: "sources/finntonry_posts.txt"
+    rehost_author: "Finn Tonry"
+
+  - name: joshuaweissman
+    mode: rehost           # his site has no usable JSON-LD -> we re-emit clean JSON-LD
+    discovery: sitemap
+    sitemap: "https://www.joshuaweissman.com/sitemap.xml"      # verify
+    url_pattern: "joshuaweissman\\.com/(recipes|post)/"
+    scraper_host: joshuaweissman.com
+    rehost_author: "Joshua Weissman"
+    backfill_limit: 300
+    max_new_per_run: 15
+
+  # --- LINK-THROUGH CREATORS (clean JSON-LD; Mela extracts natively) -----
+  - name: ethanchlebowski
+    mode: link_through
+    discovery: native_feed
+    feed_url: "https://www.ethanchlebowski.com/blog?format=rss"  # verify (Squarespace)
+    scraper_host: ethanchlebowski.com
+
+  - name: andycooks
+    mode: link_through
+    discovery: sitemap
+    sitemap: "https://www.andy-cooks.com/sitemap.xml"            # verify
+    url_pattern: "andy-cooks\\.com/.+/.+"
+    scraper_host: andy-cooks.com
+
+  - name: justinesnacks
+    mode: link_through
+    discovery: native_feed
+    feed_url: "https://www.justinesnacks.com/feed/"              # verify (WordPress)
+    scraper_host: justinesnacks.com
+
+  - name: jamieoliver
+    mode: link_through
+    discovery: sitemap
+    sitemap: "https://www.jamieoliver.com/sitemap.xml"           # verify
+    url_pattern: "jamieoliver\\.com/recipes/.+"
+    scraper_host: jamieoliver.com
+
+  # --- OPTIONAL: reliable finntonry backbone via Mob (clean JSON-LD) -----
+  # Enable if Instagram captions get thin/unreliable. Covers his Mob-published
+  # recipes only (a subset of his output).
+  - name: finntonry-mob
+    mode: link_through
+    discovery: chef_page
+    url: "https://www.mob.co.uk/chefs/finn-tonry"                # verify (Cloudflare)
+    url_pattern: "mob\\.co\\.uk/recipes/"
+    scraper_host: mob.co.uk
+    enabled: false

@@ -1,0 +1,81 @@
+name: build-feeds
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"        # every 6 hours
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Run full backfill (ignore max_new_per_run) + write bundles"
+        type: boolean
+        default: false
+  push:
+    branches: ["**"]
+    paths:
+      - "src/**"
+      - "sources.yaml"
+      - "sources/**"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write        # commit generated docs/ + catalog
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-feeds-${{ github.ref }}
+  cancel-in-progress: false     # never interrupt a run mid-commit
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - run: pip install -r requirements.txt
+
+      - name: Build feeds, pages, catalog
+        env:
+          BASE_URL: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+          BACKFILL: ${{ github.event.inputs.backfill }}
+          IG_OEMBED_TOKEN: ${{ secrets.IG_OEMBED_TOKEN }}   # optional
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then ARGS="--backfill"; fi
+          PYTHONPATH=src python -m melarss.build --base-url "$BASE_URL" $ARGS
+
+      - name: Commit generated output
+        run: |
+          git config user.name  "mela-rss-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data/catalog.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh feeds ($(date -u +%FT%TZ))"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # Only deploy from the primary branch; feature-branch runs still build+commit.
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

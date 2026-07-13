@@ -1,0 +1,11 @@
+# Pinned runtime dependencies for the GitHub Action and local builds.
+# No paid API — Instagram captions are handled with free regex heuristics + Mela's own importer.
+recipe-scrapers==15.11.0
+feedgen==1.0.0
+Jinja2==3.1.6
+PyYAML==6.0.3
+requests==2.34.2
+beautifulsoup4==4.15.0
+lxml==6.1.1
+pillow==12.3.0
+python-dateutil==2.9.0.post0
