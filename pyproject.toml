@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mela-rss"
+version = "0.1.0"
+description = "Auto-curated recipe RSS feeds that import cleanly into the Mela recipe app."
+requires-python = ">=3.11"
+dependencies = [
+    "recipe-scrapers==15.11.0",
+    "feedgen==1.0.0",
+    "Jinja2==3.1.6",
+    "PyYAML==6.0.3",
+    "requests==2.34.2",
+    "beautifulsoup4==4.15.0",
+    "lxml==6.1.1",
+    "pillow==12.3.0",
+    "python-dateutil==2.9.0.post0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+mela-rss = "melarss.build:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

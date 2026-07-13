@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Ethanchlebowski (mela-rss)</title>
+    <link>https://jakefyesk.github.io/mela-rss</link>
+    <description>Auto-curated recipes from Ethanchlebowski (mela-rss), ready to import into Mela.</description>
+    <atom:link href="https://jakefyesk.github.io/mela-rss/feeds/ethanchlebowski.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>mela-rss</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2026 17:38:32 +0000</lastBuildDate>
+    <item>
+      <title>Steak Dinner with Chimichurri, Orzo Salad, &amp; Roasted Broccolini</title>
+      <link>https://www.ethanchlebowski.com/cooking-techniques-recipes/steak-dinner-with-orzo-amp-broccolini</link>
+      <description>As demonstrated in the video, this recipe will walk you through how I nest my cooking tasks to efficiently cook this full dinner in 30-40 mins, including all prep work.  Ingredients   Broccolini Components     Broccolini, amount to preference    Drizzle of neutral oil    Kosher salt to taste     Chi</description>
+      <guid isPermaLink="false">1bae86069b524ac4ca5234612509b1e8396dea15</guid>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

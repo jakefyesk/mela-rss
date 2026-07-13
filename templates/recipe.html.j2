@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ recipe.title }}</title>
+  {% if recipe.text %}<meta name="description" content="{{ recipe.text }}">{% endif %}
+  {% if recipe.image_url %}<meta property="og:image" content="{{ recipe.image_url }}">{% endif %}
+  <meta property="og:title" content="{{ recipe.title }}">
+  <meta property="og:type" content="article">
+  {% if jsonld %}
+  <script type="application/ld+json">
+{{ jsonld|safe }}
+  </script>
+  {% endif %}
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; max-width: 720px;
+           margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #222; }
+    img { max-width: 100%; height: auto; border-radius: 8px; }
+    h1 { margin-bottom: .25rem; }
+    .meta { color: #666; font-size: .9rem; margin-bottom: 1rem; }
+    .group { font-weight: 600; margin-top: .75rem; }
+    footer { margin-top: 2rem; font-size: .85rem; color: #888; }
+    a { color: #0a58ca; }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>{{ recipe.title }}</h1>
+    <p class="meta">
+      {% if recipe.author %}By {{ recipe.author }}{% endif %}
+      {% if recipe.yield_ %} · {{ recipe.yield_ }}{% endif %}
+      {% if recipe.total_time %} · {{ recipe.total_time_human }}{% endif %}
+    </p>
+    {% if recipe.image_url %}<img src="{{ recipe.image_url }}" alt="{{ recipe.title }}">{% endif %}
+    {% if recipe.text %}<p>{{ recipe.text }}</p>{% endif %}
+
+    <h2>Ingredients</h2>
+    <ul>
+      {% for line in ingredient_lines %}
+        {% if line.is_header %}<li class="group">{{ line.text }}</li>
+        {% else %}<li>{{ line.text }}</li>{% endif %}
+      {% endfor %}
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      {% for step in steps %}<li>{{ step }}</li>{% endfor %}
+    </ol>
+
+    {% if recipe.notes %}<h2>Notes</h2><p>{{ recipe.notes }}</p>{% endif %}
+    {% if recipe.nutrition %}<h2>Nutrition</h2><pre>{{ recipe.nutrition }}</pre>{% endif %}
+
+    <footer>
+      Curated by <strong>mela-rss</strong> for the Mela app.
+      {% if recipe.source_url %}Source: <a href="{{ recipe.source_url }}">{{ recipe.source }}</a>.{% endif %}
+    </footer>
+  </article>
+</body>
+</html>
