@@ -34,11 +34,17 @@ def _safe(fn, default=""):
     return value if value is not None else default
 
 
-def og_image(html: str) -> str:
-    """Fallback image: og:image, then the first prominent <img>.
+def _is_real_image(url: str) -> bool:
+    """A usable image URL: non-empty and not an inline data: placeholder
+    (lazy-load sites like Jamie Oliver expose a 1x1 data:image/gif first)."""
+    return bool(url) and not url.strip().lower().startswith("data:")
 
-    Needed for Joshua Weissman, whose recipe-scrapers class does not reliably
-    return an image.
+
+def og_image(html: str) -> str:
+    """Fallback image: og:image, then the first prominent non-placeholder <img>.
+
+    Needed for Joshua Weissman (unreliable scraper image) and for lazy-load
+    sites whose schema.org image is a data: placeholder.
     """
     try:
         soup = BeautifulSoup(html, "html.parser")
@@ -47,11 +53,13 @@ def og_image(html: str) -> str:
     tag = soup.find("meta", property="og:image") or soup.find(
         "meta", attrs={"name": "twitter:image"}
     )
-    if tag and tag.get("content"):
+    if tag and _is_real_image(tag.get("content", "")):
         return tag["content"].strip()
-    img = soup.find("img", src=True)
-    if img:
-        return img["src"].strip()
+    for img in soup.find_all("img", src=True):
+        # prefer a real src over a lazy-load placeholder; check data-src too
+        for candidate in (img.get("src"), img.get("data-src"), img.get("data-lazy-src")):
+            if _is_real_image(candidate or ""):
+                return candidate.strip()
     return ""
 
 
@@ -97,7 +105,9 @@ def extract_recipe_from_html(html: str, url: str, cfg: SourceConfig) -> Recipe |
     cook = normalize.minutes_or_none(_safe(s.cook_time, None))
     total = normalize.minutes_or_none(_safe(s.total_time, None))
 
-    image = (_safe(s.image) or "").strip() or og_image(html)
+    image = (_safe(s.image) or "").strip()
+    if not _is_real_image(image):  # empty or a data: placeholder -> fall back
+        image = og_image(html)
 
     author = (cfg.rehost_author or _safe(s.author) or "").strip()
 

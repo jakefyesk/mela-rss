@@ -40,6 +40,21 @@ def test_og_image_fallback():
     assert extract.og_image(html) == "https://example.com/img/article.jpg"
 
 
+def test_placeholder_data_uri_image_falls_back_to_og():
+    # lazy-load sites expose a 1x1 data:image placeholder as the schema image
+    html = load_fixture("jsonld_recipe.html").replace(
+        '"image": ["https://example.com/img/shrimp.jpg"]',
+        '"image": ["data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="]',
+    )
+    r = extract.extract_recipe_from_html(html, "https://example.com/recipes/shrimp", CFG)
+    assert r.image_url == "https://example.com/img/fallback.jpg"  # from og:image
+
+
+def test_og_image_skips_data_uri_img():
+    html = '<img src="data:image/gif;base64,AAAA"><img src="https://x.com/real.jpg">'
+    assert extract.og_image(html) == "https://x.com/real.jpg"
+
+
 def test_extract_recipe_with_keywords_list_does_not_crash():
     # recipe-scrapers' keywords() returns a list; must not raise (would drop the
     # recipe for most food blogs, which emit a keywords field).
