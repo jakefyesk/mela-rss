@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Andycooks (mela-rss)</title>
+    <link>https://jakefyesk.github.io/mela-rss</link>
+    <description>Auto-curated recipes from Andycooks (mela-rss), ready to import into Mela.</description>
+    <atom:link href="https://jakefyesk.github.io/mela-rss/feeds/andycooks.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>mela-rss</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2026 17:20:15 +0000</lastBuildDate>
+    <item>
+      <title>Teriyaki Pork</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/teriyaki-pork</link>
+      <description>Juicy pork covered in a rich teriyaki sauce and served with rice and cabbage, all done in under 30 minutes! This is a great midweek dinner recipe to make for yourself, your partner and your family.I don’t often cook with pork during the week as I generally save it for a longer cook on the weekend. However, I’ve been craving it a bit lately so we’re going to make dinner in under 30 minutes using pork tenderloin (also known as pork fillet). The best part of the dish (in my opinion) is the teriyaki sauce which brings so much flavour to this dish and it’s really simple to make. I made this for Katelyn recently and I think it’s now her new favourite dish as she keeps on requesting it. This recipe will take you through the steps, as well as provide a little extra guidance on the ingredients, techniques and method.I’ll try to do a few more of these 30 minute meal ideas because I know that’s all the time I have during the week to make dinner. What is teriyaki?Teriyaki originates from a 17th century Japanese cooking technique, where teri (luster) and yaki (grill) combine to create a sweet, glossy sauce traditionally used for grilled fish. The combination of soy, mirin, sake and honey creates an incredible flavourful that works so well as a glaze. Over time, pork and other meats were introduced. This version with pork tenderloin is a great example of how simple, quality ingredients and a good sauce can make an incredible meal in under 30 minutes.Ingredient NotesPork tenderloin: this cut is taken from the loin and it's a long, lean cut of pork. Alternative pork cuts you can use are pork chops, diced loin or pork belly. You can also switch pork out completely and make it with chicken thighs or beef (like flank steak). Short grain rice: is also known as sushi rice and can be purchased at major supermarkets and Asian grocers.Soy sauce: I always recommend using a good quality soy sauce which I generally shop for at the Asian supermarket. Peanut oil: as there’s so many flavours going on in this dish, I like to use peanut oil as my cooking oil as it has a neutral flavour. If you prefer to cook with olive oil, it will still taste good. ﻿Rice vinegar and sesame oil: these are used to add balance and acid to the cabbage that we’ll serve on the side. You’ll be able to find both of these in a major supermarket or your local Asian grocer. Equipment you’ll needRice cookerFine colander or sieveLarge frying panTray (for resting the pork)Large mixing bowlChopping board, chefs knife, measuring cups and spoons — 4 servings · PT30M</description>
+      <guid isPermaLink="false">bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f</guid>
+      <pubDate>Mon, 13 Jul 2026 17:17:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Justinesnacks (mela-rss)</title>
+    <link>https://jakefyesk.github.io/mela-rss</link>
+    <description>Auto-curated recipes from Justinesnacks (mela-rss), ready to import into Mela.</description>
+    <atom:link href="https://jakefyesk.github.io/mela-rss/feeds/justinesnacks.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>mela-rss</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2026 17:20:15 +0000</lastBuildDate>
+    <item>
+      <title>Basil Tomato Salmon</title>
+      <link>https://justinesnacks.com/basil-tomato-salmon/</link>
+      <description>A bright, light, and extra easy summer meal. You only need one burner, which makes it ideal for hot summer days. This works with any cherry tomato variety you have on hand, or even vine tomatoes. The salmon skin gets irresistibly crispy, so make sure to keep it skin up after you initially sear it. The result is worth the (minimal) effort. — 3 servings · PT40M</description>
+      <guid isPermaLink="false">ba8bab61a411c9d29526b6cdd869a24bf49beffc</guid>
+      <pubDate>Fri, 10 Jul 2026 09:50:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pan con Tomate</title>
+      <link>https://justinesnacks.com/golden-heirloom-pan-con-tomate/</link>
+      <description>While I love any quick summer snack, this one has to be my all-time favorite. It's so simple, and while I stray from the traditional Spanish technique, the result is just as easy and delicious. — 2 servings · PT15M</description>
+      <guid isPermaLink="false">7fde8ce8c33f20819411c59b5daaf73375514074</guid>
+      <pubDate>Thu, 09 Jul 2026 11:06:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sizzling Harissa Eggplant with Chickpeas</title>
+      <link>https://justinesnacks.com/sizzling-harissa-eggplant-with-chickpeas/</link>
+      <description>This easy weeknight recipe is a great fit for the grill or the oven. Eggplant does most of the work, roasting down into a tender, pull-apart base where all the spicy-sweet harissa sauce can soak in. I like to scoop out the sizzly interior with a spoon and serve it with rice, but you can eat this plant-based dinner any way your heart desires. — 4 servings · PT1H</description>
+      <guid isPermaLink="false">562b63df3babb508842cdecc5889e3bda215750a</guid>
+      <pubDate>Tue, 30 Jun 2026 10:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ginger Turmeric Hummus with Sungold Tomatoes</title>
+      <link>https://justinesnacks.com/ginger-turmeric-hummus-with-sungold-tomatoes/</link>
+      <description>For when you want hummus with a little something extra, this ginger turmeric hummus comes right in. The spicy, bright hummus pairs perfectly with a topping of sweet and jammy sungold tomatoes, making it a good dip for crackers, pita, crudité or even chips. There's just enough contrast that you'll be coming back for bite after bite. — 8 servings · PT15M</description>
+      <guid isPermaLink="false">152c8f12f667349d588ee3a65593c4af1d5fb5eb</guid>
+      <pubDate>Mon, 22 Jun 2026 21:16:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gooey Butter Cake Ice Cream Sandwiches</title>
+      <link>https://justinesnacks.com/gooey-butter-cake-ice-cream-sandwiches/</link>
+      <description>This is a fun spin on a St. Louis classic. This recipe makes two ultra-thin "gooey butter cakes" and uses them as the outside layers for ice cream sandwiches. What you get is a super-plush ice cream sandwich which tastes like a frozen gooey butter cake. And in the summertime, that sounds pretty perfect to me. — 12 servings · PT5H35M</description>
+      <guid isPermaLink="false">f0f7f92ec1d1d2cee850671251ebc6966f8f2518</guid>
+      <pubDate>Sun, 21 Jun 2026 08:09:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Miso Corn Rice with Chili Cod</title>
+      <link>https://justinesnacks.com/miso-corn-rice-with-chili-oil-cod/</link>
+      <description>There's a natural sweetness to corn that pairs really well with miso and scallions, which I love cooking down into a tender, fluffy rice. Putting a chili-glazed cod on top only takes a bit more time (and not much effort), and it leaves you with a balanced summer dinner that all takes place in one pan. — 4 servings · PT45M</description>
+      <guid isPermaLink="false">45d44f008fcc60c6fa8d03cd6545092870b26fab</guid>
+      <pubDate>Tue, 16 Jun 2026 14:47:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smashed Cucumber Spritz</title>
+      <link>https://justinesnacks.com/smashed-cucumber-spritz/</link>
+      <description>When there are so many spritzes to choose from, try this herbaceous, refreshing cucumber one. It takes barely any work to make a natural cucumber syrup, and the flavor is both clean and refreshing. Perfect for a brunch, a cook out, a dinner party or for sipping by the pool. — 4 servings · PT1H10M</description>
+      <guid isPermaLink="false">9c280a33f98ace33563d22e6c79c55fc07dabf45</guid>
+      <pubDate>Wed, 10 Jun 2026 22:14:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cucumber and Mango Salad</title>
+      <link>https://justinesnacks.com/cucumber-and-mango-salad/</link>
+      <description>Crisp, cool and crunchy cucumber is the perfect partner for juicing mango, especially when there's something sweet and something spicy in the mix. This salad is lightly dressed, but it stays cool and refreshing - perfect for all your poolside salad needs. — 4 servings · PT15M</description>
+      <guid isPermaLink="false">1f9f205b5ccf3cb28f2591209c5f4b660a94e6d7</guid>
+      <pubDate>Tue, 09 Jun 2026 10:37:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
