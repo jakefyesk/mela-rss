@@ -100,12 +100,25 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      # Optional token used only to auto-enable Pages (see step below). Mapped to
+      # an env var so it can be tested in a step `if:`. Leave the secret unset if
+      # you enable Pages by hand instead.
+      PAGES_ENABLE_TOKEN: ${{ secrets.PAGES_ENABLE_TOKEN }}
     steps:
-      # Requires GitHub Pages enabled with Source = "GitHub Actions"
-      # (repo Settings -> Pages). Without it, deploy-pages@v4 fails with
-      # "Failed to create deployment (status: 404) ... Ensure GitHub Pages has
-      # been enabled". This is a one-time repo setting: the built-in GITHUB_TOKEN
-      # cannot enable Pages (actions/configure-pages' `enablement` needs a PAT or
-      # App token with pages-write + administration-write).
+      # deploy-pages needs a Pages site with Source = "GitHub Actions" to exist;
+      # otherwise it fails with "Failed to create deployment (status: 404) ...
+      # Ensure GitHub Pages has been enabled". The built-in GITHUB_TOKEN is NOT
+      # permitted to create that site. This step enables it automatically when a
+      # PAGES_ENABLE_TOKEN secret is present -- a classic PAT with `repo` scope,
+      # or a fine-grained PAT with Administration:write + Pages:write on this repo.
+      # If the secret is absent the step is skipped and Pages must be enabled once
+      # via repo Settings -> Pages -> Source: "GitHub Actions".
+      - name: Ensure Pages is enabled (Source = GitHub Actions)
+        if: env.PAGES_ENABLE_TOKEN != ''
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+          token: ${{ secrets.PAGES_ENABLE_TOKEN }}
       - id: deployment
         uses: actions/deploy-pages@v4
