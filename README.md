@@ -14,6 +14,15 @@ fallback). `mela-rss` produces feeds + pages that satisfy that contract:
 
 The site is static (GitHub Pages), rebuilt every 6h by a GitHub Action.
 
+> **One-time setup — enable GitHub Pages.** In **Settings → Pages → Build and
+> deployment**, set **Source** to **GitHub Actions**. Until this is done the
+> `deploy` job fails with `Failed to create deployment (status: 404) … Ensure
+> GitHub Pages has been enabled`: the workflow's build/upload succeeds, but the
+> Pages site it deploys to doesn't exist yet. The built-in `GITHUB_TOKEN` cannot
+> turn Pages on, so this can't be automated from the workflow with the default
+> token — it's a single manual toggle (or a PAT with admin/pages-write wired
+> into `actions/configure-pages` if you want it fully hands-off).
+
 ## Subscribe in Mela
 
 Add the unified feed in **Mela → Feeds → +**:
