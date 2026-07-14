@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from datetime import timezone
 
 from melarss import normalize
 
@@ -64,6 +65,30 @@ def test_canonicalize_keeps_ref_like_params():
     b = normalize.canonicalize_url("https://x.com/p?reference=99")
     assert a != b
     assert "ref=" not in normalize.canonicalize_url("https://x.com/p?ref=ig")
+
+
+def test_parse_date_handles_sitemap_and_feed_shapes():
+    # ISO date-only (sitemap <lastmod>)
+    d = normalize.parse_date("2026-06-20")
+    assert (d.year, d.month, d.day) == (2026, 6, 20)
+    assert d.tzinfo is not None
+    # ISO datetime with Z (Atom <updated>)
+    assert normalize.parse_date("2026-06-21T12:00:00Z").tzinfo is not None
+    # RFC-822 (RSS <pubDate>) -> normalized to UTC
+    rfc = normalize.parse_date("Sat, 20 Jun 2026 12:00:00 GMT")
+    assert rfc.astimezone(timezone.utc).hour == 12
+
+
+def test_parse_date_returns_none_on_garbage():
+    assert normalize.parse_date("") is None
+    assert normalize.parse_date(None) is None
+    assert normalize.parse_date("not a date") is None
+
+
+def test_parse_date_orders_correctly():
+    older = normalize.parse_date("2025-01-15")
+    newer = normalize.parse_date("2026-06-20")
+    assert older < newer
 
 
 def test_ingredients_single_group_no_header_falls_back_flat():

@@ -204,3 +204,120 @@ def test_idempotent_second_run(tmp_path, monkeypatch):
     assert set(first["recipes"]) == set(second["recipes"])
     guids = lambda x: re.findall(r"<guid[^>]*>(.*?)</guid>", x)
     assert guids(feed1) == guids(feed2)
+
+
+# --- publish-date fallback from discovery ---------------------------------
+
+NODATE_URL = "https://blog.example/recipes/dateless-dish"
+RSS_WITH_PUBDATE = (
+    '<?xml version="1.0"?><rss version="2.0"><channel>'
+    f"<item><title>Dateless</title><link>{NODATE_URL}</link>"
+    "<pubDate>Sat, 20 Jun 2026 12:00:00 GMT</pubDate></item>"
+    "</channel></rss>"
+)
+
+
+class DateFallbackFake(FakeHttp):
+    ROUTES = {
+        "https://blog.example/feed3": RSS_WITH_PUBDATE,
+        NODATE_URL: load_fixture("jsonld_recipe_nodate.html"),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+
+
+def test_published_at_falls_back_to_feed_pubdate(tmp_path, monkeypatch):
+    # The page has no datePublished, but the feed item carries a <pubDate>; the
+    # recipe should still land in the catalog dated, not undated.
+    monkeypatch.setattr(build, "Http", DateFallbackFake)
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n"
+        "  - name: blog\n"
+        "    mode: link_through\n"
+        "    discovery: native_feed\n"
+        '    feed_url: "https://blog.example/feed3"\n'
+        '    url_pattern: "/recipes/"\n',
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog_path = tmp_path / "data" / "catalog.json"
+    build.run(str(sources), str(docs), str(catalog_path), "https://host.example")
+
+    rec = next(iter(json.loads(catalog_path.read_text())["recipes"].values()))
+    assert rec["published_at"] is not None
+    assert rec["published_at"].startswith("2026-06-20")
+    # and the RSS <pubDate> reflects it (Mela orders the feed by this)
+    assert "2026" in (docs / "feed.xml").read_text()
+
+
+BACKFILL_URL = "https://sm.example/recipes/known-dish"
+BACKFILL_SITEMAP = (
+    '<?xml version="1.0"?>'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    f"<url><loc>{BACKFILL_URL}</loc><lastmod>2026-03-15</lastmod></url>"
+    "</urlset>"
+)
+
+
+class BackfillFake(FakeHttp):
+    ROUTES = {
+        "https://sm.example/sitemap.xml": BACKFILL_SITEMAP,
+        BACKFILL_URL: load_fixture("jsonld_recipe_nodate.html"),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+
+
+def test_backfill_dates_existing_dateless_record_without_refetch(tmp_path, monkeypatch):
+    # A recipe imported before we captured dates (published_at=None) should get
+    # its date backfilled from the sitemap <lastmod> on the next run — even
+    # though it's already known and never re-fetched.
+    from datetime import datetime, timezone
+
+    from melarss.catalog import Catalog
+    from melarss.models import Mode, Recipe
+    from melarss.normalize import make_dedup_key
+
+    catalog_path = tmp_path / "data" / "catalog.json"
+    docs = tmp_path / "docs"
+    seeded_at = datetime(2026, 7, 1, tzinfo=timezone.utc)
+
+    cat = Catalog({})
+    key = make_dedup_key("smblog", BACKFILL_URL)
+    cat.upsert(
+        Recipe(
+            dedup_key=key,
+            source="smblog",
+            source_url=BACKFILL_URL,
+            mode=Mode.LINK_THROUGH,
+            title="Known Dish",
+            ingredients="1 cup flour",
+            instructions="Mix.",
+            page_url=BACKFILL_URL,
+            published_at=None,
+        ),
+        seeded_at,
+    )
+    cat.save(catalog_path, seeded_at)
+    assert json.loads(catalog_path.read_text())["recipes"][key]["published_at"] is None
+
+    monkeypatch.setattr(build, "Http", BackfillFake)
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n"
+        "  - name: smblog\n"
+        "    mode: link_through\n"
+        "    discovery: sitemap\n"
+        '    sitemap: "https://sm.example/sitemap.xml"\n'
+        '    url_pattern: "/recipes/"\n',
+        encoding="utf-8",
+    )
+    s = build.run(str(sources), str(docs), str(catalog_path), "https://host.example")
+
+    # already known -> nothing added, but its date got backfilled
+    assert s["added"] == 0
+    rec = json.loads(catalog_path.read_text())["recipes"][key]
+    assert rec["published_at"].startswith("2026-03-15")

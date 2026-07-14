@@ -53,16 +53,20 @@ def _matches(url: str, pattern: str | None) -> bool:
     return re.search(pattern, url) is not None
 
 
-def sitemap_urls(
+def sitemap_entries(
     sitemap_url: str,
     url_pattern: str | None,
     http,
     *,
     max_nested: int = 25,
     limit: int | None = None,
-) -> list[str]:
-    """Fetch a sitemap (recursing into indexes) and return matching URLs,
-    newest-first when <lastmod> is available."""
+) -> list[tuple[str, str | None]]:
+    """Fetch a sitemap (recursing into indexes) and return matching (loc,
+    lastmod) pairs, newest-first when <lastmod> is available.
+
+    The lastmod is kept (not discarded) so callers can use it as a publish-date
+    fallback for pages whose own JSON-LD carries no datePublished.
+    """
     to_visit: list[tuple[str, str | None]] = [(sitemap_url, None)]
     visited: set[str] = set()
     collected: list[tuple[str, str | None]] = []
@@ -85,9 +89,27 @@ def sitemap_urls(
     # Sort newest-first by lastmod (missing lastmod sorts last).
     collected.sort(key=lambda e: e[1] or "", reverse=True)
     seen: set[str] = set()
-    ordered: list[str] = []
-    for loc, _ in collected:
+    ordered: list[tuple[str, str | None]] = []
+    for loc, lastmod in collected:
         if loc not in seen:
             seen.add(loc)
-            ordered.append(loc)
+            ordered.append((loc, lastmod))
     return ordered[:limit] if limit else ordered
+
+
+def sitemap_urls(
+    sitemap_url: str,
+    url_pattern: str | None,
+    http,
+    *,
+    max_nested: int = 25,
+    limit: int | None = None,
+) -> list[str]:
+    """Fetch a sitemap (recursing into indexes) and return matching URLs,
+    newest-first when <lastmod> is available."""
+    return [
+        loc
+        for loc, _ in sitemap_entries(
+            sitemap_url, url_pattern, http, max_nested=max_nested, limit=limit
+        )
+    ]

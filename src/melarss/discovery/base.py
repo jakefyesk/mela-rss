@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from datetime import datetime
 from typing import Protocol
 
 from ..models import Recipe
@@ -9,6 +10,9 @@ from ..models import Recipe
 
 class SourceAdapter(Protocol):
     name: str
+    # ref -> published-date hint, populated by discover() when the source
+    # exposes per-item dates (sitemap <lastmod>, feed <pubDate>). Empty otherwise.
+    date_hints: dict[str, datetime]
 
     def discover(self) -> list[str]:
         """Return recipe refs (URLs, or platform ids), bounded by config limits."""

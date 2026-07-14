@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+from datetime import datetime, timezone
 from urllib.parse import urlsplit, urlunsplit
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -62,6 +63,27 @@ def make_dedup_key(source: str, url: str) -> str:
     """
     basis = f"{source}|{canonicalize_url(url)}"
     return hashlib.sha1(basis.encode("utf-8")).hexdigest()
+
+
+def parse_date(value) -> datetime | None:
+    """Best-effort parse of a date/datetime string into a tz-aware UTC datetime.
+
+    Accepts the shapes discovery already sees but currently discards: ISO-8601
+    sitemap <lastmod> ("2026-06-20", "2026-06-21T12:00:00Z") and RFC-822 feed
+    <pubDate> ("Sat, 20 Jun 2026 12:00:00 GMT"). Naive datetimes are assumed
+    UTC. Returns None on anything unparseable — callers treat that as "no date".
+    """
+    if not value:
+        return None
+    from dateutil import parser as dtparser
+
+    try:
+        dt = dtparser.parse(str(value))
+    except (ValueError, OverflowError, TypeError):
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
 
 
 def minutes_or_none(value) -> int | None:

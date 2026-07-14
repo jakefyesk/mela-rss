@@ -184,6 +184,9 @@ class InstagramAdapter:
         # A recipe is only "confident enough for JSON-LD" when heuristics found
         # both ingredients and steps; build.py reads this to decide emit_jsonld.
         self.confident: dict[str, bool] = {}
+        # Instagram carries no reliable publish date; keep the attribute so the
+        # adapter matches GenericAdapter's contract (build.py reads date_hints).
+        self.date_hints: dict[str, datetime] = {}
 
     def discover(self) -> list[str]:
         return list(self._entries.keys())
