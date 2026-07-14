@@ -1,6 +1,7 @@
 # mela-rss
 
-Auto-curated recipe RSS feeds that import cleanly into the [Mela](https://mela.recipes) recipe app.
+Auto-curated RSS feeds — **food recipes** and **cocktails**, kept separate — that
+import cleanly into the [Mela](https://mela.recipes) recipe app.
 
 Mela subscribes to an RSS feed and, for each item, follows `<link>`, fetches that
 page, and extracts a recipe from its schema.org/Recipe **JSON-LD** (with an ML
@@ -32,18 +33,30 @@ The site is static (GitHub Pages), rebuilt every 6h by a GitHub Action.
 
 ## Subscribe in Mela
 
-Add the unified feed in **Mela → Feeds → +**:
+There are two clean, single-topic feeds — add either (or both) in
+**Mela → Feeds → +**. They stay separate, so cocktails never mix into your
+cooking feed:
 
 ```
-https://<owner>.github.io/mela-rss/feed.xml
+https://<owner>.github.io/mela-rss/recipes.xml     # food recipes
+https://<owner>.github.io/mela-rss/cocktails.xml   # cocktails
 ```
 
-Per-source feeds live at `…/feeds/<source>.xml`. Retroactive back-catalogs are
-also published as one-tap `…/bundles/<source>.melarecipes` bundles.
+Prefer everything in one place? The combined firehose still lives at
+`…/feed.xml`. Per-source feeds live at `…/feeds/<source>.xml`. Retroactive
+back-catalogs are also published as one-tap `…/bundles/<source>.melarecipes`
+bundles.
+
+Which feed a source lands in is set by its `category` in
+[`sources.yaml`](sources.yaml) (`recipe` — the default — or `cocktail`).
 
 ## Sources
 
-Configured in [`sources.yaml`](sources.yaml). Current roster:
+Configured in [`sources.yaml`](sources.yaml). Each source has a `category`
+(`recipe` — the default — or `cocktail`) that routes it to `recipes.xml` or
+`cocktails.xml`. Current roster:
+
+### Recipes (`recipes.xml`)
 
 | Source | Mode | Notes |
 | --- | --- | --- |
@@ -55,7 +68,25 @@ Configured in [`sources.yaml`](sources.yaml). Current roster:
 | Jamie Oliver | link-through | |
 | finntonry (Mob) | link-through | optional reliable backbone, disabled by default |
 
-Add a source by editing `sources.yaml` — usually no code needed.
+### Cocktails (`cocktails.xml`)
+
+All Instagram-first, so all **rehost** via curated caption seed lists (same free
+pipeline as finntonry — see below). Each has a seed file under `sources/`.
+
+| Source | Seed list | Notes |
+| --- | --- | --- |
+| More Savory Goods | `sources/moresavorygoods_posts.txt` | creator |
+| Kevin Kos | `sources/kevinkos_posts.txt` | creator (site `kevinkos.com` — feed candidate if egress allows) |
+| Jean-Félix Desfossés | `sources/jfdesfosses_posts.txt` | creator |
+| Jordan Hughes (Cocktail Camera) | `sources/cocktailcamera_posts.txt` | creator |
+| Very Good Drinks | `sources/verygooddrinks_posts.txt` | creator |
+| Drinks by Evie | `sources/drinksbyevie_posts.txt` | creator |
+| Mother Cocktail Bar | `sources/mother_cocktail_bar_posts.txt` | bar (Toronto) |
+| PCH — Pacific Cocktail Haven | `sources/pch_sf_posts.txt` | bar (SF) |
+| Amour Drink | `sources/amourdrink_posts.txt` | creator (`amourdrink.tv`) |
+
+Add a source by editing `sources.yaml` — usually no code needed. Add a cocktail
+by pasting an Instagram caption into that source's seed file (see below).
 
 ### finntonry / Instagram (free, no paid API)
 
@@ -94,5 +125,5 @@ docs/             GitHub Pages output (feeds, pages, bundles)
 tests/            offline test suite + fixtures
 ```
 
-Design rationale and future plans (conversational personalized feed, cocktails)
-are in the approved plan.
+Design rationale and future plans (conversational personalized feed) are in the
+approved plan.

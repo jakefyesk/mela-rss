@@ -31,6 +31,15 @@ log = logging.getLogger("melarss")
 
 PER_SOURCE_FEED_CAP = 50
 UNIFIED_FEED_CAP = 100
+CATEGORY_FEED_CAP = 100
+
+# Category -> (published filename, human label). Each is a clean, single-topic
+# feed users subscribe to in Mela (recipes.xml vs cocktails.xml); feed.xml stays
+# the combined firehose for backward compatibility.
+CATEGORY_FEEDS = {
+    "recipe": ("recipes.xml", "Recipes"),
+    "cocktail": ("cocktails.xml", "Cocktails"),
+}
 
 
 def _process_source(
@@ -152,12 +161,14 @@ def _write_feeds(configs, catalog: Catalog, docs_dir: Path, base_url: str) -> se
     feeds_dir.mkdir(parents=True, exist_ok=True)
     in_feed: set[str] = set()
     unified: list[Recipe] = []
+    by_category: dict[str, list[Recipe]] = {}
 
     for cfg in configs:
         recipes = catalog.recipes_for_source(cfg.name)
         if not recipes:
             continue
         unified.extend(recipes)
+        by_category.setdefault(cfg.category.value, []).extend(recipes)
         xml = feeds.build_feed(
             cfg.name,
             f"{cfg.title()} (mela-rss)",
@@ -170,6 +181,7 @@ def _write_feeds(configs, catalog: Catalog, docs_dir: Path, base_url: str) -> se
         for r in feeds.selected_for_feed(recipes, PER_SOURCE_FEED_CAP):
             in_feed.add(r.dedup_key)
 
+    # Combined firehose (backward-compatible: existing subscribers keep feed.xml).
     xml = feeds.build_feed(
         "all", "All recipes (mela-rss)", f"{base_url}/feed.xml", base_url, unified, UNIFIED_FEED_CAP
     )
@@ -177,38 +189,76 @@ def _write_feeds(configs, catalog: Catalog, docs_dir: Path, base_url: str) -> se
     for r in feeds.selected_for_feed(unified, UNIFIED_FEED_CAP):
         in_feed.add(r.dedup_key)
 
+    # Category feeds — the clean, single-topic feeds to subscribe to (recipes vs
+    # cocktails). Written for every category that has an enabled source, even
+    # with zero recipes yet, so the subscribe URL is stable and valid from day one.
+    for category in sorted({cfg.category.value for cfg in configs}):
+        filename, label = CATEGORY_FEEDS.get(category, (f"{category}.xml", category.title()))
+        recipes = by_category.get(category, [])
+        xml = feeds.build_feed(
+            category,
+            f"{label} (mela-rss)",
+            f"{base_url}/{filename}",
+            base_url,
+            recipes,
+            CATEGORY_FEED_CAP,
+        )
+        (docs_dir / filename).write_bytes(xml)
+        for r in feeds.selected_for_feed(recipes, CATEGORY_FEED_CAP):
+            in_feed.add(r.dedup_key)
+
     catalog.mark_in_feed(in_feed)
     return in_feed
 
 
 def _write_index(configs, catalog: Catalog, docs_dir: Path, base_url: str, bundles: dict[str, int]) -> None:
-    rows = []
+    # Group enabled sources by category so the two subscribe feeds (recipes vs
+    # cocktails) each list their own roster underneath.
+    cats: dict[str, list] = {}
     for cfg in configs:
         count = len(catalog.recipes_for_source(cfg.name))
-        if not count:
-            continue
-        bundle = ""
-        if cfg.name in bundles:
-            bundle = f' · <a href="{base_url}/bundles/{cfg.name}.melarecipes">bundle ({bundles[cfg.name]})</a>'
-        rows.append(
-            f'<li><strong>{cfg.title()}</strong> — '
-            f'<a href="{base_url}/feeds/{cfg.name}.xml">feed</a> · {count} recipes{bundle}</li>'
+        cats.setdefault(cfg.category.value, []).append((cfg, count))
+
+    sections = []
+    for category in sorted(cats):
+        filename, label = CATEGORY_FEEDS.get(category, (f"{category}.xml", category.title()))
+        total = sum(c for _, c in cats[category])
+        rows = []
+        for cfg, count in cats[category]:
+            if not count:
+                # No per-source feed file exists yet (only written once a source
+                # has content), so don't link to a URL that would 404.
+                rows.append(
+                    f'<li><strong>{cfg.title()}</strong> — awaiting first import</li>'
+                )
+                continue
+            bundle = ""
+            if cfg.name in bundles:
+                bundle = f' · <a href="{base_url}/bundles/{cfg.name}.melarecipes">bundle ({bundles[cfg.name]})</a>'
+            rows.append(
+                f'<li><strong>{cfg.title()}</strong> — '
+                f'<a href="{base_url}/feeds/{cfg.name}.xml">feed</a> · {count} items{bundle}</li>'
+            )
+        sections.append(
+            f'<h2>{label}</h2>\n'
+            f'<p>Subscribe in Mela: <code>{base_url}/{filename}</code> · {total} items</p>\n'
+            f'<ul>\n{chr(10).join(rows)}\n</ul>'
         )
+
     html = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>mela-rss — recipe feeds for Mela</title>
+<title>mela-rss — recipe & cocktail feeds for Mela</title>
 <style>body{{font-family:-apple-system,system-ui,sans-serif;max-width:680px;margin:2rem auto;padding:0 1rem;line-height:1.6}}code{{background:#f4f4f4;padding:.1rem .3rem;border-radius:4px}}</style>
 </head><body>
 <h1>mela-rss</h1>
-<p>Auto-curated recipe feeds, ready to import into the <a href="https://mela.recipes">Mela</a> app.
-Add the unified feed in Mela → Feeds:</p>
-<p><code>{base_url}/feed.xml</code></p>
-<h2>Per-source feeds</h2>
-<ul>
-{chr(10).join(rows)}
-</ul>
-<p style="color:#888;font-size:.85rem">Generated by mela-rss. Recipes link back to their original sources.</p>
+<p>Auto-curated feeds, ready to import into the <a href="https://mela.recipes">Mela</a> app.
+Add either topic feed in Mela → Feeds — they stay separate so cocktails never mix
+into your cooking feed:</p>
+<p><code>{base_url}/recipes.xml</code><br><code>{base_url}/cocktails.xml</code></p>
+<p style="color:#888;font-size:.85rem">Prefer everything in one place? <code>{base_url}/feed.xml</code> is the combined firehose.</p>
+{chr(10).join(sections)}
+<p style="color:#888;font-size:.85rem">Generated by mela-rss. Items link back to their original sources.</p>
 </body></html>
 """
     (docs_dir / "index.html").write_text(html, encoding="utf-8")

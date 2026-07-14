@@ -83,3 +83,87 @@ sources:
     url_pattern: "mob\\.co\\.uk/recipes/"
     scraper_host: mob.co.uk
     enabled: false
+
+  # --- COCKTAILS (category: cocktail -> cocktails.xml) -------------------
+  # All Instagram-first (creators + bars), so all rehost via curated caption
+  # seed lists — the same free pipeline as finntonry. Paste an Instagram caption
+  # into each source's seed_file to publish it; these route to cocktails.xml,
+  # kept separate from the recipe feed. Several have websites that could later
+  # become link_through native_feed sources (noted inline) if reliably fetchable.
+  - name: moresavorygoods
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "More Savory Goods"
+    seed_file: "sources/moresavorygoods_posts.txt"
+    rehost_author: "More Savory Goods"          # @moresavorygoods (Lance Wong)
+
+  - name: kevinkos
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Kevin Kos"
+    seed_file: "sources/kevinkos_posts.txt"
+    rehost_author: "Kevin Kos"                  # @kevin_kos
+    # kevinkos.com (Wix) has /recipes + /post/<slug> and likely /blog-feed.xml —
+    # a native_feed candidate once fetchable.
+
+  - name: jfdesfosses
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Jean-Félix Desfossés"
+    seed_file: "sources/jfdesfosses_posts.txt"
+    rehost_author: "Jean-Félix Desfossés"       # @jfdesfosses
+    # trufflesontherocks.com is a WordPress cocktail blog (likely /feed/) — a
+    # strong native_feed candidate once past its Cloudflare bot-block.
+
+  - name: cocktailcamera
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Jordan Hughes (Cocktail Camera)"
+    seed_file: "sources/cocktailcamera_posts.txt"
+    rehost_author: "Jordan Hughes"              # @cocktailcamera
+
+  - name: verygooddrinks
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Very Good Drinks"
+    seed_file: "sources/verygooddrinks_posts.txt"
+    rehost_author: "Very Good Drinks"           # @verygooddrinks
+
+  - name: drinksbyevie
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Drinks by Evie"
+    seed_file: "sources/drinksbyevie_posts.txt"
+    rehost_author: "Drinks by Evie"             # @drinksbyevie
+
+  - name: mother-cocktail-bar
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Mother Cocktail Bar"
+    seed_file: "sources/mother_cocktail_bar_posts.txt"
+    rehost_author: "Mother Cocktail Bar"        # @mothercocktailbar (Toronto)
+
+  - name: pch-sf
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "PCH — Pacific Cocktail Haven"
+    seed_file: "sources/pch_sf_posts.txt"
+    rehost_author: "Pacific Cocktail Haven"     # @pch_sf (San Francisco)
+
+  - name: amourdrink
+    mode: rehost
+    discovery: instagram
+    category: cocktail
+    display_name: "Amour Drink"
+    seed_file: "sources/amourdrink_posts.txt"
+    rehost_author: "Amour Drink"                # @amourdrink.tv
+    # Substack amourdrink.substack.com likely exposes /feed (RSS) — a native_feed
+    # candidate for written recipe posts if fetchable.

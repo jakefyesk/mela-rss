@@ -1,14 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Andycooks (mela-rss)</title>
+    <title>Recipes (mela-rss)</title>
     <link>https://jakefyesk.github.io/mela-rss</link>
-    <description>Auto-curated recipes from Andycooks (mela-rss), ready to import into Mela.</description>
-    <atom:link href="https://jakefyesk.github.io/mela-rss/feeds/andycooks.xml" rel="self"/>
+    <description>Auto-curated recipes from Recipes (mela-rss), ready to import into Mela.</description>
+    <atom:link href="https://jakefyesk.github.io/mela-rss/recipes.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Jul 2026 22:12:11 +0000</lastBuildDate>
+    <item>
+      <title>Texas Sheet Cake Ice Cream Sandwiches</title>
+      <link>https://justinesnacks.com/texas-sheet-cake-ice-cream-sandwiches/</link>
+      <description>While Texas Sheet Cake is a classic, I always like to riff on a classic. I recommend a bitter ice cream flavor like coffee to be the center of these, they can be intensely rich (just like Texas Sheet Cake itself!). If you have chocoholics in your life - this one is sure to hit the spot. — 12 servings · PT13H40M</description>
+      <guid isPermaLink="false">bcdb2866f50defe28c426d07a03f2d8b40fb4f4c</guid>
+      <pubDate>Tue, 14 Jul 2026 11:12:44 +0000</pubDate>
+    </item>
     <item>
       <title>Teriyaki Pork</title>
       <link>https://www.andy-cooks.com/blogs/recipes/teriyaki-pork</link>
@@ -281,6 +288,426 @@
       <description>You need to make this Peri Peri chicken at home! Smoky, spicy, and just the right amount of tang.What is Peri Peri?Peri peri chicken has its roots in Portugal but became iconic through the Portuguese communities of Mozambique and Angola, where the bird’s eye chilli is native. The name peri peri (or piri piri) comes from the Swahili word for pepper, and the combination of chargrilled chicken with a chilli, garlic, and vinegar marinade became a fiercely loved regional dish before spreading internationally.This Version We're making a marinade with capsicums and onion that are chargrilled first, which adds a smoky depth that raw-blended versions lack. The heat comes from birds eye chillies and smoked paprika, balanced by red wine vinegar and a little sugar. The chicken cooks low and slow on a rotisserie over charcoal for close to an hour, rotating continuously so the skin renders evenly and stays crisp all over while the meat stays juicy. The potatoes sit in a tray below, catching the chicken drippings as it turns. While the chicken rests, the reserved marinade simmers into a bright, punchy finishing sauce. If you don’t have a charcoal rotisserie, the notes section covers gas BBQ and oven adaptations. Ingredient NotesSmoked paprika: Smoked paprika (pimentón) is made from dried red peppers that have been smoke-dried, giving it a deep, earthy flavour that is central to the peri peri marinade. Do not substitute with sweet or hot paprika for this recipe: the smokiness is important to the overall flavour profile, especially when cooking on a gas BBQ or in the oven where you lose the charcoal smokiness. It is widely available in the spice aisle of supermarkets.Red wine vinegar: The vinegar provides the sharp, tangy backbone of the marinade that balances the richness of the olive oil and butter-basted chicken. Red wine vinegar works best here as its flavour complements the other ingredients. White wine vinegar is the closest substitute, or you could use a good quality sherry vinegar. Apple cider vinegar works in a pinch but adds a slightly fruity note. Avoid balsamic as it is too sweet and thick.Birds eye chilies: Birds eye chillies are small and very hot, with a clean, bright heat. The recipe calls for 2-3, which produces a medium-hot result. For a milder version, use 1 chilli or replace with a long red chilli, which has less heat but similar flavour. For more heat, increase to 4-5 or add a pinch of cayenne pepper. If using dried birds eye chillies, use half the quantity as they are more concentrated.EquipmentCharcoal grill with rotisserie (or gas BBQ with rotisserie, or oven)Drip tray (to sit under the rotisserie)Blender or food processorLarge bowl (for marinating)Kitchen stringSmall saucepanInstant-read thermometerChopping board and chef’s knife — 4 servings · PT2H35M</description>
       <guid isPermaLink="false">c9f312c9663a62fc29da7968fb3e557c7cdb05f0</guid>
       <pubDate>Sat, 11 Jul 2026 06:38:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basil Tomato Salmon</title>
+      <link>https://justinesnacks.com/basil-tomato-salmon/</link>
+      <description>A bright, light, and extra easy summer meal. You only need one burner, which makes it ideal for hot summer days. This works with any cherry tomato variety you have on hand, or even vine tomatoes. The salmon skin gets irresistibly crispy, so make sure to keep it skin up after you initially sear it. The result is worth the (minimal) effort. — 3 servings · PT40M</description>
+      <guid isPermaLink="false">ba8bab61a411c9d29526b6cdd869a24bf49beffc</guid>
+      <pubDate>Fri, 10 Jul 2026 09:50:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pan con Tomate</title>
+      <link>https://justinesnacks.com/golden-heirloom-pan-con-tomate/</link>
+      <description>While I love any quick summer snack, this one has to be my all-time favorite. It's so simple, and while I stray from the traditional Spanish technique, the result is just as easy and delicious. — 2 servings · PT15M</description>
+      <guid isPermaLink="false">7fde8ce8c33f20819411c59b5daaf73375514074</guid>
+      <pubDate>Thu, 09 Jul 2026 11:06:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Golden chicken &amp; garlicky beans</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans</link>
+      <description>2 servings · PT20M</description>
+      <guid isPermaLink="false">e974881e8134e485a5729e7c71c36abc743eb91f</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perfect Nashville Hot Fried Chicken at Home (2 Ways)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/perfect-nashville-hot-fried-chicken-at-home-2-ways-c5ece224.html</link>
+      <description>Perfect Nashville Hot Fried Chicken at Home (2 Ways)</description>
+      <guid isPermaLink="false">c5ece2248c2fa64df95bd1e24007e53593e41105</guid>
+      <pubDate>Wed, 08 Jul 2026 14:35:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japanese Convenience Store Sandwiches at Home</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/japanese-convenience-store-sandwiches-at-home-5057dba8.html</link>
+      <description>Japanese Convenience Store Sandwiches at Home</description>
+      <guid isPermaLink="false">5057dba8e5bd6f72f2cf0ba29378a55a23ff7891</guid>
+      <pubDate>Wed, 08 Jul 2026 14:35:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick &amp; Easy Aglio e Olio</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-aglio-e-olio-7eb40bd3.html</link>
+      <description>Quick &amp; Easy Aglio e Olio</description>
+      <guid isPermaLink="false">7eb40bd310849cd83dba2df3350ff1f875ff65dc</guid>
+      <pubDate>Tue, 07 Jul 2026 18:24:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Quesa Birria Tacos At Home (Authentic)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-quesa-birria-tacos-at-home-authentic-68780f43.html</link>
+      <description>The Best Quesa Birria Tacos At Home (Authentic)</description>
+      <guid isPermaLink="false">68780f43e78099dd59a3cab6088538e02b120f51</guid>
+      <pubDate>Tue, 07 Jul 2026 17:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sizzling Harissa Eggplant with Chickpeas</title>
+      <link>https://justinesnacks.com/sizzling-harissa-eggplant-with-chickpeas/</link>
+      <description>This easy weeknight recipe is a great fit for the grill or the oven. Eggplant does most of the work, roasting down into a tender, pull-apart base where all the spicy-sweet harissa sauce can soak in. I like to scoop out the sizzly interior with a spoon and serve it with rice, but you can eat this plant-based dinner any way your heart desires. — 4 servings · PT1H</description>
+      <guid isPermaLink="false">562b63df3babb508842cdecc5889e3bda215750a</guid>
+      <pubDate>Tue, 30 Jun 2026 10:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate Movie Theater Popcorn</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/ultimate-movie-theater-popcorn-e4912f4d.html</link>
+      <description>Ultimate Movie Theater Popcorn</description>
+      <guid isPermaLink="false">e4912f4d1d2a5e34bbad33f28e3d4fc54ceb00c9</guid>
+      <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best French Dip Sandwich Ever</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-french-dip-sandwich-ever-95b6eee2.html</link>
+      <description>The Best French Dip Sandwich Ever</description>
+      <guid isPermaLink="false">95b6eee2c96e26bbb70fcb064b405cc2e665f334</guid>
+      <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sticky orange chicken</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/sticky-orange-chicken/</link>
+      <description>Beautifully juicy Sticky orange chicken served with sweet potato mash, crispy rosemary and dressed watercress – a delicious dinner in just 20 minutes! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">8685adfdad2ac5ca38c173baf38b3d73c24e8aaa</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Carbonara crouton salad</title>
+      <link>https://www.jamieoliver.com/recipes/salad/carbonara-crouton-salad/</link>
+      <description>Bright and fresh with the tastiest Carbonara-inspired croutons, this quick and easy salad can be rattled together in just 20 minutes. Yes please! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">e796fd2950b8f43c0fba41dbafcf5c24988052fb</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pea, paneer &amp; potato curry</title>
+      <link>https://www.jamieoliver.com/recipes/pea-paneer-potato-curry/</link>
+      <description>This vibrant green curry, made with paneer, peas and potatoes, is a real joy to make and eat – and it only takes 20 minutes. Double win! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">cdbc07c48b6ebbfbc543a8ccfd5ae86bea927ecf</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Air-fryer arancini</title>
+      <link>https://www.jamieoliver.com/recipes/rice/air-fryer-arancini/</link>
+      <description>Made with a handy packet of ready-made rice and cooked in an air-fryer, this tasty arancini recipe could not be easier – and all in 20 minutes flat! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">31df10d0a9a3b8b533af3f6891c8867ea28aa727</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ginger Turmeric Hummus with Sungold Tomatoes</title>
+      <link>https://justinesnacks.com/ginger-turmeric-hummus-with-sungold-tomatoes/</link>
+      <description>For when you want hummus with a little something extra, this ginger turmeric hummus comes right in. The spicy, bright hummus pairs perfectly with a topping of sweet and jammy sungold tomatoes, making it a good dip for crackers, pita, crudité or even chips. There's just enough contrast that you'll be coming back for bite after bite. — 8 servings · PT15M</description>
+      <guid isPermaLink="false">152c8f12f667349d588ee3a65593c4af1d5fb5eb</guid>
+      <pubDate>Mon, 22 Jun 2026 21:16:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gooey Butter Cake Ice Cream Sandwiches</title>
+      <link>https://justinesnacks.com/gooey-butter-cake-ice-cream-sandwiches/</link>
+      <description>This is a fun spin on a St. Louis classic. This recipe makes two ultra-thin "gooey butter cakes" and uses them as the outside layers for ice cream sandwiches. What you get is a super-plush ice cream sandwich which tastes like a frozen gooey butter cake. And in the summertime, that sounds pretty perfect to me. — 12 servings · PT5H35M</description>
+      <guid isPermaLink="false">f0f7f92ec1d1d2cee850671251ebc6966f8f2518</guid>
+      <pubDate>Sun, 21 Jun 2026 08:09:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Miso Corn Rice with Chili Cod</title>
+      <link>https://justinesnacks.com/miso-corn-rice-with-chili-oil-cod/</link>
+      <description>There's a natural sweetness to corn that pairs really well with miso and scallions, which I love cooking down into a tender, fluffy rice. Putting a chili-glazed cod on top only takes a bit more time (and not much effort), and it leaves you with a balanced summer dinner that all takes place in one pan. — 4 servings · PT45M</description>
+      <guid isPermaLink="false">45d44f008fcc60c6fa8d03cd6545092870b26fab</guid>
+      <pubDate>Tue, 16 Jun 2026 14:47:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick &amp; Easy Vodka Pasta</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-vodka-pasta-cdc7e15a.html</link>
+      <description>Quick &amp; Easy Vodka Pasta</description>
+      <guid isPermaLink="false">cdc7e15a690233305955e10923cd29af43393730</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick &amp; Easy Pesto Pasta</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-pesto-pasta-19f65d0e.html</link>
+      <description>Quick &amp; Easy Pesto Pasta</description>
+      <guid isPermaLink="false">19f65d0ea96311e9aa30b7d55479033d3db2ea14</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy &amp; Low Calorie 61g Protein Butter Chicken</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/easy-low-calorie-61g-protein-butter-chicken-92ebed54.html</link>
+      <description>Easy &amp; Low Calorie 61g Protein Butter Chicken</description>
+      <guid isPermaLink="false">92ebed54ba5c4cf4cd1a0d4f48f70c068f5ef2ec</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Steak Sandwich Ever</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-steak-sandwich-ever-63ef2823.html</link>
+      <description>The Best Steak Sandwich Ever</description>
+      <guid isPermaLink="false">63ef2823efce2e3fea7874ecf173fdcb3322d462</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple, tuna &amp; cucumber pitta pockets</title>
+      <link>https://www.jamieoliver.com/recipes/apple-tuna-cucumber-pitta-pockets/</link>
+      <description>Shake-up your usual sarnie fillings with this fresh apple, cucumber and tuna combo – your kids will love it! — 1 serving · PT5M</description>
+      <guid isPermaLink="false">018d540a58cf99bb3edce49e9f6c3892e9e179c8</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chicken &amp; sweetcorn potato salad</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/chicken-sweetcorn-potato-salad/</link>
+      <description>Made with a lemon and pesto dressing, this zingy chicken salad is the perfect lunch box filler and a great way to use up leftover roast chicken. — 2 servings · PT10M</description>
+      <guid isPermaLink="false">82b1d03aedba1a06f62ba86ade44654e8f076fe0</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smashed Cucumber Spritz</title>
+      <link>https://justinesnacks.com/smashed-cucumber-spritz/</link>
+      <description>When there are so many spritzes to choose from, try this herbaceous, refreshing cucumber one. It takes barely any work to make a natural cucumber syrup, and the flavor is both clean and refreshing. Perfect for a brunch, a cook out, a dinner party or for sipping by the pool. — 4 servings · PT1H10M</description>
+      <guid isPermaLink="false">9c280a33f98ace33563d22e6c79c55fc07dabf45</guid>
+      <pubDate>Wed, 10 Jun 2026 22:14:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cucumber and Mango Salad</title>
+      <link>https://justinesnacks.com/cucumber-and-mango-salad/</link>
+      <description>Crisp, cool and crunchy cucumber is the perfect partner for juicing mango, especially when there's something sweet and something spicy in the mix. This salad is lightly dressed, but it stays cool and refreshing - perfect for all your poolside salad needs. — 4 servings · PT15M</description>
+      <guid isPermaLink="false">1f9f205b5ccf3cb28f2591209c5f4b660a94e6d7</guid>
+      <pubDate>Tue, 09 Jun 2026 10:37:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basil Viennetta</title>
+      <link>https://www.jamieoliver.com/recipes/desserts/basil-viennetta/</link>
+      <description>This is the ultimate nostalgic dessert. Try this easy, crowd-pleasing Basil Viennetta recipe featuring layers of rich chocolate and creamy mascarpone. — 12 servings</description>
+      <guid isPermaLink="false">37517251f343e3a253ab2d3bae263dfecd29b3bc</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One-pan moussaka</title>
+      <link>https://www.jamieoliver.com/recipes/beef/one-pan-moussaka/</link>
+      <description>Try this simple moussaka recipe with a rich meat and aubergine filling, crispy potato top and a bubbling Parmesan crust. — 6 servings</description>
+      <guid isPermaLink="false">2739389d67bf41c39d10cd87a0ce9ff54f26d296</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seadas saganaki</title>
+      <link>https://www.jamieoliver.com/recipes/cheese/seadas-saganaki/</link>
+      <description>Experience the ultimate salty-sweet crunch with these crispy filo pastry triangles packed with gooey melted cheese, fresh thyme and warm honey. — 4 servings</description>
+      <guid isPermaLink="false">5015414dac8904e110e0879470649dbad2cfe402</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tropical fruit portable pavlova</title>
+      <link>https://www.jamieoliver.com/recipes/fruit/tropical-fruit-portable-pavlova/</link>
+      <description>Perfectly portable and equally beautiful, this tropical fruit pavlova made with mango, passion fruit and lime is perfect for any summer picnic. — 12 servings · PT2H</description>
+      <guid isPermaLink="false">e360257805d626d7987f0ad5fe7993d666fa02d2</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Summer cocktail cake</title>
+      <link>https://www.jamieoliver.com/recipes/cake/summer-cocktail-cake/</link>
+      <description>The most spectacular summer cocktail cake inspired by the beautiful flavours of British-favourite, Pimm's – super-fresh, this is summer on a plate! — 12 servings · PT50M</description>
+      <guid isPermaLink="false">52854eaea79ff0bef1d19a578afcf231ab919c34</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Savoury s'mores</title>
+      <link>https://www.jamieoliver.com/recipes/cheese/savoury-smores/</link>
+      <description>Brilliant for your next summer adventure, these quick, easy and fun savoury s'mores are the perfect nibble – experiment with your favourite combos! — 8 items · PT20M</description>
+      <guid isPermaLink="false">79eae49fafb8257950127cc6922bfd07b397fd60</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grogu's Steak sandwich</title>
+      <link>https://www.jamieoliver.com/recipes/beef/5-ingredient-steak-sandwich/</link>
+      <description>Bring the galaxy's ultimate comfort food home! Watch Pedro Pascal and Jon Favreau cook Jamie Oliver's 5-ingredient steak sandwich (aka Grogu's Steak Sandwich). Get the full recipe, ingredients list, and cooking tips. — 2 servings · PT14M</description>
+      <guid isPermaLink="false">9eed731c0be845aaa128fc4b3c5b5e3f7081f9b5</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mocktail ice cubes</title>
+      <link>https://www.jamieoliver.com/recipes/fruit/mocktail-ice-cubes/</link>
+      <description>Inspired by popular cocktails, these mocktail ice cubes are a super-fun way to keep hydrated. Click into a glass and top up with soda. Simple! — 15 items · PT10M</description>
+      <guid isPermaLink="false">5bce6fa7240419c16a9ceb6bc22521fdd862b9b6</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Picnic pie &amp; pickles</title>
+      <link>https://www.jamieoliver.com/recipes/potato/picnic-pie-and-pickles/</link>
+      <description>Make your next picnic super-special with this perfectly portable picnic pie, made with a slow-cooked onion, cheese and potato filling. Delicious! — 10 servings · PT2H</description>
+      <guid isPermaLink="false">5d8a67ab100d2d6eb948154c525ec5659bcdaf7d</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Matcha fro-yo</title>
+      <link>https://www.jamieoliver.com/recipes/puddings-desserts/matcha-fro-yo/</link>
+      <description>Quick, easy and refreshing, this matcha-fro-yo with a fresh strawberry drizzle and sesame snaps is the perfect sweet treat on a hot summers day. — 4 servings · PT20M</description>
+      <guid isPermaLink="false">bb1c36cf71441f3cb3e83cf356ac4570a353cc7f</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hot honey BBQ chicken</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/hot-honey-bbq-chicken/</link>
+      <description>The sweetness and spice of hot honey, combined with those beautiful BBQ flavours is what makes this chicken recipe so special – totally delicious! — 6 servings · PT1H30M</description>
+      <guid isPermaLink="false">f3c919e7e886a8aa3421ffb79511b138a4bad1bf</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate crab sandwich</title>
+      <link>https://www.jamieoliver.com/recipes/seafood/ultimate-crab-sandwich</link>
+      <description>Bring back fond memories of days spent by the coast with this ultimate crab sandwich, made with saffron mayo, cucumber ribbons and pickled samphire. — 1 serving · PT15M</description>
+      <guid isPermaLink="false">fef9b3543d6a37591c68b731c93bdc761f26da34</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Loaded Caesar salad dip</title>
+      <link>https://www.jamieoliver.com/recipes/dips-salsas/loaded-caesar-salad-dip/</link>
+      <description>Enjoy all the flavours of a Caesar salad as a beautiful sharing platter – perfect for entertaining or a cosy night in! — 4 servings · PT15M</description>
+      <guid isPermaLink="false">a38f0d6a49b4437197c290bb4dc091d0e94791b0</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy energy balls</title>
+      <link>https://www.jamieoliver.com/recipes/fruit/easy-energy-balls/</link>
+      <description>Looking for the perfect pick-me-up after a gym session? These Easy energy balls made with simple ingredients will help your body recover naturally. — 24 items · PT25M</description>
+      <guid isPermaLink="false">188ef5cf828b8bfa69e23d720034fa577f536099</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Italian-style tuna salad</title>
+      <link>https://www.jamieoliver.com/recipes/fish/italian-style-tuna-salad/</link>
+      <description>Celebrate humble tinned tuna in this delicious Italian-style salad, served with bang-in-season tomatoes on toast and beautiful marinated anchovies. — 4 servings · PT20M</description>
+      <guid isPermaLink="false">ddfcb2758bbb26613e5c83aaa2c487a9177b70cf</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hot crispy rostis &amp; smoked salmon</title>
+      <link>https://www.jamieoliver.com/recipes/fish/hot-crispy-rostis-and-smoked-salmon/</link>
+      <description>Made with waves of quality wild smoked salmon, these hot and crispy rostis topped with a fried egg and asparagus ribbons are totally delicious. — 2 servings · PT20M</description>
+      <guid isPermaLink="false">8dfdd0581a3a2283cca9501e053edde4cdef91a4</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sumptuous sardine spaghetti</title>
+      <link>https://www.jamieoliver.com/recipes/fish/sumptuous-sardine-spaghetti/</link>
+      <description>Sardines are the perfect tinned fish – oily, delicious and so full of flavour! Enjoy them in this simple pasta dish for a quick and easy dinner. — 2 servings · PT15M</description>
+      <guid isPermaLink="false">1c9a26fed47b2efaa17b19ca7c8871d625d10239</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supergrains mackerel salad</title>
+      <link>https://www.jamieoliver.com/recipes/fish/supergrains-mackerel-salad/</link>
+      <description>Mackerel is a real nutritional powerhouse, packed with those heart-healthy Omega-3 oils - enjoy it in this beautifully simple grains salad. — 4 servings · PT20M</description>
+      <guid isPermaLink="false">e2ce0cf6dca6019aa674069598bc1870c96df544</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick tuna melt fishcakes</title>
+      <link>https://www.jamieoliver.com/recipes/fish/tuna-melt-fishcakes/</link>
+      <description>These super-tasty fishcakes celebrate beautiful skipjack tuna, tinned at its absolute best. Topped with melty cheese, they're a real family favourite! — 4 servings · PT20M</description>
+      <guid isPermaLink="false">74987b8e2ed49728f82f47bc95fbab78403e6386</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Salsa verde</title>
+      <link>https://www.jamieoliver.com/recipes/fish/salsa-verde/</link>
+      <description>Made with top-quality anchovies, this easy-to-make salsa verde is a great way to add big flavour to all kinds of dishes. Delicious! — 8 servings · PT10M</description>
+      <guid isPermaLink="false">ab11966c01b12e96e1a2c071d9379f3ec210ff3d</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pasta all’anciova e muddica</title>
+      <link>https://www.jamieoliver.com/recipes/pasta/pasta-all-anciova/</link>
+      <description>Discover Gennaro's traditional Sicilian bucatini dish with salted anchovies, rich tomato, and crunchy toasted breadcrumbs. — 4 servings</description>
+      <guid isPermaLink="false">b169f02145b26b3e18820aafe85ada1947183b5c</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paniscia</title>
+      <link>https://www.jamieoliver.com/recipes/pasta-risotto/paniscia/</link>
+      <description>A traditional bean and sausage risotto from Piemonte. Try Gennaro's Paniscia – a nutritious, soul-warming meal perfect for a glass of red wine. — 4 servings</description>
+      <guid isPermaLink="false">68703c281a2b1d15e73b0187a9cc03c7b99ecc58</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Buchteln</title>
+      <link>https://www.jamieoliver.com/recipes/bread/buchteln/</link>
+      <description>Fluffy Northern Italian brioche buns filled with sweet apricot jam, give it a go! — 14 items</description>
+      <guid isPermaLink="false">4f3bccfeb7965510416cbaca6cee9cb06da34eb9</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Scandinavian-Style Cinnamon Buns</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-scandinavian-style-cinnamon-buns-82609a54.html</link>
+      <description>The Best Scandinavian-Style Cinnamon Buns</description>
+      <guid isPermaLink="false">82609a54fbffe329d02570769e8823ad8db92d31</guid>
+      <pubDate>Wed, 15 Apr 2026 19:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Authentic Chinese Breakfast At Home (Jianbing)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/authentic-chinese-breakfast-at-home-jianbing-07d788ac.html</link>
+      <description>Authentic Chinese Breakfast At Home (Jianbing)</description>
+      <guid isPermaLink="false">07d788acbac8d900007fd3468221b61c16988640</guid>
+      <pubDate>Thu, 02 Apr 2026 03:19:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Breakfast Sandwich at Home</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-breakfast-sandwich-at-home-35335b33.html</link>
+      <description>The Best Breakfast Sandwich at Home</description>
+      <guid isPermaLink="false">35335b33198983b361a897cf3fdf674ff9767729</guid>
+      <pubDate>Thu, 02 Apr 2026 03:19:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy &amp; Low Calorie 53g Protein McGriddle</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/easy-low-calorie-53g-protein-mcgriddle-0519c9a0.html</link>
+      <description>Easy &amp; Low Calorie 53g Protein McGriddle</description>
+      <guid isPermaLink="false">0519c9a012dd6b6468cb46c781ea53a2ff97c9ef</guid>
+      <pubDate>Wed, 04 Mar 2026 20:13:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate barbecue brekkie</title>
+      <link>https://www.jamieoliver.com/recipes/sausage/ultimate-barbecue-brekkie/</link>
+      <description>Pick and choose whichever elements excite you to make up your own perfect brekkie or brunch – what a feast! — 4 servings</description>
+      <guid isPermaLink="false">906e632cbc9dd15da38542fc960bcf0748e510ff</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sesame chicken burgers</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/sesame-chicken-burgers/</link>
+      <description>A sizzling sesame burger served in homemade burger buns with gochujang yoghurt and pickled veg – yes please! — 4 servings · PT30M</description>
+      <guid isPermaLink="false">b8dcac423884aef97d0b448878f5fd849a4127a5</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Veg-tastic barbecue mezze</title>
+      <link>https://www.jamieoliver.com/recipes/veg-tastic-barbecue-mezze/</link>
+      <description>Mighty veg do wonderful things when grilled, blackened, charred and blistered. Here Jamie shares his favourite ways to enjoy them! — 6 servings</description>
+      <guid isPermaLink="false">633ef5693e0ee3e8cad1daec564e4ed16816657b</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grilled fish tacos &amp; stone fruit salsa</title>
+      <link>https://www.jamieoliver.com/recipes/fish/grilled-fish-tacos-stone-fruit-salsa/</link>
+      <description>Sizzling scallops, trout and mackerel topped with spicy stone fruit salsa, soured cream and herbs, all served in corn tortillas – what a feast! — 4 servings · PT45M</description>
+      <guid isPermaLink="false">ae15c5aad82792be594aa9d1ab440d013cc6ed50</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Herby grilled veg, halloumi skewers &amp; pancakes</title>
+      <link>https://www.jamieoliver.com/recipes/herby-grilled-veg-halloumi-skewers-pancakes/</link>
+      <description>Beautiful grilled veg, golden halloumi skewers and pancakes, plus a nutty herby dressing, yoghurt and pops of pomegranate. Delicious! — 8 servings · PT45M</description>
+      <guid isPermaLink="false">65ed76be28b6f740432067c6e38f3bb8960077fa</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spiced paneer kofte</title>
+      <link>https://www.jamieoliver.com/recipes/cheese/spiced-paneer-kofte/</link>
+      <description>These kofte are addictive - a crisp, just-charred exterior, meltingly soft inside, and perfectly spiced. Paired with a watermelon salad – delicious! — 4 servings · PT1H</description>
+      <guid isPermaLink="false">7164dbf0c82d5f70fb19b209e4c3247460b3624b</guid>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Super surf &amp; turf mixed grill</title>
+      <link>https://www.jamieoliver.com/recipes/seafood/super-surf-turf-mixed-grill/</link>
+      <description>Barbecued to perfection and coated in herby butter, this surf and turf recipe made with chicken, chorizo, prawns, mussels and clams is a real treat! — 8 servings · PT45M</description>
+      <guid isPermaLink="false">1dbc6ccfa1d52cf01d38786b625d341b45a6e36a</guid>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jerk pork &amp; seared cabbage</title>
+      <link>https://www.jamieoliver.com/recipes/pork/jerk-pork-seared-cabbage/</link>
+      <description>Jerk is traditionally cooked over pimento wood in Jamaica, but that isn’t always practical here in the UK. So instead, I use bay leaves on branches. — 2 servings · PT1H30M</description>
+      <guid isPermaLink="false">410b46c34e2460ec1558173fd7b28d29fb1030ce</guid>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -321,3 +321,132 @@ def test_backfill_dates_existing_dateless_record_without_refetch(tmp_path, monke
     assert s["added"] == 0
     rec = json.loads(catalog_path.read_text())["recipes"][key]
     assert rec["published_at"].startswith("2026-03-15")
+
+
+# --- category feeds: recipes vs cocktails stay separate --------------------
+
+CAT_FEED_URL = "https://cook.example/feed"
+CAT_RECIPE_URL = "https://cook.example/recipes/garlic-shrimp"
+
+COCKTAIL_SEED = """https://www.instagram.com/reel/NEGRONI1/
+image: https://example.com/img/negroni.jpg
+tags: cocktail
+
+Smoked Negroni
+Ingredients:
+- 1 oz gin
+- 1 oz Campari
+- 1 oz sweet vermouth
+Method:
+1. Stir with ice until chilled.
+2. Strain over a large cube.
+3. Express an orange peel over the top.
+"""
+
+
+class CategoryFake(FakeHttp):
+    ROUTES = {
+        CAT_FEED_URL: (
+            '<?xml version="1.0"?><rss version="2.0"><channel>'
+            f"<item><title>Shrimp</title><link>{CAT_RECIPE_URL}</link></item>"
+            "</channel></rss>"
+        ),
+        CAT_RECIPE_URL: load_fixture("jsonld_recipe.html"),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+
+
+@pytest.fixture
+def category_built(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "Http", CategoryFake)
+    seed = tmp_path / "cocktails.txt"
+    seed.write_text(COCKTAIL_SEED, encoding="utf-8")
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults:\n"
+        "  request_delay_seconds: 0\n"
+        "sources:\n"
+        "  - name: cook\n"
+        "    mode: link_through\n"
+        "    discovery: native_feed\n"
+        f'    feed_url: "{CAT_FEED_URL}"\n'
+        '    url_pattern: "/recipes/"\n'
+        "  - name: barcart\n"
+        "    mode: rehost\n"
+        "    discovery: instagram\n"
+        "    category: cocktail\n"
+        "    display_name: Bar Cart\n"
+        f'    seed_file: "{seed}"\n'
+        '    rehost_author: "Bar Cart"\n',
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog = tmp_path / "data" / "catalog.json"
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    return docs
+
+
+def test_category_feeds_written(category_built):
+    docs = category_built
+    assert (docs / "recipes.xml").exists()
+    assert (docs / "cocktails.xml").exists()
+    assert (docs / "feed.xml").exists()  # combined firehose still emitted
+
+
+def test_recipes_and_cocktails_do_not_cross_contaminate(category_built):
+    docs = category_built
+    recipes_xml = (docs / "recipes.xml").read_text()
+    cocktails_xml = (docs / "cocktails.xml").read_text()
+
+    # cocktail lands only in the cocktail feed
+    assert "Smoked Negroni" in cocktails_xml
+    assert "Smoked Negroni" not in recipes_xml
+    # recipe lands only in the recipe feed
+    assert "Garlic Butter Shrimp" in recipes_xml
+    assert "Garlic Butter Shrimp" not in cocktails_xml
+
+
+def test_combined_feed_carries_both_categories(category_built):
+    feed_xml = (category_built / "feed.xml").read_text()
+    assert "Smoked Negroni" in feed_xml
+    assert "Garlic Butter Shrimp" in feed_xml
+
+
+def test_index_lists_both_category_subscribe_urls(category_built):
+    html = (category_built / "index.html").read_text()
+    assert "https://host.example/recipes.xml" in html
+    assert "https://host.example/cocktails.xml" in html
+    assert "Bar Cart" in html  # display_name override surfaces on the index
+
+
+def test_empty_category_feed_is_still_written(tmp_path, monkeypatch):
+    # A configured cocktail source with no importable posts yet must still yield a
+    # valid (empty) cocktails.xml so the Mela subscribe URL never 404s.
+    monkeypatch.setattr(build, "Http", CategoryFake)
+    empty_seed = tmp_path / "empty.txt"
+    empty_seed.write_text("# no posts yet\n", encoding="utf-8")
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults:\n"
+        "  request_delay_seconds: 0\n"
+        "sources:\n"
+        "  - name: cook\n"
+        "    mode: link_through\n"
+        "    discovery: native_feed\n"
+        f'    feed_url: "{CAT_FEED_URL}"\n'
+        '    url_pattern: "/recipes/"\n'
+        "  - name: barcart\n"
+        "    mode: rehost\n"
+        "    discovery: instagram\n"
+        "    category: cocktail\n"
+        f'    seed_file: "{empty_seed}"\n',
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog = tmp_path / "data" / "catalog.json"
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    cocktails_xml = (docs / "cocktails.xml").read_text()
+    assert "<rss" in cocktails_xml  # valid RSS, just no <item>s
+    assert "<item>" not in cocktails_xml
