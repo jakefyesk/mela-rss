@@ -50,16 +50,34 @@ jobs:
           PYTHONPATH=src python -m melarss.build --base-url "$BASE_URL" $ARGS
 
       - name: Commit generated output
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name  "mela-rss-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs data/catalog.json
           if git diff --cached --quiet; then
             echo "no changes"
-          else
-            git commit -m "chore: refresh feeds ($(date -u +%FT%TZ))"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh feeds ($(date -u +%FT%TZ))"
+          # Clustered runs (a push that touches trigger paths + the 6-hourly cron,
+          # etc.) each check out their own trigger SHA, so a run that finishes late
+          # pushes a commit built on a now-stale tip and gets rejected as
+          # non-fast-forward. Rebase our single regenerated commit onto the latest
+          # branch tip and retry. Generated output is deterministic and re-emitted
+          # every run, so prefer our fresh build on any conflicting hunk.
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:$BRANCH"; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt); rebasing onto origin/$BRANCH"
+            git fetch origin "$BRANCH"
+            git rebase -X theirs "origin/$BRANCH" || { git rebase --abort || true; exit 1; }
+          done
+          echo "push still failing after retries" >&2
+          exit 1
 
       - uses: actions/upload-pages-artifact@v3
         with:
