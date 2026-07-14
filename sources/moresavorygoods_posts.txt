@@ -1,0 +1,22 @@
+# More Savory Goods — cocktail seed list (creator)
+# Instagram: https://www.instagram.com/moresavorygoods/
+# =============================================================================
+# Paste one Instagram caption per entry (free, no scraping). Entries are
+# separated by a line of "===". Add `tags: cocktail` if you want it tagged.
+# See sources/finntonry_posts.txt for the full format reference. Example:
+#
+# ===
+# https://www.instagram.com/moresavorygoods/reel/POST_SHORTCODE/
+# tags: cocktail
+#
+# Smoked Negroni
+# Ingredients:
+# - 1 oz gin
+# - 1 oz Campari
+# - 1 oz sweet vermouth
+# Method:
+# 1. Stir with ice until well chilled.
+# 2. Strain over a large cube.
+# 3. Express an orange peel over the top.
+#
+# Add real entries below this line.

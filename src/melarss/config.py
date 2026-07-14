@@ -23,6 +23,7 @@ class SourceConfig:
     discovery: str
     category: Category = Category.RECIPE
     enabled: bool = True
+    display_name: str | None = None  # human title override (else derived from name)
 
     # discovery inputs (one is used depending on `discovery`)
     sitemap: str | None = None
@@ -43,6 +44,8 @@ class SourceConfig:
     user_agent: str | None = None
 
     def title(self) -> str:
+        if self.display_name:
+            return self.display_name
         return self.name.replace("-", " ").replace("_", " ").title()
 
 
@@ -77,6 +80,7 @@ def _coerce_source(name: str, raw: dict, defaults: dict) -> SourceConfig:
         discovery=discovery,
         category=category,
         enabled=bool(merged.get("enabled", True)),
+        display_name=merged.get("display_name"),
         sitemap=merged.get("sitemap"),
         feed_url=merged.get("feed_url"),
         url=merged.get("url"),
