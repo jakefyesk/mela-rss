@@ -61,6 +61,12 @@ def _process_source(
         "[%s] discovered=%d new=%d processing=%d", cfg.name, len(refs), len(new_refs), len(to_process)
     )
 
+    # Backfill publish dates onto already-known, date-less recipes from the
+    # discovery date hints we just fetched (sitemap <lastmod> / feed <pubDate>).
+    # This costs no extra network — it reuses the discovery response — and lets
+    # the feed order by real publish date instead of a single bulk import time.
+    _backfill_published_at(cfg, adapter, catalog, refs, now, backfill)
+
     added = 0
     for ref in to_process:
         key = make_dedup_key(cfg.name, ref)
@@ -77,6 +83,11 @@ def _process_source(
             continue
         catalog.clear_failure(recipe.dedup_key)
 
+        # No datePublished in the page's JSON-LD? Fall back to the date discovery
+        # already gave us (sitemap <lastmod> / feed <pubDate>).
+        if recipe.published_at is None:
+            recipe.published_at = adapter.date_hints.get(ref)
+
         if recipe.mode == Mode.REHOST:
             _finalize_rehost(cfg, adapter, recipe, http, docs_dir, base_url)
         else:  # link_through: point at the original page
@@ -88,6 +99,25 @@ def _process_source(
         added += 1
 
     return added
+
+
+def _backfill_published_at(cfg, adapter, catalog: Catalog, refs, now, backfill: bool) -> None:
+    """Set published_at on already-known, date-less recipes from discovery date
+    hints. Reuses the discovery response (no page re-fetch), so a source that
+    was imported before we captured dates gets ordered correctly on the next run.
+    """
+    hints = getattr(adapter, "date_hints", None)
+    if not hints:
+        return
+    for ref in refs:
+        hint = hints.get(ref)
+        if hint is None:
+            continue
+        recipe = catalog.get_recipe(make_dedup_key(cfg.name, ref))
+        if recipe is None or recipe.published_at is not None:
+            continue
+        recipe.published_at = hint
+        catalog.upsert(recipe, now, backfill=backfill)
 
 
 def _finalize_rehost(cfg, adapter, recipe: Recipe, http, docs_dir: Path, base_url: str) -> None:

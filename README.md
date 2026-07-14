@@ -12,6 +12,13 @@ fallback). `mela-rss` produces feeds + pages that satisfy that contract:
   we scrape/parse the recipe, render our own page carrying clean JSON-LD, and
   point the feed item at it.
 
+Feeds are ordered newest-first by each recipe's **publish date**, not by import
+time or source. That date comes from the page's schema.org `datePublished`; when
+a page omits it, we fall back to the date discovery already sees — the sitemap
+`<lastmod>` or the source feed's `<pubDate>` — so a whole source doesn't collapse
+onto one bulk-import timestamp. Existing undated recipes are backfilled from that
+same discovery data on the next run (no re-fetch).
+
 The site is static (GitHub Pages), rebuilt every 6h by a GitHub Action.
 
 > **One-time setup — enable GitHub Pages.** In **Settings → Pages → Build and
@@ -67,7 +74,7 @@ the most fragile part. The pipeline is deliberately free:
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt pytest
-pytest                                   # 42 tests, all offline
+pytest                                   # all offline
 # build locally (writes docs/ + data/catalog.json)
 PYTHONPATH=src python -m melarss.build --base-url http://localhost:8000
 python -m http.server 8000 --directory docs   # then point Mela at http://<lan-ip>:8000/feed.xml

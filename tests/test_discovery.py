@@ -51,6 +51,37 @@ def test_native_feed_atom_uses_alternate_link():
     assert links == ["https://www.example.com/recipes/atom-dish"]
 
 
+def test_sitemap_entries_keep_lastmod():
+    http = RoutingHttp(
+        {
+            "https://www.example.com/sitemap.xml": load_fixture("sitemap_index.xml"),
+            "https://www.example.com/sitemap-recipes-1.xml": load_fixture("sitemap-recipes-1.xml"),
+            "https://www.example.com/sitemap-pages.xml": "<urlset></urlset>",
+        }
+    )
+    entries = sitemap.sitemap_entries(
+        "https://www.example.com/sitemap.xml", r"/recipes/", http
+    )
+    # newest lastmod first, each URL paired with its own date
+    assert entries == [
+        ("https://www.example.com/recipes/newest-dish", "2026-06-20"),
+        ("https://www.example.com/recipes/older-dish", "2025-01-15"),
+    ]
+
+
+def test_native_feed_entries_capture_rss_pubdate():
+    entries = native_feed.parse_feed_entries(load_fixture("rss_feed.xml"))
+    assert entries == [
+        ("https://www.example.com/recipes/newest-dish", "Sat, 20 Jun 2026 12:00:00 GMT"),
+        ("https://www.example.com/news/we-moved", "Fri, 19 Jun 2026 12:00:00 GMT"),
+    ]
+
+
+def test_native_feed_entries_capture_atom_updated():
+    entries = native_feed.parse_feed_entries(load_fixture("atom_feed.xml"))
+    assert entries == [("https://www.example.com/recipes/atom-dish", "2026-06-21T12:00:00Z")]
+
+
 def test_sitemap_with_xml_comments_does_not_crash():
     xml = (
         '<?xml version="1.0"?>'
