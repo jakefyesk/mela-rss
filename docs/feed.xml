@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 07:58:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 13:25:27 +0000</lastBuildDate>
+    <item>
+      <title>Roast chicken with sage and bacon stuffing</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/roast-chicken</link>
+      <description>Here's a great roast chicken recipe with sage and bacon stuffing for your Christmas feast! You will need to start your prep the day before (hence the 24-hour prep time), but it's easy to prep and then you just pop it in the fridge overnight. — 8 servings · PT27H</description>
+      <guid isPermaLink="false">d65d75b9ca80acfb708794441e016e8d7b4e7c83</guid>
+      <pubDate>Wed, 15 Jul 2026 11:16:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Roast chicken with sage and bacon stuffing</title>
+      <link>https://www.andy-cooks.com/de/blogs/recipes/roast-chicken</link>
+      <description>Here's a great roast chicken recipe with sage and bacon stuffing for your Christmas feast! You will need to start your prep the day before (hence the 24-hour prep time), but it's easy to prep and then you just pop it in the fridge overnight. — 8 servings · PT27H</description>
+      <guid isPermaLink="false">425e6ba091981d58eef096565b139a8315d55b58</guid>
+      <pubDate>Wed, 15 Jul 2026 11:16:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Roast chicken with sage and bacon stuffing</title>
+      <link>https://www.andy-cooks.com/es/blogs/recipes/roast-chicken</link>
+      <description>Here's a great roast chicken recipe with sage and bacon stuffing for your Christmas feast! You will need to start your prep the day before (hence the 24-hour prep time), but it's easy to prep and then you just pop it in the fridge overnight. — 8 servings · PT27H</description>
+      <guid isPermaLink="false">961fb1b9122110556f86e71d330747feac2521e3</guid>
+      <pubDate>Wed, 15 Jul 2026 11:16:17 +0000</pubDate>
+    </item>
     <item>
       <title>Rice Cooker Banana Bread</title>
       <link>https://www.andy-cooks.com/blogs/recipes/rice-cooker-banana-bread</link>
@@ -687,27 +708,6 @@
       <description>A sizzling sesame burger served in homemade burger buns with gochujang yoghurt and pickled veg – yes please! — 4 servings · PT30M</description>
       <guid isPermaLink="false">b8dcac423884aef97d0b448878f5fd849a4127a5</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Veg-tastic barbecue mezze</title>
-      <link>https://www.jamieoliver.com/recipes/veg-tastic-barbecue-mezze/</link>
-      <description>Mighty veg do wonderful things when grilled, blackened, charred and blistered. Here Jamie shares his favourite ways to enjoy them! — 6 servings</description>
-      <guid isPermaLink="false">633ef5693e0ee3e8cad1daec564e4ed16816657b</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grilled fish tacos &amp; stone fruit salsa</title>
-      <link>https://www.jamieoliver.com/recipes/fish/grilled-fish-tacos-stone-fruit-salsa/</link>
-      <description>Sizzling scallops, trout and mackerel topped with spicy stone fruit salsa, soured cream and herbs, all served in corn tortillas – what a feast! — 4 servings · PT45M</description>
-      <guid isPermaLink="false">ae15c5aad82792be594aa9d1ab440d013cc6ed50</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Herby grilled veg, halloumi skewers &amp; pancakes</title>
-      <link>https://www.jamieoliver.com/recipes/herby-grilled-veg-halloumi-skewers-pancakes/</link>
-      <description>Beautiful grilled veg, golden halloumi skewers and pancakes, plus a nutty herby dressing, yoghurt and pops of pomegranate. Delicious! — 8 servings · PT45M</description>
-      <guid isPermaLink="false">65ed76be28b6f740432067c6e38f3bb8960077fa</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
