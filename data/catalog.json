@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-07-15T13:24:11.639190+00:00",
-  "count": 129,
+  "generated_at": "2026-07-15T19:02:36.354752+00:00",
+  "count": 131,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -4940,302 +4940,374 @@
       "last_seen_at": "2026-07-15T13:24:11.639190+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "ce4377d375822094861f8cf413095bc203f9922f": {
+      "dedup_key": "ce4377d375822094861f8cf413095bc203f9922f",
+      "source": "joshuaweissman",
+      "source_url": "https://www.joshuaweissman.com/recipes/cooking-tools-everyone-needs-recipe",
+      "page_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/cooking-tools-everyone-needs-ce4377d3.html",
+      "mode": "rehost",
+      "category": "recipe",
+      "title": "Cooking Tools Everyone Needs",
+      "text": "",
+      "author": "Joshua Weissman",
+      "cuisine": "",
+      "categories": [
+        "Cooking Tools Everyone Needs",
+        "Chef Joshua Weissman recipe"
+      ],
+      "ingredients": "Chef’s knife\nCutting board\nNonstick skillet (10”)\nStainless steel skillet (12”)\nSaucepot (2 & 4 qt)\nKitchen towels\nMixing bowls (set)\nWhisk\nTongs\nLadle\nCan opener\nSpatula (flat/turner)\nSilicone spatula\nLarge spoons\nMeasuring cups and spoons\nY-peeler\nBaking sheet with wire rack\nPlastic wrap\nAluminum foil\nParchment paper\nStorage containers\nBox grater\nDutch oven\nScale\nStrainer\nBench Scraper\nMicroplane\nBonus: instant read thermometer\nStand mixer\nSaucier\nBlender\nRice cooker\nFood processor",
+      "instructions": "",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "prep_minutes": null,
+      "cook_minutes": null,
+      "total_minutes": null,
+      "image_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/img/cooking-tools-everyone-needs-ce4377d3.jpg",
+      "local_image": "recipes/joshuaweissman/img/cooking-tools-everyone-needs-ce4377d3.jpg",
+      "published_at": "2026-07-15T14:58:57.368000+00:00",
+      "discovered_at": "2026-07-15T19:02:36.354752+00:00",
+      "content_hash": "70c854d259a00d56237feb727cde7e739eb7dbca",
+      "last_seen_at": "2026-07-15T19:02:36.354752+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "51c1738f45d22299d8387ef8d176f13659f300d2": {
+      "dedup_key": "51c1738f45d22299d8387ef8d176f13659f300d2",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/no-knead-focaccia",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/no-knead-focaccia",
+      "mode": "link_through",
+      "category": "recipe",
+      "title": "Focaccia",
+      "text": "This is a recipe for a no-knead focaccia which makes is very easy for anyone to make at home. After reading this recipe (or watching the video), you'll know how to make a basic focaccia that's light, fluffy and has a great golden colour... and is delicious! You can use it for dipping bread, a nice starter with olive oil or make a sandwich with it which is my favourite way to use focaccia. Make sure you watch the video for visual instructions!The no-knead methodFor this recipe, we're using the stretch and fold method instead of kneading. As this is a high hydration dough, it would be very messy if you tried to knead it. We'll do four rounds of stretch and fold over two hours. Each fold allows us to work the gluten and to create a nice light dough with lots of little air pockets in it. With a stretch and fold, all you have to do is take one side of the dough and stretch it over to the other side. Now, rotate your bowl and repeat the same step another three times.DimplingThe dimpling step before baking is functional, not decorative. Pressing your fingers deep into the proofed dough pops larger gas bubbles and redistributes them into smaller, more even ones throughout the dough. The second drizzle of olive oil pools in the dimples and crisps the top surface as it bakes, giving focaccia its characteristic golden, slightly crunchy exterior. Ingredient NotesFlour: This is the main (and most important) ingredient. You want bread flour which is a high protein flour (around 12-13% vs 9-11%). The high protein gives focaccia it's structure as it develops more gluten when the dough is hydrated and worked. More gluten means more structure to trap the gas produced by the yeast, giving you a better rise and a chewier texture. Plain flour works as a substitute but the crumb will be softer and slightly denser. Don’t use self-raising flour. Dry yeast: The recipe dissolves the yeast in warm water before adding it to the flour. Water temperature matters: 32°C (90°F) is warm enough to activate the yeast without killing it. Above about 60°C the yeast dies. If the water is too hot to hold your hand in comfortably, let it cool before adding the yeast. If the mixture doesn’t look slightly foamy after 5-10 minutes, the yeast may be old or the water too hot. Start again with fresh yeast rather than continuing. Olive oil: Used three ways in this recipe: in the dough itself for flavour and to tenderise the crumb slightly, to coat the baking tray so the base fries and crisps rather than steaming, and drizzled over the top before baking for the golden, slightly crunchy surface. A neutral oil can substitute in the dough, but use a decent quality olive oil for the top and the tray coating, as those contribute directly to flavour. EquipmentLarge mixing bowlSmaller bowl or glass measuring jugTea towelRimmed baking tray (approx 30x40cm)Chopping board and chef’s knife (for cutting to serve)",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Lunch",
+        "Bread",
+        "Easy",
+        "Carbs"
+      ],
+      "ingredients": "600g (1 lb 5 oz) bread flour\n475ml of warm water\n7g (2 ¼ tsp) dry yeast\n12g (2 ½ tsp) cooking salt (kosher salt)\n60ml (4 tbsp) olive oil\nbig pinch of flaky salt",
+      "instructions": "Add your flour to a large bowl. In a smaller bowl or glass measuring jug, add 475ml (16 fl oz) of warm water (32°C / 90°F) and the dry yeast and mix until dissolved.\nAdd the water yeast mixture to the flour along with 2 tablespoons (30ml) of olive oil. Start mixing and then add in the cooking salt.\nMix your dough until combined. This is a high hydration dough, so you're not aiming for a smooth dough just mix until everything is incorporated and the flour is hydrated. Cover the bowl with a tea towel and let it rest for 30 minutes.\nAfter 30 minutes, uncover the dough. With a wet hand, stretch one corner of the dough and fold it over itself. Repeat 3-4 times until the dough is completely folded over itself. Cover the dough with a tea towel and let it rest for another 30 minutes. Repeat this process three more times.\nAfter the fourth and final round of stretching and folding, let the dough rest for 30 minutes. Prepare your baking tray by drizzling about 2 tablespoons (30ml) of olive oil in the bottom of the tray. Pour in the dough, which should be light and airy by now. Using well-oiled hands, stretch the dough to cover all corners of the tray. If it doesn't stretch fully, cover it with a tea towel, let it rest for 5 minutes, and try again. Once the dough fills the tray, cover with the tea towel and let it proof for 30 minutes.\nPreheat a fan-forced oven to 220°C (428°F) or a conventional oven to 240°C (464°F).\nAfter 30 minutes, remove the tea towel. Drizzle some more olive oil over the top and use your fingers to create dimples throughout the dough. Add a big pinch of flaky salt.\nPlace the bread in the oven and bake for 25-30 minutes or until golden brown and cooked through.",
+      "notes": "",
+      "nutrition": "Serving size: 6",
+      "yield_": "6 servings",
+      "prep_time": "PT4H",
+      "cook_time": "PT30M",
+      "total_time": "PT4H30M",
+      "prep_minutes": 240,
+      "cook_minutes": 30,
+      "total_minutes": 270,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260112015742-251210_focaccia-016_6ba46425-3471-43ca-80a6-2536eb44a889.jpg?v=1777359730",
+      "local_image": "",
+      "published_at": "2026-07-15T14:40:14+00:00",
+      "discovered_at": "2026-07-15T19:02:36.354752+00:00",
+      "content_hash": "22ed8e31b59d246900656eabaf2e792e78080c92",
+      "last_seen_at": "2026-07-15T19:02:36.354752+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
     "4acab3c56a711531bc771c4c95a7d44186db77ca": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/products/essential-scraper",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "d38b0067984842fe7d0d6593c05261a83739b85b": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/products/essential-tote",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "8894e6943d707bcd0e2d2f23c377a1e968feedfb": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/products/cooler-tote",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "25620f79c9ba6e0c7513cda12cdf890a0dfff17b": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/products/apron",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "3fc8b589925258f276e5a724cba9f1f1898a10c5": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/products/protein-press",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "c14d6fc358da5e96b9f81e0a2030e2dcbb13f96b": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/products/essential-bundle-copy",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "ed103badf250202fe60f77f6a628363c63fb874a": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/products/essential-scraper",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "c0b53138cfcbd8051243dcb4ac16089cd525e88d": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/products/essential-tote",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "f4568581a4bfea39892cb67ddab721b854d0268a": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/products/cooler-tote",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "e71f716c82f14cb8b86d21e5757a28543d76a767": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/products/apron",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "02f90a5ee7d0181f335483f821bcc28b6809d353": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/products/protein-press",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "43a16178e168fdbeef5e5b2a1770d7366ef8c6cd": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/products/essential-bundle-copy",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "470e93ab942534534fc1102eba28f7e0ab7b770c": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/products/essential-scraper",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "7a5bfef3fc95342a027628e481942ab2f5bc0a33": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/products/essential-tote",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "d5c5a531b2f40256c3f57a58c7a225e16e4d12e9": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/products/cooler-tote",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "822396698c2e005b0e70898373da5e8a03c8f4c2": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/products/apron",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "54440362262aaed314cdb8d62cda1ee140a5fbb4": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/products/protein-press",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "2b5c4cc4f55c1244bad128e167f116c4f1864174": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/products/essential-bundle-copy",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "eef562bb86327c7e8cd85f9b22f9a62eb566fc82": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/blogs/recipes",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "ecc3bad3d84c6f2658a130cfcd8bcbe5a92269f5": {
       "source": "justinesnacks",
       "source_url": "https://justinesnacks.com/8-make-ahead-fourth-of-july-recipes/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "ec334ce9388c28770516154e0be330814b5a8acf": {
       "source": "justinesnacks",
       "source_url": "https://justinesnacks.com/a-locally-conscious-guide-to-maui/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "a1c56a4ce8bae809e2c2a953cb4ecb4621207d42": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/tv/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "d503095b5d58c9554647658d354f1f6b92968d37": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/jamies-cookbook-club/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:17:30.289257+00:00",
-      "next_retry": "2026-07-15T17:17:30.289257+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "270b361ad6846ecbe941ba8d06debc0e4ca0ef0b": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/want-moist-fluffy-pancakes-dont-use-butter",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "7ae9ecd4adcc61b7e2c78f65aed83aa69a4ba82c": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/creamy-mac-amp-cheese-template-w-any-cheeses",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "acd16ba7f79321c410cbdc6960dd298d9a116e1f": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/double-decker-taco-discontinued-taco-bell",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "b97819a2a162f3e24df7c680817c9e51930ef38b": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/chicken-amp-tortilla-strip-salad",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "69918628eb101e9250e58393528160e26c2ca545": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/braised-beef-quesadilla",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "29bb3c3376d7084861270c03512678b4b9dd92cb": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/gordon-ramseys-viral-burger-fixed",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "e386362340474abd4f3f947c43acc39189d90da9": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/caesar-salad-amp-protein-freezer-meal-prep",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "f35b16086052524ed6fa807f4397f62d3f87bad8": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/japanese-beef-sandwich-amp-freezer-braised-meat-meal-prep",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "c4857db41da9fd68eeae0bd9d6d1204ae5ecc361": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/jambon-buerre-french-ham-amp-butter-sandwich",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "2c74bd5321163ad1b15e1ae4cf638947b08139f3": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/baguette-pizza",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "7797b51c746b9a9e5978d5dcacbb876e17da08c7": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/french-tacos",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "96961f1d0e03ba37d6934bf6b86a41bbb8b41a55": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/herb-lemon-garlic-yogurt-sauce",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "8041bc94ac1db5cb2d02ad9c628ee1537f61d79f": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/thai-basil-chicken-stir-fry",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "c123d6587c6804027ee17ef204dd95b4ce44526c": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/crunchy-chicken-quesadilla",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "3dde2cfc5ec1bef57a7d5d9e3d65c40759d41928": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/mexican-inspired-bento-box-lunch",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "72b23ae23f8644b7b36c924e770bb4abdf0b2d86": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/chicken-shishito-stir-fry",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "46f69b6bdc3ce97b8955b92a93c14740e038d2aa": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/crispy-garlic-rosemary-pasta-with-any-braised-meat",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "2746446974ac26eede01f99bffb12bc194147b7f": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/chicken-flatbread-wrap",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "d3fde19e8fb332a2a6073739dbe8ce7d7621aecf": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/crispy-chicken-thighs-with-roasted-sweet-potatoes",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "2b290d24332e772fb5fe94cf272b7c191b969259": {
       "source": "andycooks",
@@ -5254,23 +5326,23 @@
     "d9c00638d3d69944a2c9752c401e1eb6235d7aa1": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/new/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "8d26c16254cea5c87812cc524b9b619411abc2d8": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/jamies-ultimate-bbq/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     },
     "5a6e06692516636dc42749045ef9d0bb04ad58da": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/tv/jamies-feasts-for-a-fiver/",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:35:00.126614+00:00",
-      "next_retry": "2026-07-15T17:35:00.126614+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-15T19:02:36.354752+00:00",
+      "next_retry": "2026-07-19T19:02:36.354752+00:00"
     }
   }
 }
