@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 08:04:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 13:31:06 +0000</lastBuildDate>
+    <item>
+      <title>Vada Pav</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/vada-pav</link>
+      <description>A delicious Indian street food. — 4 servings · PT1H10M</description>
+      <guid isPermaLink="false">395e6133b0b0527f4b2cc189ed12c7fd4e6bcb6f</guid>
+      <pubDate>Thu, 16 Jul 2026 09:12:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vada Pav</title>
+      <link>https://www.andy-cooks.com/de/blogs/recipes/vada-pav</link>
+      <description>A delicious Indian street food. — 4 servings · PT1H10M</description>
+      <guid isPermaLink="false">01eb9f2fac8566335267c1117474d29e2ed47d8c</guid>
+      <pubDate>Thu, 16 Jul 2026 09:12:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vada Pav</title>
+      <link>https://www.andy-cooks.com/es/blogs/recipes/vada-pav</link>
+      <description>A delicious Indian street food. — 4 servings · PT1H10M</description>
+      <guid isPermaLink="false">2a7ff89bb3d32f1291e885c1b153077dbf453402</guid>
+      <pubDate>Thu, 16 Jul 2026 09:12:05 +0000</pubDate>
+    </item>
     <item>
       <title>Beef Stroganoff</title>
       <link>https://www.andy-cooks.com/blogs/recipes/beef-stroganoff</link>
@@ -687,27 +708,6 @@
       <description>These super-tasty fishcakes celebrate beautiful skipjack tuna, tinned at its absolute best. Topped with melty cheese, they're a real family favourite! — 4 servings · PT20M</description>
       <guid isPermaLink="false">74987b8e2ed49728f82f47bc95fbab78403e6386</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Salsa verde</title>
-      <link>https://www.jamieoliver.com/recipes/fish/salsa-verde/</link>
-      <description>Made with top-quality anchovies, this easy-to-make salsa verde is a great way to add big flavour to all kinds of dishes. Delicious! — 8 servings · PT10M</description>
-      <guid isPermaLink="false">ab11966c01b12e96e1a2c071d9379f3ec210ff3d</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pasta all’anciova e muddica</title>
-      <link>https://www.jamieoliver.com/recipes/pasta/pasta-all-anciova/</link>
-      <description>Discover Gennaro's traditional Sicilian bucatini dish with salted anchovies, rich tomato, and crunchy toasted breadcrumbs. — 4 servings</description>
-      <guid isPermaLink="false">b169f02145b26b3e18820aafe85ada1947183b5c</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Paniscia</title>
-      <link>https://www.jamieoliver.com/recipes/pasta-risotto/paniscia/</link>
-      <description>A traditional bean and sausage risotto from Piemonte. Try Gennaro's Paniscia – a nutritious, soul-warming meal perfect for a glass of red wine. — 4 servings</description>
-      <guid isPermaLink="false">68703c281a2b1d15e73b0187a9cc03c7b99ecc58</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
