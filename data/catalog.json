@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-07-15T19:02:36.354752+00:00",
-  "count": 131,
+  "generated_at": "2026-07-16T02:03:43.189282+00:00",
+  "count": 133,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5012,6 +5012,80 @@
       "last_seen_at": "2026-07-15T19:02:36.354752+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "64c0b0107448b32f6d3729f3726e5542d49597fd": {
+      "dedup_key": "64c0b0107448b32f6d3729f3726e5542d49597fd",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/de/blogs/recipes/no-knead-focaccia",
+      "page_url": "https://www.andy-cooks.com/de/blogs/recipes/no-knead-focaccia",
+      "mode": "link_through",
+      "category": "recipe",
+      "title": "Focaccia",
+      "text": "This is a recipe for a no-knead focaccia which makes is very easy for anyone to make at home. After reading this recipe (or watching the video), you'll know how to make a basic focaccia that's light, fluffy and has a great golden colour... and is delicious! You can use it for dipping bread, a nice starter with olive oil or make a sandwich with it which is my favourite way to use focaccia. Make sure you watch the video for visual instructions!The no-knead methodFor this recipe, we're using the stretch and fold method instead of kneading. As this is a high hydration dough, it would be very messy if you tried to knead it. We'll do four rounds of stretch and fold over two hours. Each fold allows us to work the gluten and to create a nice light dough with lots of little air pockets in it. With a stretch and fold, all you have to do is take one side of the dough and stretch it over to the other side. Now, rotate your bowl and repeat the same step another three times.DimplingThe dimpling step before baking is functional, not decorative. Pressing your fingers deep into the proofed dough pops larger gas bubbles and redistributes them into smaller, more even ones throughout the dough. The second drizzle of olive oil pools in the dimples and crisps the top surface as it bakes, giving focaccia its characteristic golden, slightly crunchy exterior. Ingredient NotesFlour: This is the main (and most important) ingredient. You want bread flour which is a high protein flour (around 12-13% vs 9-11%). The high protein gives focaccia it's structure as it develops more gluten when the dough is hydrated and worked. More gluten means more structure to trap the gas produced by the yeast, giving you a better rise and a chewier texture. Plain flour works as a substitute but the crumb will be softer and slightly denser. Don’t use self-raising flour. Dry yeast: The recipe dissolves the yeast in warm water before adding it to the flour. Water temperature matters: 32°C (90°F) is warm enough to activate the yeast without killing it. Above about 60°C the yeast dies. If the water is too hot to hold your hand in comfortably, let it cool before adding the yeast. If the mixture doesn’t look slightly foamy after 5-10 minutes, the yeast may be old or the water too hot. Start again with fresh yeast rather than continuing. Olive oil: Used three ways in this recipe: in the dough itself for flavour and to tenderise the crumb slightly, to coat the baking tray so the base fries and crisps rather than steaming, and drizzled over the top before baking for the golden, slightly crunchy surface. A neutral oil can substitute in the dough, but use a decent quality olive oil for the top and the tray coating, as those contribute directly to flavour. EquipmentLarge mixing bowlSmaller bowl or glass measuring jugTea towelRimmed baking tray (approx 30x40cm)Chopping board and chef’s knife (for cutting to serve)",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Lunch",
+        "Bread",
+        "Easy",
+        "Carbs"
+      ],
+      "ingredients": "600g (1 lb 5 oz) bread flour\n475ml of warm water\n7g (2 ¼ tsp) dry yeast\n12g (2 ½ tsp) cooking salt (kosher salt)\n60ml (4 tbsp) olive oil\nbig pinch of flaky salt",
+      "instructions": "Add your flour to a large bowl. In a smaller bowl or glass measuring jug, add 475ml (16 fl oz) of warm water (32°C / 90°F) and the dry yeast and mix until dissolved.\nAdd the water yeast mixture to the flour along with 2 tablespoons (30ml) of olive oil. Start mixing and then add in the cooking salt.\nMix your dough until combined. This is a high hydration dough, so you're not aiming for a smooth dough just mix until everything is incorporated and the flour is hydrated. Cover the bowl with a tea towel and let it rest for 30 minutes.\nAfter 30 minutes, uncover the dough. With a wet hand, stretch one corner of the dough and fold it over itself. Repeat 3-4 times until the dough is completely folded over itself. Cover the dough with a tea towel and let it rest for another 30 minutes. Repeat this process three more times.\nAfter the fourth and final round of stretching and folding, let the dough rest for 30 minutes. Prepare your baking tray by drizzling about 2 tablespoons (30ml) of olive oil in the bottom of the tray. Pour in the dough, which should be light and airy by now. Using well-oiled hands, stretch the dough to cover all corners of the tray. If it doesn't stretch fully, cover it with a tea towel, let it rest for 5 minutes, and try again. Once the dough fills the tray, cover with the tea towel and let it proof for 30 minutes.\nPreheat a fan-forced oven to 220°C (428°F) or a conventional oven to 240°C (464°F).\nAfter 30 minutes, remove the tea towel. Drizzle some more olive oil over the top and use your fingers to create dimples throughout the dough. Add a big pinch of flaky salt.\nPlace the bread in the oven and bake for 25-30 minutes or until golden brown and cooked through.",
+      "notes": "",
+      "nutrition": "Serving size: 6",
+      "yield_": "6 servings",
+      "prep_time": "PT4H",
+      "cook_time": "PT30M",
+      "total_time": "PT4H30M",
+      "prep_minutes": 240,
+      "cook_minutes": 30,
+      "total_minutes": 270,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260112015742-251210_focaccia-016_6ba46425-3471-43ca-80a6-2536eb44a889.jpg?v=1777359730",
+      "local_image": "",
+      "published_at": "2026-07-15T14:40:14+00:00",
+      "discovered_at": "2026-07-16T02:03:43.189282+00:00",
+      "content_hash": "22ed8e31b59d246900656eabaf2e792e78080c92",
+      "last_seen_at": "2026-07-16T02:03:43.189282+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "43339d522f83ca33c762dc2b77e51deedb2fb5ac": {
+      "dedup_key": "43339d522f83ca33c762dc2b77e51deedb2fb5ac",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/es/blogs/recipes/no-knead-focaccia",
+      "page_url": "https://www.andy-cooks.com/es/blogs/recipes/no-knead-focaccia",
+      "mode": "link_through",
+      "category": "recipe",
+      "title": "Focaccia",
+      "text": "This is a recipe for a no-knead focaccia which makes is very easy for anyone to make at home. After reading this recipe (or watching the video), you'll know how to make a basic focaccia that's light, fluffy and has a great golden colour... and is delicious! You can use it for dipping bread, a nice starter with olive oil or make a sandwich with it which is my favourite way to use focaccia. Make sure you watch the video for visual instructions!The no-knead methodFor this recipe, we're using the stretch and fold method instead of kneading. As this is a high hydration dough, it would be very messy if you tried to knead it. We'll do four rounds of stretch and fold over two hours. Each fold allows us to work the gluten and to create a nice light dough with lots of little air pockets in it. With a stretch and fold, all you have to do is take one side of the dough and stretch it over to the other side. Now, rotate your bowl and repeat the same step another three times.DimplingThe dimpling step before baking is functional, not decorative. Pressing your fingers deep into the proofed dough pops larger gas bubbles and redistributes them into smaller, more even ones throughout the dough. The second drizzle of olive oil pools in the dimples and crisps the top surface as it bakes, giving focaccia its characteristic golden, slightly crunchy exterior. Ingredient NotesFlour: This is the main (and most important) ingredient. You want bread flour which is a high protein flour (around 12-13% vs 9-11%). The high protein gives focaccia it's structure as it develops more gluten when the dough is hydrated and worked. More gluten means more structure to trap the gas produced by the yeast, giving you a better rise and a chewier texture. Plain flour works as a substitute but the crumb will be softer and slightly denser. Don’t use self-raising flour. Dry yeast: The recipe dissolves the yeast in warm water before adding it to the flour. Water temperature matters: 32°C (90°F) is warm enough to activate the yeast without killing it. Above about 60°C the yeast dies. If the water is too hot to hold your hand in comfortably, let it cool before adding the yeast. If the mixture doesn’t look slightly foamy after 5-10 minutes, the yeast may be old or the water too hot. Start again with fresh yeast rather than continuing. Olive oil: Used three ways in this recipe: in the dough itself for flavour and to tenderise the crumb slightly, to coat the baking tray so the base fries and crisps rather than steaming, and drizzled over the top before baking for the golden, slightly crunchy surface. A neutral oil can substitute in the dough, but use a decent quality olive oil for the top and the tray coating, as those contribute directly to flavour. EquipmentLarge mixing bowlSmaller bowl or glass measuring jugTea towelRimmed baking tray (approx 30x40cm)Chopping board and chef’s knife (for cutting to serve)",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Lunch",
+        "Bread",
+        "Easy",
+        "Carbs"
+      ],
+      "ingredients": "600g (1 lb 5 oz) bread flour\n475ml of warm water\n7g (2 ¼ tsp) dry yeast\n12g (2 ½ tsp) cooking salt (kosher salt)\n60ml (4 tbsp) olive oil\nbig pinch of flaky salt",
+      "instructions": "Add your flour to a large bowl. In a smaller bowl or glass measuring jug, add 475ml (16 fl oz) of warm water (32°C / 90°F) and the dry yeast and mix until dissolved.\nAdd the water yeast mixture to the flour along with 2 tablespoons (30ml) of olive oil. Start mixing and then add in the cooking salt.\nMix your dough until combined. This is a high hydration dough, so you're not aiming for a smooth dough just mix until everything is incorporated and the flour is hydrated. Cover the bowl with a tea towel and let it rest for 30 minutes.\nAfter 30 minutes, uncover the dough. With a wet hand, stretch one corner of the dough and fold it over itself. Repeat 3-4 times until the dough is completely folded over itself. Cover the dough with a tea towel and let it rest for another 30 minutes. Repeat this process three more times.\nAfter the fourth and final round of stretching and folding, let the dough rest for 30 minutes. Prepare your baking tray by drizzling about 2 tablespoons (30ml) of olive oil in the bottom of the tray. Pour in the dough, which should be light and airy by now. Using well-oiled hands, stretch the dough to cover all corners of the tray. If it doesn't stretch fully, cover it with a tea towel, let it rest for 5 minutes, and try again. Once the dough fills the tray, cover with the tea towel and let it proof for 30 minutes.\nPreheat a fan-forced oven to 220°C (428°F) or a conventional oven to 240°C (464°F).\nAfter 30 minutes, remove the tea towel. Drizzle some more olive oil over the top and use your fingers to create dimples throughout the dough. Add a big pinch of flaky salt.\nPlace the bread in the oven and bake for 25-30 minutes or until golden brown and cooked through.",
+      "notes": "",
+      "nutrition": "Serving size: 6",
+      "yield_": "6 servings",
+      "prep_time": "PT4H",
+      "cook_time": "PT30M",
+      "total_time": "PT4H30M",
+      "prep_minutes": 240,
+      "cook_minutes": 30,
+      "total_minutes": 270,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260112015742-251210_focaccia-016_6ba46425-3471-43ca-80a6-2536eb44a889.jpg?v=1777359730",
+      "local_image": "",
+      "published_at": "2026-07-15T14:40:14+00:00",
+      "discovered_at": "2026-07-16T02:03:43.189282+00:00",
+      "content_hash": "22ed8e31b59d246900656eabaf2e792e78080c92",
+      "last_seen_at": "2026-07-16T02:03:43.189282+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -5312,16 +5386,16 @@
     "2b290d24332e772fb5fe94cf272b7c191b969259": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/de/blogs/recipes",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-16T02:03:43.189282+00:00",
+      "next_retry": "2026-07-20T02:03:43.189282+00:00"
     },
     "5191e1222bcaf703af2b1b04fb45828b43278191": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/blogs/recipes",
-      "attempts": 1,
-      "last_attempt": "2026-07-13T17:26:49.966420+00:00",
-      "next_retry": "2026-07-15T17:26:49.966420+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-07-16T02:03:43.189282+00:00",
+      "next_retry": "2026-07-20T02:03:43.189282+00:00"
     },
     "d9c00638d3d69944a2c9752c401e1eb6235d7aa1": {
       "source": "jamieoliver",
