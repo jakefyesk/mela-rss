@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 08:02:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:16:48 +0000</lastBuildDate>
     <item>
       <title>Lasagna</title>
       <link>https://www.andy-cooks.com/blogs/recipes/lasagne</link>
@@ -147,6 +147,13 @@
       <link>https://www.andy-cooks.com/es/blogs/recipes/langos</link>
       <description>Lángos is a delicious fried flatbread from Hungary that you can cover in a mix of toppings like sour cream and cheese, mince, or sugar and cinnamon for a sweet option. Here's how to make it at home. — 6 servings · PT1H10M</description>
       <guid isPermaLink="false">5ac51abd20217770226c8e6754fef8cd8d94cf38</guid>
+      <pubDate>Fri, 17 Jul 2026 05:30:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blueberry Cobbler</title>
+      <link>https://www.andy-cooks.com/es/blogs/recipes/blueberry-cobbler</link>
+      <description>When you're in the mood for a quick, easy dessert make this blueberry cobbler. This warm and comforting dessert combines juicy frozen blueberries with a hint of lemon and cardamom, all baked under a soft, buttery topping made from scratch. It’s simple to throw together in just 10 minutes, then into the oven it goes. Perfect served warm with a scoop of ice cream – ideal for cosy nights or an easy crowd-pleaser. — 4 servings · PT50M</description>
+      <guid isPermaLink="false">e4558fbecbac8250aea3d67ac07e285244e95cb4</guid>
       <pubDate>Fri, 17 Jul 2026 05:30:46 +0000</pubDate>
     </item>
     <item>
@@ -350,13 +357,6 @@
       <link>https://www.andy-cooks.com/de/blogs/recipes/pea-ham-soup</link>
       <description>Pea &amp; ham soup is a dish I ate a lot of growing up. One side of my family is Dutch so my Oma use to make this all the time in the winter. It's a really easy soup to make, it just takes a bit of time to cook the split peas. You will need to prep the split peas the night before. Just place them in a large container and cover with water and pop in the fridge overnight. This allows them to soften and rehydrate before being cooked in the chicken stock. The cook will take about 2 and a half hours but you can pretty much set it and walk away. If you're making a small quantity, it won't take as long. Ingredient NotesGreen split peas: Split peas are hulled and split field peas. The splitting is what allows them to dissolve into the soup and thicken it without any added starch. Look for them in the dried pulses aisle at the supermarket. Yellow split peas are a direct substitute and have a slightly milder, sweeter flavour if you prefer.Smoked ham hocks: Make sure you’re buying smoked hocks rather than fresh, as the smoke is where most of the characteristic depth in this soup comes from. Two hocks for this quantity gives you the right ratio of meat to broth. We'll pull the ham hocks out before blitzing the soup and then adding the pieces of ham back in. You can use a pork bone leftover from a roast pork if you prefer, over the smoked ham hock. Chicken stock: The chicken adds more flavour into the soup and you can swap it out for a beef or veg stock A quality store-bought stock works fine here. If your stock is already salty, hold back on any extra seasoning until you have tasted the finished soup with the ham stirred through.EquipmentChopping boardChef’s knifeLarge container (for soaking peas)ColanderLarge pot with lidStick blenderWire rack and trayLadle — 6 servings · PT2H25M</description>
       <guid isPermaLink="false">b1316570bbe794a7df8ac08644e6cdcb2a37513c</guid>
-      <pubDate>Mon, 13 Jul 2026 07:43:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pea &amp; Ham Soup</title>
-      <link>https://www.andy-cooks.com/es/blogs/recipes/pea-ham-soup</link>
-      <description>Pea &amp; ham soup is a dish I ate a lot of growing up. One side of my family is Dutch so my Oma use to make this all the time in the winter. It's a really easy soup to make, it just takes a bit of time to cook the split peas. You will need to prep the split peas the night before. Just place them in a large container and cover with water and pop in the fridge overnight. This allows them to soften and rehydrate before being cooked in the chicken stock. The cook will take about 2 and a half hours but you can pretty much set it and walk away. If you're making a small quantity, it won't take as long. Ingredient NotesGreen split peas: Split peas are hulled and split field peas. The splitting is what allows them to dissolve into the soup and thicken it without any added starch. Look for them in the dried pulses aisle at the supermarket. Yellow split peas are a direct substitute and have a slightly milder, sweeter flavour if you prefer.Smoked ham hocks: Make sure you’re buying smoked hocks rather than fresh, as the smoke is where most of the characteristic depth in this soup comes from. Two hocks for this quantity gives you the right ratio of meat to broth. We'll pull the ham hocks out before blitzing the soup and then adding the pieces of ham back in. You can use a pork bone leftover from a roast pork if you prefer, over the smoked ham hock. Chicken stock: The chicken adds more flavour into the soup and you can swap it out for a beef or veg stock A quality store-bought stock works fine here. If your stock is already salty, hold back on any extra seasoning until you have tasted the finished soup with the ham stirred through.EquipmentChopping boardChef’s knifeLarge container (for soaking peas)ColanderLarge pot with lidStick blenderWire rack and trayLadle — 6 servings · PT2H25M</description>
-      <guid isPermaLink="false">e83255cdc19d57a441a4b864a9b163083d736c36</guid>
       <pubDate>Mon, 13 Jul 2026 07:43:06 +0000</pubDate>
     </item>
   </channel>

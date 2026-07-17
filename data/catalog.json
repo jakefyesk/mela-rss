@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-07-17T08:00:17.362091+00:00",
-  "count": 165,
+  "generated_at": "2026-07-17T13:15:40.214900+00:00",
+  "count": 166,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -6250,6 +6250,43 @@
       "discovered_at": "2026-07-17T08:00:17.362091+00:00",
       "content_hash": "eb88ea4c6e66be71cd6fb1a0cb869e9c170d2f0f",
       "last_seen_at": "2026-07-17T08:00:17.362091+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "e4558fbecbac8250aea3d67ac07e285244e95cb4": {
+      "dedup_key": "e4558fbecbac8250aea3d67ac07e285244e95cb4",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/es/blogs/recipes/blueberry-cobbler",
+      "page_url": "https://www.andy-cooks.com/es/blogs/recipes/blueberry-cobbler",
+      "mode": "link_through",
+      "category": "recipe",
+      "title": "Blueberry Cobbler",
+      "text": "When you're in the mood for a quick, easy dessert make this blueberry cobbler. This warm and comforting dessert combines juicy frozen blueberries with a hint of lemon and cardamom, all baked under a soft, buttery topping made from scratch. It’s simple to throw together in just 10 minutes, then into the oven it goes. Perfect served warm with a scoop of ice cream – ideal for cosy nights or an easy crowd-pleaser.",
+      "author": "Andy",
+      "cuisine": "British",
+      "categories": [
+        "Dessert",
+        "Sweet",
+        "Easy",
+        "Quick"
+      ],
+      "ingredients": "2 cups (300g) frozen blueberries\nzest and juice of 1 lemon\n½ tsp ground cardamom\n¾ cup caster sugar (165g)\n75g butter, diced\n1 cup self raising flour (150g)\n½ tsp fine sea salt\n¾ cup milk (180ml)\nice cream, to serve",
+      "instructions": "Preheat the oven to 175°C fan force (350°F).\nToss blueberries, lemon zest and juice, cardamom and ¼ cup of the sugar in a medium bowl.\nPlace the butter in a 1.75L baking dish in the oven to melt.\nCombine flour, salt, and remaining sugar in a medium bowl and whisk to combine. Whisk in milk, until smooth.\nRemove the dish from the oven and carefully pour the batter into melted butter. Sprinkle over blueberries in an even layer.\nBake for 35-40 minutes, until golden and a skewer inserted into the cake part comes out clean.\nServe warm with ice cream.",
+      "notes": "",
+      "nutrition": "Serving size: 4",
+      "yield_": "4 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT40M",
+      "total_time": "PT50M",
+      "prep_minutes": 10,
+      "cook_minutes": 40,
+      "total_minutes": 50,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20250519015910-andy-20cooks-20-20easy-20winter-20dessert-20blueberry-20cobbler_39cd0078-ce0f-43a4-b121-da96255f69d7.jpg?v=1775620982",
+      "local_image": "",
+      "published_at": "2026-07-17T05:30:46+00:00",
+      "discovered_at": "2026-07-17T13:15:40.214900+00:00",
+      "content_hash": "c86012763c63ac87f409259643d752346f7da601",
+      "last_seen_at": "2026-07-17T13:15:40.214900+00:00",
       "in_feed": true,
       "backfill": false
     }

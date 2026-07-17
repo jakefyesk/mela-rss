@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 08:02:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:16:48 +0000</lastBuildDate>
     <item>
       <title>Lasagna</title>
       <link>https://www.andy-cooks.com/blogs/recipes/lasagne</link>
@@ -147,6 +147,13 @@
       <link>https://www.andy-cooks.com/es/blogs/recipes/langos</link>
       <description>Lángos is a delicious fried flatbread from Hungary that you can cover in a mix of toppings like sour cream and cheese, mince, or sugar and cinnamon for a sweet option. Here's how to make it at home. — 6 servings · PT1H10M</description>
       <guid isPermaLink="false">5ac51abd20217770226c8e6754fef8cd8d94cf38</guid>
+      <pubDate>Fri, 17 Jul 2026 05:30:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blueberry Cobbler</title>
+      <link>https://www.andy-cooks.com/es/blogs/recipes/blueberry-cobbler</link>
+      <description>When you're in the mood for a quick, easy dessert make this blueberry cobbler. This warm and comforting dessert combines juicy frozen blueberries with a hint of lemon and cardamom, all baked under a soft, buttery topping made from scratch. It’s simple to throw together in just 10 minutes, then into the oven it goes. Perfect served warm with a scoop of ice cream – ideal for cosy nights or an easy crowd-pleaser. — 4 servings · PT50M</description>
+      <guid isPermaLink="false">e4558fbecbac8250aea3d67ac07e285244e95cb4</guid>
       <pubDate>Fri, 17 Jul 2026 05:30:46 +0000</pubDate>
     </item>
     <item>
@@ -701,13 +708,6 @@
       <description>There's a natural sweetness to corn that pairs really well with miso and scallions, which I love cooking down into a tender, fluffy rice. Putting a chili-glazed cod on top only takes a bit more time (and not much effort), and it leaves you with a balanced summer dinner that all takes place in one pan. — 4 servings · PT45M</description>
       <guid isPermaLink="false">45d44f008fcc60c6fa8d03cd6545092870b26fab</guid>
       <pubDate>Tue, 16 Jun 2026 14:47:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quick &amp; Easy Vodka Pasta</title>
-      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-vodka-pasta-cdc7e15a.html</link>
-      <description>Quick &amp; Easy Vodka Pasta</description>
-      <guid isPermaLink="false">cdc7e15a690233305955e10923cd29af43393730</guid>
-      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
