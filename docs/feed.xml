@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:16:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 19:00:44 +0000</lastBuildDate>
+    <item>
+      <title>Sungold Tomato Orzo with Crispy Basil Garlic</title>
+      <link>https://justinesnacks.com/sungold-tomato-orzo-with-crispy-basil-garlic/</link>
+      <description>4 servings · PT40M</description>
+      <guid isPermaLink="false">a1d26e346b839f9bcacecbe2570ad21e1525dad5</guid>
+      <pubDate>Fri, 17 Jul 2026 10:47:15 +0000</pubDate>
+    </item>
     <item>
       <title>Lasagna</title>
       <link>https://www.andy-cooks.com/blogs/recipes/lasagne</link>
@@ -701,13 +708,6 @@
       <description>This is a fun spin on a St. Louis classic. This recipe makes two ultra-thin "gooey butter cakes" and uses them as the outside layers for ice cream sandwiches. What you get is a super-plush ice cream sandwich which tastes like a frozen gooey butter cake. And in the summertime, that sounds pretty perfect to me. — 12 servings · PT5H35M</description>
       <guid isPermaLink="false">f0f7f92ec1d1d2cee850671251ebc6966f8f2518</guid>
       <pubDate>Sun, 21 Jun 2026 08:09:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Miso Corn Rice with Chili Cod</title>
-      <link>https://justinesnacks.com/miso-corn-rice-with-chili-oil-cod/</link>
-      <description>There's a natural sweetness to corn that pairs really well with miso and scallions, which I love cooking down into a tender, fluffy rice. Putting a chili-glazed cod on top only takes a bit more time (and not much effort), and it leaves you with a balanced summer dinner that all takes place in one pan. — 4 servings · PT45M</description>
-      <guid isPermaLink="false">45d44f008fcc60c6fa8d03cd6545092870b26fab</guid>
-      <pubDate>Tue, 16 Jun 2026 14:47:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
