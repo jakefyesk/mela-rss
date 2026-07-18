@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 07:41:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 13:02:51 +0000</lastBuildDate>
+    <item>
+      <title>Pickled eggs</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/pickled-eggs</link>
+      <description>Pickled eggs are a great snack and a great way to preserve your eggs. Here's how to make them. — 10 servings · PT20M</description>
+      <guid isPermaLink="false">56b5a9a17320daf44ddf3301516c3395dfbccd32</guid>
+      <pubDate>Sat, 18 Jul 2026 09:34:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pickled eggs</title>
+      <link>https://www.andy-cooks.com/de/blogs/recipes/pickled-eggs</link>
+      <description>Pickled eggs are a great snack and a great way to preserve your eggs. Here's how to make them. — 10 servings · PT20M</description>
+      <guid isPermaLink="false">ec270440ee815c7530619f9ec01d1d220405e06c</guid>
+      <pubDate>Sat, 18 Jul 2026 09:34:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pickled eggs</title>
+      <link>https://www.andy-cooks.com/es/blogs/recipes/pickled-eggs</link>
+      <description>Pickled eggs are a great snack and a great way to preserve your eggs. Here's how to make them. — 10 servings · PT20M</description>
+      <guid isPermaLink="false">db3207412d6081e2e5b052316f8dd872b41894f2</guid>
+      <pubDate>Sat, 18 Jul 2026 09:34:13 +0000</pubDate>
+    </item>
     <item>
       <title>Arancini ragu e piselli</title>
       <link>https://www.andy-cooks.com/es/blogs/recipes/arancini-ragu-e-piselli</link>
@@ -687,27 +708,6 @@
       <description>The Best French Dip Sandwich Ever</description>
       <guid isPermaLink="false">95b6eee2c96e26bbb70fcb064b405cc2e665f334</guid>
       <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sticky orange chicken</title>
-      <link>https://www.jamieoliver.com/recipes/chicken/sticky-orange-chicken/</link>
-      <description>Beautifully juicy Sticky orange chicken served with sweet potato mash, crispy rosemary and dressed watercress – a delicious dinner in just 20 minutes! — 2 servings · PT20M</description>
-      <guid isPermaLink="false">8685adfdad2ac5ca38c173baf38b3d73c24e8aaa</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Carbonara crouton salad</title>
-      <link>https://www.jamieoliver.com/recipes/salad/carbonara-crouton-salad/</link>
-      <description>Bright and fresh with the tastiest Carbonara-inspired croutons, this quick and easy salad can be rattled together in just 20 minutes. Yes please! — 2 servings · PT20M</description>
-      <guid isPermaLink="false">e796fd2950b8f43c0fba41dbafcf5c24988052fb</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pea, paneer &amp; potato curry</title>
-      <link>https://www.jamieoliver.com/recipes/pea-paneer-potato-curry/</link>
-      <description>This vibrant green curry, made with paneer, peas and potatoes, is a real joy to make and eat – and it only takes 20 minutes. Double win! — 2 servings · PT20M</description>
-      <guid isPermaLink="false">cdbc07c48b6ebbfbc543a8ccfd5ae86bea927ecf</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
