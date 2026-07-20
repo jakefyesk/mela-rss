@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-20T02:27:43.036955+00:00",
+  "generated_at": "2026-07-20T08:48:06.240117+00:00",
   "count": 191,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -7531,9 +7531,9 @@
     "5191e1222bcaf703af2b1b04fb45828b43278191": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/es/blogs/recipes",
-      "attempts": 2,
-      "last_attempt": "2026-07-16T02:03:43.189282+00:00",
-      "next_retry": "2026-07-20T02:03:43.189282+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-07-20T08:48:06.240117+00:00",
+      "next_retry": "2026-07-28T08:48:06.240117+00:00"
     },
     "d9c00638d3d69944a2c9752c401e1eb6235d7aa1": {
       "source": "jamieoliver",
