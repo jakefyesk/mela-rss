@@ -143,11 +143,12 @@ def _finalize_rehost(cfg, adapter, recipe: Recipe, http, docs_dir: Path, base_ur
     else:
         log.warning("[%s] no image for %s", cfg.name, recipe.source_url)
 
-    # Instagram: emit Recipe JSON-LD only when caption heuristics were confident;
-    # otherwise let Mela's ML importer read the visible caption we render.
-    emit_jsonld = True
-    if cfg.discovery == "instagram":
-        emit_jsonld = getattr(adapter, "confident", {}).get(recipe.dedup_key, False)
+    # Caption-parsed sources (Instagram, MindLink): emit Recipe JSON-LD only when
+    # the heuristics were confident (found both ingredients and steps); otherwise
+    # let Mela's ML importer read the visible text we render. Adapters without a
+    # `confident` map (the crawl sources, which have real JSON-LD) always emit.
+    confident = getattr(adapter, "confident", None)
+    emit_jsonld = True if confident is None else confident.get(recipe.dedup_key, False)
 
     html = rehost.render_recipe_page(recipe, emit_jsonld=emit_jsonld)
     page_path = docs_dir / relpath

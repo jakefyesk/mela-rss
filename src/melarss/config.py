@@ -13,7 +13,7 @@ import yaml
 
 from .models import Category, Mode
 
-VALID_DISCOVERY = {"sitemap", "native_feed", "chef_page", "instagram", "index_page"}
+VALID_DISCOVERY = {"sitemap", "native_feed", "chef_page", "instagram", "index_page", "mindlink"}
 
 
 @dataclass

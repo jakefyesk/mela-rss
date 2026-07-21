@@ -43,3 +43,27 @@ def test_feed_cap_respected():
     many = [r(f"k{i}", f"T{i}", f"https://src/{i}", datetime(2026, 1, i + 1, tzinfo=timezone.utc)) for i in range(10)]
     xml = feeds.build_feed("s", "S", "https://host/feed.xml", "https://host", many, 3).decode()
     assert xml.count("<item>") == 3
+
+
+def test_saved_via_emits_category_markers():
+    forwarded = Recipe(
+        dedup_key="m1",
+        source="mindlink",
+        source_url="https://src/m1",
+        mode=Mode.REHOST,
+        title="Saved One",
+        page_url="https://host/recipes/mindlink/m1.html",
+        saved_via="MindLink",
+        categories=["tofu"],
+        published_at=datetime(2026, 6, 2, tzinfo=timezone.utc),
+    )
+    xml = feeds.build_feed("m", "M", "https://host/m.xml", "https://host", [forwarded], 10).decode()
+    # provenance marker leads, then the user's own tags
+    assert "<category>MindLink</category>" in xml
+    assert "<category>tofu</category>" in xml
+
+
+def test_no_category_markers_for_normal_sources():
+    # a plain crawl recipe (no saved_via) must not gain <category> tags
+    xml = feeds.build_feed("s", "S", "https://host/feed.xml", "https://host", RECIPES, 10).decode()
+    assert "<category>" not in xml

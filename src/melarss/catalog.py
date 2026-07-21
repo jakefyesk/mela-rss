@@ -19,6 +19,7 @@ SCHEMA_VERSION = 1
 # Fields persisted for each recipe (order = readable diffs in git).
 _PERSISTED = [
     "dedup_key", "source", "source_url", "page_url", "mode", "category",
+    "saved_via",
     "title", "text", "author", "cuisine", "categories",
     "ingredients", "instructions", "notes", "nutrition", "yield_",
     "prep_time", "cook_time", "total_time",
@@ -71,6 +72,7 @@ def record_to_recipe(rec: dict) -> Recipe:
         source_url=rec["source_url"],
         mode=Mode(rec["mode"]),
         category=Category(rec.get("category", "recipe")),
+        saved_via=rec.get("saved_via", ""),
         title=rec.get("title", ""),
         text=rec.get("text", ""),
         ingredients=rec.get("ingredients", ""),

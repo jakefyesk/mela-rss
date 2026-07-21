@@ -14,6 +14,7 @@ from ..extract import extract_recipe
 from ..models import Recipe
 from . import index_page, mob_chef, native_feed, sitemap
 from .instagram import InstagramAdapter
+from .mindlink import MindLinkAdapter
 
 
 class GenericAdapter:
@@ -107,4 +108,6 @@ def _filter_entries(
 def make_adapter(cfg: SourceConfig, http, *, backfill: bool = False):
     if cfg.discovery == "instagram":
         return InstagramAdapter(cfg, http)
+    if cfg.discovery == "mindlink":
+        return MindLinkAdapter(cfg, http)
     return GenericAdapter(cfg, http, backfill=backfill)

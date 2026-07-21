@@ -30,6 +30,19 @@ def test_roundtrip_serialization(tmp_path):
     assert got.discovered_at == now
 
 
+def test_saved_via_roundtrips(tmp_path):
+    cat = Catalog()
+    now = datetime(2026, 7, 13, tzinfo=timezone.utc)
+    r = make()
+    r.saved_via = "MindLink"
+    cat.upsert(r, now)
+    path = tmp_path / "catalog.json"
+    cat.save(path, now)
+    got = Catalog.load(path).get_recipe("key1")
+    assert got.saved_via == "MindLink"
+    assert got.mela_categories()[0] == "MindLink"
+
+
 def test_upsert_preserves_discovered_at_and_page_url():
     cat = Catalog()
     t0 = datetime(2026, 1, 1, tzinfo=timezone.utc)

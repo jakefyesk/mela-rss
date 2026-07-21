@@ -100,7 +100,9 @@ def build_jsonld(recipe: Recipe) -> dict:
         "cookTime": recipe.cook_time or None,
         "totalTime": recipe.total_time or None,
         "recipeYield": recipe.yield_ or None,
-        "recipeCategory": recipe.categories or None,
+        # mela_categories() prepends the provenance marker ("MindLink") so a
+        # forwarded recipe is identifiable as a filterable category inside Mela.
+        "recipeCategory": recipe.mela_categories() or None,
         "recipeCuisine": recipe.cuisine or None,
         "recipeIngredient": ingredient_lines_no_headers(recipe.ingredients) or None,
         "recipeInstructions": [

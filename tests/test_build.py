@@ -323,6 +323,91 @@ def test_backfill_dates_existing_dateless_record_without_refetch(tmp_path, monke
     assert rec["published_at"].startswith("2026-03-15")
 
 
+# --- MindLink: forwarded recipes land tagged + identifiable ----------------
+
+ML_BASE = "https://mind-link.example"
+ML_LIST = f"{ML_BASE}/api/v1/items?type=recipe&limit=50"
+ML_DETAIL = f"{ML_BASE}/api/v1/items/ml-1"
+ML_ITEM = {
+    "id": "ml-1",
+    "title": "Gochujang Noodles",
+    "url": "https://www.instagram.com/p/ABC/",
+    "tags": ["noodles"],
+    "created_at": "2026-07-18T00:00:00Z",
+    "enriched_at": "2026-07-18T00:05:00Z",
+}
+ML_DETAIL_BODY = dict(
+    ML_ITEM,
+    summary="Fast spicy noodles.",
+    ocr_text="Gochujang Noodles\nIngredients:\n- 200g noodles\n- 2 tbsp gochujang\nMethod:\n1. Boil noodles.\n2. Toss in sauce.\n",
+    metadata={"author": "@chef"},
+    media=[{"kind": "thumbnail", "mime_type": "image/webp", "url": "https://storage/signed/ml.webp"}],
+)
+
+
+class MindLinkBuildFake(FakeHttp):
+    ROUTES = {
+        ML_LIST: json.dumps({"items": [ML_ITEM], "next_cursor": None}),
+        ML_DETAIL: json.dumps(ML_DETAIL_BODY),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+
+
+def test_mindlink_source_ingests_tagged_and_identifiable(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "Http", MindLinkBuildFake)
+    monkeypatch.setenv("MINDLINK_API_URL", ML_BASE)
+    monkeypatch.setenv("MINDLINK_TOKEN", "mlk_test")
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n"
+        "  - name: mindlink\n"
+        "    mode: rehost\n"
+        "    discovery: mindlink\n"
+        '    display_name: "MindLink"\n',
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog = tmp_path / "data" / "catalog.json"
+    summary = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    assert summary["added"] == 1
+    # rehosted page carries the badge + JSON-LD with the MindLink category
+    pages = list((docs / "recipes" / "mindlink").glob("*.html"))
+    assert pages
+    html = pages[0].read_text()
+    assert "Saved via MindLink" in html
+    assert "application/ld+json" in html
+    assert "MindLink" in html
+    # the recipe feed marks the item as saved via MindLink
+    recipes_xml = (docs / "recipes.xml").read_text()
+    assert "Gochujang Noodles" in recipes_xml
+    assert "<category>MindLink</category>" in recipes_xml
+
+
+def test_mindlink_source_unconfigured_is_skipped(tmp_path, monkeypatch):
+    # No token/url in the environment -> the source is a graceful no-op and the
+    # build still completes, writing a valid (empty) recipes feed.
+    monkeypatch.setattr(build, "Http", MindLinkBuildFake)
+    monkeypatch.delenv("MINDLINK_API_URL", raising=False)
+    monkeypatch.delenv("MINDLINK_TOKEN", raising=False)
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n"
+        "  - name: mindlink\n"
+        "    mode: rehost\n"
+        "    discovery: mindlink\n",
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog = tmp_path / "data" / "catalog.json"
+    summary = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    assert summary["added"] == 0
+    assert (docs / "recipes.xml").exists()
+
+
 # --- category feeds: recipes vs cocktails stay separate --------------------
 
 CAT_FEED_URL = "https://cook.example/feed"

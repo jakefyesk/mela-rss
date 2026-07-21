@@ -67,6 +67,23 @@ def test_render_page_without_jsonld_for_unconfident_instagram():
     assert "Test Bread" in html
 
 
+def test_saved_via_marker_in_jsonld_and_page():
+    r = make_recipe(source="mindlink", saved_via="MindLink", categories=["Tofu"])
+    ld = rehost.build_jsonld(r)
+    # provenance marker prepended so Mela shows a filterable "MindLink" category
+    assert ld["recipeCategory"] == ["MindLink", "Tofu"]
+    html = rehost.render_recipe_page(r, emit_jsonld=True)
+    assert "Saved via MindLink" in html  # visible badge/footer
+    assert "🔖" in html
+
+
+def test_no_saved_via_marker_for_normal_source():
+    ld = rehost.build_jsonld(make_recipe())  # no saved_via
+    assert ld["recipeCategory"] == ["Bread", "Baking"]  # unchanged
+    html = rehost.render_recipe_page(make_recipe(), emit_jsonld=True)
+    assert "Saved via" not in html
+
+
 def test_page_relpath_stable_and_collision_free():
     r = make_recipe()
     assert rehost.page_relpath(r) == "recipes/joshuaweissman/test-bread-k1.html"
