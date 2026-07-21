@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-07-21T13:25:43.321864+00:00",
-  "count": 196,
+  "generated_at": "2026-07-21T19:11:10.422140+00:00",
+  "count": 197,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -3328,7 +3328,7 @@
       "discovered_at": "2026-07-13T17:35:00.126614+00:00",
       "content_hash": "1812b54ef363971db031028aa0b6e240fd52a560",
       "last_seen_at": "2026-07-14T17:41:55.908019+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "5ebdf957e753472a49a4b512beef85dc1b3f4a1b": {
@@ -7412,6 +7412,43 @@
       "discovered_at": "2026-07-21T08:15:44.871783+00:00",
       "content_hash": "dc1e7e3e2997432edb8fe459ca88db0182e0fddb",
       "last_seen_at": "2026-07-21T08:15:44.871783+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "7992b6ef0051e51b72be2870bcfd5eea1352ceb0": {
+      "dedup_key": "7992b6ef0051e51b72be2870bcfd5eea1352ceb0",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/gochujang-tofu-mince",
+      "page_url": "https://justinesnacks.com/gochujang-tofu-mince/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Gochujang Tofu Mince",
+      "text": "This recipe is a simple way to get a ton of plant-based protein, and it's extremely flavorful, too. A common worry with crumbled tofu is that it will stick and burn to your pan, but this recipe uses a quick deglazing trick to make sure all those crispy, delicious brown bits end right where they need to be - which is hopefully in your dinner.",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion,Korean",
+      "categories": [
+        "Protein",
+        "tofu",
+        "vegan proteins"
+      ],
+      "ingredients": "1 cup white rice (uncooked)\n8-12 garlic cloves (grated)\n1/4 cup extra virgin olive oil\n1/4 cup gochujang paste\n2 tablespoons soy sauce\n2 tablespoons brown sugar\n1 (16 oz) pack extra firm tofu\n2 tablespoons rice wine vinegar\n1/4 cup scallions (for serving)\n1 lime (quartered, for serving)",
+      "instructions": "Cook 1 cup of white rice in a rice cooker or according to package instructions.\nGrate 8-12 garlic cloves, depending on your tolerance.\nIn a large pan over medium heat, add 1/4 cup of olive oil and the grated garlic. Cook, stirring often, for 2-3 minutes, or until the garlic is just beginning to turn light golden.\nImmediately add 1/4 cup of gochujang, 2 tablespoons of soy sauce, and 2 tablespoons of brown sugar. Mix this into a sauce.\nDrain the block of tofu and gently squeeze out any excess moisture over the sink, then crumble it directly into the sauce.\nCooking, coating the tofu in the sauce, for 6-8 minutes, or until it starts to get some brown charring on the bottom. You’ll see the tofu suck up the sauce immediately, then start to release moisture, once the moisture evaporates, the sauce will begin to soak into the tofu again.\nOnce you see brown crispy bits at the bottom of the pan, deglaze the pan by pouring in 2 tablespoons of rice vinegar. Mix and taste, adding more soy sauce as preferred.\nServe this tofu with rice, sliced scallions, and lime wedges.",
+      "notes": "",
+      "nutrition": "Calories: 482 kcal\nProtein: 20 g\nCarbs: 45 g\nFat: 26 g\nServing size: 5 oz",
+      "yield_": "3 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT15M",
+      "total_time": "PT25M",
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "total_minutes": 25,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/07/3-679A7313.jpg",
+      "local_image": "",
+      "published_at": "2026-07-21T10:43:59+00:00",
+      "discovered_at": "2026-07-21T19:11:10.422140+00:00",
+      "content_hash": "140e3ef688f55f11ab5d6c491b210e31359c9fb7",
+      "last_seen_at": "2026-07-21T19:11:10.422140+00:00",
       "in_feed": true,
       "backfill": false
     }
