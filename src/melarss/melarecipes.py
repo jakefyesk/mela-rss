@@ -29,7 +29,7 @@ def recipe_to_melarecipe(recipe: Recipe, http=None, *, include_image: bool = Tru
         "title": recipe.title,
         "text": recipe.text,
         "images": images,
-        "categories": [c for c in recipe.categories if "," not in c],
+        "categories": recipe.mela_categories(),
         "yield": recipe.yield_,
         "prepTime": recipe.prep_time,
         "cookTime": recipe.cook_time,

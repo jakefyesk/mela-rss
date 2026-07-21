@@ -60,7 +60,7 @@ class Http:
             time.sleep(self.delay - elapsed)
 
     # -- fetch -------------------------------------------------------------
-    def _fetch(self, url: str, binary: bool) -> bytes:
+    def _fetch(self, url: str, binary: bool, headers: dict | None = None) -> bytes:
         suffix = ".bin" if binary else ".txt"
         cache_path = self._cache_path(url, suffix)
         if cache_path and cache_path.exists():
@@ -70,7 +70,7 @@ class Http:
         for attempt in range(1, self.max_retries + 1):
             self._throttle()
             try:
-                resp = self.session.get(url, timeout=self.timeout)
+                resp = self.session.get(url, timeout=self.timeout, headers=headers)
                 self._last_request_at = time.monotonic()
                 resp.raise_for_status()
                 content = resp.content
@@ -88,9 +88,9 @@ class Http:
                     time.sleep(min(2 ** attempt, 16))
         raise HttpError(f"GET {url} failed after {self.max_retries} tries: {last_exc}")
 
-    def get(self, url: str) -> str:
-        raw = self._fetch(url, binary=False)
+    def get(self, url: str, headers: dict | None = None) -> str:
+        raw = self._fetch(url, binary=False, headers=headers)
         return raw.decode("utf-8", errors="replace")
 
-    def get_bytes(self, url: str) -> bytes:
-        return self._fetch(url, binary=True)
+    def get_bytes(self, url: str, headers: dict | None = None) -> bytes:
+        return self._fetch(url, binary=True, headers=headers)

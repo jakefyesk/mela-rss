@@ -32,12 +32,12 @@ class FakeHttp:
     def __init__(self, *args, **kwargs) -> None:  # noqa: D401 - drop-in for Http
         self.session = type("S", (), {"headers": {"User-Agent": "fake"}})()
 
-    def get(self, url: str) -> str:
+    def get(self, url: str, headers: dict | None = None) -> str:
         if url in self.ROUTES:
             return self.ROUTES[url]
         raise RuntimeError(f"FakeHttp: no route for {url}")
 
-    def get_bytes(self, url: str) -> bytes:
+    def get_bytes(self, url: str, headers: dict | None = None) -> bytes:
         if url in self.BINARY_ROUTES:
             return self.BINARY_ROUTES[url]
         if self.DEFAULT_IMAGE is not None:

@@ -139,17 +139,32 @@ def _finalize_rehost(cfg, adapter, recipe: Recipe, http, docs_dir: Path, base_ur
             recipe.local_image = img_rel
             recipe.image_url = f"{base_url}/{img_rel}"
         else:
+            # Rehost images are meant to be self-hosted; the source URL may be a
+            # short-lived signed/CDN URL (MindLink Storage, IG CDN), so don't bake
+            # it into the persisted catalog/feed/JSON-LD where it would rot.
             log.warning("[%s] image download failed for %s", cfg.name, recipe.source_url)
+            recipe.image_url = ""
     else:
         log.warning("[%s] no image for %s", cfg.name, recipe.source_url)
 
-    # Instagram: emit Recipe JSON-LD only when caption heuristics were confident;
-    # otherwise let Mela's ML importer read the visible caption we render.
-    emit_jsonld = True
-    if cfg.discovery == "instagram":
-        emit_jsonld = getattr(adapter, "confident", {}).get(recipe.dedup_key, False)
+    # Caption-parsed sources (Instagram, MindLink) emit Recipe JSON-LD only when
+    # the heuristics were confident (found both ingredients and steps); otherwise
+    # they let Mela's ML importer read the visible text. Adapters without a
+    # `confident` map (crawl sources, which have real JSON-LD) always emit.
+    #
+    # Exception: a *forwarded* recipe (saved_via) must stay identifiable inside
+    # Mela, whose only category surface is the JSON-LD recipeCategory — so always
+    # emit at least a marker card carrying its provenance ("MindLink"). Full when
+    # confident; otherwise name/image/category only, with no unreliable
+    # ingredients/steps (Mela still reads the visible caption on the page).
+    confident = getattr(adapter, "confident", None)
+    is_confident = True if confident is None else confident.get(recipe.dedup_key, False)
+    if recipe.saved_via:
+        emit_jsonld, full_jsonld = True, is_confident
+    else:
+        emit_jsonld, full_jsonld = is_confident, True
 
-    html = rehost.render_recipe_page(recipe, emit_jsonld=emit_jsonld)
+    html = rehost.render_recipe_page(recipe, emit_jsonld=emit_jsonld, full_jsonld=full_jsonld)
     page_path = docs_dir / relpath
     page_path.parent.mkdir(parents=True, exist_ok=True)
     page_path.write_text(html, encoding="utf-8")

@@ -64,6 +64,11 @@ def build_feed(
         fe.pubDate(_pubdate(recipe))
         if recipe.author:
             fe.author(name=recipe.author)
+        # Provenance marker: forwarded recipes (e.g. saved via MindLink) carry
+        # <category> tags so they're identifiable straight from the raw feed.
+        if recipe.saved_via:
+            for term in recipe.mela_categories():
+                fe.category(term=term)
 
     return fg.rss_str(pretty=True)
 

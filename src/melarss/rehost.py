@@ -83,7 +83,7 @@ def _human_duration(iso: str) -> str:
     return " ".join(parts)
 
 
-def build_jsonld(recipe: Recipe) -> dict:
+def build_jsonld(recipe: Recipe, full: bool = True) -> dict:
     ld = {
         "@context": "https://schema.org",
         "@type": "Recipe",
@@ -96,19 +96,29 @@ def build_jsonld(recipe: Recipe) -> dict:
             if recipe.published_at
             else (recipe.discovered_at.date().isoformat() if recipe.discovered_at else None)
         ),
-        "prepTime": recipe.prep_time or None,
-        "cookTime": recipe.cook_time or None,
-        "totalTime": recipe.total_time or None,
-        "recipeYield": recipe.yield_ or None,
-        "recipeCategory": recipe.categories or None,
-        "recipeCuisine": recipe.cuisine or None,
-        "recipeIngredient": ingredient_lines_no_headers(recipe.ingredients) or None,
-        "recipeInstructions": [
-            {"@type": "HowToStep", "position": i + 1, "text": text}
-            for i, text in enumerate(instruction_steps(recipe.instructions))
-        ]
-        or None,
+        # mela_categories() prepends the provenance marker ("MindLink") so a
+        # forwarded recipe is identifiable as a filterable category inside Mela.
+        # Kept even in the minimal card below — it's the whole point of the card.
+        "recipeCategory": recipe.mela_categories() or None,
     }
+    if full:
+        # The confident, structured recipe. Omitted for a marker-only card (weak
+        # caption heuristics) so Mela doesn't import unreliable ingredients/steps.
+        ld.update(
+            {
+                "prepTime": recipe.prep_time or None,
+                "cookTime": recipe.cook_time or None,
+                "totalTime": recipe.total_time or None,
+                "recipeYield": recipe.yield_ or None,
+                "recipeCuisine": recipe.cuisine or None,
+                "recipeIngredient": ingredient_lines_no_headers(recipe.ingredients) or None,
+                "recipeInstructions": [
+                    {"@type": "HowToStep", "position": i + 1, "text": text}
+                    for i, text in enumerate(instruction_steps(recipe.instructions))
+                ]
+                or None,
+            }
+        )
     return {k: v for k, v in ld.items() if v is not None}
 
 
@@ -128,11 +138,13 @@ def _escape_for_script(json_str: str) -> str:
     )
 
 
-def render_recipe_page(recipe: Recipe, emit_jsonld: bool = True) -> str:
+def render_recipe_page(
+    recipe: Recipe, emit_jsonld: bool = True, full_jsonld: bool = True
+) -> str:
     jsonld = ""
     if emit_jsonld:
         jsonld = _escape_for_script(
-            json.dumps(build_jsonld(recipe), ensure_ascii=False, indent=2)
+            json.dumps(build_jsonld(recipe, full=full_jsonld), ensure_ascii=False, indent=2)
         )
     # Attach a display-only human duration without mutating the dataclass.
     recipe.total_time_human = _human_duration(recipe.total_time)  # type: ignore[attr-defined]

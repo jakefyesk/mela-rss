@@ -19,6 +19,9 @@
     img { max-width: 100%; height: auto; border-radius: 8px; }
     h1 { margin-bottom: .25rem; }
     .meta { color: #666; font-size: .9rem; margin-bottom: 1rem; }
+    .badge { display: inline-block; font-size: .8rem; font-weight: 600;
+             color: #0a58ca; background: #eaf1ff; border: 1px solid #cfe0ff;
+             border-radius: 999px; padding: .15rem .6rem; margin-bottom: .5rem; }
     .group { font-weight: 600; margin-top: .75rem; }
     footer { margin-top: 2rem; font-size: .85rem; color: #888; }
     a { color: #0a58ca; }
@@ -26,6 +29,7 @@
 </head>
 <body>
   <article>
+    {% if recipe.saved_via %}<div class="badge">🔖 Saved via {{ recipe.saved_via }}</div>{% endif %}
     <h1>{{ recipe.title }}</h1>
     <p class="meta">
       {% if recipe.author %}By {{ recipe.author }}{% endif %}
@@ -53,6 +57,7 @@
 
     <footer>
       Curated by <strong>mela-rss</strong> for the Mela app.
+      {% if recipe.saved_via %}Saved via <strong>{{ recipe.saved_via }}</strong>.{% endif %}
       {% if recipe.source_url %}Source: <a href="{{ recipe.source_url }}">{{ recipe.source }}</a>.{% endif %}
     </footer>
   </article>

@@ -66,6 +66,23 @@ class Recipe:
     cook_minutes: int | None = None
     total_minutes: int | None = None
 
+    # --- provenance ---
+    # Name of the upstream app this recipe was *forwarded* from (e.g. "MindLink"),
+    # as opposed to `source` which is the sources.yaml roster name. Empty for the
+    # normal crawl sources. When set it surfaces as an identifiable marker: a Mela
+    # `recipeCategory`, an RSS <category>, and a badge on the rehosted page.
+    saved_via: str = ""
+
     def mela_id(self) -> str:
         """Required, non-empty melarecipe identifier."""
         return self.dedup_key
+
+    def mela_categories(self) -> list[str]:
+        """Comma-free Mela categories, with the provenance marker (e.g. "MindLink")
+        prepended when this recipe was forwarded from an upstream app. Mela shows
+        these as filterable chips, so the marker is how the user identifies a
+        recipe they saved via that app. Used by the JSON-LD page and the bundle."""
+        cats = [c for c in self.categories if "," not in c]
+        if self.saved_via and self.saved_via not in cats:
+            return [self.saved_via, *cats]
+        return cats

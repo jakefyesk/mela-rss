@@ -44,6 +44,9 @@ jobs:
           BASE_URL: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
           BACKFILL: ${{ github.event.inputs.backfill }}
           IG_OEMBED_TOKEN: ${{ secrets.IG_OEMBED_TOKEN }}   # optional
+          # MindLink integration (optional): pull recipes you saved via MindLink.
+          MINDLINK_API_URL: ${{ vars.MINDLINK_API_URL }}    # e.g. https://mind-link.vercel.app
+          MINDLINK_TOKEN: ${{ secrets.MINDLINK_TOKEN }}     # API token, `read` scope
         run: |
           ARGS=""
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then ARGS="--backfill"; fi

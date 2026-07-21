@@ -88,6 +88,37 @@ pipeline as finntonry — see below). Each has a seed file under `sources/`.
 Add a source by editing `sources.yaml` — usually no code needed. Add a cocktail
 by pasting an Instagram caption into that source's seed file (see below).
 
+### MindLink (recipes you saved yourself)
+
+[MindLink](https://github.com/jakefyesk/MindLink) is a private "save anything"
+hub: you share a recipe from your phone, it's auto-classified as a `recipe`, and
+kept in your library. The **`mindlink`** source pulls those recipes into the
+feeds so anything you save shows up in Mela — tagged so you can tell it apart
+from the crawled sources.
+
+Every MindLink recipe is marked **Saved via MindLink** three ways:
+
+- a **`MindLink` category** in the recipe's JSON-LD → shows as a filterable
+  category chip *inside the Mela app*;
+- a `<category>MindLink</category>` on the RSS `<item>` (visible in any feed
+  reader); and
+- a **🔖 Saved via MindLink** badge on the rehosted recipe page.
+
+It's a **pull**: each 6-hourly build asks MindLink's REST API for its recipes
+(only genuinely new ones cost a detail fetch), parses the recipe from the saved
+caption/OCR text with the same free heuristics as the Instagram sources, and
+rehosts it. Configure it with two repo settings (Settings → Secrets and
+variables → Actions) — leave them unset and the source is simply a no-op:
+
+| Kind     | Name               | Value                                                   |
+| -------- | ------------------ | ------------------------------------------------------- |
+| Variable | `MINDLINK_API_URL` | your MindLink base URL, e.g. `https://mind-link.vercel.app` |
+| Secret   | `MINDLINK_TOKEN`   | a MindLink API token with the `read` scope              |
+
+Mint the token in MindLink under **Settings → API tokens**. See
+[MindLink → docs/integrations.md](https://github.com/jakefyesk/MindLink/blob/main/docs/integrations.md)
+for the other direction (its push webhooks, REST API, and MCP server).
+
 ### finntonry / Instagram (free, no paid API)
 
 Instagram has no recipe page for Mela to read, so it's a **rehost** source and
