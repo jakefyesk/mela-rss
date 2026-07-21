@@ -148,6 +148,31 @@ def test_pagination_follows_cursor():
     assert refs == [f"mindlink://item/{i}" for i in ("a", "b", "c")]
 
 
+def test_pagination_terminates_on_nonadvancing_cursor():
+    # A misbehaving API that returns the same already-seen item with a constant,
+    # non-null cursor must NOT hang the build — discover() bounds itself.
+    dup = {"id": "dup", "title": "Dup"}
+    page = json.dumps({"items": [dup], "next_cursor": "SAME"})
+    fake = MindLinkFake({_list_url(): page, _list_url("SAME"): page})
+    ad = MindLinkAdapter(_cfg(), fake)
+    refs = ad.discover()
+    assert refs == ["mindlink://item/dup"]  # deduped, returned once
+    assert len(fake.calls) <= 4  # bounded, not an infinite loop
+
+
+def test_empty_content_item_is_skipped():
+    # An item with no title, no image, and no body must be skipped (not published
+    # as an "Untitled recipe" junk entry).
+    empty = {"id": "e1"}
+    fake = MindLinkFake({
+        _list_url(): json.dumps({"items": [empty], "next_cursor": None}),
+        _detail_url("e1"): json.dumps({"id": "e1"}),
+    })
+    ad = MindLinkAdapter(_cfg(), fake)
+    refs = ad.discover()
+    assert ad.fetch_and_parse(refs[0]) is None
+
+
 def test_detail_fetch_failure_degrades_to_list_row():
     # detail endpoint is missing -> adapter falls back to the list projection and
     # still produces a page (title + no body -> unconfident, Mela's ML reads it).

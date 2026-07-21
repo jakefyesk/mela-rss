@@ -386,6 +386,75 @@ def test_mindlink_source_ingests_tagged_and_identifiable(tmp_path, monkeypatch):
     assert "<category>MindLink</category>" in recipes_xml
 
 
+ML_UNCONFIDENT_ITEM = {"id": "ml-2", "title": "Mystery Dish", "created_at": "2026-07-18T00:00:00Z"}
+ML_UNCONFIDENT_DETAIL = dict(
+    ML_UNCONFIDENT_ITEM,
+    summary="Looks tasty.",
+    ocr_text="just a vibe, no recipe structure here",  # -> caption parse unconfident
+    media=[{"kind": "thumbnail", "mime_type": "image/webp", "url": "https://storage/signed/ml2.webp"}],
+)
+
+
+class MindLinkUnconfidentFake(FakeHttp):
+    ROUTES = {
+        ML_LIST: json.dumps({"items": [ML_UNCONFIDENT_ITEM], "next_cursor": None}),
+        f"{ML_BASE}/api/v1/items/ml-2": json.dumps(ML_UNCONFIDENT_DETAIL),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+
+
+def test_mindlink_unconfident_recipe_still_carries_marker(tmp_path, monkeypatch):
+    # Even when caption heuristics can't extract a recipe, the built page must
+    # emit a marker JSON-LD so "MindLink" reaches Mela — but without unreliable
+    # ingredients/steps.
+    monkeypatch.setattr(build, "Http", MindLinkUnconfidentFake)
+    monkeypatch.setenv("MINDLINK_API_URL", ML_BASE)
+    monkeypatch.setenv("MINDLINK_TOKEN", "mlk_test")
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n  - name: mindlink\n    mode: rehost\n    discovery: mindlink\n",
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    build.run(str(sources), str(docs), str(tmp_path / "data" / "catalog.json"), "https://host.example")
+    html = list((docs / "recipes" / "mindlink").glob("*.html"))[0].read_text()
+    assert "application/ld+json" in html
+    assert '"recipeCategory"' in html
+    assert "MindLink" in html
+    assert "recipeIngredient" not in html  # unreliable structure withheld
+
+
+class MindLinkNoImageFake(FakeHttp):
+    ROUTES = {
+        ML_LIST: json.dumps({"items": [ML_ITEM], "next_cursor": None}),
+        ML_DETAIL: json.dumps(ML_DETAIL_BODY),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = None  # every image download fails
+
+
+def test_mindlink_image_failure_does_not_persist_expiring_url(tmp_path, monkeypatch):
+    # A signed Storage URL that fails to self-host must NOT be baked into the
+    # catalog/feed (it would expire); image_url is dropped instead.
+    monkeypatch.setattr(build, "Http", MindLinkNoImageFake)
+    monkeypatch.setenv("MINDLINK_API_URL", ML_BASE)
+    monkeypatch.setenv("MINDLINK_TOKEN", "mlk_test")
+    sources = tmp_path / "sources.yaml"
+    sources.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n  - name: mindlink\n    mode: rehost\n    discovery: mindlink\n",
+        encoding="utf-8",
+    )
+    docs = tmp_path / "docs"
+    catalog = tmp_path / "data" / "catalog.json"
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    rec = next(iter(json.loads(catalog.read_text())["recipes"].values()))
+    assert rec["image_url"] == ""  # expiring signed URL not persisted
+    assert "storage/signed" not in (docs / "recipes.xml").read_text()
+
+
 def test_mindlink_source_unconfigured_is_skipped(tmp_path, monkeypatch):
     # No token/url in the environment -> the source is a graceful no-op and the
     # build still completes, writing a valid (empty) recipes feed.

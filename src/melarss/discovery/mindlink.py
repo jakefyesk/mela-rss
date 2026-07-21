@@ -112,15 +112,18 @@ class MindLinkAdapter:
             return []
 
         limit = self._limit()
+        max_pages = limit // _PAGE_SIZE + 2  # hard cap; belt-and-suspenders below
         refs: list[str] = []
         cursor: str | None = None
+        seen_cursors: set[str] = set()
         try:
-            while len(refs) < limit:
+            for _ in range(max_pages):
                 url = f"{self.base}/api/v1/items?type=recipe&limit={_PAGE_SIZE}"
                 if cursor:
                     url += f"&cursor={quote(cursor)}"
                 data = self._get_json(url)
                 items = data.get("items") or []
+                before = len(refs)
                 for row in items:
                     rid = row.get("id")
                     if not rid:
@@ -134,8 +137,18 @@ class MindLinkAdapter:
                         self.date_hints[ref] = hint
                     refs.append(ref)
                 cursor = data.get("next_cursor")
-                if not cursor or not items:
+                # Stop on the last page, an empty page, once we have enough, or —
+                # crucially — when a page makes no progress or the cursor doesn't
+                # advance. A misbehaving/hostile API must never hang the build.
+                if (
+                    not cursor
+                    or not items
+                    or len(refs) == before
+                    or len(refs) >= limit
+                    or cursor in seen_cursors
+                ):
                     break
+                seen_cursors.add(cursor)
         except Exception as exc:  # noqa: BLE001 — degrade to whatever we collected
             log.warning("[%s] MindLink discovery failed: %s", self.name, exc)
 
@@ -171,10 +184,13 @@ class MindLinkAdapter:
         parsed = caption_mod.parse_caption(body) if body else caption_mod.ParsedCaption()
 
         image_url = _pick_image(media)
+        # Skip genuinely empty items *before* applying the "Untitled recipe"
+        # fallback (otherwise the fallback makes the guard unreachable and we'd
+        # publish a contentless junk entry).
+        if not ((title or parsed.title).strip() or image_url or body):
+            return None
         # Prefer MindLink's clean enriched title; fall back to the parsed one.
         final_title = title or parsed.title or "Untitled recipe"
-        if not (final_title.strip() or image_url or body):
-            return None
 
         author = ""
         if isinstance(metadata, dict):

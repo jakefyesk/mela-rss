@@ -77,6 +77,22 @@ def test_saved_via_marker_in_jsonld_and_page():
     assert "🔖" in html
 
 
+def test_minimal_jsonld_keeps_marker_drops_unreliable_recipe():
+    # When caption parsing was unconfident, a forwarded recipe still emits a
+    # marker card: name + image + recipeCategory (with MindLink), but NO
+    # ingredients/steps (so Mela doesn't import unreliable structure).
+    r = make_recipe(source="mindlink", saved_via="MindLink", categories=["Tofu"])
+    ld = rehost.build_jsonld(r, full=False)
+    assert ld["recipeCategory"] == ["MindLink", "Tofu"]
+    assert ld["name"] == "Test Bread"
+    assert "recipeIngredient" not in ld
+    assert "recipeInstructions" not in ld
+    # and it renders as valid escaped JSON-LD
+    html = rehost.render_recipe_page(r, emit_jsonld=True, full_jsonld=False)
+    assert "application/ld+json" in html
+    assert "MindLink" in html
+
+
 def test_no_saved_via_marker_for_normal_source():
     ld = rehost.build_jsonld(make_recipe())  # no saved_via
     assert ld["recipeCategory"] == ["Bread", "Baking"]  # unchanged
