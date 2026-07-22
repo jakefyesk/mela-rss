@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 13:30:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 19:06:29 +0000</lastBuildDate>
+    <item>
+      <title>The Best Orange Chicken Ever</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-orange-chicken-ever-aa1f1049.html</link>
+      <description>The Best Orange Chicken Ever</description>
+      <guid isPermaLink="false">aa1f1049cab4153d27c59deea3d112e2a0d0dc3c</guid>
+      <pubDate>Wed, 22 Jul 2026 14:09:39 +0000</pubDate>
+    </item>
     <item>
       <title>Cooking Tools Everyone Needs</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/cooking-tools-everyone-needs-ce4377d3.html</link>
