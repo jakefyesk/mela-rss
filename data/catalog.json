@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-26T19:02:14.156886+00:00",
+  "generated_at": "2026-07-27T02:25:07.778851+00:00",
   "count": 213,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -8409,6 +8409,27 @@
       "attempts": 1,
       "last_attempt": "2026-07-19T02:07:18.827942+00:00",
       "next_retry": "2026-07-21T02:07:18.827942+00:00"
+    },
+    "5ef30e53a851c5f6585604d520f8bb469dc5bdbd": {
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/kimchi-jjigae-kimchi-stew",
+      "attempts": 1,
+      "last_attempt": "2026-07-27T02:25:07.778851+00:00",
+      "next_retry": "2026-07-29T02:25:07.778851+00:00"
+    },
+    "54846f1751c3c48cae93a5734d2455710072d443": {
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/de/blogs/recipes/kimchi-jjigae-kimchi-stew",
+      "attempts": 1,
+      "last_attempt": "2026-07-27T02:25:07.778851+00:00",
+      "next_retry": "2026-07-29T02:25:07.778851+00:00"
+    },
+    "49111d77c46281beafef41a468a23ddd0982b27f": {
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/es/blogs/recipes/kimchi-jjigae-kimchi-stew",
+      "attempts": 1,
+      "last_attempt": "2026-07-27T02:25:07.778851+00:00",
+      "next_retry": "2026-07-29T02:25:07.778851+00:00"
     }
   }
 }
