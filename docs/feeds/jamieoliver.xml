@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 13:55:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 19:22:46 +0000</lastBuildDate>
     <item>
       <title>Golden chicken &amp; garlicky beans</title>
       <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans</link>
@@ -332,6 +332,13 @@
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Bat crackers</title>
+      <link>https://www.jamieoliver.com/recipes/halloween/bat-crackers</link>
+      <description>Put on a ghoulishly good Halloween spread with these fun bat crackers! Paired with a pea and mint dip, they're a guaranteed hit with kids and adults alike. — 6 servings · PT10M</description>
+      <guid isPermaLink="false">27e845ceb564d0a5b1ac5ddc06695fc2aea3fe20</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Easy fish &amp; chips</title>
       <link>https://www.jamieoliver.com/recipes/fish/easy-fish-and-chips</link>
       <description>This recipe heroes frozen and store-cupboard ingredients, and is budget-friendly too! Fish Friday never looked better. — 2 servings · PT45M</description>
@@ -351,13 +358,6 @@
       <description>Making the most of frozen veg, this lovely one-pan lasagne is a joy to make and eat. — 6 servings · PT45M</description>
       <guid isPermaLink="false">eb8761113213c3c73ffad0e218e7d11c855b2739</guid>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cheat’s mango ice cream</title>
-      <link>https://www.jamieoliver.com/recipes/fruit/cheats-mango-ice-cream/</link>
-      <description>Rattled together in a couple of minutes, you won’t believe how tasty and refreshing this cheat’s ice cream recipe is. — 8 servings · PT5M</description>
-      <guid isPermaLink="false">9c05722d329631d1e11ff979a1c15bd3e4ae4815</guid>
-      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
