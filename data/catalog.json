@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T13:51:11.766079+00:00",
-  "count": 252,
+  "generated_at": "2026-08-06T23:53:08.385165+00:00",
+  "count": 253,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -7040,7 +7040,7 @@
       "discovered_at": "2026-07-19T02:07:18.827942+00:00",
       "content_hash": "c75af45206719b6619b1b730f0d52fea88d9ee0e",
       "last_seen_at": "2026-07-19T02:07:18.827942+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "3c833e2dd2537daa5d7265da90f92e40a4b8aac7": {
@@ -9527,6 +9527,47 @@
       "discovered_at": "2026-08-06T13:51:11.766079+00:00",
       "content_hash": "ebb254e8b154e16521c14461867406d3f1febdf0",
       "last_seen_at": "2026-08-06T13:51:11.766079+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "e738c0300f952d11b79cb71c63647e101df276ee": {
+      "dedup_key": "e738c0300f952d11b79cb71c63647e101df276ee",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/grilled-tofu-skewers-with-cilantro-and-lime",
+      "page_url": "https://justinesnacks.com/grilled-tofu-skewers-with-cilantro-and-lime/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Grilled Tofu Skewers with Cilantro and Lime",
+      "text": "",
+      "author": "Justine Snacks Admin Team",
+      "cuisine": "American,Fusion",
+      "categories": [
+        "Lunch",
+        "Main Course",
+        "Protein",
+        "grilled tofu",
+        "tofu kabobs",
+        "tofu skewers",
+        "vegan skewers"
+      ],
+      "ingredients": "# For the skewers\n1 (16 oz) package extra-firm tofu\n1 small (8 oz) red onion\n1 medium (8 oz) red bell pepper\n# For the glaze\n2 garlic cloves\n1 small thai red chili (chopped, omit if you don’t like spice)\n2 tablespoons tomato paste\n3 tablespoons soy sauce\n1 tablespoon Worcestershire sauce\n2 tablespoons honey\n1 tablespoon rice vinegar\n# For the cilantro shallot topping\n1 cup (2 oz) cilantro\n1 small (1.5 oz) shallot\n2 tablespoons lime juice (about 1 lime)\n1/2 teaspoon sugar\n1/2 teaspoon salt\n1/2 teaspoon pepper\n2 tablespoons extra-virgin olive oil",
+      "instructions": "If you’re using wooden skewers, soak them in water for 30 minutes while you prepare the rest of the recipe.\nDrain the tofu and press out the moisture. Slice into 10 squares, each 1-inch thick. Lay these on a sheet pan lined with paper towels. Place more paper towels (or a lint-free dish towel) on top and press down with books while you prepare the vegetables.\nQuarter the red onion and slice the bell pepper into 2-inch squares.\nMake five skewers, each with two pieces of tofu. Layer the red onion and bell peppers in between as you like. Set aside.\nMake the glaze. Grate in the 2 garlic cloves, then add the chili, 2 tablespoons of tomato paste, 3 tablespoons of soy sauce, 1 tablespoon of Worcestershire sauce, 2 tablespoons of honey, and 1 tablespoon of rice vinegar to a small pan.\nPlace over medium heat and bring to a simmer for about 30 seconds, just until the honey melts into the glaze.\nUse a basting brush to coat the skewers with one layer of the glaze all over. There will be glaze leftover for grilling.\nMake the cilantro shallot sauce. Finely chop 1 cup of cilantro and thinly slice 1 small shallot. Add these to a medium bowl and add 2 tablespoons of lime juice, 1/2 teaspoon of sugar, 1/2 teaspoon each of salt and pepper, and 2 tablespoons extra-virgin olive oil. Toss to combine.\nGrill the tofu skewers over high heat for 3 minutes on each side, rotating when the tofu naturally releases from the grates, brushing with more glaze as needed. Remove from the heat when all four sides of the skewers are nicely charred.\nSpoon the cilantro sauce over the skewers and serve warm.",
+      "notes": "",
+      "nutrition": "Calories: 562 kcal\nProtein: 31 g\nCarbs: 42 g\nFat: 27 g\nServing size: 2.5 skewers",
+      "yield_": "2 servings",
+      "prep_time": "PT30M",
+      "cook_time": "PT15M",
+      "total_time": "PT45M",
+      "prep_minutes": 30,
+      "cook_minutes": 15,
+      "total_minutes": 45,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/08/7-679A7620.jpg",
+      "local_image": "",
+      "published_at": "2026-08-06T11:09:22+00:00",
+      "discovered_at": "2026-08-06T23:53:08.385165+00:00",
+      "content_hash": "9ebddc2d6907ca9c49ee60a7fe90a3c7491c5615",
+      "last_seen_at": "2026-08-06T23:53:08.385165+00:00",
       "in_feed": true,
       "backfill": false
     }
