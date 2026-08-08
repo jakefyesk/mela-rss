@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-08T06:40:38.435567+00:00",
-  "count": 262,
+  "generated_at": "2026-08-08T12:35:09.730881+00:00",
+  "count": 263,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -6670,7 +6670,7 @@
       "discovered_at": "2026-07-19T02:07:18.827942+00:00",
       "content_hash": "29b78c6c11f92a72528b73b9bd5bdfa744bfe82e",
       "last_seen_at": "2026-07-19T02:07:18.827942+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "fcbe212b102a52858c38e2e4049ae22786e81ebf": {
@@ -9916,6 +9916,45 @@
       "discovered_at": "2026-08-08T06:40:38.435567+00:00",
       "content_hash": "a82838ebc1733b30936bb66716ef2f0e26ff9a81",
       "last_seen_at": "2026-08-08T06:40:38.435567+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "4ad2d975a9bcf184865a42ef4d21818e08ba5d56": {
+      "dedup_key": "4ad2d975a9bcf184865a42ef4d21818e08ba5d56",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/blackberry-basil-limeade-cake",
+      "page_url": "https://justinesnacks.com/blackberry-basil-limeade-cake/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Blackberry Basil Limeade Cake",
+      "text": "This cake is deeply moist and lightly citrusy. With a batter thick enough that the berries won't sink to the bottom, we get to toss them in basil and lime juice to give them an extra pop. And if you've never squeezed fresh lime juice over a hot-from-the-oven cake before, it's simple but very effective!",
+      "author": "Justine Doiron",
+      "cuisine": "American",
+      "categories": [
+        "Baking",
+        "Dessert",
+        "blackberry cake",
+        "blueberry",
+        "cake"
+      ],
+      "ingredients": "3 cups (340g) fresh blackberries\n1 lime (for zest and juice)\n8 large basil leaves\n2 large eggs\n1/2 cup (113g) salted butter (melted)\n1/3 cup (85g) plain greek yogurt or skyr\n1/2 cup (110g) granulated sugar\n1/2 cup (110g) dark brown sugar\n2 cups (280g) all-purpose flour\n1 teaspoon baking powder\n1 teaspoon baking soda\n1 teaspoon Diamond Crystal kosher salt\n1/3 cup (80g) buttermilk\n1/4 cup (50g) turbinado sugar",
+      "instructions": "Position a rack in the center of the oven and preheat to 350°F convection.\nQuarter 340 grams of blackberries, or cut them until they are bean-sized, and add them to a bowl. Chiffonade 8 basil leaves and add that to the same bowl. Squeeze in 2 teaspoons of lime juice and mix. Set aside.\nIn a large bowl, whisk together the 2 eggs, 113 grams of butter, 85 grams of greek yogurt until smooth. Add 110 grams of granulated sugar, 110 grams of dark brown sugar, and stir again.\nIn a separate bowl, whisk together 280 grams of all-purpose flour, 1 teaspoon of baking powder, 1 teaspoon of baking soda, and 1 teaspoon of kosher salt. Add this to the wet ingredients in two batches, alternating with the buttermilk, until you have a thick but smooth batter.\nGently fold the blackberries into the cake batter, leaving any excess liquid behind in the bowl. Don't worry, the batter should be thick enough that they won't sink to the bottom. Don’t overfold, or the batter may turn pinkish blue.\nZest as much as you can from one lime into a small bowl and add 50 grams of turbinado sugar. Scrunch that together with your fingers until it's nicely aromatic.\nGrease and line a 9-inch round baking tin. Pour in the batter. Scatter the lime zest sugar on top.\nBake for 45-50 minutes, or until golden and slightly domed.\nWhen the cake is hot out of the oven, squeeze a few drops of lime juice all over the surface. It sounds crazy, but it soaks in while it's still warm and makes the cake lightly citrusy and delicious.\nServe when you like! See Note for serving pairings.",
+      "notes": "",
+      "nutrition": "Calories: 258 kcal\nProtein: 5 g\nCarbs: 40 g\nFat: 9 g\nServing size: 1 slice",
+      "yield_": "12 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT45M",
+      "total_time": "PT1H",
+      "prep_minutes": 15,
+      "cook_minutes": 45,
+      "total_minutes": 60,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/08/4-679A7773.jpg",
+      "local_image": "",
+      "published_at": "2026-08-08T08:24:54+00:00",
+      "discovered_at": "2026-08-08T12:35:09.730881+00:00",
+      "content_hash": "8c2a05e9087aab84d69bccac000284d543c41361",
+      "last_seen_at": "2026-08-08T12:35:09.730881+00:00",
       "in_feed": true,
       "backfill": false
     }
