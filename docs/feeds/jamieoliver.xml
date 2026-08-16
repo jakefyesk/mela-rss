@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 20:38:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 20:43:28 +0000</lastBuildDate>
+    <item>
+      <title>Bobotie</title>
+      <link>https://www.jamieoliver.com/recipes/beef/bobotie/</link>
+      <description>Bring the flavours of Cape Town home with this classic South African Bobotie. Perfectly spiced beef mince topped with a rich, golden egg custard. — 6 servings</description>
+      <guid isPermaLink="false">27c609b1267a61478c7f612b62499be3025f2fc6</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chakalaka</title>
+      <link>https://www.jamieoliver.com/recipes/cookbook-club/chakalaka/</link>
+      <description>Master classic South African Chakalaka! A vibrant, spiced vegetable relish made with peppers, carrots, baked beans, and curry spices. — 8 servings</description>
+      <guid isPermaLink="false">4a246f28321d5a79219650271fc2b894d67a07e0</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chicken wings with mango</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/chicken-wings-with-mango/</link>
+      <description>Sweet, sticky and warm with spice, these wings are the ultimate crowd-pleaser. Coated in a vibrant mango glaze and cooked to perfection! — 6 servings</description>
+      <guid isPermaLink="false">a3c378330f883919e4eb040272841e802abe6c62</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Golden chicken &amp; garlicky beans</title>
       <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans</link>
@@ -332,32 +353,11 @@
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bat crackers</title>
-      <link>https://www.jamieoliver.com/recipes/halloween/bat-crackers</link>
-      <description>Put on a ghoulishly good Halloween spread with these fun bat crackers! Paired with a pea and mint dip, they're a guaranteed hit with kids and adults alike. — 6 servings · PT10M</description>
-      <guid isPermaLink="false">27e845ceb564d0a5b1ac5ddc06695fc2aea3fe20</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Easy fish &amp; chips</title>
-      <link>https://www.jamieoliver.com/recipes/fish/easy-fish-and-chips</link>
-      <description>This recipe heroes frozen and store-cupboard ingredients, and is budget-friendly too! Fish Friday never looked better. — 2 servings · PT45M</description>
-      <guid isPermaLink="false">794f4d11f2de1406e0ee3b75024ad5a52ce97b02</guid>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prawn &amp; cheese tacos</title>
-      <link>https://www.jamieoliver.com/recipes/prawn/prawn-cheese-tacos/</link>
-      <description>Want a prawn taco recipe up your sleeve? Look no further. Taken from Karla Zazueta's debut cookbook Norteña, these are ideal for any north Mexican feast. — 12 items</description>
-      <guid isPermaLink="false">5db73507514147a4ca24d6dea4a6610c49a40192</guid>
-      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scruffy veg lasagne</title>
-      <link>https://www.jamieoliver.com/recipes/pasta/scruffy-veg-lasagne/</link>
-      <description>Making the most of frozen veg, this lovely one-pan lasagne is a joy to make and eat. — 6 servings · PT45M</description>
-      <guid isPermaLink="false">eb8761113213c3c73ffad0e218e7d11c855b2739</guid>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <title>Caprese chicken burgers</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/caprese-chicken-burgers/</link>
+      <description>Skip the takeaway with this budget-friendly chicken burger recipe. A impressive, 40-minute meal using clever hacks for maximum flavour on a budget. — 2 servings · PT40M</description>
+      <guid isPermaLink="false">f04fd23e10eae7c8f5650bf167248d2a23ba9e56</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
