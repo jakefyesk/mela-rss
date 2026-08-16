@@ -67,3 +67,56 @@ def test_no_category_markers_for_normal_sources():
     # a plain crawl recipe (no saved_via) must not gain <category> tags
     xml = feeds.build_feed("s", "S", "https://host/feed.xml", "https://host", RECIPES, 10).decode()
     assert "<category>" not in xml
+
+
+def _dup_pair():
+    """Two records holding the same recipe — the shape a localized sitemap and
+    a moved slug both produce."""
+    body = dict(
+        title="Teriyaki Pork",
+        ingredients="500g pork\n2 tbsp soy",
+        instructions="Sear the pork.",
+        published_at=datetime(2026, 6, 1, tzinfo=timezone.utc),
+    )
+    keep = Recipe(
+        dedup_key="keep", source="andycooks", mode=Mode.LINK_THROUGH,
+        source_url="https://andy/blogs/recipes/x", page_url="https://andy/blogs/recipes/x",
+        discovered_at=datetime(2026, 1, 1, tzinfo=timezone.utc), **body,
+    )
+    copy = Recipe(
+        dedup_key="copy", source="andycooks", mode=Mode.LINK_THROUGH,
+        source_url="https://andy/de/blogs/recipes/x", page_url="https://andy/de/blogs/recipes/x",
+        discovered_at=datetime(2026, 2, 1, tzinfo=timezone.utc), **body,
+    )
+    return keep, copy
+
+
+def test_feed_publishes_one_recipe_once():
+    keep, copy = _dup_pair()
+    xml = feeds.build_feed("a", "A", "https://host/a.xml", "https://host", [copy, keep], 10).decode()
+    assert xml.count("<item>") == 1
+    assert "<guid isPermaLink=\"false\">keep</guid>" in xml  # the first-seen copy wins
+
+
+def test_duplicates_do_not_consume_feed_slots():
+    keep, copy = _dup_pair()
+    other = r("k9", "Something Else", "https://src/9", datetime(2026, 5, 1, tzinfo=timezone.utc))
+    other.ingredients, other.instructions = "flour", "bake"
+    # cap of 2: without collapsing, the duplicate would push `other` out
+    selected = feeds.selected_for_feed([keep, copy, other], 2)
+    assert [x.dedup_key for x in selected] == ["keep", "k9"]
+
+
+def test_identical_content_from_two_sources_is_kept():
+    keep, copy = _dup_pair()
+    copy.source, copy.dedup_key = "jamieoliver", "jamie"
+    selected = feeds.selected_for_feed([keep, copy], 10)
+    assert {x.dedup_key for x in selected} == {"keep", "jamie"}
+
+
+def test_feed_order_is_total_when_publish_dates_tie():
+    same = datetime(2026, 6, 1, tzinfo=timezone.utc)
+    a = r("bbb", "B", "https://src/b", same)
+    b = r("aaa", "A", "https://src/a", same)
+    assert [x.dedup_key for x in feeds.selected_for_feed([a, b], 10)] == ["aaa", "bbb"]
+    assert [x.dedup_key for x in feeds.selected_for_feed([b, a], 10)] == ["aaa", "bbb"]

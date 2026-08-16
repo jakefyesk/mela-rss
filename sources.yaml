@@ -70,7 +70,12 @@ sources:
     mode: link_through
     discovery: sitemap
     sitemap: "https://www.andy-cooks.com/sitemap.xml"            # verify
-    url_pattern: "andy-cooks\\.com/.+/.+"
+    # Only real recipe posts. The old ".+/.+" also matched the merch catalogue
+    # (/products/...) and every localized storefront copy of each recipe
+    # (/de/blogs/recipes/..., /es/...), which is how one recipe reached the feed
+    # three times. Locale variants are folded by the dedup key too — this just
+    # stops us spending the per-run budget fetching them.
+    url_pattern: "andy-cooks\\.com/blogs/recipes/[^/]+/?$"
     scraper_host: andy-cooks.com
 
   - name: justinesnacks

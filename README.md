@@ -20,6 +20,17 @@ a page omits it, we fall back to the date discovery already sees — the sitemap
 onto one bulk-import timestamp. Existing undated recipes are backfilled from that
 same discovery data on the next run (no re-fetch).
 
+Every recipe is published **once**. One source often serves one recipe at
+several URLs — a localized storefront (`/de/…`, `/es/…`), a moved slug, an AMP
+copy — and its sitemap lists them all, so three layers fold them together: the
+locale prefix is stripped from the URL a recipe's `<guid>` is derived from; a
+content fingerprint (title + ingredients + steps) stops a second copy entering
+`data/catalog.json` and remembers the rejected URL so it's never re-fetched; and
+the feed and bundle writers collapse anything that still gets through. The
+catalog self-heals too — each build starts by merging any duplicate already in
+it, so a state file written before a guard existed is repaired rather than
+published forever.
+
 The site is static (GitHub Pages), rebuilt every 6h by a GitHub Action.
 
 > **One-time setup — enable GitHub Pages.** In **Settings → Pages → Build and
