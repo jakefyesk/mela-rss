@@ -21,6 +21,28 @@ _SLUG_RE = re.compile(r"[^a-z0-9]+")
 _TRACKING_EXACT = frozenset({"fbclid", "gclid", "igshid", "ref", "mc_cid", "mc_eid"})
 _TRACKING_PREFIXES = ("utm_", "mc_")
 
+# Language codes that appear as a leading *locale path prefix* on localized
+# storefronts (Shopify Markets, Wix, Next.js i18n, Squarespace). Such a site
+# publishes ONE recipe at /blogs/recipes/x, /de/blogs/recipes/x and
+# /es/blogs/recipes/x, and lists all three in its sitemap — which is exactly how
+# a single recipe reaches the feed three times.
+#
+# Deliberately an allowlist of locales the web actually localizes into rather
+# than all of ISO-639-1: codes like "is"/"be"/"to" are far more likely to be a
+# real path segment than a language. Even so this only ever affects the *dedup
+# key*; the URL we fetch, store and link to is untouched.
+# "uk" and "ca" are omitted on purpose: on an English-language site those are
+# far more often region segments (United Kingdom, Canada) than Ukrainian or
+# Catalan, and region segments can carry genuinely different content.
+_LOCALE_CODES = frozenset(
+    """ar bg bn cs da de el en es et fa fi fr he hi hr hu id it ja ko lt lv
+    ms nb nl nn no pl pt ro ru sk sl sr sv th tr vi zh""".split()
+)
+# "de", "pt-br", "zh_hans", "en-US" — a language, optionally a region or script.
+# The suffix is a 2-letter region or a named script, NOT any 2-4 letters: the
+# looser form matched ordinary recipe paths like "/no-bake/..." ("no" + "bake").
+_LOCALE_SEGMENT_RE = re.compile(r"^([a-z]{2})(?:[-_](?:[a-z]{2}|hans|hant|latn|cyrl|arab))?$")
+
 
 def slugify(text: str, max_len: int = 80) -> str:
     """Filesystem/URL-safe slug. Deterministic (drives stable page URLs)."""
@@ -55,13 +77,54 @@ def canonicalize_url(url: str) -> str:
     return urlunsplit((scheme, host, path, query, ""))
 
 
+def strip_locale_prefix(path: str) -> str:
+    """Drop a leading locale path segment: "/de/blogs/x" -> "/blogs/x".
+
+    Returns `path` untouched unless the first segment is a known locale code AND
+    something remains after it (so "/de" — which could be a real page — and
+    non-absolute paths are left alone). Only the first segment is considered:
+    locale prefixes are always leftmost.
+    """
+    if not path.startswith("/"):
+        return path
+    head, sep, rest = path[1:].partition("/")
+    if not sep or not rest:
+        return path
+    match = _LOCALE_SEGMENT_RE.match(head.lower())
+    if not match or match.group(1) not in _LOCALE_CODES:
+        return path
+    return "/" + rest
+
+
+def dedup_url(url: str) -> str:
+    """Canonical URL used for *identity only* — never for fetching or linking.
+
+    `canonicalize_url` plus locale-prefix folding, so the translated variants of
+    one recipe share a dedup key instead of arriving as separate recipes.
+
+    Host and scheme are deliberately left as-is: folding "www." or http/https
+    would rewrite the dedup key — i.e. the RSS <guid> — of every recipe already
+    published, and Mela would re-import the whole library. Duplicates that
+    differ that way are caught downstream by the content fingerprint instead.
+    """
+    canonical = canonicalize_url(url)
+    if not canonical:
+        return ""
+    parts = urlsplit(canonical)
+    path = strip_locale_prefix(parts.path)
+    if path == parts.path:
+        return canonical
+    return urlunsplit((parts.scheme, parts.netloc, path, parts.query, ""))
+
+
 def make_dedup_key(source: str, url: str) -> str:
-    """Stable primary id: sha1(source | canonical url).
+    """Stable primary id: sha1(source | dedup url).
 
     Never derive this from a title, slug, or pubDate — guid drift makes Mela
-    re-import everything.
+    re-import everything. `dedup_url` folds locale variants of one page onto one
+    key so a translated storefront can't publish the same recipe three times.
     """
-    basis = f"{source}|{canonicalize_url(url)}"
+    basis = f"{source}|{dedup_url(url)}"
     return hashlib.sha1(basis.encode("utf-8")).hexdigest()
 
 

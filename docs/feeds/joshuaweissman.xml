@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 07:16:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 20:43:28 +0000</lastBuildDate>
+    <item>
+      <title>The Perfect Cheesy Chicken Parmesan Recipe</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-perfect-cheesy-chicken-parmesan-recipe-8b81f64f.html</link>
+      <description>The Perfect Cheesy Chicken Parmesan Recipe</description>
+      <guid isPermaLink="false">8b81f64fd16afc3c77eea1018ab2dad2e1798e70</guid>
+      <pubDate>Wed, 12 Aug 2026 14:30:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basque Cheesecake (Creamiest Ever)</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/basque-cheesecake-creamiest-ever-8a6a1ed6.html</link>
+      <description>Basque Cheesecake (Creamiest Ever)</description>
+      <guid isPermaLink="false">8a6a1ed6a1a524b66fe73754d3b5f2208eb3a07a</guid>
+      <pubDate>Wed, 12 Aug 2026 13:57:19 +0000</pubDate>
+    </item>
     <item>
       <title>The Best Chicken Wings At Home (3 Levels)</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-chicken-wings-at-home-3-levels-1ecd4061.html</link>
@@ -66,13 +80,6 @@
       <pubDate>Tue, 07 Jul 2026 17:11:03 +0000</pubDate>
     </item>
     <item>
-      <title>Ultimate Movie Theater Popcorn</title>
-      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/ultimate-movie-theater-popcorn-e4912f4d.html</link>
-      <description>Ultimate Movie Theater Popcorn</description>
-      <guid isPermaLink="false">e4912f4d1d2a5e34bbad33f28e3d4fc54ceb00c9</guid>
-      <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
-    </item>
-    <item>
       <title>The Best French Dip Sandwich Ever</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-french-dip-sandwich-ever-95b6eee2.html</link>
       <description>The Best French Dip Sandwich Ever</description>
@@ -80,17 +87,24 @@
       <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
     </item>
     <item>
-      <title>Quick &amp; Easy Vodka Pasta</title>
-      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-vodka-pasta-cdc7e15a.html</link>
-      <description>Quick &amp; Easy Vodka Pasta</description>
-      <guid isPermaLink="false">cdc7e15a690233305955e10923cd29af43393730</guid>
-      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+      <title>Ultimate Movie Theater Popcorn</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/ultimate-movie-theater-popcorn-e4912f4d.html</link>
+      <description>Ultimate Movie Theater Popcorn</description>
+      <guid isPermaLink="false">e4912f4d1d2a5e34bbad33f28e3d4fc54ceb00c9</guid>
+      <pubDate>Wed, 24 Jun 2026 21:37:22 +0000</pubDate>
     </item>
     <item>
       <title>Quick &amp; Easy Pesto Pasta</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-pesto-pasta-19f65d0e.html</link>
       <description>Quick &amp; Easy Pesto Pasta</description>
       <guid isPermaLink="false">19f65d0ea96311e9aa30b7d55479033d3db2ea14</guid>
+      <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best Steak Sandwich Ever</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-steak-sandwich-ever-63ef2823.html</link>
+      <description>The Best Steak Sandwich Ever</description>
+      <guid isPermaLink="false">63ef2823efce2e3fea7874ecf173fdcb3322d462</guid>
       <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
     </item>
     <item>
@@ -101,10 +115,10 @@
       <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
     </item>
     <item>
-      <title>The Best Steak Sandwich Ever</title>
-      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-steak-sandwich-ever-63ef2823.html</link>
-      <description>The Best Steak Sandwich Ever</description>
-      <guid isPermaLink="false">63ef2823efce2e3fea7874ecf173fdcb3322d462</guid>
+      <title>Quick &amp; Easy Vodka Pasta</title>
+      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/quick-easy-vodka-pasta-cdc7e15a.html</link>
+      <description>Quick &amp; Easy Vodka Pasta</description>
+      <guid isPermaLink="false">cdc7e15a690233305955e10923cd29af43393730</guid>
       <pubDate>Sun, 14 Jun 2026 16:13:50 +0000</pubDate>
     </item>
     <item>

@@ -24,7 +24,7 @@ from .discovery.generic import make_adapter
 from .images import self_host_image
 from .melarecipes import export_bundle
 from .models import Mode, Recipe
-from .normalize import make_dedup_key
+from .normalize import canonicalize_url, dedup_url, make_dedup_key
 from .http import DEFAULT_UA, Http
 
 log = logging.getLogger("melarss")
@@ -42,6 +42,38 @@ CATEGORY_FEEDS = {
 }
 
 
+def _is_canonical_ref(ref: str) -> bool:
+    """True when a ref is already the un-localized form of itself."""
+    return dedup_url(ref) == canonicalize_url(ref)
+
+
+def _collapse_refs(source: str, refs: list[str], date_hints: dict | None = None) -> list[str]:
+    """Drop refs that resolve to the same recipe as one we've already kept.
+
+    A localized sitemap lists /x, /de/x and /es/x for a single recipe. They now
+    share a dedup key, so without this a run would fetch all three and upsert
+    them over each other — three requests out of a budget of `max_new_per_run`,
+    and the stored URL flip-flopping between builds. Keeps the un-localized ref
+    when both are offered, otherwise the first (discovery is newest-first).
+
+    A dropped variant's <lastmod> is inherited by the ref we keep when that one
+    has none, so collapsing can't cost a recipe its publish date.
+    """
+    best: dict[str, str] = {}
+    for ref in refs:
+        key = make_dedup_key(source, ref)
+        kept = best.get(key)
+        if kept is None:
+            best[key] = ref
+            continue
+        if _is_canonical_ref(ref) and not _is_canonical_ref(kept):
+            best[key] = ref  # replacing a value keeps its original position
+            kept, ref = ref, kept
+        if date_hints is not None and ref in date_hints and kept not in date_hints:
+            date_hints[kept] = date_hints[ref]
+    return list(best.values())
+
+
 def _process_source(
     cfg: SourceConfig,
     catalog: Catalog,
@@ -57,6 +89,22 @@ def _process_source(
     except Exception as exc:  # noqa: BLE001
         log.warning("[%s] discovery failed: %s", cfg.name, exc)
         return 0
+
+    discovered = len(refs)
+    refs = _collapse_refs(cfg.name, refs, getattr(adapter, "date_hints", None))
+    if len(refs) != discovered:
+        log.info("[%s] collapsed %d duplicate refs", cfg.name, discovered - len(refs))
+
+    # Discovery vouching for the un-localized URL of a recipe we first saw at a
+    # translated one is free evidence that it exists — take it, so readers stop
+    # being linked at a foreign-language storefront.
+    upgraded = sum(
+        catalog.adopt_source_url(make_dedup_key(cfg.name, ref), ref)
+        for ref in refs
+        if _is_canonical_ref(ref)
+    )
+    if upgraded:
+        log.info("[%s] adopted %d canonical source URLs", cfg.name, upgraded)
 
     cap = cfg.backfill_limit if (backfill and cfg.backfill_limit) else cfg.max_new_per_run
     new_refs = [
@@ -91,6 +139,15 @@ def _process_source(
             catalog.record_failure(cfg.name, key, ref, now)
             continue
         catalog.clear_failure(recipe.dedup_key)
+
+        duplicate_of = catalog.find_duplicate(recipe)
+        if duplicate_of is not None:
+            # Same content already stored under another URL (moved slug, mirror
+            # host, AMP copy). Keep the copy we have — its guid is the one Mela
+            # already imported — and remember this ref so it costs nothing again.
+            log.info("[%s] %s duplicates %s — merged", cfg.name, ref, duplicate_of)
+            catalog.record_alias(key, cfg.name, ref, duplicate_of, now)
+            continue
 
         # No datePublished in the page's JSON-LD? Fall back to the date discovery
         # already gave us (sitemap <lastmod> / feed <pubDate>).
@@ -304,6 +361,11 @@ def run(
     now = datetime.now(timezone.utc)
     config = load_config(sources_path)
     catalog = Catalog.load(catalog_path)
+    # Repair before crawling: merges duplicates that predate the guards (or slip
+    # past them), so the feed is rebuilt from a clean catalog on every run.
+    repaired = catalog.deduplicate(now)
+    if any(repaired.values()):
+        log.info("catalog repair: %s", repaired)
     docs = Path(docs_dir)
     docs.mkdir(parents=True, exist_ok=True)
     (docs / ".nojekyll").write_text("", encoding="utf-8")
@@ -329,7 +391,12 @@ def run(
     _write_index(enabled, catalog, docs, base_url, bundles)
     catalog.save(catalog_path, now)
 
-    summary = {"added": added_total, "total": len(catalog.records), "bundles": bundles}
+    summary = {
+        "added": added_total,
+        "total": len(catalog.records),
+        "bundles": bundles,
+        "repaired": repaired,
+    }
     log.info("build complete: %s", summary)
     return summary
 

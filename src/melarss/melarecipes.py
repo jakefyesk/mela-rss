@@ -13,6 +13,7 @@ import json
 import zipfile
 from pathlib import Path
 
+from .catalog import content_fingerprint
 from .images import image_to_base64
 from .models import Recipe
 from .normalize import slugify
@@ -43,13 +44,25 @@ def recipe_to_melarecipe(recipe: Recipe, http=None, *, include_image: bool = Tru
 
 
 def export_bundle(recipes: list[Recipe], out_path: str | Path, http=None) -> int:
-    """Write a .melarecipes ZIP. Returns the number of recipes written."""
+    """Write a .melarecipes ZIP. Returns the number of recipes written.
+
+    A bundle is a one-tap bulk import, so a duplicate here lands in the user's
+    library directly. Same rule as the feed: one recipe from one source appears
+    once, however many URLs it was published at.
+    """
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
     written = 0
     seen: set[str] = set()
+    identities: set[tuple[str, str]] = set()
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
         for recipe in recipes:
+            fingerprint = content_fingerprint(recipe)
+            if fingerprint:
+                identity = (recipe.source, fingerprint)
+                if identity in identities:
+                    continue
+                identities.add(identity)
             data = recipe_to_melarecipe(recipe, http=http)
             base = slugify(recipe.title) or recipe.dedup_key[:12]
             name = f"{base}.melarecipe"

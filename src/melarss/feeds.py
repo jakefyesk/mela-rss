@@ -3,6 +3,10 @@
 The <guid> is the recipe's dedup_key (never a mutable URL/title/date) so Mela
 does not re-import on every run. The <link> is `page_url`: the source page for
 link_through, our rehosted page for rehost.
+
+`selected_for_feed` is the single place a feed's window is chosen, and it is the
+last line of defence against duplication: whatever state the catalog is in, one
+recipe is published once.
 """
 
 from __future__ import annotations
@@ -11,14 +15,22 @@ from datetime import datetime, timezone
 
 from feedgen.feed import FeedGenerator
 
+from .catalog import content_fingerprint
 from .models import Recipe
+
+_EPOCH = datetime(2001, 1, 1, tzinfo=timezone.utc)
 
 
 def _pubdate(recipe: Recipe) -> datetime:
-    dt = recipe.published_at or recipe.discovered_at or datetime(2001, 1, 1, tzinfo=timezone.utc)
+    dt = recipe.published_at or recipe.discovered_at or _EPOCH
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt
+
+
+def _first_seen(recipe: Recipe) -> datetime:
+    dt = recipe.discovered_at or _EPOCH
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
 
 def _summary(recipe: Recipe) -> str:
@@ -52,7 +64,7 @@ def build_feed(
     fg.language("en")
     fg.generator("mela-rss")
 
-    ordered = sorted(recipes, key=_pubdate, reverse=True)[:cap]
+    ordered = selected_for_feed(recipes, cap)
     # feedgen prepends entries, so add oldest-first to end up newest-first.
     for recipe in reversed(ordered):
         fe = fg.add_entry()
@@ -74,5 +86,30 @@ def build_feed(
 
 
 def selected_for_feed(recipes: list[Recipe], cap: int) -> list[Recipe]:
-    """The capped, newest-first window actually exposed in a feed."""
-    return sorted(recipes, key=_pubdate, reverse=True)[:cap]
+    """The capped, newest-first window actually exposed in a feed.
+
+    Collapses recipes from one source whose content is identical before capping,
+    so a duplicate that somehow reached the catalog still can't reach the reader
+    — and, just as importantly, can't push a real recipe out of the window.
+    Duplicates *across* sources are left alone: two creators publishing the same
+    dish are two recipes, and silently dropping one would hide a source.
+
+    Ordering is total (publish date, then first-seen, then key) so a rebuild of
+    unchanged state always emits an identical feed.
+    """
+    ordered = sorted(recipes, key=lambda r: (_first_seen(r), r.dedup_key))
+    ordered.sort(key=_pubdate, reverse=True)
+
+    out: list[Recipe] = []
+    seen: set[tuple[str, str]] = set()
+    for recipe in ordered:
+        if len(out) >= cap:
+            break
+        fingerprint = content_fingerprint(recipe)
+        if fingerprint:
+            identity = (recipe.source, fingerprint)
+            if identity in seen:
+                continue
+            seen.add(identity)
+        out.append(recipe)
+    return out

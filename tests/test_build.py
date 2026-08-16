@@ -9,6 +9,7 @@ from pathlib import Path
 import pytest
 
 from melarss import build
+from melarss.catalog import _legacy_dedup_key
 
 from conftest import FakeHttp, load_fixture, tiny_png
 
@@ -604,3 +605,188 @@ def test_empty_category_feed_is_still_written(tmp_path, monkeypatch):
     cocktails_xml = (docs / "cocktails.xml").read_text()
     assert "<rss" in cocktails_xml  # valid RSS, just no <item>s
     assert "<item>" not in cocktails_xml
+
+
+# --- localized storefront: one recipe published three times ----------------
+
+LOCALIZED_SITEMAP_URL = "https://shop.example/sitemap.xml"
+LOCALIZED_RECIPE_URL = "https://shop.example/blogs/recipes/teriyaki-pork"
+LOCALIZED_SITEMAP = f"""<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://shop.example/de/blogs/recipes/teriyaki-pork</loc><lastmod>2026-06-02</lastmod></url>
+<url><loc>{LOCALIZED_RECIPE_URL}</loc><lastmod>2026-06-01</lastmod></url>
+<url><loc>https://shop.example/es/blogs/recipes/teriyaki-pork</loc><lastmod>2026-06-01</lastmod></url>
+</urlset>"""
+
+
+class LocalizedFake(FakeHttp):
+    """Serves the same recipe at all three storefront locales, counting hits."""
+
+    ROUTES = {
+        LOCALIZED_SITEMAP_URL: LOCALIZED_SITEMAP,
+        LOCALIZED_RECIPE_URL: load_fixture("jsonld_recipe.html"),
+        "https://shop.example/de/blogs/recipes/teriyaki-pork": load_fixture("jsonld_recipe.html"),
+        "https://shop.example/es/blogs/recipes/teriyaki-pork": load_fixture("jsonld_recipe.html"),
+    }
+    BINARY_ROUTES: dict[str, bytes] = {}
+    DEFAULT_IMAGE = tiny_png()
+    fetched: list[str] = []
+
+    def get(self, url: str, headers: dict | None = None) -> str:
+        LocalizedFake.fetched.append(url)
+        return super().get(url, headers)
+
+
+def _localized_sources(tmp_path: Path) -> Path:
+    p = tmp_path / "sources.yaml"
+    p.write_text(
+        "defaults: {request_delay_seconds: 0}\n"
+        "sources:\n"
+        "  - name: shop\n"
+        "    mode: link_through\n"
+        "    discovery: sitemap\n"
+        f'    sitemap: "{LOCALIZED_SITEMAP_URL}"\n',
+        encoding="utf-8",
+    )
+    return p
+
+
+def test_locale_variants_yield_one_recipe_and_one_fetch(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "Http", LocalizedFake)
+    LocalizedFake.fetched = []
+    sources = _localized_sources(tmp_path)
+    docs, catalog = tmp_path / "docs", tmp_path / "data" / "catalog.json"
+
+    summary = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    assert summary["added"] == 1
+    cat = json.loads(catalog.read_text())
+    assert len(cat["recipes"]) == 1
+    # the un-localized URL is the one we keep and link to
+    (record,) = cat["recipes"].values()
+    assert record["source_url"] == LOCALIZED_RECIPE_URL
+    # …and the two translations never cost a request
+    assert LocalizedFake.fetched.count(LOCALIZED_RECIPE_URL) == 1
+    assert not [u for u in LocalizedFake.fetched if "/de/" in u or "/es/" in u]
+    assert (docs / "feed.xml").read_text().count("<item>") == 1
+
+
+def test_locale_variants_stay_collapsed_on_the_next_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "Http", LocalizedFake)
+    LocalizedFake.fetched = []
+    sources = _localized_sources(tmp_path)
+    docs, catalog = tmp_path / "docs", tmp_path / "data" / "catalog.json"
+
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    second = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    assert second["added"] == 0
+    assert len(json.loads(catalog.read_text())["recipes"]) == 1
+    assert LocalizedFake.fetched.count(LOCALIZED_RECIPE_URL) == 1  # no re-fetch
+
+
+def test_build_repairs_a_catalog_that_already_holds_duplicates(tmp_path, monkeypatch):
+    """The state file self-heals: duplicates written before the guards existed
+    are merged on the next run rather than living in the feed forever."""
+    monkeypatch.setattr(build, "Http", LocalizedFake)
+    LocalizedFake.fetched = []
+    sources = _localized_sources(tmp_path)
+    docs, catalog = tmp_path / "docs", tmp_path / "data" / "catalog.json"
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    # forge the pre-fix state: the same recipe again under a locale-derived key
+    data = json.loads(catalog.read_text())
+    (original,) = data["recipes"].values()
+    for locale in ("de", "es"):
+        clone = dict(original)
+        clone["source_url"] = clone["page_url"] = (
+            f"https://shop.example/{locale}/blogs/recipes/teriyaki-pork"
+        )
+        clone["dedup_key"] = _legacy_dedup_key("shop", clone["source_url"])
+        data["recipes"][clone["dedup_key"]] = clone
+    catalog.write_text(json.dumps(data), encoding="utf-8")
+
+    summary = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    assert summary["repaired"]["merged"] == 2
+    assert len(json.loads(catalog.read_text())["recipes"]) == 1
+    assert (docs / "feed.xml").read_text().count("<item>") == 1
+
+
+DE_ONLY_SITEMAP = """<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://shop.example/de/blogs/recipes/teriyaki-pork</loc><lastmod>2026-06-02</lastmod></url>
+</urlset>"""
+
+DATELESS_CANONICAL_SITEMAP = f"""<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>{LOCALIZED_RECIPE_URL}</loc></url>
+<url><loc>https://shop.example/de/blogs/recipes/teriyaki-pork</loc><lastmod>2026-06-02</lastmod></url>
+</urlset>"""
+
+
+def test_canonical_url_is_adopted_once_discovery_offers_it(tmp_path, monkeypatch):
+    """A recipe first seen only at /de/ keeps that URL — it's the one we know
+    works — until the sitemap vouches for the canonical one."""
+    monkeypatch.setattr(build, "Http", LocalizedFake)
+    LocalizedFake.fetched = []
+    sources = _localized_sources(tmp_path)
+    docs, catalog = tmp_path / "docs", tmp_path / "data" / "catalog.json"
+
+    monkeypatch.setitem(LocalizedFake.ROUTES, LOCALIZED_SITEMAP_URL, DE_ONLY_SITEMAP)
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    (first,) = json.loads(catalog.read_text())["recipes"].values()
+    assert first["source_url"] == "https://shop.example/de/blogs/recipes/teriyaki-pork"
+
+    # next run: the sitemap now lists the un-localized URL too
+    monkeypatch.setitem(LocalizedFake.ROUTES, LOCALIZED_SITEMAP_URL, LOCALIZED_SITEMAP)
+    summary = build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    records = json.loads(catalog.read_text())["recipes"]
+    assert summary["added"] == 0  # no refetch, no second recipe
+    assert list(records) == [first["dedup_key"]]  # same guid
+    (second,) = records.values()
+    assert second["source_url"] == second["page_url"] == LOCALIZED_RECIPE_URL
+    assert LOCALIZED_RECIPE_URL in (docs / "feed.xml").read_text()
+
+
+def test_collapsing_refs_keeps_a_dropped_variants_publish_date(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "Http", LocalizedFake)
+    LocalizedFake.fetched = []
+    monkeypatch.setitem(LocalizedFake.ROUTES, LOCALIZED_SITEMAP_URL, DATELESS_CANONICAL_SITEMAP)
+    # a page whose JSON-LD carries no datePublished, so the <lastmod> is the
+    # only date available
+    monkeypatch.setitem(
+        LocalizedFake.ROUTES, LOCALIZED_RECIPE_URL, load_fixture("jsonld_recipe_nodate.html")
+    )
+    sources = _localized_sources(tmp_path)
+    docs, catalog = tmp_path / "docs", tmp_path / "data" / "catalog.json"
+
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    (record,) = json.loads(catalog.read_text())["recipes"].values()
+    assert record["source_url"] == LOCALIZED_RECIPE_URL  # the canonical ref won…
+    # …and inherited the <lastmod> only the dropped translation carried
+    assert record["published_at"].startswith("2026-06-02")
+
+
+def test_a_published_recipe_never_comes_back_with_a_new_guid(tmp_path, monkeypatch):
+    """The whole point: a recipe Mela already imported must keep its <guid>, or
+    the fix for duplicate feed items would itself duplicate the user's library."""
+    monkeypatch.setattr(build, "Http", LocalizedFake)
+    LocalizedFake.fetched = []
+    sources = _localized_sources(tmp_path)
+    docs, catalog = tmp_path / "docs", tmp_path / "data" / "catalog.json"
+
+    # first seen only at the German storefront, and published under that guid
+    monkeypatch.setitem(LocalizedFake.ROUTES, LOCALIZED_SITEMAP_URL, DE_ONLY_SITEMAP)
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+    published = re.findall(r"<guid[^>]*>(.*?)</guid>", (docs / "feed.xml").read_text())
+    assert len(published) == 1
+
+    # later the sitemap lists all three locales
+    monkeypatch.setitem(LocalizedFake.ROUTES, LOCALIZED_SITEMAP_URL, LOCALIZED_SITEMAP)
+    build.run(str(sources), str(docs), str(catalog), "https://host.example")
+
+    assert re.findall(r"<guid[^>]*>(.*?)</guid>", (docs / "feed.xml").read_text()) == published
+    assert len(json.loads(catalog.read_text())["recipes"]) == 1

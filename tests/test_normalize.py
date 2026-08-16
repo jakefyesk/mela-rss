@@ -96,3 +96,64 @@ def test_ingredients_single_group_no_header_falls_back_flat():
     out = normalize.ingredients_to_mela(groups, ["1 cup flour", "2 eggs"])
     assert out.splitlines() == ["1 cup flour", "2 eggs"]
     assert "#" not in out
+
+
+def test_strip_locale_prefix_only_drops_real_locales():
+    # a localized storefront copy folds onto the canonical path…
+    assert normalize.strip_locale_prefix("/de/blogs/recipes/x") == "/blogs/recipes/x"
+    assert normalize.strip_locale_prefix("/pt-br/blogs/recipes/x") == "/blogs/recipes/x"
+    assert normalize.strip_locale_prefix("/ZH_Hans/blogs/x") == "/blogs/x"
+    # …but ordinary paths are untouched
+    assert normalize.strip_locale_prefix("/blogs/recipes/x") == "/blogs/recipes/x"
+    assert normalize.strip_locale_prefix("/recipes/de/x") == "/recipes/de/x"  # not leftmost
+    assert normalize.strip_locale_prefix("/de") == "/de"  # nothing left after it
+    assert normalize.strip_locale_prefix("/xx/blogs/x") == "/xx/blogs/x"  # not a language
+    assert normalize.strip_locale_prefix("item/123") == "item/123"  # not an absolute path
+
+
+def test_dedup_key_folds_locale_variants():
+    canonical = "https://www.andy-cooks.com/blogs/recipes/teriyaki-pork"
+    keys = {
+        normalize.make_dedup_key("andycooks", url)
+        for url in (
+            canonical,
+            "https://www.andy-cooks.com/de/blogs/recipes/teriyaki-pork",
+            "https://www.andy-cooks.com/es/blogs/recipes/teriyaki-pork/",
+        )
+    }
+    assert len(keys) == 1  # one recipe, one guid — not three
+
+
+def test_dedup_key_unchanged_for_unlocalized_urls():
+    # Guid stability: folding must not rewrite the key of anything already
+    # published, or Mela re-imports the whole library.
+    import hashlib
+
+    url = "https://www.jamieoliver.com/recipes/chicken/sticky-orange-chicken"
+    basis = f"jamieoliver|{normalize.canonicalize_url(url)}"
+    assert normalize.make_dedup_key("jamieoliver", url) == hashlib.sha1(
+        basis.encode("utf-8")
+    ).hexdigest()
+
+
+def test_dedup_key_leaves_non_http_refs_alone():
+    # MindLink keys on an opaque item id, not a web URL
+    ref = "mindlink://item/abc-123"
+    assert normalize.dedup_url(ref) == normalize.canonicalize_url(ref)
+
+
+def test_hyphenated_recipe_paths_are_not_mistaken_for_locales():
+    # "/no-bake/..." is "no" + "bake", not Norwegian — folding it would merge
+    # two unrelated recipes onto one guid
+    for path in ("/no-bake/brownies", "/id-cards/x", "/da-vinci/x", "/es-tests/x"):
+        assert normalize.strip_locale_prefix(path) == path
+    # a real region or script suffix still folds
+    assert normalize.strip_locale_prefix("/pt-br/x") == "/x"
+    assert normalize.strip_locale_prefix("/zh-hant/x") == "/x"
+
+
+def test_region_segments_are_left_alone():
+    # /uk/ and /ca/ are far more often United Kingdom / Canada than Ukrainian /
+    # Catalan, and a region site can carry genuinely different content
+    assert normalize.strip_locale_prefix("/uk/recipes/x") == "/uk/recipes/x"
+    assert normalize.strip_locale_prefix("/ca/recipes/x") == "/ca/recipes/x"
