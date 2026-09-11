@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-11T10:26:19.305823+00:00",
-  "count": 247,
+  "generated_at": "2026-09-11T15:42:31.189482+00:00",
+  "count": 248,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -9757,6 +9757,48 @@
       "content_hash": "d48494d2ecc3e8864f78395c4d76b02b4efef835",
       "content_fingerprint": "a4d799b729aad0ca17743a1e36fc823d2e8bb8dc",
       "last_seen_at": "2026-09-11T10:26:19.305823+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "82a7503229205352cf1b2c7d1b919489232fc62c": {
+      "dedup_key": "82a7503229205352cf1b2c7d1b919489232fc62c",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/brussels-sprout-fried-eggs-with-lemon-and-parmesan",
+      "page_url": "https://justinesnacks.com/brussels-sprout-fried-eggs-with-lemon-and-parmesan/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Brussels Sprout Fried Eggs with Lemon and Parmesan",
+      "text": "Brussels sprouts are one of my favorite fall vegetables, and this quick and simple method is one of my best ways to turn them into a filling lunch or dinner. Frying eggs directly on top of brussels sprouts keeps them all frizzled on the edges, plus some fried lemon, toasted sage and crisp rosemary makes me feel like I'm treating myself to a proper fall meal - even though it all happens in under 30 minutes.",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion",
+      "categories": [
+        "Lunch",
+        "Main Course",
+        "brussels sprouts",
+        "eggs",
+        "rosemary",
+        "sage",
+        "vegetrian"
+      ],
+      "ingredients": "8 ounces Brussels sprouts\n1 lemon (halved)\n3 sprigs rosemary\n5 sage leaves\n3 tablespoons extra-virgin olive oil\n1/4 teaspoon red pepper flakes\n1/2 teaspoon Diamond Crystal kosher salt\nFreshly cracked black pepper\n4 large eggs\n1 ounce parmesan (for topping)",
+      "instructions": "Thinly slice 8 ounces of brussels sprouts (around 2 cups). Halve the lemon. Cut one half into wedges and set aside. Peel the other half and finely chop up the pulp, removing any seeds.\nFinely chop the leaves of 3 sprigs of rosemary and 5 sage leaves.\nPut a large sauté pan with a tight fitted lid over medium heat. Add in 3 tablespoons of olive oil.\nAdd the chopped lemon, herbs, 1/4 teaspoon red pepper flakes and 1/2 teaspoon salt. Cook, stirring occasionally, for 2-3 minutes, or until you start to see the lemon lightly char and the herbs crisp up. Add in the brussels sprouts.\nCook the sprouts, stirring occasionally, for what feels like too long, 10-12 minutes or until the brussels sprouts are about half the size and beginning to get some browning.\nMake four small \"divets\" in the brussels sprouts and crack an egg into each one. Season the eggs lightly with salt and pepper.\nCover and let the eggs cook for 4-5 minutes, until the whites are set but the yolks are still runny.\nScoop two eggs onto each plate, taking the sprouts along with them. Grate on some parmesan and serve with the remaining lemon wedges.",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "2 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT20M",
+      "total_time": "PT30M",
+      "prep_minutes": 10,
+      "cook_minutes": 20,
+      "total_minutes": 30,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/09/a-plate-of-brussels-sprout-fried-eggs.jpg",
+      "local_image": "",
+      "published_at": "2026-09-11T06:49:46+00:00",
+      "discovered_at": "2026-09-11T15:42:31.189482+00:00",
+      "content_hash": "dc1ef11cf31d016669c6264771c7223bb5b0a718",
+      "content_fingerprint": "1f7c8d64664ef1975e8122dc49c014f74227ac44",
+      "last_seen_at": "2026-09-11T15:42:31.189482+00:00",
       "in_feed": true,
       "backfill": false
     }
