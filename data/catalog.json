@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-11T07:17:20.136363+00:00",
-  "count": 246,
+  "generated_at": "2026-09-11T10:26:19.305823+00:00",
+  "count": 247,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5380,7 +5380,7 @@
       "discovered_at": "2026-07-22T19:04:59.684458+00:00",
       "content_hash": "ce74bdddad47225272e1dbaa9d2b593368c63165",
       "last_seen_at": "2026-07-22T19:04:59.684458+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "37614b4759c9602c6ee3bed4e6b02eb4bbeb7b7f"
     },
@@ -8975,7 +8975,7 @@
     "fea042594de19e88dba8e9199ee6f7c55c69d40d": {
       "dedup_key": "fea042594de19e88dba8e9199ee6f7c55c69d40d",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/glazed-tofu-rice-bowl-with-sesame-cucumbers",
+      "source_url": "https://justinesnacks.com/glazed-tofu-rice-bowl-with-sesame-cucumbers/",
       "page_url": "https://justinesnacks.com/glazed-tofu-rice-bowl-with-sesame-cucumbers/",
       "mode": "link_through",
       "category": "recipe",
@@ -9019,7 +9019,7 @@
     "c8d2f05065f37779b46181b7cd3ab0d339ccb46c": {
       "dedup_key": "c8d2f05065f37779b46181b7cd3ab0d339ccb46c",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/peach-shortcakes-with-lemon-vanilla-sugar",
+      "source_url": "https://justinesnacks.com/peach-shortcakes-with-lemon-vanilla-sugar/",
       "page_url": "https://justinesnacks.com/peach-shortcakes-with-lemon-vanilla-sugar/",
       "mode": "link_through",
       "category": "recipe",
@@ -9060,7 +9060,7 @@
     "d54aedb9dfe06aece803d9ba4b5ef816c1f8d87f": {
       "dedup_key": "d54aedb9dfe06aece803d9ba4b5ef816c1f8d87f",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/zucchini-burgers",
+      "source_url": "https://justinesnacks.com/zucchini-burgers/",
       "page_url": "https://justinesnacks.com/zucchini-burgers/",
       "mode": "link_through",
       "category": "recipe",
@@ -9101,7 +9101,7 @@
     "ef2d0a06811ef2851722123628123c78fc1e09e0": {
       "dedup_key": "ef2d0a06811ef2851722123628123c78fc1e09e0",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/sweet-pickled-tomato-skins",
+      "source_url": "https://justinesnacks.com/sweet-pickled-tomato-skins/",
       "page_url": "https://justinesnacks.com/sweet-pickled-tomato-skins/",
       "mode": "link_through",
       "category": "recipe",
@@ -9141,7 +9141,7 @@
     "765924057ca5704c9b5d7687ad330a701e6dbfa6": {
       "dedup_key": "765924057ca5704c9b5d7687ad330a701e6dbfa6",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/blackberry-ginger-cucumber-salad",
+      "source_url": "https://justinesnacks.com/blackberry-ginger-cucumber-salad/",
       "page_url": "https://justinesnacks.com/blackberry-ginger-cucumber-salad/",
       "mode": "link_through",
       "category": "recipe",
@@ -9182,7 +9182,7 @@
     "00a22a636e3a819f3a42e81a9427e3a500f3b8a8": {
       "dedup_key": "00a22a636e3a819f3a42e81a9427e3a500f3b8a8",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/smoky-tomato-burrata-dip",
+      "source_url": "https://justinesnacks.com/smoky-tomato-burrata-dip/",
       "page_url": "https://justinesnacks.com/smoky-tomato-burrata-dip/",
       "mode": "link_through",
       "category": "recipe",
@@ -9223,7 +9223,7 @@
     "e54fe081cfa9f0cc35ca9ce92cc0c3d5dc4021b8": {
       "dedup_key": "e54fe081cfa9f0cc35ca9ce92cc0c3d5dc4021b8",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/tomatillo-beans",
+      "source_url": "https://justinesnacks.com/tomatillo-beans/",
       "page_url": "https://justinesnacks.com/tomatillo-beans/",
       "mode": "link_through",
       "category": "recipe",
@@ -9262,7 +9262,7 @@
     "7116667d4fb6b15173571af01a5c5d33026c6317": {
       "dedup_key": "7116667d4fb6b15173571af01a5c5d33026c6317",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/salmon/zesty-salmon-tacos",
+      "source_url": "https://www.jamieoliver.com/recipes/salmon/zesty-salmon-tacos/",
       "page_url": "https://www.jamieoliver.com/recipes/salmon/zesty-salmon-tacos/",
       "mode": "link_through",
       "category": "recipe",
@@ -9308,7 +9308,7 @@
     "6597c063c0e1190ab00a4f5ad692d0c320a963e6": {
       "dedup_key": "6597c063c0e1190ab00a4f5ad692d0c320a963e6",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/thai-hot-and-sour-chicken-soup",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/thai-hot-and-sour-chicken-soup/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/thai-hot-and-sour-chicken-soup/",
       "mode": "link_through",
       "category": "recipe",
@@ -9351,7 +9351,7 @@
     "272a85f7355bca716839f94a9f68dc35514baf85": {
       "dedup_key": "272a85f7355bca716839f94a9f68dc35514baf85",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pasta/sardine-linguine",
+      "source_url": "https://www.jamieoliver.com/recipes/pasta/sardine-linguine/",
       "page_url": "https://www.jamieoliver.com/recipes/pasta/sardine-linguine/",
       "mode": "link_through",
       "category": "recipe",
@@ -9393,7 +9393,7 @@
     "ed0be33e37876b07f4d58fa4ea5ba7142143b05f": {
       "dedup_key": "ed0be33e37876b07f4d58fa4ea5ba7142143b05f",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/salad/goats-cheese-and-bramble-salad",
+      "source_url": "https://www.jamieoliver.com/recipes/salad/goats-cheese-and-bramble-salad/",
       "page_url": "https://www.jamieoliver.com/recipes/salad/goats-cheese-and-bramble-salad/",
       "mode": "link_through",
       "category": "recipe",
@@ -9434,7 +9434,7 @@
     "a4293bb7dbecbdde461de098c063933d9d9d6264": {
       "dedup_key": "a4293bb7dbecbdde461de098c063933d9d9d6264",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pizza/pizza-fritte-duo",
+      "source_url": "https://www.jamieoliver.com/recipes/pizza/pizza-fritte-duo/",
       "page_url": "https://www.jamieoliver.com/recipes/pizza/pizza-fritte-duo/",
       "mode": "link_through",
       "category": "recipe",
@@ -9479,7 +9479,7 @@
     "9fd0589e610dcc69b4233a46329a1bae5346538d": {
       "dedup_key": "9fd0589e610dcc69b4233a46329a1bae5346538d",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/pressure-cooker-bolognese",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/pressure-cooker-bolognese/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/pressure-cooker-bolognese/",
       "mode": "link_through",
       "category": "recipe",
@@ -9563,7 +9563,7 @@
     "fa62aca5c330a9a932e5a97cbf1fdf16c8ef6141": {
       "dedup_key": "fa62aca5c330a9a932e5a97cbf1fdf16c8ef6141",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/chicken-and-sausage-stew",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/chicken-and-sausage-stew/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/chicken-and-sausage-stew/",
       "mode": "link_through",
       "category": "recipe",
@@ -9605,7 +9605,7 @@
     "70c480a17e5ccd1fbc11afdefc58596843a18b0b": {
       "dedup_key": "70c480a17e5ccd1fbc11afdefc58596843a18b0b",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/lentil/tomato-and-feta-lentils",
+      "source_url": "https://www.jamieoliver.com/recipes/lentil/tomato-and-feta-lentils/",
       "page_url": "https://www.jamieoliver.com/recipes/lentil/tomato-and-feta-lentils/",
       "mode": "link_through",
       "category": "recipe",
@@ -9641,7 +9641,7 @@
     "718671f9686032ba94b50e37a9e0684556ff17a5": {
       "dedup_key": "718671f9686032ba94b50e37a9e0684556ff17a5",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/soup/bread-and-borlotti-bean-soup",
+      "source_url": "https://www.jamieoliver.com/recipes/soup/bread-and-borlotti-bean-soup/",
       "page_url": "https://www.jamieoliver.com/recipes/soup/bread-and-borlotti-bean-soup/",
       "mode": "link_through",
       "category": "recipe",
@@ -9684,7 +9684,7 @@
     "fa3565de436d4c6eafff96e7ccc519009b647dd7": {
       "dedup_key": "fa3565de436d4c6eafff96e7ccc519009b647dd7",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/desserts/squodgy-croissant-loaf",
+      "source_url": "https://www.jamieoliver.com/recipes/desserts/squodgy-croissant-loaf/",
       "page_url": "https://www.jamieoliver.com/recipes/desserts/squodgy-croissant-loaf/",
       "mode": "link_through",
       "category": "recipe",
@@ -9719,6 +9719,45 @@
       "content_fingerprint": "3257a188b3d839718256ac1157a8bac987ebb0dd",
       "last_seen_at": "2026-09-11T07:17:20.136363+00:00",
       "in_feed": false,
+      "backfill": false
+    },
+    "b88ab4c3d93fb92a680fde9254965c4b7eec5bd9": {
+      "dedup_key": "b88ab4c3d93fb92a680fde9254965c4b7eec5bd9",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/pizza-pepperoni",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/pizza-pepperoni",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Pizza pepperoni",
+      "text": "Pepperoni pizza is always a winner at a pizza party. It's a great classic and here is my version of a pepperoni pizza. Pick up a hot pepperoni if you want a spicy little pizza.",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Dinner",
+        "Lunch",
+        "Pizza",
+        "Carbs"
+      ],
+      "ingredients": "3 dough balls\n1 can San Marzano tomatoes\n250g mozzarella\nsalt, to taste\n24 slices pepperoni\nextra virgin olive oil (EVOO)\n1 cup semolina flour",
+      "instructions": "Preheat your pizza oven to 480°C (900°F). If using your domestic oven, place the pizza steel inside and preheat it to the highest possible temperature.\nFor the tomato sauce, add the canned tomatoes, a few torn basil leaves, and a pinch of salt to a bowl. Using clean hands, crush the tomatoes for 1-2 minutes, or until most of the large lumps are gone.\nSlice the mozzarella into pieces roughly the size of your index finger.\nTo stretch the dough, cut it from the box it was proved in using a dough cutter on every side. Remove the dough from the container and then place it top side down into the bowl of semolina. Working away from yourself, press the dough outwards, leaving a 2cm (about 0.8 inch) rim around the edge. Turn the dough 90° and repeat. Carefully remove the dough from the semolina and place it over the backs of your hands, stretching it out slightly, then place onto a lightly floured bench.\nTo assemble the pizza, lay down 1-2 spoons of the tomato sauce in the centre of the dough, Use the back of a spoon to spread the tomato sauce evenly leaving a 2cm (about 0.8 inch) gap around the edge Add the pepperoni, then mozzarella cheese, and drizzle with extra-virgin olive oil.\nCarefully pick up the pizza with a pizza peel, ensuring it's the shape and size you want, then place it into your pizza oven. If using a pizza oven, after 45-50 seconds, or when the crust closest to the heat source starts to colour, begin turning the pizza. It should cook in about 90 seconds.\nIf cooking in a domestic oven with a pizza steel, place the pizza in the centre of the steel and close the door quickly. There's less need to turn the pizza as it should have a more even heat distribution, but it will take longer to cook, around 5-6 minutes.",
+      "notes": "",
+      "nutrition": "Serving size: 3",
+      "yield_": "3 servings",
+      "prep_time": "PT20M",
+      "cook_time": "PT2M",
+      "total_time": "PT22M",
+      "prep_minutes": 20,
+      "cook_minutes": 2,
+      "total_minutes": 22,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20240223054617-andy-20cooks-20-20pizza-20pepperoni.jpg?v=1708671817",
+      "local_image": "",
+      "published_at": "2026-09-09T20:13:22+00:00",
+      "discovered_at": "2026-09-11T10:26:19.305823+00:00",
+      "content_hash": "d48494d2ecc3e8864f78395c4d76b02b4efef835",
+      "content_fingerprint": "a4d799b729aad0ca17743a1e36fc823d2e8bb8dc",
+      "last_seen_at": "2026-09-11T10:26:19.305823+00:00",
+      "in_feed": true,
       "backfill": false
     }
   },
@@ -10065,13 +10104,6 @@
       "attempts": 1,
       "last_attempt": "2026-07-29T08:30:08.233956+00:00",
       "next_retry": "2026-07-31T08:30:08.233956+00:00"
-    },
-    "b88ab4c3d93fb92a680fde9254965c4b7eec5bd9": {
-      "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/de/blogs/recipes/pizza-pepperoni",
-      "attempts": 1,
-      "last_attempt": "2026-07-19T02:07:18.827942+00:00",
-      "next_retry": "2026-07-21T02:07:18.827942+00:00"
     },
     "7e3b1c960274ec7c8e9411030b07778af67c438a": {
       "source": "andycooks",
