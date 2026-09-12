@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-12T14:49:59.207774+00:00",
-  "count": 248,
+  "generated_at": "2026-09-12T20:01:47.491623+00:00",
+  "count": 249,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5343,7 +5343,7 @@
       "discovered_at": "2026-07-22T19:04:59.684458+00:00",
       "content_hash": "ee1365dec093dcedf05096f6f008fad8df6aaf40",
       "last_seen_at": "2026-07-22T19:04:59.684458+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "930a2628dae42f166d6395090cf7f99fc745ebd0"
     },
@@ -9799,6 +9799,44 @@
       "content_hash": "dc1ef11cf31d016669c6264771c7223bb5b0a718",
       "content_fingerprint": "1f7c8d64664ef1975e8122dc49c014f74227ac44",
       "last_seen_at": "2026-09-11T15:42:31.189482+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "336892dfbe68e2319afe4aacce54288c7dfcd957": {
+      "dedup_key": "336892dfbe68e2319afe4aacce54288c7dfcd957",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/canned-fish",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/canned-fish",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Canned Fish",
+      "text": "This recipe is inspired by the old way of preserving fish in a glass jar using the poaching method and tested it to make sure the fish stays moist and properly seasoned. You'll need to keep it in the fridge as it's not shelf-stable like supermarket tuna, but it's miles better in taste and texture.Why preserve fish? The traditional approach to home-preserved fish, before pressure canning became common, was to gently poach the fish in an aromatic liquid at low temperature, then transfer it to a sterilised jar submerged in olive oil. It’s a confit-style preservation method rather than true canning, and the result is a very different product from commercially tinned fish. The flesh stays moist and flaky, and it carries the flavour of the poaching aromatics through the oil. This is a refrigerator-preserved product rather than a shelf-stable one, but what you’re getting in return is fish that’s genuinely better in texture and flavour than anything that comes out of a tin.TemperaturesThe two numbers that matter are the water temperature (60-65°C) and the fish’s internal temperature (55-60°C). Poaching liquid above 70°C causes protein fibres to seize and expel moisture, leaving you with dry, stringy flakes instead of silky ones. Keeping the water in the right range and pulling the fish when the thickest part reaches 55-60°C internally gives you flesh that holds its shape when flaked. The aromatics go into the water first so the liquid is fully infused before the fish is added, and seasoning happens after flaking so you can taste and adjust for what the poaching liquid has already contributed.Ingredient NotesBonito: Bonito is a smaller member of the tuna family, found in Australian waters, with dark, oily flesh and a pronounced savoury flavour. It suits this method well because the high fat content keeps the flesh moist during the low-temperature poach and the oil in the flesh readily absorbs the poaching aromatics. Fresh bonito is usually available whole at fish markets. If bonito isn’t available, any firm, oily fish will work: yellowfin tuna, mackerel, salmon, or kingfish are all good options. Avoid lean, white-fleshed fish like snapper or flathead as they dry out more easily at these temperatures and lack the depth of flavour that makes the finished product worthwhile.Olive oil: The olive oil in this recipe is both the flavour base and the preserving medium. Use an oil you’d be happy eating cold, because it carries directly into the flavour of the finished fish. A good quality extra virgin olive oil works well; a lighter olive oil is also fine. Avoid strongly flavoured infused oils as they compete with the poaching aromatics. The quantity you need depends on the size of your jar and how tightly you pack the fish, so have at least 250-300ml on hand. As you eat through the jar over the following days, top it up with extra oil to keep the fish submerged.Sterilised jar: Sterilise glass jars by washing in hot soapy water, rinsing well, then placing upright in a 120°C oven for 15 minutes. Add the fish while the jar is still warm to avoid cracking the glass from temperature shock. A 500ml wide-mouth jar is the right size for 1kg of whole fish once flaked and packed. This method produces a refrigerator-preserved product only. The sterilisation step reduces bacterial load but does not create the high-temperature, anaerobic environment required for long-term shelf-stable preservation.EquipmentChopping boardChef’s knifeLarge saucepan with lidSmall wire rack (to sit inside saucepan)Kitchen thermometerTongsLarge traySterilised glass jar (500ml)Zester or microplaneLadle or small jug",
+      "author": "Andy",
+      "cuisine": "French",
+      "categories": [
+        "Snack",
+        "Fish and seafood",
+        "Techniques"
+      ],
+      "ingredients": "3 sprigs thyme\n3 bay leaves\n2 lemons\n3 cloves garlic\n1 tsp peppercorns\n1kg whole bonito, gutted, cleaned\nsea salt and black pepper, to season\nolive oil",
+      "instructions": "Place enough water in a large saucepan to cover the tuna when it is added. Add the thyme, bay leaves, the rind of 1 lemon, garlic and peppercorns (place a small wire rack on the bottom of the saucepan to prevent the fish from sticking to the pot).\nBring to a boil, then reduce to a simmer. Simmer gently for 10 minutes to infuse the flavours.\nTurn the stove off and gently lower the fish into the liquid.\nMaintain the water temperature between 60 - 65°C (140 - 150°F), by turning stove on to low heat when needed and using a kitchen thermometer to check the water every 5 minutes.\nPoach the fish until the thickest part of the flesh reaches an internal temperature of 55-60°C (131-140°F), approximately 30 minutes.\nRemove the fish from the liquid and place on a large tray. Remove the flesh from the bones and flake gently when cool enough to handle. Season with salt, pepper and the zest of remaining lemon.\nTransfer fish to a sterilised jar. Pour over enough olive oil to submerge the fish, then seal closed. This can be refrigerated, for up to 5 days (this is not shelf-stable like commercially canned tuna).",
+      "notes": "",
+      "nutrition": "Serving size: 500g",
+      "yield_": "500 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT40M",
+      "total_time": "PT50M",
+      "prep_minutes": 10,
+      "cook_minutes": 40,
+      "total_minutes": 50,
+      "image_url": "https://cdn.shopify.com/s/files/1/0725/3911/1726/files/20250908083044-andy-20cooks-20-20preserved-20fish-20in-20oil.png?v=1757320247&width=1600&height=900",
+      "local_image": "",
+      "published_at": "2026-09-12T15:51:12+00:00",
+      "discovered_at": "2026-09-12T20:01:47.491623+00:00",
+      "content_hash": "11507f70955d01529059daff7ea8655452dba66c",
+      "content_fingerprint": "5772d2ecfcd16bce4a925603c79419f56cd145f1",
+      "last_seen_at": "2026-09-12T20:01:47.491623+00:00",
       "in_feed": true,
       "backfill": false
     }
