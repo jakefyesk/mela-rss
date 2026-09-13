@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-13T15:27:50.860607+00:00",
+  "generated_at": "2026-09-13T20:08:26.578696+00:00",
   "count": 249,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -4747,8 +4747,8 @@
     "b25e76d75c2a3dcb35f7eede90fa163106cd2180": {
       "dedup_key": "b25e76d75c2a3dcb35f7eede90fa163106cd2180",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/de/blogs/recipes/french-onion-soup",
-      "page_url": "https://www.andy-cooks.com/de/blogs/recipes/french-onion-soup",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/french-onion-soup",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/french-onion-soup",
       "mode": "link_through",
       "category": "recipe",
       "title": "French Onion Soup",
