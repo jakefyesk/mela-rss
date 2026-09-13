@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-13T02:39:42.292780+00:00",
+  "generated_at": "2026-09-13T10:56:25.444233+00:00",
   "count": 249,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -10202,23 +10202,23 @@
     "ebeea714935416e98b3354740c957aa3d7b0ad60": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/books/shop/20-minute-meals/",
-      "attempts": 1,
-      "last_attempt": "2026-09-11T07:17:20.136363+00:00",
-      "next_retry": "2026-09-13T07:17:20.136363+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-13T10:56:25.444233+00:00",
+      "next_retry": "2026-09-17T10:56:25.444233+00:00"
     },
     "640017dab4053d9cabae74f1254a9678fa9fa397": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/books/",
-      "attempts": 1,
-      "last_attempt": "2026-09-11T07:17:20.136363+00:00",
-      "next_retry": "2026-09-13T07:17:20.136363+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-13T10:56:25.444233+00:00",
+      "next_retry": "2026-09-17T10:56:25.444233+00:00"
     },
     "fae10b6b73d2aed574f0c3b14e85528cf155ebf2": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/books/bbq/",
-      "attempts": 1,
-      "last_attempt": "2026-09-11T07:17:20.136363+00:00",
-      "next_retry": "2026-09-13T07:17:20.136363+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-13T10:56:25.444233+00:00",
+      "next_retry": "2026-09-17T10:56:25.444233+00:00"
     }
   },
   "aliases": {
