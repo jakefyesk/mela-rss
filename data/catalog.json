@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-14T21:18:28.597053+00:00",
-  "count": 249,
+  "generated_at": "2026-09-15T02:57:48.093885+00:00",
+  "count": 250,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5420,7 +5420,7 @@
       "discovered_at": "2026-07-23T19:05:53.527646+00:00",
       "content_hash": "d0254002f869f604fdbc9ce71095109ca8726cfb",
       "last_seen_at": "2026-07-23T19:05:53.527646+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "9e1324ad31c257789b6d96dd4b543095a62b6d04"
     },
@@ -9837,6 +9837,45 @@
       "content_hash": "11507f70955d01529059daff7ea8655452dba66c",
       "content_fingerprint": "5772d2ecfcd16bce4a925603c79419f56cd145f1",
       "last_seen_at": "2026-09-12T20:01:47.491623+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "8f61a978aa1ad4a8a9ad2bcf5791d76f46847536": {
+      "dedup_key": "8f61a978aa1ad4a8a9ad2bcf5791d76f46847536",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/apple-cider-braised-pork-shoulder",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/apple-cider-braised-pork-shoulder",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Apple Cider Braised Pork Shoulder",
+      "text": "For this recipe we’re braising what most butchers call a pork butt, even though it’s actually from the shoulder. Pork shoulder is tough and a bit lean as the muscle works hard, which is exactly why it’s perfect for slow cooking. A few hours in the oven with cider, apples and aromatics, and the connective tissue breaks down into gelatine, the meat soaks up moisture, and you end up with juicy pork that falls apart with a fork. Braised Pork Shoulder ExplainedThe BraiseBraising means cooking in a small amount of liquid, covered, at a low temperature. It’s different from stewing, which uses enough liquid to fully submerge the meat. The first (and very important) step is to sear the pork on all sides to give it that lovely browning which help impart more flavour. The brown bits left stuck to the bottom of the pot are called the fond, and that’s where a big chunk of the flavour lives. Don’t try to clean the pan, the cider will lift all of that fond up later. The Apples and CiderApples and pork are a classic combination. The sweetness and acidity cut through the richness of the meat. We’re using fresh green apples for sharpness and a dry apple cider for the braising liquid. Make sure the cider is dry, not sweet as there’s already plenty of sweetness coming from the apples and onions. By the end of the cook the apples and onions are basically mush. That’s exactly what you want as they melt into the sauce and turn it silky. Ingredient NotesPork shoulder (pork butt): It’s the upper portion of the front leg of the pig, well-marbled with intramuscular fat and connective tissue. Bone-in is best for a braise as the bone adds depth to the sauce and helps the meat hold its shape during the long cook. Dry apple cider: Get a dry cider, not a sweet or fruity one. The apples and onions are bringing plenty of sweetness on their own, the cider is there for acidity and apple flavour. If you can’t find apple cider, a dry white wine or a mix of stock and apple juice works. Fresh thyme and bay leaves: You need fresh thyme and bay leaves for this one as dried thyme goes muddy in a long braise and dried bay loses most of its character. EquipmentChopping boardChef’s knifeTongsLarge Dutch oven or heavy-based ovenproof pot with lidWire rack and traySlotted spoonLarge spoon (for skimming fat)",
+      "author": "Andy",
+      "cuisine": "French",
+      "categories": [
+        "Dinner",
+        "Pork",
+        "Easy",
+        "Protein"
+      ],
+      "ingredients": "1.8 - 2kg (4-4.4 lbs) bone-in pork shoulder (pork butt/Boston pork butt)\nsea salt and cracked black pepper, to season\n2 brown onions\n6 cloves garlic\n2 green apples\n2 tbsp olive oil\n4 fresh thyme sprigs\n2 fresh bay leaves\n500ml (2 cups) apple cider (dry)\n250ml (1 cup) chicken stock\nPolenta or mashed potato and braised cabbage, to serve",
+      "instructions": "Preheat the oven to 160°C fan forced (320°F).\nPat the pork dry with paper towel and season generously with salt and pepper all over.\nHeat the oil in a large Dutch oven (or heavy based deep pan) over high heat. Sear the pork on all sides (starting with the fat cap side first) until deep golden brown, about 10-15 minutes.\nWhile the pork is searing, cut the onions into quarters, smash the garlic cloves, and core and quarter the apples.\nOnce the pork is seared on all sides, remove and set aside on a wire rack over a tray.\nIn the same dutch oven, reduce the heat to medium. Add the onion and garlic to the pot and cook for 5 minutes, stirring occasionally, until softened.\nReturn the pork to the pot. Add the apples, thyme sprigs and bay leaves, then pour in the apple cider and give everything a little jiggle, then add the chicken stock. The liquid should come about halfway up the pork.\nBring the heat back up to high, cover with a lid, and let sit for 5 minutes. Then, transfer to the oven.\nAfter 2 hours, take it out of the oven, turn the pork on it’s side, lid back on and back in the oven.\nBraise for another 1.5 - 2 hours, until the meat is completely tender and falling off the bone.\nRemove the pork from the oven and rest for 15 minutes.\nTransfer the pork to a serving platter. Skim the fat off the braising liquid and discard the bay leaves and thyme stalks.\nPull the pork apart into chunks and serve with the apples and onions, then drizzle with the braising sauce.\nServe with some polenta and braised cabbage if you like.",
+      "notes": "",
+      "nutrition": "Serving size: 4-6",
+      "yield_": "6 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT4H20M",
+      "total_time": "PT4H30M",
+      "prep_minutes": 10,
+      "cook_minutes": 260,
+      "total_minutes": 270,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260521014054-andy-20cooks-20-20apple-20cider-20braised-20pork-20shoulder_9012e7b1-c531-4ee8-867c-5bb6747fc95e.jpg?v=1780892625",
+      "local_image": "",
+      "published_at": "2026-09-15T00:13:20+00:00",
+      "discovered_at": "2026-09-15T02:57:48.093885+00:00",
+      "content_hash": "6e07b692dbb3da815b6034be826d101c14db0e98",
+      "content_fingerprint": "c4c37f76b72b28469adff88df3723b2f190b7dc7",
+      "last_seen_at": "2026-09-15T02:57:48.093885+00:00",
       "in_feed": true,
       "backfill": false
     }
