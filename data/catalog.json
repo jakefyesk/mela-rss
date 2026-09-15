@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-15T02:57:48.093885+00:00",
-  "count": 250,
+  "generated_at": "2026-09-15T10:51:30.911408+00:00",
+  "count": 251,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5459,7 +5459,7 @@
       "discovered_at": "2026-07-24T08:15:32.606897+00:00",
       "content_hash": "13c611713b221b63e41848ec6e42ba294e908166",
       "last_seen_at": "2026-07-24T08:15:32.606897+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "1f202f53e9801a81d68fc9771773c39891472fcc"
     },
@@ -9876,6 +9876,45 @@
       "content_hash": "6e07b692dbb3da815b6034be826d101c14db0e98",
       "content_fingerprint": "c4c37f76b72b28469adff88df3723b2f190b7dc7",
       "last_seen_at": "2026-09-15T02:57:48.093885+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "ee55059736064953374332cc9702833a7b0736b9": {
+      "dedup_key": "ee55059736064953374332cc9702833a7b0736b9",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/hard-shell-beef-tacos",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/hard-shell-beef-tacos",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Hard Shell Beef Tacos",
+      "text": "Hard shell beef tacos are something I grew up eating and still make regularly. They are Tex-Mex rather than traditional Mexican, the crisp fried shells and seasoned beef mince being a product of Mexican immigrant culture filtered through American fast food. This version keeps things straightforward: a simple homemade spice mix, well-browned beef, crisp shells and fresh toppings you put together at the table.The spice mix uses smoked paprika, cumin, coriander, garlic powder, onion powder and Mexican oregano. It comes together in minutes once everything is measured out. The key technique is cooking the mince in two batches rather than all at once, which keeps the pan hot enough to brown the meat properly rather than steam it. Serve everything at the table and let people build their own: avocado, shredded lettuce, pico de gallo and any hot sauce they like.Ingredient NotesMexican oregano: Mexican oregano has a stronger, more citrusy and floral flavour than the European dried oregano most people keep in their cupboard. It is widely used in Mexican and Tex-Mex cooking and worth seeking out from a specialty grocer or online. If you can’t find it, Italian dried oregano works as a substitute, though the flavour will be noticeably different.Beef mince: Use beef mince with some fat content, ideally around 15 to 20 percent. Lean mince dries out when cooked at high heat and the texture is noticeably worse. The fat keeps the filling juicy and helps it caramelise and brown properly in the pan. Regular supermarket beef mince works perfectly well for this.Smoked paprika: Smoked paprika gives the spice mix its colour and mild smoky depth. It is made from peppers that are smoked before being ground. Standard sweet paprika works as a substitute but lacks the smokiness. Hot smoked paprika is also an option if you want to add some heat to the filling without adjusting the rest of the spice mix.EquipmentSmall bowlLarge heavy-based frying panBaking trayMeasuring spoons",
+      "author": "Andy",
+      "cuisine": "Mexican",
+      "categories": [
+        "Dinner",
+        "Beef",
+        "Quick",
+        "Easy"
+      ],
+      "ingredients": "1 tsp Mexican oregano\n2 tsp garlic powder\n1 tsp onion powder\n1 tsp ground cumin\n1 tsp ground coriander\n2 tsp smoked paprika\n2 tbsp olive oil\n500g (1.1lb) beef mince\nsea salt, to season\n12 taco shells\n1 avocado, sliced\n1 iceberg lettuce, shredded\ncoriander leaves, to garnish\npico de gallo, to serve",
+      "instructions": "Combine the oregano and spices in a small bowl.\nHeat half of the oil in a large heavy-based frying pan over medium-high heat.\nAdd half of the beef mince and season with some salt. Sprinkle over half of the spice mix and cook for 6-8 minutes, until well browned, stirring occasionally break up the mince with the back of a wooden spoon.\nTransfer to a bowl and repeat with remaining oil, mince and spices.\nHeat the tacos in a preheated oven according to packet directions.\nTransfer the hot taco shells to a plate and serve with the beef mince filling, avocado, lettuce, coriander and Pico de Gallo all in separate bowls or a platter for everyone to make their own.",
+      "notes": "",
+      "nutrition": "Serving size: 4",
+      "yield_": "4 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT20M",
+      "total_time": "PT30M",
+      "prep_minutes": 10,
+      "cook_minutes": 20,
+      "total_minutes": 30,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20251219032042-andy-20cooks-20-20classic-20spiced-20beef-20tacos.jpg?v=1772774169",
+      "local_image": "",
+      "published_at": "2026-09-15T07:23:48+00:00",
+      "discovered_at": "2026-09-15T10:51:30.911408+00:00",
+      "content_hash": "0d2c61d264dbc1cc38d78b3e09d8c8363ed0c370",
+      "content_fingerprint": "c1d1ea1000b31438ecbe96220b9c704e55077097",
+      "last_seen_at": "2026-09-15T10:51:30.911408+00:00",
       "in_feed": true,
       "backfill": false
     }
