@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-15T16:03:12.513475+00:00",
-  "count": 252,
+  "generated_at": "2026-09-15T20:46:35.892725+00:00",
+  "count": 253,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5541,7 +5541,7 @@
       "discovered_at": "2026-07-27T09:39:20.359739+00:00",
       "content_hash": "73aa32cec2c98b28a7dcfa48b98ab6e2d4ed6f0f",
       "last_seen_at": "2026-07-27T09:39:20.359739+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "283cd4afacd9a1cbb4fffd5bcbae1c39cc157e6e"
     },
@@ -9921,7 +9921,7 @@
     "73f1501a90b247fcf2aec7465941f19ab6d6bf38": {
       "dedup_key": "73f1501a90b247fcf2aec7465941f19ab6d6bf38",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/salmon-with-pistou-and-cauliflower-rice",
+      "source_url": "https://justinesnacks.com/salmon-with-pistou-and-cauliflower-rice/",
       "page_url": "https://justinesnacks.com/salmon-with-pistou-and-cauliflower-rice/",
       "mode": "link_through",
       "category": "recipe",
@@ -9958,6 +9958,43 @@
       "content_hash": "430d67c2ee564ac055e90fcd0cbf6a6614ba5726",
       "content_fingerprint": "39243df652b2a1deeef4481fac5af1d3f6297082",
       "last_seen_at": "2026-09-15T16:03:12.513475+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "94b35edac4e487acefc863b45ec9ef26cfab9e0c": {
+      "dedup_key": "94b35edac4e487acefc863b45ec9ef26cfab9e0c",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/chicken-pot-pie",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/chicken-pot-pie",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Chicken Pot Pie",
+      "text": "This was one of my favourite meals growing up. Creamy chicken and vegetable filling topped with a flaky pastry. It's a hearty, rich and very comforting dinner.Chicken pot pie is built around a velouté: the chicken is poached in a mixture of milk and stock, then the poaching liquid is strained off and used as the base for the sauce. Cooking the chicken this way keeps it tender and transfers the flavour directly into the liquid, so when you build the sauce you’re working with something that already tastes of chicken. The vegetables are sautéed separately, flour is added to form a roux in the pan, and then the reserved liquid goes in gradually while you stir until it thickens into a properly seasoned filling.The filling needs to be at room temperature or cooler before the pastry goes on. Steam from a hot filling softens the pastry from the underside before it has a chance to set in the oven, which gives you a soggy base rather than a crisp one. I use a 375g frozen puff pastry sheet because it’s consistent and bakes reliably. A few steam vents cut into the top before baking prevent the pastry from lifting off unevenly. Ingredient NotesChicken thighs: Boneless, skinless thighs are the best cut for this recipe. Thighs have more intramuscular fat than breast, which keeps them juicy through the poaching stage and after being broken up and returned to the sauce. Chicken breast can be used but it dries out more easily and the texture of the finished filling is less forgiving. Frozen puff pastry: A 375g sheet of frozen puff pastry is the standard supermarket size in Australia and covers a 3.4L casserole dish. Thaw it in the fridge overnight or on the bench for about 30 minutes before use. Don’t stretch it to fit the dish as it will shrink back in the oven. If your dish is smaller, individual pastry sheets work well. Homemade rough puff pastry also works if you want to make it from scratch.Dijon mustard: Three teaspoons of Dijon goes into the filling at the end and it serves two purposes: the acidity cuts through the richness of the milk-and-butter sauce, and the emulsifying properties of the mustard help bind the sauce. The result doesn’t taste noticeably of mustard but the filling tastes more balanced and complete without it than with it removed. Wholegrain mustard works as a substitute and adds a little texture.EquipmentChopping boardChef’s knifeLarge saucepanLarge bowlSieveLarge casserole dish (3.4L)Pastry brushLarge baking tray (to catch drips)",
+      "author": "Andy",
+      "cuisine": "British",
+      "categories": [
+        "Dinner",
+        "Chicken"
+      ],
+      "ingredients": "800ml milk\n500ml chicken stock\n1 chicken stock cube\n6 sprigs thyme\n1 tsp black peppercorns\n1kg chicken thighs, boneless and skinless\n50ml olive oil\n50g butter\n2 brown onions, diced\n2 carrots, diced\n3 celery sticks, diced\n6 cloves garlic, finely grated\n½ bunch dill, chopped\n3 tsp dijon mustard\n100g (¾ cup) plain flour\n50g grated parmesan cheese\nsea salt and black pepper, to taste\n2 cups frozen peas\n375g frozen puff pastry sheet, thawed\n1 egg, beaten\n2 tsp sesame seeds",
+      "instructions": "Combine the milk, chicken stock, stock cube, thyme, peppercorns and big pinch of salt (2g) in a large saucepan. Bring to a gentle simmer, stirring to dissolve the stock cube.\nAdd the chicken to the saucepan, then cover and cook on low heat for 20 mins.\nRemove the chicken and strain the liquid from the saucepan into a large bowl and reserve.\nWhen the chicken is cool enough to handle, break it up into bite size pieces.\nWipe out the saucepan and heat the oil and butter in it over medium heat.\nAdd the carrot and season with some salt. Saute for 4 minutes, until softened. Stir in the onion and cook for a further 3 minutes. Add the celery and garlic and cook for a further 3 minutes.\nSprinkle over the flour and stir through the vegetables until well combined. Gradually pour in the reserved chicken liquid, stirring constantly as it comes to a simmer and thickens.\nAdd the chicken, parmesan, mustard, peas and dill. Stir well to combine and season to taste. Pour mixture into a large casserole dish (3.4L /3.6qt). Let the filling cool slightly before topping with pastry.\nPreheat the oven to 180°C (356°F).\nDrape the pastry over the casserole dish and press in around the edges to seal.\nMake a few small slits in the top for steam holes, then brush the pastry top with beaten egg. Sprinkle over sesame seeds.\nPlace a large tray in the bottom of the oven to catch any drips from the dish. Bake for 40-45 minutes, until the pastry is golden and puffed.\nServe warm and enjoy!",
+      "notes": "",
+      "nutrition": "Serving size: 6-8",
+      "yield_": "8 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT1H",
+      "total_time": "PT1H15M",
+      "prep_minutes": 15,
+      "cook_minutes": 60,
+      "total_minutes": 75,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20251023061931-andy-20cooks-20-20chef-20chicken-20pot-20pie-20recipe.jpg?v=1773294528",
+      "local_image": "",
+      "published_at": "2026-09-15T19:01:30+00:00",
+      "discovered_at": "2026-09-15T20:46:35.892725+00:00",
+      "content_hash": "b3027ea043eec1703d0b56efc9c7e4ee748cbf95",
+      "content_fingerprint": "670258a7ec1fbc861ec00c85a2ee483788b47d17",
+      "last_seen_at": "2026-09-15T20:46:35.892725+00:00",
       "in_feed": true,
       "backfill": false
     }
@@ -10029,156 +10066,156 @@
     "a1c56a4ce8bae809e2c2a953cb4ecb4621207d42": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/tv/",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "d503095b5d58c9554647658d354f1f6b92968d37": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/jamies-cookbook-club/",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "270b361ad6846ecbe941ba8d06debc0e4ca0ef0b": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/want-moist-fluffy-pancakes-dont-use-butter",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "7ae9ecd4adcc61b7e2c78f65aed83aa69a4ba82c": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/creamy-mac-amp-cheese-template-w-any-cheeses",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "acd16ba7f79321c410cbdc6960dd298d9a116e1f": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/double-decker-taco-discontinued-taco-bell",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "b97819a2a162f3e24df7c680817c9e51930ef38b": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/chicken-amp-tortilla-strip-salad",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "69918628eb101e9250e58393528160e26c2ca545": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/braised-beef-quesadilla",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "29bb3c3376d7084861270c03512678b4b9dd92cb": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/gordon-ramseys-viral-burger-fixed",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "e386362340474abd4f3f947c43acc39189d90da9": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/caesar-salad-amp-protein-freezer-meal-prep",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "f35b16086052524ed6fa807f4397f62d3f87bad8": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/japanese-beef-sandwich-amp-freezer-braised-meat-meal-prep",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "c4857db41da9fd68eeae0bd9d6d1204ae5ecc361": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/jambon-buerre-french-ham-amp-butter-sandwich",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "2c74bd5321163ad1b15e1ae4cf638947b08139f3": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/baguette-pizza",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "7797b51c746b9a9e5978d5dcacbb876e17da08c7": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/french-tacos",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "96961f1d0e03ba37d6934bf6b86a41bbb8b41a55": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/herb-lemon-garlic-yogurt-sauce",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "8041bc94ac1db5cb2d02ad9c628ee1537f61d79f": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/thai-basil-chicken-stir-fry",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "c123d6587c6804027ee17ef204dd95b4ce44526c": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/crunchy-chicken-quesadilla",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "3dde2cfc5ec1bef57a7d5d9e3d65c40759d41928": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/mexican-inspired-bento-box-lunch",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "72b23ae23f8644b7b36c924e770bb4abdf0b2d86": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/chicken-shishito-stir-fry",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "46f69b6bdc3ce97b8955b92a93c14740e038d2aa": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/crispy-garlic-rosemary-pasta-with-any-braised-meat",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "2746446974ac26eede01f99bffb12bc194147b7f": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/chicken-flatbread-wrap",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "d3fde19e8fb332a2a6073739dbe8ce7d7621aecf": {
       "source": "ethanchlebowski",
       "source_url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/crispy-chicken-thighs-with-roasted-sweet-potatoes",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "d9c00638d3d69944a2c9752c401e1eb6235d7aa1": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/new/",
-      "attempts": 5,
-      "last_attempt": "2026-08-16T20:40:27.303372+00:00",
-      "next_retry": "2026-09-15T20:40:27.303372+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-09-15T20:46:35.892725+00:00",
+      "next_retry": "2026-10-15T20:46:35.892725+00:00"
     },
     "8d26c16254cea5c87812cc524b9b619411abc2d8": {
       "source": "jamieoliver",
