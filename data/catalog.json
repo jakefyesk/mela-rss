@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-15T10:51:30.911408+00:00",
-  "count": 251,
+  "generated_at": "2026-09-15T16:03:12.513475+00:00",
+  "count": 252,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5500,7 +5500,7 @@
       "discovered_at": "2026-07-26T13:06:53.152610+00:00",
       "content_hash": "15c655bf7c92901d51f7c63290380c6df02919df",
       "last_seen_at": "2026-07-26T13:06:53.152610+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "39d7ca40b0461bac704c47c1574f54f51b0f91ec"
     },
@@ -9915,6 +9915,49 @@
       "content_hash": "0d2c61d264dbc1cc38d78b3e09d8c8363ed0c370",
       "content_fingerprint": "c1d1ea1000b31438ecbe96220b9c704e55077097",
       "last_seen_at": "2026-09-15T10:51:30.911408+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "73f1501a90b247fcf2aec7465941f19ab6d6bf38": {
+      "dedup_key": "73f1501a90b247fcf2aec7465941f19ab6d6bf38",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/salmon-with-pistou-and-cauliflower-rice",
+      "page_url": "https://justinesnacks.com/salmon-with-pistou-and-cauliflower-rice/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Salmon with Pistou and Cauliflower Rice",
+      "text": "Of all my easy, healthy and quick dinners, this one has a special place in my repertoire. The cauliflower nearly disappears into the rice, giving you a fluffy, hearty base for an easy pistou and buttery salmon. Pistou is just a pine nut-less pesto, meaning you don't have to whip out the food processor if you don't want to, and that is such a gift.",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion,Italian",
+      "categories": [
+        "Dinner",
+        "Fish",
+        "Main Course",
+        "cauliflower",
+        "cauliflower rice",
+        "pesto",
+        "pistou",
+        "salmon"
+      ],
+      "ingredients": "1 cup long-grain white rice\nDiamond Crystal kosher salt\n1/2 (1 lb) head of cauliflower\n2 cups (2 oz) fresh basil leaves\n2 ounces parmesan\n1 large lemon\n1/3 cup extra-virgin olive oil\n1/4 teaspoon red pepper flakes\nFreshly cracked black pepper\n1 1/4 pounds salmon (skin on )\n2 tablespoons salted butter (divided )",
+      "instructions": "Preheat the oven to 350°F convection, or 375°F standard.\nRinse and add 1 cup of rice to a rice cooker or medium pot. Cover with 2 cups of water and season with 1/2 teaspoon kosher salt.\nFinely chop the cauliflower into bean-sized pieces. Add this to your rice cooker or pot. If you are using your rice cooker, let cook as normal for white rice. If you are using a pot, bring the water to a simmer, cover and reduce the heat to low and let simmer for 20 minutes, until the water has fully evaporated.\nWhile the rice is cooking, make the pistou: Finely chop 2 cups of basil leaves and add them to a medium bowl. Grate in 2 ounces of parmesan, squeeze in the juice from 1 lemon (3 tablespoons) and pour in 1/3 cup of olive oil. Mix and season with 1/4 teaspoon red pepper flakes, 1/2 teaspoon salt and a few cracks of black pepper. You can also add all the ingredients to a food processor for a quicker mix. Set this aside, it will soften as it sits.\nNext, portion the salmon into 4 pieces. Season both sides with salt and pepper.\nPut a 12-inch oven-safe sauté pan over medium heat. Melt 1 tablespoon of butter, then place the salmon pieces in the pan, skin side down. Let them sear for 3-5 minutes, until you see they are turning light pink about 1/4 of the way up the sides. Transfer this pan to the oven so the salmon can finish cooking for 10-11 minutes, or until the internal temperature is at least 135°F.\nBy now, the rice should be ready. Give it a fluff with a fork and mix in the remaining tablespoon of salted butter. Taste and season with salt as preferred.\nTo serve, portion a large amount of cauliflower rice onto four plates. Add the salmon to each plate, crispy skin facing up. Top with the pistou, mix all together and enjoy!",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "4 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT25M",
+      "total_time": "PT35M",
+      "prep_minutes": 10,
+      "cook_minutes": 25,
+      "total_minutes": 35,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/09/salmon-with-pistou-and-cauliflower-rice.jpg",
+      "local_image": "",
+      "published_at": "2026-09-15T11:11:28+00:00",
+      "discovered_at": "2026-09-15T16:03:12.513475+00:00",
+      "content_hash": "430d67c2ee564ac055e90fcd0cbf6a6614ba5726",
+      "content_fingerprint": "39243df652b2a1deeef4481fac5af1d3f6297082",
+      "last_seen_at": "2026-09-15T16:03:12.513475+00:00",
       "in_feed": true,
       "backfill": false
     }
