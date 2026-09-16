@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-16T10:40:41.033151+00:00",
-  "count": 253,
+  "generated_at": "2026-09-16T15:56:32.911175+00:00",
+  "count": 254,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -9997,6 +9997,47 @@
       "last_seen_at": "2026-09-15T20:46:35.892725+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "9a264d092e04854bfeadf961d59e9a7de2fefdc2": {
+      "dedup_key": "9a264d092e04854bfeadf961d59e9a7de2fefdc2",
+      "source": "jamieoliver",
+      "source_url": "https://www.jamieoliver.com/recipes/soup/super-green-risotto-soup",
+      "page_url": "https://www.jamieoliver.com/recipes/soup/super-green-risotto-soup",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Super-green risotto soup",
+      "text": "A nutritious and delicious dish, this vegetarian green risotto soup is packed with greens and perfectly creamy.",
+      "author": "Jamie Oliver",
+      "cuisine": "",
+      "categories": [
+        "Soup",
+        "Healthy soup",
+        "Risotto",
+        "Vegetarian",
+        "Cheese",
+        "Leek"
+      ],
+      "ingredients": "2 sticks of celery\n1 large leek\nolive oil\n1 lemon\n1 organic vegetable stock cube\n100g risotto rice\n20g blanched hazelnuts\n250g baby spinach\n30g Parmesan or vegetarian Italian hard cheese\nextra virgin olive oil",
+      "instructions": "Preheat the oven to 170°C/325ºF/gas 3.\nTrim, wash and finely chop the celery and the white part of the leek (save the green part for later). Drizzle 1½ tablespoons of olive oil into a large pan on a medium heat, add the chopped veg, finely grate over the lemon zest, and season with sea salt and black pepper. Cook for 15 minutes, or until soft and sweet, stirring occasionally.\nCrumble in the stock cube, then stir in the rice and toast for 1 minute. Pour in 1 litre of boiling kettle water and reduce the heat to low, then cover and simmer for 15 minutes, or until the rice is tender.\nHalve the green part of the leek and finely slice, then scatter onto a baking tray and season with salt and pepper. Roughly crush or chop the hazelnuts and scatter onto the tray, then drizzle lightly with oil, toss together and roast for 10 minutes, or until golden and crisp.\nTransfer a ladle of liquid from the soup to a blender, pile in the spinach and squeeze in the lemon juice, then blitz until smooth and stir into the pan. Cook for a further 2 minutes, then finely grate in most of the Parmesan and loosen with a splash of boiling water, if needed.\nDivide the soup between bowls, top with the crispy leeks and toasted hazelnuts, then grate over the remaining Parmesan and finish with a drizzle of extra virgin olive oil.",
+      "notes": "",
+      "nutrition": "Calories: 460 calories\nProtein: 16.7 g\nCarbs: 50.5 g\nFat: 21.1 g\nFiber: 2 g\nSugar: 6.6 g\nSodium: 1.6 g",
+      "yield_": "2 servings",
+      "prep_time": "",
+      "cook_time": "PT45M",
+      "total_time": "PT45M",
+      "prep_minutes": null,
+      "cook_minutes": 45,
+      "total_minutes": 45,
+      "image_url": "https://cdn.sanity.io/images/cq7w2e71/production/dc66eaa8a06fbb808373f701f4c0d1bee30c7c14-1200x1800.jpg",
+      "local_image": "",
+      "published_at": "2025-03-05T00:00:00+00:00",
+      "discovered_at": "2026-09-16T15:56:32.911175+00:00",
+      "content_hash": "491cac49b2a46608fcf0ef157498063a39f07f02",
+      "content_fingerprint": "6cd78871d8e7ce707df03b8d87b1e8e816b88bfd",
+      "last_seen_at": "2026-09-16T15:56:32.911175+00:00",
+      "in_feed": false,
+      "backfill": false
     }
   },
   "failures": {
@@ -10377,6 +10418,13 @@
       "attempts": 2,
       "last_attempt": "2026-09-13T10:56:25.444233+00:00",
       "next_retry": "2026-09-17T10:56:25.444233+00:00"
+    },
+    "7561a51b697991ceeafab51e3b0819c93eb73fa7": {
+      "source": "jamieoliver",
+      "source_url": "https://www.jamieoliver.com/recipes/tv/one-pound-wonders-and-money-saving-meals/",
+      "attempts": 1,
+      "last_attempt": "2026-09-16T15:56:32.911175+00:00",
+      "next_retry": "2026-09-18T15:56:32.911175+00:00"
     }
   },
   "aliases": {
