@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-17T16:02:57.630974+00:00",
-  "count": 264,
+  "generated_at": "2026-09-17T20:51:13.273773+00:00",
+  "count": 265,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -4896,8 +4896,8 @@
     "790760f08df17a996f6e812c6e4b91aa01c3e8f5": {
       "dedup_key": "790760f08df17a996f6e812c6e4b91aa01c3e8f5",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/de/blogs/recipes/flat-iron-steak-with-herb-butter",
-      "page_url": "https://www.andy-cooks.com/de/blogs/recipes/flat-iron-steak-with-herb-butter",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/flat-iron-steak-with-herb-butter",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/flat-iron-steak-with-herb-butter",
       "mode": "link_through",
       "category": "recipe",
       "title": "Flat Iron Steak with Herb Butter",
@@ -5579,7 +5579,7 @@
       "discovered_at": "2026-07-28T19:14:47.531414+00:00",
       "content_hash": "863cf658c5ac83a6e3e562bdc0c34b21402d0c09",
       "last_seen_at": "2026-07-28T19:14:47.531414+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "d031802ba93d14748892c5a9550544486c065a84"
     },
@@ -10042,7 +10042,7 @@
     "7afee283a852418492d5899c71b9507d6afd02f9": {
       "dedup_key": "7afee283a852418492d5899c71b9507d6afd02f9",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/creamy-chili-chickpeas",
+      "source_url": "https://justinesnacks.com/creamy-chili-chickpeas/",
       "page_url": "https://justinesnacks.com/creamy-chili-chickpeas/",
       "mode": "link_through",
       "category": "recipe",
@@ -10083,7 +10083,7 @@
     "0685997aed6008ca12d721aa636c8054e720b15a": {
       "dedup_key": "0685997aed6008ca12d721aa636c8054e720b15a",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/roast-meatloaf-with-tomatoes-garlic-and-basil",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/roast-meatloaf-with-tomatoes-garlic-and-basil/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/roast-meatloaf-with-tomatoes-garlic-and-basil/",
       "mode": "link_through",
       "category": "recipe",
@@ -10130,7 +10130,7 @@
     "c8f42a29fb86aba3bcd832e68886ba5d125eba25": {
       "dedup_key": "c8f42a29fb86aba3bcd832e68886ba5d125eba25",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/jamie-s-meatloaf",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/jamie-s-meatloaf/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/jamie-s-meatloaf/",
       "mode": "link_through",
       "category": "recipe",
@@ -10185,7 +10185,7 @@
     "1ce70b2dccc2c497ff9262071ffe6003bdedb39e": {
       "dedup_key": "1ce70b2dccc2c497ff9262071ffe6003bdedb39e",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/meatloaf",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/meatloaf/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/meatloaf/",
       "mode": "link_through",
       "category": "recipe",
@@ -10236,7 +10236,7 @@
     "a7d1d1d5f1e3668125a31fb15d67d01b6cc5f5b9": {
       "dedup_key": "a7d1d1d5f1e3668125a31fb15d67d01b6cc5f5b9",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/stews/burns-night-stew-dumplings",
+      "source_url": "https://www.jamieoliver.com/recipes/stews/burns-night-stew-dumplings/",
       "page_url": "https://www.jamieoliver.com/recipes/stews/burns-night-stew-dumplings/",
       "mode": "link_through",
       "category": "recipe",
@@ -10277,7 +10277,7 @@
     "82b93db64bfe7a6987b2f7da7e5caa71a91911fd": {
       "dedup_key": "82b93db64bfe7a6987b2f7da7e5caa71a91911fd",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/5050-bolognese",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/5050-bolognese/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/5050-bolognese/",
       "mode": "link_through",
       "category": "recipe",
@@ -10315,7 +10315,7 @@
     "45c074cf4a088d514237ec26af647aa1475ecb90": {
       "dedup_key": "45c074cf4a088d514237ec26af647aa1475ecb90",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/cajun-chicken-traybake",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/cajun-chicken-traybake/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/cajun-chicken-traybake/",
       "mode": "link_through",
       "category": "recipe",
@@ -10354,7 +10354,7 @@
     "fcfe8c960294a2623df2427946315daeac74b8dc": {
       "dedup_key": "fcfe8c960294a2623df2427946315daeac74b8dc",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/aubergine/aubergine-shakshuka-bowl",
+      "source_url": "https://www.jamieoliver.com/recipes/aubergine/aubergine-shakshuka-bowl/",
       "page_url": "https://www.jamieoliver.com/recipes/aubergine/aubergine-shakshuka-bowl/",
       "mode": "link_through",
       "category": "recipe",
@@ -10399,7 +10399,7 @@
     "7e54ad755adf03c0eb15f950be765353310a1fb3": {
       "dedup_key": "7e54ad755adf03c0eb15f950be765353310a1fb3",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/egg/classic-crepes",
+      "source_url": "https://www.jamieoliver.com/recipes/egg/classic-crepes/",
       "page_url": "https://www.jamieoliver.com/recipes/egg/classic-crepes/",
       "mode": "link_through",
       "category": "recipe",
@@ -10440,7 +10440,7 @@
     "78f4e22a4c9fb461cce387ade4e341bc9b7c86cc": {
       "dedup_key": "78f4e22a4c9fb461cce387ade4e341bc9b7c86cc",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/lamb/georgian-inspired-leg-of-lamb",
+      "source_url": "https://www.jamieoliver.com/recipes/lamb/georgian-inspired-leg-of-lamb/",
       "page_url": "https://www.jamieoliver.com/recipes/lamb/georgian-inspired-leg-of-lamb/",
       "mode": "link_through",
       "category": "recipe",
@@ -10475,6 +10475,43 @@
       "content_fingerprint": "8b1d735b9227773a87dc7142d9c64def0aa6bc91",
       "last_seen_at": "2026-09-17T16:02:57.630974+00:00",
       "in_feed": false,
+      "backfill": false
+    },
+    "63e3de9c3f60d96bc74ee6449406580497134b7b": {
+      "dedup_key": "63e3de9c3f60d96bc74ee6449406580497134b7b",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/tomato-sugo-sauce",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/tomato-sugo-sauce",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Tomato Sugo (Sauce)",
+      "text": "Tomato sugo is one of those recipes I keep coming back to because it gives you so much for very little effort. A handful of ingredients, about 35 minutes on the stove, and you end up with 2.5 litres of a rich sauce that forms the base for pasta, stews, baked eggs, ragu and more. I make a big batch on the weekend and it sets me up for multiple meals across the week without any extra effort.The key to a good sugo is patience with the onions. They need to cook down slowly before the tomatoes go in so they become sweet and soft rather than sharp. The sauce also needs time to simmer and concentrate. Don’t rush either of those stages. Once it’s done, portion it into containers and it will keep in the fridge for five days, or in the freezer for months. I also find the flavour improves on day two once everything has had time to settle.Ingredient NotesOlive oil: Use a good quality extra virgin olive oil here. It forms the flavour base of the sauce and that fruitiness comes through in the finished product. A neutral oil will work as a substitute, but the sauce won’t taste as rounded.Canned peeled tomatoes: I like to use whole peeled tomatoes rather than pre-chopped, and I crush them in the pan with a masher so I can control the final texture. If you can find San Marzano or similar Italian varieties, they are worth using for the extra sweetness and lower acidity.Garlic: Two full heads might seem like a lot but garlic mellows significantly during cooking, becoming sweet rather than sharp. Finely grate it so it dissolves into the sauce rather than leaving any chunks behind. If you only have pre-minced garlic from a jar, it will work but fresh grated is noticeably better here.EquipmentChopping boardChef’s knifeLarge heavy-based saucepanPotato masherWooden spoon",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Dinner",
+        "Easy"
+      ],
+      "ingredients": "80ml (⅓ cup) olive oil\n3 brown onions, finely diced\n2 heads garlic, peeled, finely grated\n2 tsp dried oregano\n6 x 400g cans peeled tomatoes\nsea salt and freshly cracked black pepper, to season",
+      "instructions": "Heat the oil in a heavy based saucepan over medium-high heat.\nAdd the onion and garlic and season with some salt. Cook, stirring often for 8 minutes, until softened.\nStir in the oregano and cook for 1 minute. Add the canned tomatoes, then add a little bit of water to the cans to collect all the tomato sauce and add this to the pot as well. Using a masher, crush the tomatoes in the saucepan, until broken down. Simmer the sauce for 20-25 minutes, tasting as it cooks for seasoning.\nGive a final season of salt and pepper if needed, then use as the base for your meal prep dishes.",
+      "notes": "",
+      "nutrition": "Serving size: 2.5 L",
+      "yield_": "2.5 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT35M",
+      "total_time": "PT45M",
+      "prep_minutes": 10,
+      "cook_minutes": 35,
+      "total_minutes": 45,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20251219013851-andy-20cooks-20-20classic-20tomato-20sugo-20recipe_d28892a5-c0f0-44ab-b6ee-097eb299992a.jpg?v=1772792442",
+      "local_image": "",
+      "published_at": "2026-09-17T19:15:25+00:00",
+      "discovered_at": "2026-09-17T20:51:13.273773+00:00",
+      "content_hash": "7d56c258ac719f535a9a92015b7b6377944623b9",
+      "content_fingerprint": "a2cbc5b1344a9079709481b907a385224da655fa",
+      "last_seen_at": "2026-09-17T20:51:13.273773+00:00",
+      "in_feed": true,
       "backfill": false
     }
   },
