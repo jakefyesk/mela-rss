@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-18T15:38:38.546751+00:00",
+  "generated_at": "2026-09-18T20:16:51.319825+00:00",
   "count": 266,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -10517,7 +10517,7 @@
     "21f35f12b3a25e172d54db4bcb46b6aabe0e4d86": {
       "dedup_key": "21f35f12b3a25e172d54db4bcb46b6aabe0e4d86",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/fresh-polenta-and-spicy-tomato-sausage",
+      "source_url": "https://justinesnacks.com/fresh-polenta-and-spicy-tomato-sausage/",
       "page_url": "https://justinesnacks.com/fresh-polenta-and-spicy-tomato-sausage/",
       "mode": "link_through",
       "category": "recipe",
@@ -10936,9 +10936,9 @@
     "7561a51b697991ceeafab51e3b0819c93eb73fa7": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/tv/one-pound-wonders-and-money-saving-meals/",
-      "attempts": 1,
-      "last_attempt": "2026-09-16T15:56:32.911175+00:00",
-      "next_retry": "2026-09-18T15:56:32.911175+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-18T20:16:51.319825+00:00",
+      "next_retry": "2026-09-22T20:16:51.319825+00:00"
     },
     "a0ea7a46c9097322602df14044f03c7453952539": {
       "source": "jamieoliver",
