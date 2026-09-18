@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-18T10:24:19.958299+00:00",
-  "count": 265,
+  "generated_at": "2026-09-18T15:38:38.546751+00:00",
+  "count": 266,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5661,7 +5661,7 @@
       "discovered_at": "2026-07-29T02:03:03.213621+00:00",
       "content_hash": "a9b3d51ce383fe151a99508bf36e6d9ceb8c06fb",
       "last_seen_at": "2026-07-29T02:03:03.213621+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "4dffa65f0b658d52cd305372e8132f08efa7cc18"
     },
@@ -10511,6 +10511,45 @@
       "content_hash": "7d56c258ac719f535a9a92015b7b6377944623b9",
       "content_fingerprint": "a2cbc5b1344a9079709481b907a385224da655fa",
       "last_seen_at": "2026-09-17T20:51:13.273773+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "21f35f12b3a25e172d54db4bcb46b6aabe0e4d86": {
+      "dedup_key": "21f35f12b3a25e172d54db4bcb46b6aabe0e4d86",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/fresh-polenta-and-spicy-tomato-sausage",
+      "page_url": "https://justinesnacks.com/fresh-polenta-and-spicy-tomato-sausage/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Fresh Polenta and Spicy Tomato Sausage",
+      "text": "",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion,Italian",
+      "categories": [
+        "Main Course",
+        "corn",
+        "fresh polenta",
+        "polenta with sausage"
+      ],
+      "ingredients": "# For the polenta\nDiamond Crystal kosher salt\n6 large ears of corn (yellow or white)\nFreshly cracked blacked pepper\n# For the spicy tomato sausage\n2-3 (12 oz) beefsteak tomatoes\n3 garlic cloves\n1/4 cup extra virgin olive oil\n1/2 teaspoon Calabrian chili paste\n4 (3.5 oz each) spicy Italian vegetarian or chicken sausages\n6-8 fresh basil leaves (for serving)",
+      "instructions": "Place a large pot of water to boil and season with 1 tablespoon of salt. When it’s at a boil, add the 6 ears of corn, making sure they're fully covered, and simmer for 10 minutes.\nAfter 10 minutes, use tongs to transfer the corn to a cutting board. Reserve 1 cup of the boiling water and drain the rest. Using a towel to protect your hands, slice the kernels off the cob and add them to a food processor. Process until the corn is pureed, then add the corn back to the pot with the reserved cup of water.\nCook over medium heat, stirring occasionally, for 35-40 minutes, until the corn is thickened, starchy, and goes from the texture of baby food to a thick polenta. Season liberally with salt and pepper (it’s sweet, so it can handle it!).\nDuring this time, chop 12 ounces of tomatoes into wedges. Grate 3 garlic cloves.\nPlace a 12-inch sauté pan over medium heat and add 1/4 cup of olive oil. Add 1/2 teaspoon of Calabrian chili paste, the tomatoes and garlic. Cook, stirring occasionally, for 8-10 minutes, or until the tomatoes are softened, burst and jammy. Season with salt.\nRoughly chop 4 sausages. Add to the pan and stir. Let the sausage simmer in the tomatoes. It should cook through in 2-3 minutes - vegetarian sausage just needs to warm through. Reduce the heat to low while the polenta finishes cooking.\nTo serve, scoop the polenta onto four plates (it’s filling, so you’ll need less than you think), top with the tomatoes and sausage. Tear on basil leaves and serve!",
+      "notes": "",
+      "nutrition": "Calories: 428 kcal\nProtein: 20 g\nCarbs: 38 g\nFat: 24 g\nServing size: 1 plate",
+      "yield_": "4 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT45M",
+      "total_time": "PT1H",
+      "prep_minutes": 15,
+      "cook_minutes": 45,
+      "total_minutes": 60,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/09/Polenta-and-Tomato-Sausage-3.jpg",
+      "local_image": "",
+      "published_at": "2026-09-18T10:32:18+00:00",
+      "discovered_at": "2026-09-18T15:38:38.546751+00:00",
+      "content_hash": "87b7302e8cad31137f9f7ebe1937a8b20d2bcac9",
+      "content_fingerprint": "6ab4f7790980b2689efdd16971dfca374521abc2",
+      "last_seen_at": "2026-09-18T15:38:38.546751+00:00",
       "in_feed": true,
       "backfill": false
     }
