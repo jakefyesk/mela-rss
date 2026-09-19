@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-19T02:42:55.437149+00:00",
-  "count": 266,
+  "generated_at": "2026-09-19T10:08:33.640207+00:00",
+  "count": 267,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -7218,7 +7218,7 @@
       "content_hash": "efe403110076d3e42b06a234afa42524d8b89645",
       "content_fingerprint": "566f24023b503079f1b0cdb1133bebf43740db5b",
       "last_seen_at": "2026-08-16T20:40:27.303372+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "7bfb2255d4d2b50dd728fd0626ab38d174845bf7": {
@@ -10550,6 +10550,44 @@
       "content_hash": "87b7302e8cad31137f9f7ebe1937a8b20d2bcac9",
       "content_fingerprint": "6ab4f7790980b2689efdd16971dfca374521abc2",
       "last_seen_at": "2026-09-18T15:38:38.546751+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "b49bb8fa4377907e18e9b43ca43ae46f14c92dd4": {
+      "dedup_key": "b49bb8fa4377907e18e9b43ca43ae46f14c92dd4",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/carbonara",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/carbonara",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Carbonara",
+      "text": "An authentic Carbonara is a thing of beauty, but it can be tricky to get right. Temperature control is key. Take your time. Get everything ready before you even cook your pasta. The last thing you want to be doing is rushing.There are lots of variations of carbonara and at some point along the way people started adding cream to it. You don’t need the cream. I actually think it makes it worse. A traditional carbonara is just eggs, pecorino, guanciale, spaghetti and some salt and pepper. The combination of pasta water, egg and pecorino give you a smooth creamy pasta with loads of flavour. The Guanciale is also a very important element here as it has the right smokiness, saltiness and texture for this pasta. Now I know some people might struggle to get guanciale, so I think you can still make it using speck or smoky bacon as an alternative. It won’t be the same but it will still be delicious. This recipe is all about how to make a real carbonara, and the techniques to ensure your pasta is smooth and creamy. Ingredient NotesGuanciale: Italian salt-cured pork cheek with a higher fat ratio than pancetta or bacon. That fat renders down during the cook and becomes the base of the sauce. The flavour is less smoky and more delicate than bacon. If you can’t find it, speck or a good smoky bacon work as substitutes, but you’ll get less rendered fat in the pan and may need to add a small amount of olive oil to compensate.Pecorino Romano: Sharper and saltier than parmesan, and the traditional choice for carbonara. It melts cleanly into the sauce when combined with hot pasta water and egg yolks. You can use parmesan as a substitute, or blend the two half and half for a slightly milder, less sharp result. Either way, grate it fresh rather than using pre-grated, which won’t melt as smoothly.Egg yolks: Using only yolks, rather than whole eggs, gives a richer and more stable sauce that is less likely to scramble. The yolks provide fat and lecithin, which is the emulsifier that holds the sauce together. Three yolks for two serves is the right ratio for richness without making the sauce heavy.EquipmentLarge potLarge frying panChopping boardChef’s knifeBox graterLarge mixing bowlLadleTongs",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Dinner",
+        "Pasta",
+        "Quick"
+      ],
+      "ingredients": "200g Guanciale\n300g spaghetti\n200g pecorino cheese, grated\n3 egg yolks\nsea salt and cracked black pepper, to season",
+      "instructions": "Place a large pot of water on to boil with 2 pinches of salt in it.\nDice the guanciale into 1cm cubes. Place in a cold frying pan, then place over a medium heat. Cook for 8-10 minutes, stirring often, until browned and crisp.\nTransfer the guanciale to a plate and drain off the fat from the pan into a small bowl. Remove the pan from the heat and let it cool completely.\nAdd the pasta to the boiling water and cook until al dente.\nGrate the pecorino into a large mixing bowl. Season with pepper then add the egg yolks.\nLadle in about 125ml (½ cup) of the hot pasta water to the egg mixture and mix quickly to combine and start to melt the cheese.\nReturn ¾ of the guanciale and 1 tablespoon of the reserved fat to the cooled frying pan, off the heat, along with the egg and cheese mixture.\nTransfer the cooked pasta to the pan with cheese sauce and stir quickly to create an emulsified sauce. If there's not enough heat in the pan to melt the cheese, then place the pan over the boiling pasta water. This will work as a double boiler to slowly heat the cheese up enough to melt it. If you put it back on over a direct heat, you have a high risk of splitting the sauce.\nSpoon into serving bowls and garnish with the remaining guanciale and some more black pepper.",
+      "notes": "",
+      "nutrition": "Serving size: 2",
+      "yield_": "2 servings",
+      "prep_time": "PT5M",
+      "cook_time": "PT15M",
+      "total_time": "PT20M",
+      "prep_minutes": 5,
+      "cook_minutes": 15,
+      "total_minutes": 20,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260323070844-andy-20cooks-20-20real-20italian-20carbonara-20recipe-20at-20home.jpg?v=1778208801",
+      "local_image": "",
+      "published_at": "2026-09-19T05:07:19+00:00",
+      "discovered_at": "2026-09-19T10:08:33.640207+00:00",
+      "content_hash": "fbd6d5977810c327ba50603211837a113b3b49a4",
+      "content_fingerprint": "fe5b71b94aa83c2cac7421cf0b2838fb4f2d33d0",
+      "last_seen_at": "2026-09-19T10:08:33.640207+00:00",
       "in_feed": true,
       "backfill": false
     }
