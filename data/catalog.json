@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-19T15:11:23.487517+00:00",
-  "count": 267,
+  "generated_at": "2026-09-19T19:54:28.133174+00:00",
+  "count": 268,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5736,7 +5736,7 @@
       "discovered_at": "2026-07-30T01:53:20.258457+00:00",
       "content_hash": "8972265a3762da0842198abbeca33679d28304d7",
       "last_seen_at": "2026-07-30T01:53:20.258457+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "dabf5acb662a27a33960a07aded7c900bc9afd4d"
     },
@@ -10590,6 +10590,43 @@
       "last_seen_at": "2026-09-19T10:08:33.640207+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "bc50037f95fce3839e7a6384489cfba2aa56484a": {
+      "dedup_key": "bc50037f95fce3839e7a6384489cfba2aa56484a",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/hot-sauce",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/hot-sauce",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Fermented chilli sauce",
+      "text": "I've made a lot of hot sauce in my life and, in my opinion, this is the best recipe!",
+      "author": "Andy",
+      "cuisine": "Central American",
+      "categories": [
+        "Lunch",
+        "Condiments"
+      ],
+      "ingredients": "500g red chillies, sliced (I used cayenne pepper but any chillies will work)\n15g cooking salt (kosher salt)\n500ml filtered water\n100ml vinegar (I used coconut, but plain white or cider vinegar also works well)\n0.5 tsp xanthan gum (this is optional but recommended for a homogenous smooth sauce)",
+      "instructions": "Start by washing the chillies well, then dry them and slice into 1cm slices (this is going to get blended, so don't stress too much about the consistency).\nPlace the sliced chillies into a preserving jar.\nIn a separate container, dissolve the salt into the water. Once the salt is completely dissolved, pour it over the sliced chillies.\nNow you need to hold the chillies down so they are completely covered. I used a vac pack bag with some water. You could also use a small saucer.\nPlace a lid on loosely, so the gas can escape.\nLeave this to ferment for 1-3 weeks, depending on how hot your kitchen is. It's summer here in Queensland, so only took 2 weeks for me but if you're somewhere colder, you might want to leave this for 3 weeks. There's no right or wrong amount of time here, use your intuition and go with what you think works. But you're looking for the chillies to start being quite active with bubbles forming and the water starting to turn cloudy.\nOnce you're finished with the fermentation stage, drain the chillies from the brine and place them into a high-speed blender.\nBlend on high with the vinegar until you have a smooth sauce. With the blender still running, add your xanthan gum and continue to blend for 1 more minute.\nStore this in the fridge for up to 6 months, and to be honest, you will probably have finished it all well before it goes off.",
+      "notes": "",
+      "nutrition": "Serving size: 20",
+      "yield_": "20 servings",
+      "prep_time": "PT1H",
+      "cook_time": "",
+      "total_time": "PT1H",
+      "prep_minutes": 60,
+      "cook_minutes": null,
+      "total_minutes": 60,
+      "image_url": "https://cdn.shopify.com/s/files/1/0725/3911/1726/files/20240815031032-andy-20cooks-20-20best-20hot-20sauce-20recipe.jpg?v=1723691434&width=1600&height=900",
+      "local_image": "",
+      "published_at": "2026-09-19T18:27:50+00:00",
+      "discovered_at": "2026-09-19T19:54:28.133174+00:00",
+      "content_hash": "8846a1f8bb73d28ff58a553aff009ab7cef62915",
+      "content_fingerprint": "f0d07035cd01c59317963536fbe49d9334bd3e7d",
+      "last_seen_at": "2026-09-19T19:54:28.133174+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -10981,44 +11018,44 @@
     "a0ea7a46c9097322602df14044f03c7453952539": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/healthy-air-fryer",
-      "attempts": 1,
-      "last_attempt": "2026-09-17T16:02:57.630974+00:00",
-      "next_retry": "2026-09-19T16:02:57.630974+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-19T19:54:28.133174+00:00",
+      "next_retry": "2026-09-23T19:54:28.133174+00:00"
     },
     "9d766c5ec8bcc2a6c525d5b10bbf4767b0465fbc": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/dishtype/taco/",
-      "attempts": 1,
-      "last_attempt": "2026-09-17T16:02:57.630974+00:00",
-      "next_retry": "2026-09-19T16:02:57.630974+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-19T19:54:28.133174+00:00",
+      "next_retry": "2026-09-23T19:54:28.133174+00:00"
     },
     "55f8e5cf57373a834f79182f8308c3416f6011cb": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/budget-friendly-hub/5-pounds/",
-      "attempts": 1,
-      "last_attempt": "2026-09-17T16:02:57.630974+00:00",
-      "next_retry": "2026-09-19T16:02:57.630974+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-19T19:54:28.133174+00:00",
+      "next_retry": "2026-09-23T19:54:28.133174+00:00"
     },
     "b2d403c06b33be6bc27e810d81aae7db6e2a022c": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/budget-friendly-family-recipes/",
-      "attempts": 1,
-      "last_attempt": "2026-09-17T16:02:57.630974+00:00",
-      "next_retry": "2026-09-19T16:02:57.630974+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-19T19:54:28.133174+00:00",
+      "next_retry": "2026-09-23T19:54:28.133174+00:00"
     },
     "35c54b0d5f89fe10f0d1ff7bed2e9f787711d374": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/air-fryer/",
-      "attempts": 1,
-      "last_attempt": "2026-09-17T16:02:57.630974+00:00",
-      "next_retry": "2026-09-19T16:02:57.630974+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-19T19:54:28.133174+00:00",
+      "next_retry": "2026-09-23T19:54:28.133174+00:00"
     },
     "6d63e0ae1b7a80c40327c601408ae19cf54da231": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/budget-friendly-hub/",
-      "attempts": 1,
-      "last_attempt": "2026-09-17T16:02:57.630974+00:00",
-      "next_retry": "2026-09-19T16:02:57.630974+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-09-19T19:54:28.133174+00:00",
+      "next_retry": "2026-09-23T19:54:28.133174+00:00"
     }
   },
   "aliases": {
