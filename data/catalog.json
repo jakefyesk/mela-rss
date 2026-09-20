@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-19T19:54:28.133174+00:00",
-  "count": 268,
+  "generated_at": "2026-09-20T02:55:06.304749+00:00",
+  "count": 269,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5699,7 +5699,7 @@
       "discovered_at": "2026-07-30T01:53:20.258457+00:00",
       "content_hash": "18d30822b577c2a5a74755a1a1122f60dc1ee2ee",
       "last_seen_at": "2026-07-30T01:53:20.258457+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "d1976137dc0e9216ae64e8eb8db5602daa08e193"
     },
@@ -10625,6 +10625,46 @@
       "content_hash": "8846a1f8bb73d28ff58a553aff009ab7cef62915",
       "content_fingerprint": "f0d07035cd01c59317963536fbe49d9334bd3e7d",
       "last_seen_at": "2026-09-19T19:54:28.133174+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "3be18c8286061a08f6e332117367bc8fac38fd1a": {
+      "dedup_key": "3be18c8286061a08f6e332117367bc8fac38fd1a",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/steak-quesadilla",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/steak-quesadilla",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Steak Quesadilla",
+      "text": "A quesadilla is a grilled tortilla with cheese and whatever else you want to add in it. This version has skirt steak and a spice blend I mix myself from smoked paprika, cumin, coriander and oregano. Half of it goes on the capsicum and onion and half goes on the beef, so you can taste the spice is seasoning in every bite. This is a great recipe to make for two people (or more) during the week when you need a quick and easy dinner. Ingredient NotesSkirt steak: Skirt is a hard working muscle with long, coarse fibres all running one way. That’s where the flavour comes from, and it’s also why it turns tough if you cut it along them instead of across. Slice it thin and against the grain. Cheese: Oaxaca is my first pick for most Mexican cooking. It’s fresh and pulls into strings when it melts, much like mozzarella. It isn’t always easy to find, so a low moisture mozzarella or a young cheddar will do the job just as well. A homemade quesadilla is a weeknight meal, so whatever cheese is already in the fridge is fine. Tortillas: Corn masa or wheat flour comes down to preference and what you can get. I’ll take corn every time when I have time to make them (or when I come across some good ones), but prepackaged corn tortillas tend to be dry and split when you fold them. Prepackaged wheat tortillas are more consistent and more forgiving, which is why I like to use them. Mexican vs common oregano. Mexican oregano brings a vibrant, floral, citrusy note with subtle hints of aniseed, whereas common Mediterranean oregano offers a more grounded, peppery, and earthy profile. Either variety will suit this spice blend, but whenever given the choice, Mexican oregano is my go to for these quesadillas. EquipmentChopping boardChef’s knifeFlat top grill or heavy based, wide pan2 flat spatulasPan scraperPaper towelBox grater (if using firm cheese)Small bowl",
+      "author": "Andy",
+      "cuisine": "Mexican",
+      "categories": [
+        "Dinner",
+        "Steak",
+        "Beef",
+        "Quick",
+        "Easy"
+      ],
+      "ingredients": "1 red capsicum\n½ white onion\n1 fresh jalapeño (optional)\n2 cloves garlic\n300g (10 ½ oz) skirt steak\n1 tsp smoked paprika\n1 tsp ground cumin\n½ tsp ground coriander\n½ tsp dried oregano (Mexican or common oregano)\n2 tbsp neutral flavoured oil\n200g (7 oz) cheese (mozzarella, Oaxaca or cheddar)\n6 medium sized wheat flour tortillas\nhot sauce to serve\n1 lime, wedges\nsea salt, to season",
+      "instructions": "Remove the core and finely slice the capsicum.\nPeel and finely slice the onion and garlic.\nIf you’re using a jalapeño, slice it lengthwise, optionally remove the seeds at this stage, then finely slice crosswise.\nShred or grate the cheese and set aside.\nSlice the skirt steak into thin strips, against the grain.\nIn a small bowl, mix together the smoked paprika, cumin, coriander and oregano then set aside.\nPreheat a heavy based fry pan or flat grill on high heat. Add 1 tbsp of neutral flavoured oil, then add the sliced capsicum and onion. Sweat for 30 seconds before adding the jalapeño (if using) and garlic, then season with half of the spice blend. Once the vegetables are soft, remove from the grill and set aside.\nLightly clean the grill with a scraper and a paper towel. Allow the pan or flat top to come back up to temperature, before adding another 1 tbsp of oil and the beef, searing for 30 seconds with a pinch of salt. Toss the meat, to sear on the other side with the remaining spice mix. Mix the vegetables and the meat together on the grill until the beef has cooked through, about one minute. Once the beef is cooked, remove from the grill and set aside.\nScrape the pan clean and warm the tortillas on both sides, on the hot grill. Add the beef and vegetable mix to each half of the tortillas. Top with the cheese and fold. Flip over to grill for one minute on the other side until golden brown and crunchy. Once both sides are evenly toasted and the cheese has melted, remove from the grill.\nServe with lime wedges and hot sauce.",
+      "notes": "",
+      "nutrition": "Serving size: 2",
+      "yield_": "2 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT15M",
+      "total_time": "PT25M",
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "total_minutes": 25,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260920021209-andy-20cooks-20-20beef-20steak-20cheese-20quesadilla-20recipe.jpg?v=1789870492",
+      "local_image": "",
+      "published_at": "2026-09-20T02:14:52+00:00",
+      "discovered_at": "2026-09-20T02:55:06.304749+00:00",
+      "content_hash": "c192e3daee10e9d756844ecdafbe359dca350a65",
+      "content_fingerprint": "18949388a38de11e12a9c8fabcf0c3f75aed0bb4",
+      "last_seen_at": "2026-09-20T02:55:06.304749+00:00",
       "in_feed": true,
       "backfill": false
     }
