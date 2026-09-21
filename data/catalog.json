@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-20T20:09:39.183532+00:00",
-  "count": 269,
+  "generated_at": "2026-09-21T02:52:22.815944+00:00",
+  "count": 270,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5774,7 +5774,7 @@
       "discovered_at": "2026-07-30T08:14:03.115201+00:00",
       "content_hash": "756892a5b91bc9e6df0a21ac0d4b0bd230fb70f2",
       "last_seen_at": "2026-07-30T08:14:03.115201+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "220fcc68f96c6fe0eab46e7dabf4608c712f419b"
     },
@@ -10665,6 +10665,45 @@
       "content_hash": "c192e3daee10e9d756844ecdafbe359dca350a65",
       "content_fingerprint": "18949388a38de11e12a9c8fabcf0c3f75aed0bb4",
       "last_seen_at": "2026-09-20T02:55:06.304749+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "b9ae7bfea2d587c8fc603b5a65752258d5add841": {
+      "dedup_key": "b9ae7bfea2d587c8fc603b5a65752258d5add841",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/roujiamo-chinese-hamburger",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/roujiamo-chinese-hamburger",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Roujiamo (Chinese Hamburger)",
+      "text": "Roujiamo is often called the Chinese burger, and honestly that description does a decent job. It’s a Xi’an street food classic: slow-cooked, spiced pork belly that gets chopped up and loaded into a crispy, pan-fried bun. The name breaks down as rou (meat), jia (sandwiched), mo (bread), and versions of this dish have been eaten in the Shaanxi province for over 2000 years, making it one of the oldest sandwiches in the world.The pork is the heart of it. It gets blanched first to clean it up, then caramelised in rock sugar before a 3-hour braise with shaoxing wine, soy sauces, star anise, sichuan peppercorn, cinnamon and bay. By the time it’s done it’s fall-apart tender and deeply savoury, with a richness that holds up against the bun.The bun, called a mo, is made from a semi-fermented dough that gets rolled, shaped and pan-fried before a quick finish in the oven. The layering technique creates a slight flakiness on the outside and a soft, chewy inside. Fill them hot and eat straight away.Ingredient NotesPork belly: The fat content in belly is what keeps the meat moist and tender over the long braise. Don’t substitute with lean cuts. Pork shoulder also works if needed.Rock sugar: Rock sugar has a lower intensity sweetness than white sugar due to minimal processing. It’s used here to caramelise the pork at the start of the braise. Find it at Asian supermarkets. If substituting with white sugar, use about 70g instead of 100g.Shaoxing wine: A Chinese rice wine that adds depth and a slightly nutty, savoury flavour to the braise. Find it at Asian supermarkets. Dry sherry is the closest substitute if you can’t track it down.Sichuan peppercorns: These add a subtle numbing heat and floral quality to the braising liquid. They’re distinct from regular black pepper. Find them at Asian supermarkets or spice shops.Dark soy sauce: Richer, less salty and slightly sweet compared to light soy. It adds colour and depth to the braise. Don’t swap it out for light soy as the flavour balance will be off.Equipment you’ll needLarge saucepan with a lidElectric mixer with dough hookHeavy based frying pan with a lidWire rack and tray",
+      "author": "Andy",
+      "cuisine": "Chinese",
+      "categories": [
+        "Lunch",
+        "Burgers and Sandwiches",
+        "Protein",
+        "Pork"
+      ],
+      "ingredients": "1kg pork belly\n10cm piece ginger\n3 spring onions, whites and greens separated\n2 tsp peanut oil (or other neutral oil)\n100g rock sugar\n1 tsp sichuan peppercorns\n2 star anise\n1 cinnamon stick\n3 bay leaves\n30ml shaoxing\n30ml light soy sauce\n20ml dark soy sauce\n1L water (approximately)\n250ml (1 cup) warm water\n1½ tsp dried yeast\n450g (3 cups) plain flour\n½ tsp baking powder\n½ tsp bicarb soda\n1 tsp fine sea salt\n30ml vegetable oil",
+      "instructions": "Chop the pork into 8 large chunks and place in a large saucepan. Slice the ginger into thin slices and add half to the saucepan. Cover with cold water and place over a high heat.\nBring to a boil and cook for 15 minutes, skimming off any scum that comes to the surface. Drain the pork off and rinse under cold water.\nRinse the saucepan out and return to the stovetop.\nChop the spring onion whites into chunks, and finely slice the spring onion greens, keeping them separate.\nHeat the oil in the saucepan over a medium-high heat. Add the rock sugar and stir until melted.\nCook the sugar until it starts to turn a golden caramel, then return the pork to the saucepan. Cook the pork in the caramel, turning to coat on all sides and caramelise.\nAdd the remaining ginger to the saucepan, along with the sichuan peppercorns, star anise, cinnamon, bay leaves and whites of the spring onion. Pour in the shaoxing, light and dark soy sauces, then top up with just enough water to cover the pork.\nCover with a tight fitting lid and cook at a simmer for 3 hours, until very tender.\nOnce cooked, transfer the pork to a wire rack over a tray and set aside until cool enough to handle.\nFor the dough, place the yeast and water in the bowl of an electric mixer with the dough hook attachment and mix on low speed for 1 minute to combine.\nAdd the flour, baking powder, bicarb soda, salt and oil and continue to mix until it comes together as a shaggy dough.\nIncrease the speed to medium low for about 6 minutes to knead until smooth and elastic.\nShape into a ball and set aside, covered, to rest for 30 minutes.\nPreheat the oven to 180°C fan forced (365°F). Turn the dough out onto a clean work surface and knead lightly to smooth out. Divide into 8 equal pieces.\nShape each piece into a round, then roll out to a long, thin rectangle. Starting at one end, roll up tightly to make a log, folding the tail underneath one end. Stand it upright, then press the log down with the palm of your hand to make a flat round again.\nRepeat with the remaining dough.\nHeat a lightly oiled heavy based frying pan over medium heat. Cook the dough discs in batches, covered, for 2 minutes, until browned on the first side. Uncover and turn over and cook for a further 2 minutes.\nTransfer to an oven tray and repeat with the remaining dough discs. Place the oven tray with all of the buns on it in the oven for 4 minutes.\nChop the pork up finely and mix with the sliced spring onion greens.\nSlice the buns open almost all the way through to open up. Divide the filling evenly and spoon into the buns. Serve warm.",
+      "notes": "",
+      "nutrition": "Serving size: 4",
+      "yield_": "4 servings",
+      "prep_time": "PT30M",
+      "cook_time": "PT3H",
+      "total_time": "PT3H30M",
+      "prep_minutes": 30,
+      "cook_minutes": 180,
+      "total_minutes": 210,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260128010012-andy-20cooks-20-20chinese-20pork-20rolls-20recipe.jpg?v=1772693154",
+      "local_image": "",
+      "published_at": "2026-09-20T22:10:05+00:00",
+      "discovered_at": "2026-09-21T02:52:22.815944+00:00",
+      "content_hash": "5418b27d61a91fad883d7c61f28bdea84bdeda07",
+      "content_fingerprint": "2f1aba8b6d1540f086938981a6b2fedb62d68933",
+      "last_seen_at": "2026-09-21T02:52:22.815944+00:00",
       "in_feed": true,
       "backfill": false
     }
