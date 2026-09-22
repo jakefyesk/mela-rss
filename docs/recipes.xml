@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 10:48:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 16:07:37 +0000</lastBuildDate>
+    <item>
+      <title>Brown Butter Pumpkin Loaf</title>
+      <link>https://justinesnacks.com/brown-butter-pumpkin-loaf/</link>
+      <description>10 servings · PT1H20M</description>
+      <guid isPermaLink="false">c0b515fbe962f7bf5876f371b2319ac80080bd80</guid>
+      <pubDate>Tue, 22 Sep 2026 09:46:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caesar Salad Bean Soup</title>
+      <link>https://justinesnacks.com/caesar-salad-bean-soup/</link>
+      <description>Take all the flavors of caesar salad, but just put it in a warm, light-but-still-creamy bean soup. That's what you have here, which is my favorite way to ease into the colder months. — 6 servings · PT45M</description>
+      <guid isPermaLink="false">11627f235f31582d29ae51b2b3037b4900223cba</guid>
+      <pubDate>Tue, 22 Sep 2026 09:27:36 +0000</pubDate>
+    </item>
     <item>
       <title>Roujiamo (Chinese Hamburger)</title>
       <link>https://www.andy-cooks.com/blogs/recipes/roujiamo-chinese-hamburger</link>
@@ -693,20 +707,6 @@
       <link>https://www.jamieoliver.com/recipes/beef/bobotie/</link>
       <description>Bring the flavours of Cape Town home with this classic South African Bobotie. Perfectly spiced beef mince topped with a rich, golden egg custard. — 6 servings</description>
       <guid isPermaLink="false">27c609b1267a61478c7f612b62499be3025f2fc6</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chakalaka</title>
-      <link>https://www.jamieoliver.com/recipes/cookbook-club/chakalaka/</link>
-      <description>Master classic South African Chakalaka! A vibrant, spiced vegetable relish made with peppers, carrots, baked beans, and curry spices. — 8 servings</description>
-      <guid isPermaLink="false">4a246f28321d5a79219650271fc2b894d67a07e0</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken wings with mango</title>
-      <link>https://www.jamieoliver.com/recipes/chicken/chicken-wings-with-mango/</link>
-      <description>Sweet, sticky and warm with spice, these wings are the ultimate crowd-pleaser. Coated in a vibrant mango glaze and cooked to perfection! — 6 servings</description>
-      <guid isPermaLink="false">a3c378330f883919e4eb040272841e802abe6c62</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
