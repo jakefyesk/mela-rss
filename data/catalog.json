@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-22T16:06:24.598503+00:00",
+  "generated_at": "2026-09-22T20:45:40.454389+00:00",
   "count": 272,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -10710,7 +10710,7 @@
     "c0b515fbe962f7bf5876f371b2319ac80080bd80": {
       "dedup_key": "c0b515fbe962f7bf5876f371b2319ac80080bd80",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/brown-butter-pumpkin-loaf",
+      "source_url": "https://justinesnacks.com/brown-butter-pumpkin-loaf/",
       "page_url": "https://justinesnacks.com/brown-butter-pumpkin-loaf/",
       "mode": "link_through",
       "category": "recipe",
@@ -10753,7 +10753,7 @@
     "11627f235f31582d29ae51b2b3037b4900223cba": {
       "dedup_key": "11627f235f31582d29ae51b2b3037b4900223cba",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/caesar-salad-bean-soup",
+      "source_url": "https://justinesnacks.com/caesar-salad-bean-soup/",
       "page_url": "https://justinesnacks.com/caesar-salad-bean-soup/",
       "mode": "link_through",
       "category": "recipe",
@@ -11174,9 +11174,9 @@
     "7561a51b697991ceeafab51e3b0819c93eb73fa7": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/tv/one-pound-wonders-and-money-saving-meals/",
-      "attempts": 2,
-      "last_attempt": "2026-09-18T20:16:51.319825+00:00",
-      "next_retry": "2026-09-22T20:16:51.319825+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-09-22T20:45:40.454389+00:00",
+      "next_retry": "2026-09-30T20:45:40.454389+00:00"
     },
     "a0ea7a46c9097322602df14044f03c7453952539": {
       "source": "jamieoliver",
