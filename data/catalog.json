@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-23T10:37:04.603718+00:00",
-  "count": 274,
+  "generated_at": "2026-09-23T15:56:27.773230+00:00",
+  "count": 275,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5851,7 +5851,7 @@
       "discovered_at": "2026-08-02T13:07:34.264995+00:00",
       "content_hash": "e234fd9d4919e61dbb5ef2d72e3fcbee2b028b30",
       "last_seen_at": "2026-08-02T13:07:34.264995+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "effb8de03f29139a04d75e0eaa89e794651637d7"
     },
@@ -10862,6 +10862,43 @@
       "content_hash": "c1a8f899d3d5a7694b9001cad9208c43b50b03a9",
       "content_fingerprint": "c7f185e0d9960be060cef648fc079e622e966050",
       "last_seen_at": "2026-09-23T10:37:04.603718+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "2252ae38cb466d7ea1ada5bf1e4c77ca0ce6bac9": {
+      "dedup_key": "2252ae38cb466d7ea1ada5bf1e4c77ca0ce6bac9",
+      "source": "joshuaweissman",
+      "source_url": "https://www.joshuaweissman.com/recipes/the-best-nyc-bodega-chopped-cheese-sandwich-recipe",
+      "page_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-nyc-chopped-cheese-sandwich-2252ae38.html",
+      "mode": "rehost",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "The Best NYC Chopped Cheese Sandwich",
+      "text": "",
+      "author": "Joshua Weissman",
+      "cuisine": "",
+      "categories": [
+        "The Best NYC Chopped Cheese Sandwich",
+        "Chef Joshua Weissman recipe"
+      ],
+      "ingredients": "1 cup + 2 Tbsp (270mL) water, warmed to around 90°F\n1 packet (7g) instant dry yeast\n2 Tbsp (24g) granulated sugar\n3.5 cups (525g) bread flour\n2.5 tsp (10g) fine sea salt\n3 Tbsp (42g) unsalted butter, softened\n2 large eggs, beaten, plus a splash of water, for egg wash\nSesame seeds, for sprinkling\n½ cup (120g) mayonnaise\n¼ cup (60g) ketchup\n1 Tbsp (15mL) hot sauce\n2 cloves garlic, grated\n1 medium dill pickle, finely chopped, *optional\n2 Tbsp (6g) fresh dill, finely chopped, *optional\nKosher salt and freshly cracked black pepper, to taste\n1 small yellow onion, finely chopped\n1 jalapeno, finely chopped, *optional\n1 green bell pepper, finely chopped\n3 cloves garlic, thinly sliced\nKosher salt and freshly cracked black pepper, to taste\n1.5 lbs (680g) 80/20 ground beef\n2 tsp (7g) Sazón seasoning\nNeutral oil, for searing\nUnsalted butter, for toasting\n3 cups (150g) iceberg lettuce, very thinly sliced\n2 Roma tomatoes, thinly sliced\nKosher salt, to taste\n8 slices cheese, yellow American cheese\nFor the filling to fit more evenly inside the sandwich, you can scoop out a small amount of the soft bread from the center of each roll before toasting. This is completely optional, but it creates a cleaner sandwich and helps keep the filling from spilling out.",
+      "instructions": "To the bowl of a stand mixer fitted with the dough hook attachment, add the water, yeast, and sugar. Stir to combine. In a separate bowl, whisk together the flour and salt.\nBegin mixing on medium-low speed, gradually adding the flour mixture about ¼ cup at a time. Once all of the flour has been incorporated, continue mixing until the dough begins to look smooth, about 3–4 minutes. Add the softened butter and continue mixing until completely incorporated, then knead for an additional 4–5 minutes, or until the dough is smooth and elastic. Transfer to a lightly greased bowl, cover, and proof at room temperature until doubled in size, about 1–1½ hours.\nGently degas the dough and transfer it to a clean work surface. Divide into 4 equal portions (about 212g each) and loosely shape each portion into a rectangle.\nWorking with one portion at a time, roll the dough into roughly a 5 x 5-inch square. Continue rolling in one direction to form a thin 6 x 10-inch rectangle, about ¼-inch thick. Starting with the long edge closest to you, tightly roll the dough away from you into an even log, keeping tension on the dough as you roll. Pinch the seam firmly closed, then gently roll the log back and forth with your hands to even out the thickness and lightly taper both ends, similar to a baguette. Repeat with the remaining dough.\nPlace the shaped rolls seam-side down on a parchment-lined sheet tray, leaving plenty of space between each roll. Cover loosely with an inverted baking sheet, then wrap with plastic wrap. Proof until doubled in size and noticeably puffy, about 45–60 minutes.\nPreheat the oven to 400°F (205°C). Combine the beaten eggs with a splash of water to make an egg wash. Lightly brush the proofed rolls with egg wash and generously sprinkle with sesame seeds. Holding a razor, sharp knife, or bread lame at approximately a 45-degree angle, make one long, shallow score down the center of each roll. Lightly mist the rolls and inside of the oven with water, then immediately close the oven door. Bake until deeply golden brown and cooked through, about 15–18 minutes. Transfer to a wire rack and cool completely before slicing.\nIn a small mixing bowl, whisk together the mayonnaise, ketchup, hot sauce, and garlic until smooth and evenly combined. If using, fold in the chopped pickle and fresh dill. Season to taste with salt and freshly cracked black pepper. Cover and refrigerate until ready to assemble.\nHeat a 12-inch cast-iron skillet over medium to medium-high heat. Add enough neutral oil to lightly coat the bottom of the pan. Add the onion, jalapeño, if using, and bell pepper. Season lightly with salt and cook, stirring occasionally, until softened and beginning to brown, about 3–5 minutes. Turn off the heat, add the sliced garlic, and stir until fragrant, about 30 seconds. Transfer the vegetables to a bowl and set aside.\nReturn the skillet to medium-high heat. Add the ground beef and firmly press it into an even layer across the bottom of the skillet. Cook undisturbed until deeply browned on the bottom, about 3 minutes. Season with the Sazón, salt, and freshly cracked black pepper. Using a potato masher or sturdy spatula, break the beef into small pieces and continue cooking, stirring occasionally, until well browned with crispy edges, about 5–7 minutes. Return the cooked vegetables to the skillet and toss until evenly combined. Remove from the heat and divide into 4 equal portions.\nArrange the sliced tomatoes in a single layer and season lightly with salt. Sandwich the slices between two layers of paper towels and let sit while you prepare the remaining ingredients. This removes excess moisture and helps prevent the sandwiches from becoming soggy.\nSlice each hero roll about 90% of the way through lengthwise, leaving one side attached like a hinge. If desired, scoop out a small amount of the interior bread to create more room for the filling *see Notes*. Heat a skillet over medium heat and add a small amount of unsalted butter. Toast the cut sides of the roll until golden brown and warmed through.\nFor each sandwich, return one portion of the beef mixture to the cast-iron skillet and spread it into a shape roughly matching the roll. Heat over medium heat until hot throughout, then top with 2 slices of American cheese. Cook just until the cheese is melted.\nGenerously spread the sauce over both cut sides of each toasted roll. Layer the shredded lettuce and seasoned tomato slices onto the bottom of the roll, then top with the cheesy beef mixture. Close the sandwich.\nWrap each sandwich tightly in aluminum foil and let rest for 1–2 minutes to allow everything to steam together slightly. Unwrap, slice in half, serve immediately, and enjoy!",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "prep_minutes": null,
+      "cook_minutes": null,
+      "total_minutes": null,
+      "image_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/img/the-best-nyc-chopped-cheese-sandwich-2252ae38.jpg",
+      "local_image": "recipes/joshuaweissman/img/the-best-nyc-chopped-cheese-sandwich-2252ae38.jpg",
+      "published_at": "2026-09-23T14:31:29.076000+00:00",
+      "discovered_at": "2026-09-23T15:56:27.773230+00:00",
+      "content_hash": "e04e86cbd348af8b5dd84621180f5e9f97d72d06",
+      "content_fingerprint": "f30386a1b35de264f7a1461da812262f94a4d888",
+      "last_seen_at": "2026-09-23T15:56:27.773230+00:00",
       "in_feed": true,
       "backfill": false
     }
