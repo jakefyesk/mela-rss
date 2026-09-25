@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-25T02:59:50.905065+00:00",
+  "generated_at": "2026-09-25T10:57:51.266821+00:00",
   "count": 316,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -12588,7 +12588,7 @@
     "2decd77822f6967f3fdf6e1deba2922aa6184b89": {
       "dedup_key": "2decd77822f6967f3fdf6e1deba2922aa6184b89",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/grains-and-pulses/quick-grains-kedgeree-with-fried-eggs",
+      "source_url": "https://www.jamieoliver.com/recipes/grains-and-pulses/quick-grains-kedgeree-with-fried-eggs/",
       "page_url": "https://www.jamieoliver.com/recipes/grains-and-pulses/quick-grains-kedgeree-with-fried-eggs/",
       "mode": "link_through",
       "category": "recipe",
@@ -12632,7 +12632,7 @@
     "a6b77fad9203e2cd0efb83407ac99de8c0b2647a": {
       "dedup_key": "a6b77fad9203e2cd0efb83407ac99de8c0b2647a",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/vegetables/veggie-bhaji-bites",
+      "source_url": "https://www.jamieoliver.com/recipes/vegetables/veggie-bhaji-bites/",
       "page_url": "https://www.jamieoliver.com/recipes/vegetables/veggie-bhaji-bites/",
       "mode": "link_through",
       "category": "recipe",
@@ -12674,7 +12674,7 @@
     "61a95139b4c2bb1f35bf20e6ff28a64203761727": {
       "dedup_key": "61a95139b4c2bb1f35bf20e6ff28a64203761727",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pizza/quick-folded-pan-pizza",
+      "source_url": "https://www.jamieoliver.com/recipes/pizza/quick-folded-pan-pizza/",
       "page_url": "https://www.jamieoliver.com/recipes/pizza/quick-folded-pan-pizza/",
       "mode": "link_through",
       "category": "recipe",
