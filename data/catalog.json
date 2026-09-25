@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-25T10:57:51.266821+00:00",
-  "count": 316,
+  "generated_at": "2026-09-25T16:19:33.669959+00:00",
+  "count": 317,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -5965,7 +5965,7 @@
       "discovered_at": "2026-08-05T13:53:45.776503+00:00",
       "content_hash": "129164c14fe0cdb598f71a099fae3e05cd4c1485",
       "last_seen_at": "2026-08-05T13:53:45.776503+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "4e654634853c4bae5765191b12a36881642aac6b"
     },
@@ -12711,6 +12711,44 @@
       "content_fingerprint": "fea9e46047c30e52cdab1adea82129356879e708",
       "last_seen_at": "2026-09-25T02:59:50.905065+00:00",
       "in_feed": false,
+      "backfill": false
+    },
+    "32118d0787265cdc7a7ff0c8dbe4ed53326eedbb": {
+      "dedup_key": "32118d0787265cdc7a7ff0c8dbe4ed53326eedbb",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/shokupan-fairy-bread",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/shokupan-fairy-bread",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Shokupan Fairy Bread",
+      "text": "I was inspired by a recent video I saw from Crust By Carson where he baked sprinkles into a sourdough. We've made a couple of Shokupan (Japanese Milk Bread) on the channel before and I thought a sprinkle addition would work well with this type of bread. So I've taken this content and turned it to the Aussie party classic from 1920's (Fairy Bread). This loaf bakes the butter-and-100s-&-1000s combo straight into cloud-like Japanese milk bread. We’ve used a yudane method for extra bounce, then layered in sprinkles. It’s fun, slightly ridiculous, and very tasty bread.Ingredient notesYudane - we'll make this using boiling water and flour. Adding this to your dough helps the structure and softness. Bread flour - make sure you use bread flour (not plain flour) as it has a higher protein content which improves texture, structure and spring). Sprinkles - I used a mix of long and round sprinkles in the dough for better texture but you can use 100s & 1000s as well. ToolsStand mixer fitted with dough hook (or large mixing bowl if mixing by hand)Digital kitchen scalesMeasuring spoons, measuring jug, whisk or fork, bench scraper, rolling pin, chopping board and knifeSmall heatproof bowl (for the yudane)Large mixing bowl (for proofing)Clean tea towel or cling wrapBaking tray (for resting dough portions) and cooling rackShokupan loaf pan with lid (21cm x 11cm x 11.5cm)Pastry brush (for greasing with butter)",
+      "author": "Andy",
+      "cuisine": "Japanese",
+      "categories": [
+        "Breakfast",
+        "Bread",
+        "Sweet"
+      ],
+      "ingredients": "55g boiling water\n360g bread flour, + 25g additional (Yudane)\n11g honey\n4g dried yeast\n230ml milk, warmed\n20g (1 tbsp) caster sugar\n7.7g Kosher salt\n25g butter, room temperature\n⅓ cup sprinkles\nsoftened butter and 100s&1000s, to serve",
+      "instructions": "To make the yudane, mix the boiling water and 25g of additional flour in a small bowl until a smooth, thick paste. Set aside to cool completely.\nIn a jug, whisk together the milk, honey and yeast. Set aside for 10 minutes until frothy.\nPlace the bread flour, sugar, salt and the yudane in the bowl of a stand mixer with the dough hook attached.\nPour in the milk mixture and place on low speed until a rough dough forms.\nIncrease to medium speed and knead for 8 minutes.\nGradually add the butter a little at a time, allowing each portion to absorb before adding more.\nIncrease the speed to medium-high and knead for a further 6-8 minutes, until the dough is smooth, elastic and stretches thinly without tearing.\nShape the dough into a ball and place in a large lightly greased bowl. Cover with a tea towel and leave to rise at room temperature, until at least doubled in size, about 1 hour.\nTurn the dough out onto a clean work surface. Divide into 2 equal pieces and shape each into a tight ball.\nPlace on a lightly floured tray and sprinkle the tops with some flour. Cover with some cling film and rest for 30 minutes.\nGrease a Shokupan loaf pan (21cmL x 11cmW x 11.5cmH) with a lid lightly with butter on all sides and the lid.\nRoll each dough ball into roughly a 20cm x 30cm rectangle on a lightly floured surface.\nSprinkle over half of the sprinkles and gently press them into the dough just to stay in place. Fold in the sides to meet in the middle and enclose the ends.\nGently roll out again to a 20cm x 30cm rectangle. Sprinkle over the remaining sprinkles and press in gently again. Fold each piece into thirds lengthwise, then gently roll out again to seal.\nRoll each tightly into a spiral and place into the loaf pan, seam-side down.\nCover and set aside to proof until the dough reaches 90% of the pan height, about another hour.\nPreheat the oven to 210°C (410°F) fan forced.\nPlace the lid on the pan and bake for 25 minutes.\nRemove the lid and turn the loaf out onto a wire rack to cool for at least 1 hour.\nSlice the loaf into thin slices. Spread with some of the softened butter.\nPlace the sprinkles in a small tray and press the slice, buttered side down in the sprinkles until completely coated. Slice the piece on the diagonal and serve.",
+      "notes": "",
+      "nutrition": "Serving size: 1 loaf",
+      "yield_": "1 serving",
+      "prep_time": "PT2H",
+      "cook_time": "PT25M",
+      "total_time": "PT2H25M",
+      "prep_minutes": 120,
+      "cook_minutes": 25,
+      "total_minutes": 145,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260217052510-andy-20cooks-20-20fairy-20bread-20japanese-20milk-20bread-20recipe.jpg?v=1772066901",
+      "local_image": "",
+      "published_at": "2026-09-25T11:24:42+00:00",
+      "discovered_at": "2026-09-25T16:19:33.669959+00:00",
+      "content_hash": "15f301cdab31b44b928368bf04f7c3b337537b79",
+      "content_fingerprint": "423edcef45437e3a65c78b368c2a21c4d8c46f1c",
+      "last_seen_at": "2026-09-25T16:19:33.669959+00:00",
+      "in_feed": true,
       "backfill": false
     }
   },
