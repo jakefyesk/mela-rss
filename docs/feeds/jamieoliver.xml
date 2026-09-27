@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 11:13:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 16:14:18 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -102,9 +102,16 @@
     </item>
     <item>
       <title>Golden chicken &amp; garlicky beans</title>
-      <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans</link>
+      <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans/</link>
       <description>2 servings · PT20M</description>
       <guid isPermaLink="false">e974881e8134e485a5729e7c71c36abc743eb91f</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oozy Camembert &amp; onion rice</title>
+      <link>https://www.jamieoliver.com/recipes/rice/oozy-camembert-and-onion-rice/</link>
+      <description>Indulge in a mashup of oozy baked Camembert and French onion soup – rich, cheesy comfort food served with crispy baguette toasts. Delicious! — 4 servings · PT20M</description>
+      <guid isPermaLink="false">04bfc965bd48ae91d07b31600b07a1f8f8a62bb2</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -350,13 +357,6 @@
       <link>https://www.jamieoliver.com/recipes/seafood/super-surf-turf-mixed-grill/</link>
       <description>Barbecued to perfection and coated in herby butter, this surf and turf recipe made with chicken, chorizo, prawns, mussels and clams is a real treat! — 8 servings · PT45M</description>
       <guid isPermaLink="false">1dbc6ccfa1d52cf01d38786b625d341b45a6e36a</guid>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jerk pork &amp; seared cabbage</title>
-      <link>https://www.jamieoliver.com/recipes/pork/jerk-pork-seared-cabbage/</link>
-      <description>Jerk is traditionally cooked over pimento wood in Jamaica, but that isn’t always practical here in the UK. So instead, I use bay leaves on branches. — 2 servings · PT1H30M</description>
-      <guid isPermaLink="false">410b46c34e2460ec1558173fd7b28d29fb1030ce</guid>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

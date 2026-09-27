@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-27T11:12:38.215275+00:00",
-  "count": 319,
+  "generated_at": "2026-09-27T16:13:11.421451+00:00",
+  "count": 320,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -364,8 +364,8 @@
     "e974881e8134e485a5729e7c71c36abc743eb91f": {
       "dedup_key": "e974881e8134e485a5729e7c71c36abc743eb91f",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans",
-      "page_url": "https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans/",
+      "page_url": "https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans/",
       "mode": "link_through",
       "category": "recipe",
       "title": "Golden chicken & garlicky beans",
@@ -3176,7 +3176,7 @@
       "discovered_at": "2026-07-13T17:35:00.126614+00:00",
       "content_hash": "6219422d8e1c5264e3c8a605b3c945cbb4d670f7",
       "last_seen_at": "2026-07-13T17:35:00.126614+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "56092d0d468dfcbca80d9bf8fa20c28b68471715"
     },
@@ -12824,6 +12824,47 @@
       "content_hash": "db152a600419c30756cd488ecac457203b4eb349",
       "content_fingerprint": "f9ce63b3c8576a8df8f960282369ca77664742ae",
       "last_seen_at": "2026-09-27T11:12:38.215275+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "04bfc965bd48ae91d07b31600b07a1f8f8a62bb2": {
+      "dedup_key": "04bfc965bd48ae91d07b31600b07a1f8f8a62bb2",
+      "source": "jamieoliver",
+      "source_url": "https://www.jamieoliver.com/recipes/rice/oozy-camembert-and-onion-rice",
+      "page_url": "https://www.jamieoliver.com/recipes/rice/oozy-camembert-and-onion-rice/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Oozy Camembert & onion rice",
+      "text": "Indulge in a mashup of oozy baked Camembert and French onion soup – rich, cheesy comfort food served with crispy baguette toasts. Delicious!",
+      "author": "Jamie Oliver",
+      "cuisine": "",
+      "categories": [
+        "Cheese",
+        "Rice",
+        "Bread & doughs",
+        "Vegetarian",
+        "Dinner",
+        "Lunch"
+      ],
+      "ingredients": "2 bay leaves\n4 sprigs of thyme\n2 onions (320g)\n2 cloves of garlic\n300ml white wine\n150g basmati rice\n700ml organic veg or chicken stock\n250g Camembert cheese\n150g sourdough French baguette",
+      "instructions": "Turn the grill on to high. Place a large frying pan on a high heat with 1 tablespoon of olive oil, the bay and 2 sprigs of thyme, then, adding them to the pan as you go, peel and finely slice the onions and garlic. Add a pinch of sea salt and black pepper, pour in the wine, then cover and cook for 3 minutes, stirring halfway.\nStir in the rice, pour in the stock, then cover and cook for 8 minutes. Meanwhile, leaving a 1cm rim around the edge, cut the rind off the top of the Camembert.\nNestle the Camembert into the centre of the pan, sprinkle generously with black pepper and strip over the remaining thyme. Cover, reduce to a medium heat and let the cheese ooze while the rice cooks through for a final few minutes. Finely slice the bread and toast under the grill – keep an eye on it!\nServe the pan in the middle of the table, letting your lucky people use the toasts to scoop up all that delicious oozy cheese and onion rice.",
+      "notes": "",
+      "nutrition": "Calories: 537 calories\nProtein: 22.8 g\nCarbs: 59.6 g\nFat: 18.6 g\nFiber: 3.4 g\nSugar: 7 g\nSodium: 2.3 g",
+      "yield_": "4 servings",
+      "prep_time": "",
+      "cook_time": "PT20M",
+      "total_time": "PT20M",
+      "prep_minutes": null,
+      "cook_minutes": 20,
+      "total_minutes": 20,
+      "image_url": "https://cdn.sanity.io/images/cq7w2e71/production/d710b00585b0839b3e53628d8d966cd48f8ef50e-1333x2000.jpg",
+      "local_image": "",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "discovered_at": "2026-09-27T16:13:11.421451+00:00",
+      "content_hash": "b65edd87474f511b6e01d84e6c92f179dfc747cc",
+      "content_fingerprint": "18ab1963ddf518ba2bacc3bc69a94149e0c7d05d",
+      "last_seen_at": "2026-09-27T16:13:11.421451+00:00",
       "in_feed": true,
       "backfill": false
     }
