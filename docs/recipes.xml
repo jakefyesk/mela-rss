@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 03:10:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 11:13:48 +0000</lastBuildDate>
+    <item>
+      <title>Gruyère soufflé</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/gruyere-souffle</link>
+      <description>This twice-baked Gruyère soufflé is much easier than it sounds—promise. The first bake gets them nice and puffed, then we let them chill (literally), pour over cream and cheese, and bake again until golden and bubbling. It’s cheesy, cosy, and a great make-ahead option for when you want to impress without too much fuss. — 4 servings · PT1H20M</description>
+      <guid isPermaLink="false">67ef00fc7dac38882059fdb800e0eaac180a1fbe</guid>
+      <pubDate>Sun, 27 Sep 2026 10:49:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sambal</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/sambal</link>
+      <description>After making Nasi lemak there were lots of requests for my sambal recipe, so here is it. Sambal is a great staple to have in your kitchen! — 50 servings · PT30M</description>
+      <guid isPermaLink="false">6604c5b12cc30f05c92573c3a611d4213f77be0e</guid>
+      <pubDate>Sun, 27 Sep 2026 04:05:32 +0000</pubDate>
+    </item>
     <item>
       <title>Shokupan Fairy Bread</title>
       <link>https://www.andy-cooks.com/blogs/recipes/shokupan-fairy-bread</link>
@@ -694,20 +708,6 @@
       <description>Smash burgers, they've taken the internet by storm over the past few years with everyone having their variation. This burger is all about a well seasoned, crispy, juicy and thin beef patty. If you have that right, the rest of the ingredients are just there to support it. I think you should learn how to to make a great smash burger at home, it's pretty simple and it will impress your mates. Lets talk about the techniqueThe smashing technique works because of the Maillard reaction. When you press a ball of beef flat against a screaming hot surface, you’re maximising the amount of meat that comes into direct contact with the pan. That contact is where the crust builds. The wider you spread the patty, the more surface area you expose, and the more of that crust you get. Fat is just as important here. I use an 80/20 lean-to-fat ratio. Fat renders out as the meat cooks and essentially fries the underside of the patty in its own juices. Go leaner than 80/20 and you lose that, ending up with a patty that steams instead of sears.What else is on the burgerI keep the build simple because it works. Mayo on the bottom bun, mustard on the top, then lettuce and finely sliced red onion before the meat goes on. The patties get stacked with cheese between them so it stays melted right through to the middle. Pickles on top, just before the lid goes on. Every element has a job: the lettuce and onion sit below the patty so they don’t wilt from the heat, the pickles go on last so they stay crisp, and the butter-toasted bun holds up without going soggy. You can have this on the table in under 15 minutes if your prep is done before the pan goes on.If you liked this recipe, you should try the Steakhouse Burger next. This one has a thick beef patty and more salad on it but it's just as tasty.Ingredient Notes80/20 beef mince: The fat content is what makes this work. Higher fat means the patty bastes itself as it cooks, and the rendered fat helps build the crust on the underside. If you use anything leaner, the patty tends to steam rather than sear, and you lose the texture that makes a smash burger worth making.Burger cheese: I use processed burger cheese slices here, not a fresh cheese. It’s the best choice because the slices melt fast and evenly over a hot patty. Fresh cheeses like cheddar or gruyere take longer to melt and can slide off before they’re fully liquid. The smooth, even melt is exactly what you want on a smash burger.Milk bun: The bun needs to be soft enough to compress without fighting you, but sturdy enough to hold the patty and sauces without falling apart. A milk bun hits both. Brioche works as a substitute but it’s richer, which can tip the balance of the whole burger. If you can find Martin’s potato rolls, those work brilliantly too.EquipmentChopping boardChef’s knifeCast iron pan, heavy-bottomed skillet or grill plate on BBQBurger smasher or heavy-bottomed pot/saucepanParchment paperMetal spatula or bench scraperTongs — 1 serving · PT30M</description>
       <guid isPermaLink="false">6a0e5ab77f7c4e51ef972dba480f8c11422dacf0</guid>
       <pubDate>Thu, 06 Aug 2026 10:30:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Best Chicken Wings At Home (3 Levels)</title>
-      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-chicken-wings-at-home-3-levels-1ecd4061.html</link>
-      <description>The Best Chicken Wings At Home (3 Levels)</description>
-      <guid isPermaLink="false">1ecd406189565ef5ddd5119f9e3494c2284c5006</guid>
-      <pubDate>Wed, 05 Aug 2026 14:18:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Creamy Cheesecake at Home (Super Easy)</title>
-      <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/creamy-cheesecake-at-home-super-easy-2ab21a2f.html</link>
-      <description>Creamy Cheesecake at Home (Super Easy)</description>
-      <guid isPermaLink="false">2ab21a2f51f00a695c209d98cf3558e821aebc5e</guid>
-      <pubDate>Wed, 05 Aug 2026 14:18:32 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 03:10:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 11:13:48 +0000</lastBuildDate>
+    <item>
+      <title>Gruyère soufflé</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/gruyere-souffle</link>
+      <description>This twice-baked Gruyère soufflé is much easier than it sounds—promise. The first bake gets them nice and puffed, then we let them chill (literally), pour over cream and cheese, and bake again until golden and bubbling. It’s cheesy, cosy, and a great make-ahead option for when you want to impress without too much fuss. — 4 servings · PT1H20M</description>
+      <guid isPermaLink="false">67ef00fc7dac38882059fdb800e0eaac180a1fbe</guid>
+      <pubDate>Sun, 27 Sep 2026 10:49:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sambal</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/sambal</link>
+      <description>After making Nasi lemak there were lots of requests for my sambal recipe, so here is it. Sambal is a great staple to have in your kitchen! — 50 servings · PT30M</description>
+      <guid isPermaLink="false">6604c5b12cc30f05c92573c3a611d4213f77be0e</guid>
+      <pubDate>Sun, 27 Sep 2026 04:05:32 +0000</pubDate>
+    </item>
     <item>
       <title>Shokupan Fairy Bread</title>
       <link>https://www.andy-cooks.com/blogs/recipes/shokupan-fairy-bread</link>
@@ -344,20 +358,6 @@
       <description>These easy Korean meatballs, also known as Wanja, are a great weeknight dinner option. Traditionally they’re lightly floured and pan-fried in a thin coating, served as part of a banchan spread. My version leans into a gochujang glaze that coats the meatballs in a sticky, deeply savoury sauce. Gochujang is a fermented chilli paste, which means it brings heat, umami and sweetness simultaneously. Combined with soy sauce, brown sugar and rice vinegar, the sauce builds complexity quickly on a hot pan.The meatball mix uses gochujang as well, which seasons the beef all the way through rather than just coating the outside. Breadcrumbs and egg bind the mixture and keep the meatballs tender. The key technique in the sauce is the cornflour slurry added at the end, mixing cornflour with water before adding it to the hot sauce prevents lumps and gives you a glossy, evenly thickened glaze rather than a grainy one. These are quick to put together and work well as a midweek dinner served over steamed rice with spring onions and sesame seeds.Ingredient NotesGochujang: This is a fermented Korean chilli paste made from red chilli, glutinous rice, fermented soybean and salt. The fermentation process gives it a depth and complexity that fresh chilli or chilli sauce can’t replicate. It’s now widely available at major supermarkets and Asian grocers. Heat levels vary by brand. If you’re sensitive to heat, start with less in both the meatball mix and the sauce and adjust from there.Beef mince: Use beef mince with a fat content of around 15-20% rather than extra-lean. Fat carries flavour and keeps the meatballs moist during cooking. Very lean mince tends to produce dry, firm meatballs regardless of what you add to the mix. Pork mince works as a substitute and will give a slightly softer texture. A 50/50 pork and beef blend is also a good option.Cornflour (cornstarch): The cornflour is used as a thickener for the sauce. Always mix it to a slurry with cold water before adding it to the pan. Adding dry cornflour directly to a hot liquid causes it to clump immediately before it can distribute evenly. Once the slurry hits the hot sauce, stir continuously and it will thicken within 30-60 seconds.EquipmentChopping boardChef’s knifeLarge mixing bowlLarge frying panTongs — 4 servings · PT25M</description>
       <guid isPermaLink="false">001787e091db46fe9b1cf6aea0f3c53897832da1</guid>
       <pubDate>Tue, 11 Aug 2026 07:19:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rigatoni with chard, garlic, chilli and parmesan</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/rigatoni-with-chard-garlic-chilli-and-parmesan</link>
-      <description>This is a go-to recipe when I need a quick and easy dinner to make during the week that has minimal ingredients. — 2 servings · PT30M</description>
-      <guid isPermaLink="false">44917af99ee571347bf6339212a913ff57446dec</guid>
-      <pubDate>Tue, 11 Aug 2026 01:55:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sinangag (garlic fried rice)</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/sinangag-garlic-fried-rice</link>
-      <description>This is a very simple fried rice recipe from the Philippines. The original only has 3 ingredients (rice, garlic and soy sauce) but we're going to add in some butter which I've seen in a few versions and then add a fried egg and spam to finish it off. — 4 servings · PT20M</description>
-      <guid isPermaLink="false">cd22b4bbec3d245be72c70fd8484133dd397ce91</guid>
-      <pubDate>Mon, 10 Aug 2026 20:51:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
