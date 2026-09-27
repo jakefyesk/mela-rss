@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-27T16:13:11.421451+00:00",
+  "generated_at": "2026-09-27T20:42:24.149604+00:00",
   "count": 320,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -12830,7 +12830,7 @@
     "04bfc965bd48ae91d07b31600b07a1f8f8a62bb2": {
       "dedup_key": "04bfc965bd48ae91d07b31600b07a1f8f8a62bb2",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/rice/oozy-camembert-and-onion-rice",
+      "source_url": "https://www.jamieoliver.com/recipes/rice/oozy-camembert-and-onion-rice/",
       "page_url": "https://www.jamieoliver.com/recipes/rice/oozy-camembert-and-onion-rice/",
       "mode": "link_through",
       "category": "recipe",
