@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-27T20:42:24.149604+00:00",
-  "count": 320,
+  "generated_at": "2026-09-28T03:06:07.228769+00:00",
+  "count": 321,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -6123,7 +6123,7 @@
       "discovered_at": "2026-07-19T02:07:18.827942+00:00",
       "content_hash": "ebb254e8b154e16521c14461867406d3f1febdf0",
       "last_seen_at": "2026-08-06T13:51:11.766079+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "fcfd70adb48bc53e0788627517d79bfacc68588e"
     },
@@ -12865,6 +12865,44 @@
       "content_hash": "b65edd87474f511b6e01d84e6c92f179dfc747cc",
       "content_fingerprint": "18ab1963ddf518ba2bacc3bc69a94149e0c7d05d",
       "last_seen_at": "2026-09-27T16:13:11.421451+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "143b1f5c8a6e62e6e13b9ed95081d8378833e399": {
+      "dedup_key": "143b1f5c8a6e62e6e13b9ed95081d8378833e399",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/sri-lanken-rolls",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/sri-lanken-rolls",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Sri Lankan Rolls",
+      "text": "I first had these Sri Lankan rolls at an event my mate Shaun from Plate it Forward put on called Mum Cha with Nagi from RecipeTin Eats. Shaun's mum made these as one of their family dishes, so I asked her to write the recipe out. Shout out to Shaun's mum. Not only did she write the recipe for me, but she gave me a bunch of food to eat for dinner that night and it was absolutely delicious. You won’t regret making (or eating) these delicious potato filled rolls.What are they? Sri Lankan rolls are a popular street food made with a thin crepe wrapped around a spiced filling, then crumbed and deep fried. The filling here is a prawn and potato curry, built around whole aromatics like cinnamon stick and curry leaves that infuse the oil as they cook, giving the base a distinctive flavour before the spices go in. The potatoes are only lightly crushed in the pan rather than fully mashed, which keeps some texture in the filling.The crepe batter needs to rest for an hour before cooking, which allows the gluten to relax and helps the batter spread into a thinner, more even circle. Both the crepes and the filling can be made ahead of time and kept separately in the fridge, so the only thing left to do before serving is assemble, crumb, and fry. The rolls go into the oil at 180°C and take about 1 to 2 minutes to turn dark golden and crisp.Ingredient NotesCurry leaves: Fresh or frozen curry leaves are what you want here. Dried curry leaves lose most of their fragrance and won’t give you that same nutty, citrusy hit when they hit the hot oil. Most major supermarkets stock fresh curry leaves now, but Asian grocery stores are the most reliable source. If you can only find dried, double the quantity and add them with the spices rather than with the aromatics.Chilli powder: I use hot chilli powder in this recipe, which gives the filling a decent kick. If you’d prefer something milder, Kashmiri chilli powder is a good substitute. It’s considerably less hot but still adds a deep red colour to the filling. You can also use a mix of both if you want the colour without as much heat.Prawns: Use raw (green) prawns rather than pre-cooked. They only need a minute or two in the pan just until they turn opaque, and they’ll carry over heat once the filling comes off the stove. Keep in mind they’ll also go back into hot oil when the rolls are fried, so if they’re fully cooked at the filling stage they’ll end up rubbery by the time you eat them.EquipmentChopping boardChef’s knifeLarge bowlJug or bowl (for batter wet ingredients)WhiskLarge frying panCrepe pan or non-stick frying panTongsBaking paper and trayShallow bowls (for crumbing)Deep frying pan or wide saucepanWire rack and tray",
+      "author": "Andy",
+      "cuisine": "Sri Lankan",
+      "categories": [
+        "Lunch",
+        "Snack",
+        "Carbs"
+      ],
+      "ingredients": "300g (2 cups) plain flour\nlarge pinch sea salt, to season\n80g (4 tbsp) butter, melted\n3 eggs, beaten\n125ml (½ cup milk)\n300ml water\n3 medium potatoes, cubed\n1 brown onion, finely diced\n1 tbsp neutral oil\n1 cinnamon stick\n2 sprigs curry leaves\nthumb-sized piece fresh ginger, finely grated\n2 cloves garlic, finely grated\n½ tsp turmeric\n1 tsp each chilli powder, ground coriander, ground cumin\n500g green prawns, peeled, chopped into bite size pieces\n40ml (2 tbsp) tomato ketchup\n30ml water\n1 tsp brown sugar\nlemon juice, to taste\nsea salt, to season\nlemon wedges and spicy tomato chutney, to serve\n3 egg whites, lightly whisked\n1 cup breadcrumbs\nneutral oil for deep frying",
+      "instructions": "Combine the flour and salt in a large bowl.\nWhisk the butter, eggs, milk and water together in a jug or bowl, then gradually whisk into the flour to make a thin batter (add more water if needed so it spreads easily in the pan).\nRest batter for 1 hour.\nBoil the potatoes in salted water for about 8 minutes until just tender. Drain and set aside.\nHeat the oil in a large frying pan over medium heat. Saute the onion until softened.\nAdd cinnamon stick, curry leaves, ginger and garlic. Cook for 1 minute until fragrant.\nAdd the potatoes, crush lightly in the pan with a spoon, cook for 1 minute. Pour in 30ml water to deglaze frond (browned bits) from the base of the pan.\nStir in turmeric, chilli powder, ground coriander, ground cumin, tomato ketchup, and sugar. Cook for 1–2 minutes until well combined.\nAdd prawns and stir until just cooked. Stir in lemon juice and sea salt to taste, then remove from the heat. Remove the cinnamon stick.\nHeat a crepe pan over medium. Pour 60ml of the batter into the pan and swirl to make a thin circle.\nCook for 30 seconds, flip, cook for 15 seconds more. Transfer to a tray lined with baking paper and repeat with remaining batter.\nDivide the filling into 8 portions, then place down the centre of each crepe in a log shape, leaving a border on the sides to fold in.\nFold over the edge closest to you to enclose the filling, then fold in each side and continue to roll up to enclose.\nPlace the egg whites in a shallow bowl and the breadcrumbs in a shallow tray.\nDip each crepe roll in the egg whites, then roll in the breadcrumbs to completely coat.\nHeat enough oil in a deep frying pan to 180°C (355°F).\nDeep fry the rolls in batches for 1-2 minutes, until dark golden and crisp. Drain on a wire rack over a tray, then serve with lemon wedges and spicy tomato chutney.",
+      "notes": "",
+      "nutrition": "Serving size: 8",
+      "yield_": "8 servings",
+      "prep_time": "PT1H",
+      "cook_time": "PT1H",
+      "total_time": "PT2H",
+      "prep_minutes": 60,
+      "cook_minutes": 60,
+      "total_minutes": 120,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20250814035947-andy-20cooks-20-20crispy-20sri-20lankan-20rolls.jpg?v=1776232975",
+      "local_image": "",
+      "published_at": "2026-09-27T21:03:02+00:00",
+      "discovered_at": "2026-09-28T03:06:07.228769+00:00",
+      "content_hash": "c4d5bb84ca11df79398844e879eb9f6cfb61ea11",
+      "content_fingerprint": "368c84457901f42734b204889442bb0cb8655f74",
+      "last_seen_at": "2026-09-28T03:06:07.228769+00:00",
       "in_feed": true,
       "backfill": false
     }
