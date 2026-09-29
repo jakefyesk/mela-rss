@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-29T17:48:53.596316+00:00",
-  "count": 324,
+  "generated_at": "2026-09-29T21:45:39.223146+00:00",
+  "count": 325,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -6246,7 +6246,7 @@
       "discovered_at": "2026-08-08T06:40:38.435567+00:00",
       "content_hash": "2a237fdc8279b33354384751f5c0cceacd29e980",
       "last_seen_at": "2026-08-08T06:40:38.435567+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "9e8750b989394f07ee3451ad97d94818044b9972"
     },
@@ -12985,7 +12985,7 @@
     "70681150d84c537089a61a4e6b3bb2aecffddc78": {
       "dedup_key": "70681150d84c537089a61a4e6b3bb2aecffddc78",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/mushroom-sweet-potato-soup-with-a-poached-egg",
+      "source_url": "https://justinesnacks.com/mushroom-sweet-potato-soup-with-a-poached-egg/",
       "page_url": "https://justinesnacks.com/mushroom-sweet-potato-soup-with-a-poached-egg/",
       "mode": "link_through",
       "category": "recipe",
@@ -13023,6 +13023,45 @@
       "content_hash": "2096753908b0840e9c5cf53cb86b499ce9fc33cb",
       "content_fingerprint": "a291e1393cb67e637017939f9b3bc59c9b5c3301",
       "last_seen_at": "2026-09-29T17:48:53.596316+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "90a9d4fbc544aa2bdc9bc9de16763f89daed8367": {
+      "dedup_key": "90a9d4fbc544aa2bdc9bc9de16763f89daed8367",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/pastrami",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/pastrami",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Pastrami",
+      "text": "Pastrami is pretty easy to make at home, but it does take a while. If you're feeling up to making it from scratch, here's my recipe.",
+      "author": "Andy",
+      "cuisine": "European",
+      "categories": [
+        "Dinner",
+        "Protein",
+        "Techniques",
+        "Beef"
+      ],
+      "ingredients": "3.5-4 kg (7.7-8.8 lbs) brisket\n3.5L (3.7 quarts) water\n200g (7 oz) cooking salt (kosher salt)\n12g (0.4 oz) curing salt (cure #1)\n150g (5.3 oz) dark brown sugar\n2g coriander seeds\n1g chilli flakes\n8g (0.3 oz) mustard seeds\n2g juniper berries\n2g cloves\n2 cinnamon sticks\n4 bay leaves\n5 cloves garlic, smashed\n10g (0.35 oz) whole black peppercorns\n10g (0.35 oz) coriander seeds\n10g (0.35 oz) mustard seeds\n25g (0.9 oz) brown sugar\n6g (0.2 oz) smoked paprika\n12g (0.4 oz) garlic powder",
+      "instructions": "To make the brine, start by adding the water, cooking salt, and curing salt to a large container. Stir until the salts and sugars have dissolved and set aside.\nNext, in a pan over medium heat, toast the coriander seeds, chilli flakes, mustard seeds, juniper berries, cloves, and cinnamon sticks. Once toasted, add to the saltwater mixture from earlier, along with the smashed garlic cloves and bay leaves.\nPlace your trimmed brisket pieces into the brine and use a plate to fully submerge them underwater. Cover with a lid and place in the fridge for 10 days, flipping the pieces of meat every 2-3 days to ensure even curing.\nAfter the 10 days, remove the brisket from the brine and rinse well under cold running water. Pat dry and set aside.\nTo make the pastrami spice mixture, add the black peppercorns, coriander seeds, and mustard seeds to a dry pan over medium heat and toast for 1-2 minutes. Once toasted, add to a blender and crush until fine but not a powder. Then add the brown sugar, smoked paprika, and garlic powder and mix well.\nLiberally season all sides of the brisket with the spice mixture, then place into a preheated smoker set to 120°C (250°F). Smoke the brisket until you reach an internal temperature of 65°C (150°F).\nPreheat the oven to 160°C (325°F). Remove the brisket from the smoker and place into an oven tray with a wire rack. Pour about 1 litre of water in the bottom of the tray, then cover with baking paper and seal the tray with tinfoil.\nPlace the tray into the oven set to 160°C (325°F) and steam the brisket until you reach an internal temperature of 94°C (200°F).\nRemove the brisket from the steaming vessel and let it rest for 10-15 minutes before slicing and serving.",
+      "notes": "",
+      "nutrition": "Serving size: 8",
+      "yield_": "8 servings",
+      "prep_time": "PT240H",
+      "cook_time": "PT5H",
+      "total_time": "PT245H",
+      "prep_minutes": 14400,
+      "cook_minutes": 300,
+      "total_minutes": 14700,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20240703071225-andy-20cooks-20-20pastrami.jpg?v=1720071365",
+      "local_image": "",
+      "published_at": "2026-09-29T20:56:19+00:00",
+      "discovered_at": "2026-09-29T21:45:39.223146+00:00",
+      "content_hash": "6071a7ed4df03bc03bb1274f620a683d34de3e3a",
+      "content_fingerprint": "817b18e9e220fbde141bbc31612a4bf479750103",
+      "last_seen_at": "2026-09-29T21:45:39.223146+00:00",
       "in_feed": true,
       "backfill": false
     }
