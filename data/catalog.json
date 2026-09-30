@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-30T11:45:55.962259+00:00",
-  "count": 327,
+  "generated_at": "2026-09-30T17:26:15.980954+00:00",
+  "count": 328,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -6400,7 +6400,7 @@
       "discovered_at": "2026-08-09T12:37:35.487993+00:00",
       "content_hash": "c7351dc62b7f5d467af88f8ced892c2e6ef83090",
       "last_seen_at": "2026-08-09T12:37:35.487993+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "5b3a0130cade00a7ded880c80db9befdac138b1a"
     },
@@ -13140,6 +13140,43 @@
       "content_hash": "72757b39ecb49e9039aa615d45968157f0f41422",
       "content_fingerprint": "59f28874b2318374263c26aa25a54cf641dc60bc",
       "last_seen_at": "2026-09-30T11:45:55.962259+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "102000e8ce6a9648553d253d38aec49880ba4d4b": {
+      "dedup_key": "102000e8ce6a9648553d253d38aec49880ba4d4b",
+      "source": "joshuaweissman",
+      "source_url": "https://www.joshuaweissman.com/recipes/the-best-spicy-chili-oil-wontons-recipe",
+      "page_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-spicy-chili-oil-wontons-102000e8.html",
+      "mode": "rehost",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "The Best Spicy Chili Oil Wontons",
+      "text": "",
+      "author": "Joshua Weissman",
+      "cuisine": "",
+      "categories": [
+        "The Best Spicy Chili Oil Wontons",
+        "Chef Joshua Weissman recipe"
+      ],
+      "ingredients": "1½ cups (360mL) neutral oil (canola, avocado, etc.)\n½ cup (120mL) toasted rapeseed oil\n4 shallots, peeled and halved\n2 tsp (7g) whole red Sichuan peppercorns\n4 star anise\n3 black cardamom pods\n7 cloves garlic, peeled\n1 cinnamon stick\n⅔ cup (40g) Sichuan red chili flakes (Mala Market recommended)\n1 Tbsp (10g) toasted sesame seeds\n2 tsp (7g) mushroom soup base powder, *optional\n2 tsp (8g) granulated sugar\n1 Tbsp (10g) kosher salt\n1 tsp (3g) MSG\n1 Tbsp (15mL) Chinese black vinegar\n3 cloves garlic, finely chopped\n1 lb (454g) fatty ground pork\n½ lb (227g) fresh shrimp, finely chopped\n5 cloves garlic, grated\n2” (5.1 cm) knob fresh ginger, grated\n2 tsp (7g) kosher salt\n1 tsp (4g) granulated sugar\n1 tsp (3g) MSG\n1 Tbsp (15mL) soy sauce\n1 green onion, finely chopped\n1 package square wonton wrappers\n1 bunch green onions, thinly sliced, for garnish",
+      "instructions": "Add the neutral oil, rapeseed oil, shallots, Sichuan peppercorns, star anise, black cardamom, whole garlic cloves, and cinnamon to a small saucepot. Set over medium heat and slowly bring the oil to 250°F (121°C). Maintain the oil at around 250°F, stirring occasionally, until the shallots and garlic are deeply golden brown, about 20–30 minutes.\nStrain the infused oil through a fine-mesh strainer into a clean pot, discarding the solids. Return the oil to medium-high heat and heat to 350°F (177°C).\nMeanwhile, in a large heatproof bowl, combine the chili flakes, sesame seeds, mushroom soup base powder, sugar, salt, MSG, and black vinegar. Carefully pour the 350°F oil over the chili mixture in stages, whisking between each addition. The mixture should bubble vigorously and become deeply aromatic.\nLet the chili oil cool for 5–10 minutes, then stir in the finely chopped garlic. Let cool completely to room temperature before serving. Transfer to an airtight container and refrigerate until ready to use.\nIn a large bowl, combine the pork, shrimp, garlic, ginger, salt, sugar, MSG, soy sauce, and green onion. Mix vigorously by hand for 2–3 minutes, or until the filling becomes sticky, cohesive, and emulsified.\nTransfer the filling to a piping bag. For even better flavor, cover and refrigerate for 1–2 hours, or ideally overnight, before assembling.\nMake a loose circle with your thumb and index finger, then lay a wonton wrapper over the opening. Pipe about 1 tablespoon of filling directly into the center, pressing the filling down slightly into the opening with the piping bag. Bring your fingers together around the wrapper and pinch firmly just above the filling to seal, leaving the edges of the wrapper flared open at the top. Repeat with the remaining wrappers and filling.\nBring a large pot of water to a gentle boil. Working in batches, add the wontons and stir gently to prevent them from sticking. Cook for 2-3 minutes, or until the wrappers are tender and the filling reaches 165°F (74°C).\nRemove the wontons with a spider, or slotted spoon, allowing the excess water to drain, and transfer to a serving bowl. Spoon a generous amount of chili oil over the top and garnish with sliced green onions. Serve and enjoy!",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "prep_minutes": null,
+      "cook_minutes": null,
+      "total_minutes": null,
+      "image_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/img/the-best-spicy-chili-oil-wontons-102000e8.jpg",
+      "local_image": "recipes/joshuaweissman/img/the-best-spicy-chili-oil-wontons-102000e8.jpg",
+      "published_at": "2026-09-30T14:32:06.036000+00:00",
+      "discovered_at": "2026-09-30T17:26:15.980954+00:00",
+      "content_hash": "ec301c876f83a653b8255054eb211ba859bcfed6",
+      "content_fingerprint": "d13a53878f402d4b29a1f35c678add6285d35a55",
+      "last_seen_at": "2026-09-30T17:26:15.980954+00:00",
       "in_feed": true,
       "backfill": false
     }
