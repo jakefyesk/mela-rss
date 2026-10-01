@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-09-30T21:46:15.696856+00:00",
+  "generated_at": "2026-10-01T03:38:12.212778+00:00",
   "count": 328,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -13640,9 +13640,9 @@
     "480710ea60b54ba8d47109e8592868966d2644dc": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/course/",
-      "attempts": 2,
-      "last_attempt": "2026-09-27T03:09:42.297277+00:00",
-      "next_retry": "2026-10-01T03:09:42.297277+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-10-01T03:38:12.212778+00:00",
+      "next_retry": "2026-10-09T03:38:12.212778+00:00"
     }
   },
   "aliases": {
