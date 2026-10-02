@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 11:45:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 17:17:10 +0000</lastBuildDate>
+    <item>
+      <title>Beef chow mein</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/beef-chow-mein</link>
+      <description>This is one of my go-to noodle recipes when I want to make something quick and easy. Beef chow mein makes a great mid-week meal, here's my recipe. — 6 servings · PT15M</description>
+      <guid isPermaLink="false">74e059ac8410769b081eae9e3ce3a6d776f9a165</guid>
+      <pubDate>Fri, 02 Oct 2026 16:53:19 +0000</pubDate>
+    </item>
     <item>
       <title>The Best Spicy Chili Oil Wontons</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-best-spicy-chili-oil-wontons-102000e8.html</link>
@@ -701,13 +708,6 @@
       <description>Here's my go-to Neapolitana pizza dough recipe for when I'm making pizza at home. You will need to prepare this a couple of days before you make pizzas to get the best results. — 6 servings · PT48H30M</description>
       <guid isPermaLink="false">0bb7efb070f6ad4c7e608aee16ac66c3f7b3a209</guid>
       <pubDate>Mon, 10 Aug 2026 08:26:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meatball Sub</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/meatball-sub-1</link>
-      <description>Juicy meatballs in a rich tomato sauce, loaded into a toasted roll and covered in melted provolone. The foundation of a good meatball is the panade: breadcrumbs soaked in milk until they form a paste, which gets mixed into the mince and acts as a moisture trap. The panade keeps the meatballs tender through browning and simmering in the sauce. High-fat mince (80/20 or fattier) is equally important; lean mince produces a tighter, drier result because there’s not enough intramuscular fat to compensate for what’s lost during cooking.The sauce is a simple sugo, and for this recipe I used Christian Petracca’s Nonna’s sugo. But I know not everyone has access to that, so you can buy sugo from the store or make it yourself using my recipe. You can also use passata but it won't be as rich as sugo. Ingredient NotesPanko breadcrumbs: Panko has a larger, more open crumb structure than standard breadcrumbs, which means it absorbs the milk more readily and forms a softer panade. That panade is what keeps the meatball tender through cooking. Fine regular breadcrumbs work, but the texture of the finished meatball is noticeably denser.Minced beef (80/20 minimum): Fat content directly affects how juicy the meatball is. Lean mince (90/10 or lower) produces a firm, drier meatball because there isn’t enough intramuscular fat to compensate for what renders out during cooking. Chuck mince from a butcher naturally sits in the 80/20 range and is a good option if your supermarket only stocks leaner blends.Provolone dolce: Provolone comes in two styles: dolce (young, mild, creamy) and piccante or classico (aged, firmer, sharper). For this recipe you want dolce, which melts evenly and cleanly over the meatballs. The aged version is excellent for eating as is, but it tends to split and go oily when melted under heat. Sliced provolone from the deli counter melts better than pre-grated.EquipmentChopping boardChef’s knifeLarge mixing bowlBox grater (for onion and cheese)Large frying pan or sauté panTongsSecond large frying pan (for toasting rolls) — 4 servings · PT1H</description>
-      <guid isPermaLink="false">53490657144a3f77e3de9a404bd631b8c1769935</guid>
-      <pubDate>Sun, 09 Aug 2026 20:43:27 +0000</pubDate>
     </item>
   </channel>
 </rss>

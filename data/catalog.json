@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-02T11:44:01.584695+00:00",
-  "count": 329,
+  "generated_at": "2026-10-02T17:16:00.842429+00:00",
+  "count": 330,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -6438,7 +6438,7 @@
       "discovered_at": "2026-08-10T01:15:58.980075+00:00",
       "content_hash": "8dadac1a2eb2b6676760362f1c1c8fa0b661ef04",
       "last_seen_at": "2026-08-10T01:15:58.980075+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "6fefc80ddbdb68657fef44b95d947dd25be6ff91"
     },
@@ -13224,6 +13224,46 @@
       "content_fingerprint": "c82cf5706f4733ef4ebeeda8484f673db153e759",
       "last_seen_at": "2026-10-01T12:15:02.975641+00:00",
       "in_feed": false,
+      "backfill": false
+    },
+    "74e059ac8410769b081eae9e3ce3a6d776f9a165": {
+      "dedup_key": "74e059ac8410769b081eae9e3ce3a6d776f9a165",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/beef-chow-mein",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/beef-chow-mein",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Beef chow mein",
+      "text": "This is one of my go-to noodle recipes when I want to make something quick and easy. Beef chow mein makes a great mid-week meal, here's my recipe.",
+      "author": "Andy",
+      "cuisine": "Chinese",
+      "categories": [
+        "DInner",
+        "Quick",
+        "Easy",
+        "Beef",
+        "Noodles"
+      ],
+      "ingredients": "1/4 head green sugarloaf cabbage, cut into large dice\n500g (1.1 lbs) fresh egg noodles\n800g (1.75 lbs) beef strips\n2 brown onions, large diced\n2 small red capsicums, sliced into strips\n1 bunch spring onions, cut into 2.5cm (1 inch) pieces\n2 tbsp dark soy sauce\n2 tbsp light soy sauce\n2 tbsp oyster sauce\n2 tbsp Shaoxing wine\n1.5 tsp cornflour\n1 tbsp sugar\npeanut oil for cooking",
+      "instructions": "Fill a wok with water and bring to a boil. Blanch the noodles in boiling water for 1-2 minutes, then plunge them into ice-cold water to stop the cooking process. Drain well, drizzle with oil, toss, and set aside for later.\nIn a dry wok over high heat, add some peanut oil and spread it around. Once the oil is hot, add the onions and red capsicums. Cook, tossing occasionally. When they start to colour, add the cabbage. Once the cabbage begins to wilt, add the spring onions. Cook for one more minute, tossing well, then remove from the wok and set aside.\nAdd more oil to the wok and heat. When the oil starts to shimmer, add the beef strips. Arrange them flat and let them brown without moving too much.\nAfter 3-4 minutes, toss the beef, then add the previously set-aside noodles. Toss the beef through the noodles. Start adding the sauces around the edge: Shaoxing wine, soy sauces, and oyster sauce. Toss well.\nNext, add the vegetables back to the wok along with the sugar and toss well. Mix 2 tablespoons of water with the cornflour, then add this mixture to the wok. Toss everything well. Serve and enjoy!",
+      "notes": "",
+      "nutrition": "Serving size: 6",
+      "yield_": "6 servings",
+      "prep_time": "PT5M",
+      "cook_time": "PT10M",
+      "total_time": "PT15M",
+      "prep_minutes": 5,
+      "cook_minutes": 10,
+      "total_minutes": 15,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20240207015214-andy-20cooks-20-20beef-20chow-20mein.jpg?v=1707441825",
+      "local_image": "",
+      "published_at": "2026-10-02T16:53:19+00:00",
+      "discovered_at": "2026-10-02T17:16:00.842429+00:00",
+      "content_hash": "eaf041c29ac5159af1950a97f01cd7c803ef5d7f",
+      "content_fingerprint": "dd9a6f76fe48a454efc5726803a9ba6d0dbfed2a",
+      "last_seen_at": "2026-10-02T17:16:00.842429+00:00",
+      "in_feed": true,
       "backfill": false
     }
   },

@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 11:45:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 17:17:10 +0000</lastBuildDate>
+    <item>
+      <title>Beef chow mein</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/beef-chow-mein</link>
+      <description>This is one of my go-to noodle recipes when I want to make something quick and easy. Beef chow mein makes a great mid-week meal, here's my recipe. — 6 servings · PT15M</description>
+      <guid isPermaLink="false">74e059ac8410769b081eae9e3ce3a6d776f9a165</guid>
+      <pubDate>Fri, 02 Oct 2026 16:53:19 +0000</pubDate>
+    </item>
     <item>
       <title>Nasi goreng</title>
       <link>https://www.andy-cooks.com/blogs/recipes/nasi-goreng-1</link>
@@ -351,13 +358,6 @@
       <description>Cacio e Pepe is pasta at its most stripped-back and brilliant – just spaghetti, pecorino, and black pepper. It’s quick, comforting, and a proper lesson in how simple ingredients, treated right, can be unbeatable. Perfect for a solo dinner when you want maximum payoff for minimal fuss. — 1 serving · PT17M</description>
       <guid isPermaLink="false">4ffebff138e59c4350f931f2442a9ebd5fc68ddc</guid>
       <pubDate>Thu, 13 Aug 2026 20:17:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Māori Toroī</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/maori-toroi</link>
-      <description>Toroī is a traditional Māori side dish from Aotearoa (New Zealand), classically made with mussels or pipis and pūhā or watercress, then fermented until sour. This is my simplified home version where I skip the ferment and instead dress the mussels and watercress with garlic, chilli, salt and vinegar to get a similar bright, briny, slightly sour flavour served fresh from the fridge. Serve it on crackers, on toasted sourdough, alongside pan-seared white fish, over steamed rice, or at a hāngī. Ingredient NotesMussels: Try to find fresh, live mussels from a fishmonger or seafood counter. They should smell like the sea, not fishy, and any shells that are open should snap closed when tapped. Most farmed mussels come debearded, but check as you shell them and pull any stragglers off. Green-lipped mussels from New Zealand are the traditional choice if you can get them. Watercress: A peppery, mustard-family leafy green that grows in cold running waterways. In Australia it’s commercially available at specialty fruit and veg grocers. Store it in a bowl of cold water in the fridge, change the water daily, and it’ll keep for 3 to 4 days. If you can't find watercress or pūhā, you can substitute these for any bitter leafy green such as rocket, mustard greens, Dandelion Greens or even silverbeet. Bird’s eye chilli: I like to add some heat to this dish so keep the seeds in for extra spice or slice them out for a milder version. A red serrano, long red or dried chilli flakes all work as substitutes. Skip the chilli altogether if you’d rather it milder. EquipmentChopping boardChef’s knifeLarge pot with a lid (for the mussels)Second large pot (for blanching the watercress)ColanderTwo large bowls (one for the ice bath)Clean jar with a lid — 4 servings · PT1H15M</description>
-      <guid isPermaLink="false">14d938d8521e64497913c45f15e442c1e02e03f0</guid>
-      <pubDate>Thu, 13 Aug 2026 06:22:59 +0000</pubDate>
     </item>
   </channel>
 </rss>
