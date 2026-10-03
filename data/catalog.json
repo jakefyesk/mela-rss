@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-03T03:22:13.033264+00:00",
-  "count": 358,
+  "generated_at": "2026-10-03T10:57:33.960012+00:00",
+  "count": 359,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -14352,6 +14352,43 @@
       "content_hash": "7c672b8cbd31559602494932a057f38e068c37eb",
       "content_fingerprint": "9ba2b29f4b1394270498c5b942294d7dd4029be2",
       "last_seen_at": "2026-10-03T03:22:13.033264+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "af69a3f62556bdca1e893a33d7cb1509af01cfc0": {
+      "dedup_key": "af69a3f62556bdca1e893a33d7cb1509af01cfc0",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/peppercorn-sauce",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/peppercorn-sauce",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Peppercorn sauce",
+      "text": "Having steak? You need to make this creamy peppercorn sauce recipe. If I'm having the classic steak frites (steak and fries), I love adding a right peppercorn sauce to it. It's also great for chicken, potatoes or veggies.",
+      "author": "Andy",
+      "cuisine": "French",
+      "categories": [
+        "Dinner",
+        "Condiments"
+      ],
+      "ingredients": "2 shallots, finely diced\n1 tbsp black peppercorns\n1 tbsp pink peppercorns\nsalt\n1 tbsp oil\n50g butter\n100ml brandy\n250ml beef stock\n1 tbsp green peppercorns\n100ml cream",
+      "instructions": "In a saucepan over medium heat, add the black and pink peppercorns and toast until fragrant. This will take 3-5 minutes. Once they're fragrant, pound them in a mortar and pestle until you have a coarse ground pepper consistency. Set aside and place the pot back on medium heat.\nAdd the butter and oil to the pot, followed by the shallots. Sauté the diced shallots for 3-4 minutes until fully cooked with a pinch of salt.\nAdd the ground pepper from earlier back to the pot and stir through the sautéed shallots, followed by the green peppercorns and brandy. Be careful when you add the brandy to the pot; it's probably going to flambe, so it will get very hot, and there might be some large flames coming from the pot.\nOnce all the alcohol has burnt off from the brandy, add the beef stock and reduce by half.\nFinish the sauce by checking the salt levels and adding the cream, stirring it through until you have a lovely, velvety sauce.",
+      "notes": "",
+      "nutrition": "Serving size: 6",
+      "yield_": "6 servings",
+      "prep_time": "PT20M",
+      "cook_time": "PT20M",
+      "total_time": "PT40M",
+      "prep_minutes": 20,
+      "cook_minutes": 20,
+      "total_minutes": 40,
+      "image_url": "https://cdn.shopify.com/s/files/1/0725/3911/1726/files/20240608013838-andy-20cooks-20-20peppercorn-20sauce-20recipe.jpg?v=1717810720&width=1600&height=900",
+      "local_image": "",
+      "published_at": "2026-10-03T08:44:10+00:00",
+      "discovered_at": "2026-10-03T10:57:33.960012+00:00",
+      "content_hash": "4566c80076636e7c13794908dc3858d093bd4ef0",
+      "content_fingerprint": "15486b0d1628db4d49d24339a9b9df326e6d90e3",
+      "last_seen_at": "2026-10-03T10:57:33.960012+00:00",
       "in_feed": true,
       "backfill": false
     }
