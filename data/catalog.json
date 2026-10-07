@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-07T12:28:59.242403+00:00",
-  "count": 501,
+  "generated_at": "2026-10-07T22:32:07.331372+00:00",
+  "count": 502,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16665,7 +16665,7 @@
       "content_hash": "8197a4df8742c5892e131dbb127f8f862bfc9ddd",
       "content_fingerprint": "a39da69be73e4ea75c30172fa293f803159d969c",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "609ce745ff5f3367b8a62cb8f1a8c9951e396990": {
@@ -19863,6 +19863,44 @@
       "content_hash": "4b5afcde1dc5ce9034947ee1bfba9d484f7042bd",
       "content_fingerprint": "b144f8b3c58b94b4d9d934a721a45a7197fda053",
       "last_seen_at": "2026-10-07T12:28:59.242403+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "02e8d99bb3a1890dc06e4f5981193ab9ddd8b8f6": {
+      "dedup_key": "02e8d99bb3a1890dc06e4f5981193ab9ddd8b8f6",
+      "source": "joshuaweissman",
+      "source_url": "https://www.joshuaweissman.com/recipes/mcdonalds-egg-mcmuffin-but-better-copycat-recipe",
+      "page_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/mcdonald-s-egg-mcmuffin-at-home-but-better-02e8d99b.html",
+      "mode": "rehost",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "McDonald's Egg McMuffin At Home | But Better",
+      "text": "",
+      "author": "Joshua Weissman",
+      "cuisine": "",
+      "categories": [
+        "McDonald's Egg McMuffin At Home",
+        "But Better",
+        "Chef Joshua Weissman recipe"
+      ],
+      "ingredients": "½ cup + 2 Tbsp (150mL) water, warmed to 90°F (32°C)\n½ cup (120mL) whole milk, warmed to 90°F (32°C)\n1 Tbsp (9g) instant dry yeast\n2½ tsp (10g) granulated sugar\n2⅔ cups (400g) all-purpose flour, plus more for dusting\n2 tsp (8g) fine sea salt\n3 Tbsp (42g) unsalted butter, melted and cooled slightly\nNeutral oil, for greasing\nFine cornmeal, for dusting\n¼ cup (55g) mayo\n¼ cup (50g) sour cream\n1 tsp (3g) smoked paprika\n1 Tbsp (15mL) hot sauce, your favorite\n1 tsp (3g) garlic powder\nKosher salt and freshly cracked black pepper, to taste\n1 can Spam, cut into ½-inch (1.3cm) slices\nNeutral oil, for searing\nUnsalted butter, for toasting\n6 large eggs\nKosher salt, to taste\n6 slices American cheese",
+      "instructions": "Combine the water, milk, yeast, and sugar, then whisk until everything is dissolved. Let it sit for 8-10 minutes, or until frothy.\nIn a large bowl, combine the flour and salt and whisk until thoroughly combined. Pour the wet ingredients into the flour along with the unsalted butter and knead by hand until you get a rough, shaggy dough and all dry bits of flour are incorporated. Continue kneading for an additional 5-8 minutes, then cover and allow it to rest for 5 minutes. Transfer to a work surface, then knead again until smooth and elastic, about 5 minutes. Grease the bowl, return the dough to the bowl, cover with plastic wrap, and let it rise for 45-60 minutes, or until doubled.\nCoat a baking sheet generously with cornmeal. On a generously floured work surface, carefully turn out the dough, trying not to degas it too much. Flour the top of the dough and gently roll it out until about ¾ inch (1.9cm) thick. Using a 3.5-inch (9cm) biscuit cutter, cut the dough into rounds and place them on the prepared baking sheet, making sure none of them touch. Sprinkle the tops with cornmeal, lightly tent with plastic wrap, and allow to proof for 15-30 minutes, or until lightly puffy.\nHeat a large nonstick skillet over medium-low heat and add the English muffins in batches, spaced at least 1½ inches (3.8cm) apart. Cover with a lid and cook for 6-7 minutes. Remove the lid, flip the muffins, increase the heat to medium, and cook for 3-4 minutes on the other side, or until the internal temperature reaches 190-210°F (88-99°C). Cool on a wire rack and repeat with the remaining muffins.\nCombine all the ingredients in a small bowl, season to taste with salt and pepper, and whisk until homogeneous.\nIn a nonstick skillet over medium heat, add enough neutral oil to lightly coat the bottom of the pan, then sear the Spam in batches to avoid overcrowding, cooking for about 2 minutes, or until golden brown. Flip and sear the other side until golden brown.\nAdd butter to the same pan and toast the sliced English muffins until golden brown.\nWipe out the pan, then add more butter. Place the same 3.5-inch (9cm) ring mold in the pan, crack an egg into the mold, and season to taste with salt. Cook until the white is mostly set but the yolk is still soft. Reduce the heat to low, cover with a lid, and cook for an additional 30-60 seconds, or until the white is fully set. Repeat with the remaining eggs.\nLay down a toasted bottom English muffin, then top with a slice of seared Spam, a slice of American cheese, and a cooked egg. Crown your king with the toasted top half of the English muffin. Serve alongside a ramekin of the sauce and enjoy!",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "prep_minutes": null,
+      "cook_minutes": null,
+      "total_minutes": null,
+      "image_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/img/mcdonald-s-egg-mcmuffin-at-home-but-better-02e8d99b.jpg",
+      "local_image": "recipes/joshuaweissman/img/mcdonald-s-egg-mcmuffin-at-home-but-better-02e8d99b.jpg",
+      "published_at": "2026-10-07T14:30:01.527000+00:00",
+      "discovered_at": "2026-10-07T22:32:07.331372+00:00",
+      "content_hash": "79d6579eac0c7b5e1ea81851dd46af18a4a39fce",
+      "content_fingerprint": "fe8c6385725cd787aaa92bc2ad1b328ac738b986",
+      "last_seen_at": "2026-10-07T22:32:07.331372+00:00",
       "in_feed": true,
       "backfill": false
     }
