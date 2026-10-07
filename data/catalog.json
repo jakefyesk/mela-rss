@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-07T03:48:57.277490+00:00",
-  "count": 500,
+  "generated_at": "2026-10-07T12:28:59.242403+00:00",
+  "count": 501,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16702,7 +16702,7 @@
       "content_hash": "b4002f94ce3e8d4288191277980a29238cd48367",
       "content_fingerprint": "14137e43d86e94a6b933bbbfb4340acbf5a4babe",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "824363cd7ad365cee98c0565a1e958db1c87abf0": {
@@ -19824,6 +19824,45 @@
       "content_hash": "28ca1554db14bc92ee4cc1d75a8184d3b0a51b88",
       "content_fingerprint": "847808499410e2c1eec1c8ef073cf1f983010f00",
       "last_seen_at": "2026-10-05T23:35:54.068894+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "cac06c53b631da5f722b57a7e0d76beed0ed4f0c": {
+      "dedup_key": "cac06c53b631da5f722b57a7e0d76beed0ed4f0c",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/rice-cooker-chicken-zaatar",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/rice-cooker-chicken-zaatar",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Rice Cooker Chicken Za'atar",
+      "text": "This is how you make a good dinner with about five minutes of actual effort and then it's done in 30 minutes. This is my Za'atar chicken with saffron rice all cooked in the simple rice cooker. I like to add a cinnamon stick, the juice of half a lemon, a small handful of currants to the rice (along with the saffron) so it's really fragrant and has a great flavour. For the chicken, we'll season is with salt, pepper and lots of za'atar! I'm using a standard rice cooker and it only takes one cycle for the rice and chicken to be cooked through. If you want to check that your chicken is cooked, poke it with a digital thermometer and it should be at 62°C. If it's not, run another cycle and check it every 5 minutes. Ingredient NotesChicken thighs: I use thighs as hey stay juicy and tender through 30 minutes of steam. If you prefer chicken breast over thighs, cut them into thick strips so they don't dry out during the steaming process. If you want to avoid chicken altogether you can use a white fish or tofu. Make sure you still season them with the Za’atar before cooking. Za’atar: A dried herb and sesame blend, and the sumac in it is what brings the sourness. If you don’t have any, mix equal parts dried thyme, toasted sesame seeds, sumac and ground coriander ands it will be pretty close. No sumac either? you can use lemon zest can instead for the sharpness. Currants: These add sweetness to the dish which balances the salt and the sour sumac. If you don't have currants, dried apricots chopped small, cranberries or sultanas also work. EquipmentRice cookerChopping boardChef’s knifeSmall trayMicroplane or fine graterMeasuring cupRice paddleTongs",
+      "author": "Andy",
+      "cuisine": "Mediterranean",
+      "categories": [
+        "Dinner",
+        "Chicken",
+        "Easy",
+        "Quick"
+      ],
+      "ingredients": "½ cup basmati rice\n1 cinnamon stick\n1 pinch saffron\n½ lemon, juice and zest\n1 ½ tbsp currants\n1 ½ tbsp pine nuts\n2 boneless chicken thighs\n1 tbsp Za’atar\n¼ bunch parsley\n1 tsp softened butter\nsalt to taste",
+      "instructions": "Add the rice to a rice cooker bowl, rinse twice under cold water and drain well. Add half a cup of fresh water to the rice cooker with ¼ tsp of salt, a pinch of saffron, currants, a cinnamon stick and the juice of half a lemon.\nPlace the chicken thighs on a tray and liberally season with salt, pepper, and Za’atar. Place on top of the rice in a single layer.\nClose the lid to the rice cooker and place on a standard rice cycle. In the meantime, finely slice the parsley leaves and set aside.\nOnce cooked, remove the chicken and cinnamon from the cooker. Add a small handful of pine nuts, the zest of half a lemon, butter and half of the finely sliced parsley. Stir it through the rice, then serve with the chicken on the side. Garnish with the remaining sliced parsley and enjoy.",
+      "notes": "",
+      "nutrition": "Serving size: 1",
+      "yield_": "1 serving",
+      "prep_time": "PT5M",
+      "cook_time": "PT30M",
+      "total_time": "PT35M",
+      "prep_minutes": 5,
+      "cook_minutes": 30,
+      "total_minutes": 35,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20261007064128-260917_rice-20cooker-20-20zaatar-20chicken-20and-20rice-068.jpg?v=1791355335",
+      "local_image": "",
+      "published_at": "2026-10-07T06:42:15+00:00",
+      "discovered_at": "2026-10-07T12:28:59.242403+00:00",
+      "content_hash": "4b5afcde1dc5ce9034947ee1bfba9d484f7042bd",
+      "content_fingerprint": "b144f8b3c58b94b4d9d934a721a45a7197fda053",
+      "last_seen_at": "2026-10-07T12:28:59.242403+00:00",
       "in_feed": true,
       "backfill": false
     }
