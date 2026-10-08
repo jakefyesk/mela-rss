@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-08T12:38:46.347034+00:00",
-  "count": 503,
+  "generated_at": "2026-10-08T22:44:54.512853+00:00",
+  "count": 507,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16479,7 +16479,7 @@
       "content_hash": "a6cf00e1c5eb931da14e61ed4d75fb9b3a9e1b2d",
       "content_fingerprint": "7cbd3cf1821a968241b3255aa804e7b1a57a70e2",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "c0387afee9f4883dc7a2816c6e4db51615c537ef": {
@@ -16516,7 +16516,7 @@
       "content_hash": "075db88b4866c817b6a548b5cdcb0216886a234d",
       "content_fingerprint": "6113d2f0b4ed3a7e465824c8ab1d0bee0e8b5712",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "845aaab0619ffc9c73fe7f59affde44fc563f19d": {
@@ -16553,7 +16553,7 @@
       "content_hash": "4abb624002cfe3de8493f4343be7282e2cd35314",
       "content_fingerprint": "a18a0cac3cbe8c3c152012e4a653098233cb3995",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "43c2cf0e558bf6ccb9d1148aceabe8a3e9327303": {
@@ -16591,7 +16591,7 @@
       "content_hash": "355910813c54a3a1259275586d7d778a5f8f9b79",
       "content_fingerprint": "662dce961e1d95947356ba127888e26cb9d2fecc",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "fd3ebd1f0ed5332cd8ad2258a3faa0537e302ee1": {
@@ -19940,6 +19940,163 @@
       "last_seen_at": "2026-10-08T04:02:40.404166+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "9a4064c2473fd73bd9e5f4489f9f04d49e28d3e0": {
+      "dedup_key": "9a4064c2473fd73bd9e5f4489f9f04d49e28d3e0",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/spicy-tuna-rice-bowl",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/spicy-tuna-rice-bowl",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Spicy Tuna Rice Bowl",
+      "text": "This has to be one of the easiest and healthiest struggle meals! It doesn't require much effort or cooking, you just need to cook your rice or reheat some leftover rice. Then, we're just adding mayo and sriracha to the tuna, layering it over the rice and adding some carrots, carrot, kimchi and nori. I also like to top it off with some sesame seeds. EquipmentChopping boardChef’s knifeBox graterSieveMixing bowlTongsMeasuring spoonsLarge serving bowl",
+      "author": "Andy",
+      "cuisine": "Japanese",
+      "categories": [
+        "Dinner",
+        "Fish and Seafood",
+        "Quick",
+        "Easy"
+      ],
+      "ingredients": "1 ½ cups steamed rice (about ½ cup raw rice)\n185g tin tuna in spring water\n1 tbsp sriracha hot sauce\n2 tbsp Kewpie mayonnaise\n1/2 cucumber\n1 sheet nori\n60g kimchi\n1 carrot\n1 tsp white sesame seeds",
+      "instructions": "Cook your rice or reheat your leftover rice.\nDrain the tuna from the spring water.\nIn a medium bowl, mix together the drained tuna, sriracha and kewpie mayonnaise. Set aside.\nPeel and grate the carrot. Thinly slice the cucumber.\nCarefully toast the sheet of nori over an open flame in a fanning motion. It only takes a few seconds on each side. I recommend using tongs.\nInto a large serving bowl, add the steamed rice. Top with the tuna, kimchi, carrot, cucumber, toasted nori and garnish with sesame seeds.",
+      "notes": "",
+      "nutrition": "Serving size: 1",
+      "yield_": "1 serving",
+      "prep_time": "PT10M",
+      "cook_time": "PT15M",
+      "total_time": "PT25M",
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "total_minutes": 25,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/260827_5_Dinners_v2-178.jpg?v=1791438064",
+      "local_image": "",
+      "published_at": "2026-10-08T05:41:04+00:00",
+      "discovered_at": "2026-10-08T22:44:54.512853+00:00",
+      "content_hash": "447a6b723553e2e109141214242a89233e13589e",
+      "content_fingerprint": "cbedc6a25d3601a04e30f37f9c1de84503a6ea5a",
+      "last_seen_at": "2026-10-08T22:44:54.512853+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "b7ec32dfb17b554c8a6e281ffed0398642b00484": {
+      "dedup_key": "b7ec32dfb17b554c8a6e281ffed0398642b00484",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/spanish-tortilla",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/spanish-tortilla",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Spanish Tortilla",
+      "text": "This five ingredient Spanish tortilla recipe is a great dinner option when you want something simple, quick and easy to make. Now, you can add more to it if you want (like cheese or ham) but this is closer to the classic recipe and I like it as it is.This recipe is best cooked in either a carbon steel or non stick pan as you want the eggs to release once cooked so it comes out in one piece. Ingredient NotesDutch Cream potatoes: A waxy potato holds its shape through cooking where a high starch variety breaks down and turns to mash in the pan. All purpose potatoes work fine too. Slice them 2mm thick, no thicker, because they only get three or four minutes and they need to be cooked through before they go back in the pan with the eggs. EquipmentChopping boardChef’s knifePeelerCarbon steel or non stick pan, 20cm or smallerLarge mixing bowlSecond bowl for the potatoesWhiskWooden spatulaTwo flat platesPaper towel",
+      "author": "Andy",
+      "cuisine": "Spanish",
+      "categories": [
+        "Dinner",
+        "Easy",
+        "Quick",
+        "Vegetables"
+      ],
+      "ingredients": "1 brown onion\n1 large Dutch Cream potato (waxy or general purpose work best)\n3 large eggs\n60ml (1/4 cup) olive oil\nsalt to taste",
+      "instructions": "Peel and finely slice the onion, then set aside.\nPeel the potato then slice into four, wedge sized pieces. Slice each wedge into thin strips crosswise 2mm thick. Add the potato slices to a bowl of cold water to rinse off the starch.\nPlace a small carbon steel pan on a medium-high heat with half of the olive oil, until the oil just begins to smoke. Add the onions and sweat with ½ tsp salt for 3-4 minutes or until transparent, stir often.\nTo a large bowl, add the eggs and whisk with ¼ tsp salt until harmonized.\nDrain the potatoes from the water and add to the pan with onions. Turn the heat down to medium-low and stir. Continue cooking for 3-4 minutes until the potatoes are just cooked through but still hold their shape. Turn the element off and add the potatoes to the eggs. Stir to evenly distribute the hot potatoes throughout the eggs.\nWash the pan and dry thoroughly. Place the pan back on medium-high heat with the remaining olive oil. Once the oil begins to smoke, add the egg mixture. You want the edges of the mixture to gently bubble but not fry. Tap the pan on the stove two or three times to help set the shape. The aim is for the tortilla to release from the pan, without getting any colour on the egg. If your stove has uneven heat distribution, move the pan around the element to eliminate the risk of developing dark patches.\nOnce the egg has set most of the way, place a flat plate on top of the pan and carefully flip. Transfer the tortilla from the plate to the pan upside down, to cook the other side.\nPlace a piece of kitchen paper on a clean plate. Once the tortilla have fully set, flip the tortilla out onto the plate to absorb excess moisture.\nRemove the paper towel and serve.",
+      "notes": "",
+      "nutrition": "Serving size: 1",
+      "yield_": "1 serving",
+      "prep_time": "PT5M",
+      "cook_time": "PT15M",
+      "total_time": "PT20M",
+      "prep_minutes": 5,
+      "cook_minutes": 15,
+      "total_minutes": 20,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20261008052419-andy-20cooks-20-20delicious-20classic-20spanish-20tortilla-20recipe.jpg?v=1791437734",
+      "local_image": "",
+      "published_at": "2026-10-08T05:35:34+00:00",
+      "discovered_at": "2026-10-08T22:44:54.512853+00:00",
+      "content_hash": "bb4a42e8bc9d29c486afa4fc8bc7c6da86bb0a9a",
+      "content_fingerprint": "ad0342e9d9c35e552d29fcd7fcfe051442a3f8bf",
+      "last_seen_at": "2026-10-08T22:44:54.512853+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "8093f6398c9dcd429af86bed7aae58cd52f35a72": {
+      "dedup_key": "8093f6398c9dcd429af86bed7aae58cd52f35a72",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/chicken-white-bean-stew",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/chicken-white-bean-stew",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Chicken & White Bean Stew",
+      "text": "This is an Andy classic. I've been making version of this since I started cooking as it quick, easy and pretty cheap to make. You can also use whatever veg is lying around your fridge. I generally use chicken as the protein and tomato as the base. This recipe is just for one person, but I like to cook a lot of it and keep in the fridge or freezer for later. We'll use a spice mix of gochugaru, cumin and coriander to add flavour and some warmth to the dish. The first part of the recipe is the prep which will only take 5 minutes and then the cook will take about 15 minutes. Ingredients NotesGochugaru: Korean chilli flake, coarse and bright red. It’s fruity and slightly smoky rather than hot, so a teaspoon gives you warmth and colour without making it a spicy dish. You will be able to find it in your local Asian grocer and some supermarkets. Whole canned tomatoes: I like to use whole tomatoes, not pre-crushed. I think the fruit in the whole cans is better quality so it tastes better in your cooking. Just break them up in the pan with a spatula and leave a few larger chunks in there, because that bit of texture against the beans and the chicken works really well. Pre-crushed works if that is what you have. Asparagus: We'll add this in the last four minutes only, so it stays green and keeps its texture. Slice from the tip down and stop when the stalk starts to sound woody under the knife, then throw the tough base away. Thin spears need only a minute or two, so watch them. Out of season, green beans, frozen peas or diced zucchini also work. EquipmentChopping boardChef’s knifeSmall saucier or saucepanWooden spatulaTin openerSieve or colanderMeasuring spoonsKitchen scales",
+      "author": "Andy",
+      "cuisine": "Spanish",
+      "categories": [
+        "Dinner",
+        "Chicken",
+        "Quick",
+        "Easy"
+      ],
+      "ingredients": "1 red onion\n2 cloves garlic\n1 bunch asparagus\n1 chicken thigh\nsalt to taste\n1 tsp gochugaru\n1 tsp ground coriander\n1 tsp ground cumin\n400g (14 oz) can whole tomatoes\n400g (14 oz) can cannellini beans, drained\n1 sprig rosemary\n2 tbsp olive oil\n1 small handful of parsley leaves",
+      "instructions": "Peel and finely slice the red onion.\nCrush and roughly chop the garlic. Pick the rosemary off the stem and finely chop.\nSlice the asparagus into 2cm (¾ inch) thick pieces from the top to the base. When the asparagus starts to sound woody, stop slicing and discard the tough base.\nDice the chicken into small, bite sized pieces.\nPlace a small saucier or saucepan onto medium-high heat. Add the olive oil, onions and ½ tsp salt. Sweat the onion, stirring often, for 2-3 minutes or until soft.\nAdd the chicken then stir until lightly golden brown. To the saucier, add the gochugaru, ground coriander, ground cumin, garlic and rosemary. Stir through to coat the chicken, then immediately add 2 tbsp of water to deglaze the base and prevent the spices from burning.\nAdd the can of tomatoes and use a spatula to break up the whole tomatoes. Simmer for 2 minutes, then add the beans and asparagus. Continue simmering for a further 4 minutes.\nOnce the asparagus is cooked, taste the sauce and adjust seasoning with salt if needed. Stir through some finely chopped parsley and serve.",
+      "notes": "",
+      "nutrition": "Serving size: 1",
+      "yield_": "1 serving",
+      "prep_time": "PT5M",
+      "cook_time": "PT15M",
+      "total_time": "PT20M",
+      "prep_minutes": 5,
+      "cook_minutes": 15,
+      "total_minutes": 20,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20261008043953-andy-20cooks-20-20quick-20dinner-20chicken-20-26-20white-20bean-20stew-20recipe.jpg?v=1791435600",
+      "local_image": "",
+      "published_at": "2026-10-08T05:00:00+00:00",
+      "discovered_at": "2026-10-08T22:44:54.512853+00:00",
+      "content_hash": "40f0822eed4dc95b7a57d2af2223d55fe0722ad6",
+      "content_fingerprint": "81d17c6ff9590ed91c727518d675c05fceb8ee1e",
+      "last_seen_at": "2026-10-08T22:44:54.512853+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "e2e30ea607d53e59947849c5795891924fb43fa5": {
+      "dedup_key": "e2e30ea607d53e59947849c5795891924fb43fa5",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/squash-zotto",
+      "page_url": "https://justinesnacks.com/squash-zotto/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Squash-zotto",
+      "text": "Inspired by Ina Garten's oven orzo, this Squash-zotto is perfectly creamy, with depth of flavor that comes from starting with fried herbs and ending with white wine and a few cheeses. As a set-it-and-forget-it kind of dinner side or appetizer, this risotto always makes my list. To make it a full meal, consider serving it with slow roasted salmon, adding white beans, or crumbling in some fennel sausage.",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion,Italian",
+      "categories": [
+        "Main Course",
+        "Side Dish",
+        "fall recipes",
+        "risotto",
+        "squash risotto"
+      ],
+      "ingredients": "12 ounce butternut squash acorn squash, or pumpkin pie pumpkin\n3 sprigs thyme\n3 sprigs rosemary\n8 sage leaves\n4 tablespoons salted butter\n1 1/2 cups aborio rice or short grain white rice\n4 cups vegetable broth or chicken broth (or 1 1/2 teaspoons Better than Bouillon vegetable base, dissolved in 4 cups of water)\n1 cup water (plus more as needed)\n1 cup dry white wine or dry rosé\n3 ounces parmesan\n3 ounces whole milk ricotta\nDiamond Crystal kosher salt\nFreshly cracked black pepper",
+      "instructions": "Preheat the oven to 350°F.\nUsing the large holes of a box grater, grate the squash until you have 12 ounces. Set aside.\nFinely chop up the leaves from 3 sprigs of thyme, 3 sprigs of rosemary, and 8 sage leaves.\nPlace a large pot or Dutch oven over medium heat. Melt 4 tablespoons of salted butter then add the herbs, stir, toasting the herbs for 3-4 minutes, or until they are beginning to darken and crisp up. Add 1 1/2 cups of arborio rice and toast another 1-2 minutes. It will begin to sound “glassy” as it hits the side of the pan, and the outside of the rice will look clear with the interior still looking a creamy white.\nPour in 4 cups of broth and stir in the grated squash. Cover and transfer to the oven. Bake for 45 minutes.\nRemove the pot from the oven and mix a bit to loosen the rice. Place the pot on the stove over the lowest heat possible, then add 1 cup water, 1 cup white wine and mix.\nAdd 3 ounces of parmesan cheese, gradually mixing, then add 3 ounces of ricotta. Stir and let the risotto cook for 2-3 minutes, allowing the alcohol in the wine to cook off.\nSeason with 1 teaspoon salt and a few cracks of black pepper. Taste and season with more salt as needed (it can handle a lot! I usually add another teaspoon).\nIf your risotto gets too thick, add splashes of water at a time to loosen it up.\nServe warm!",
+      "notes": "",
+      "nutrition": "Calories: 160 kcal\nProtein: 5 g\nCarbs: 15 g\nFat: 9 g\nServing size: 0.5 cup",
+      "yield_": "8 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT1H",
+      "total_time": "PT1H15M",
+      "prep_minutes": 15,
+      "cook_minutes": 60,
+      "total_minutes": 75,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/09/Squash-zotto.jpg",
+      "local_image": "",
+      "published_at": "2026-10-08T10:36:38+00:00",
+      "discovered_at": "2026-10-08T22:44:54.512853+00:00",
+      "content_hash": "e000157af5ca403656eb7cf422f74b682c0191a4",
+      "content_fingerprint": "6e24d2ec519bb25ea2608782af36c833dac47a62",
+      "last_seen_at": "2026-10-08T22:44:54.512853+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -20373,30 +20530,30 @@
     "5d25efea437f87af6d529f387ad3af61c0275e32": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/family-favourites/",
-      "attempts": 3,
-      "last_attempt": "2026-09-30T21:46:15.696856+00:00",
-      "next_retry": "2026-10-08T21:46:15.696856+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-10-08T22:44:54.512853+00:00",
+      "next_retry": "2026-10-24T22:44:54.512853+00:00"
     },
     "28a9c099612635c35f5cbbf98cc45bdbac8d759d": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/family-favourites/vegetarian-family-meals/",
-      "attempts": 3,
-      "last_attempt": "2026-09-30T21:46:15.696856+00:00",
-      "next_retry": "2026-10-08T21:46:15.696856+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-10-08T22:44:54.512853+00:00",
+      "next_retry": "2026-10-24T22:44:54.512853+00:00"
     },
     "6c8dfe5422ff67ab5798c04ab8ed59969d8000bf": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/family-favourites/batch-cooking/",
-      "attempts": 3,
-      "last_attempt": "2026-09-30T21:46:15.696856+00:00",
-      "next_retry": "2026-10-08T21:46:15.696856+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-10-08T22:44:54.512853+00:00",
+      "next_retry": "2026-10-24T22:44:54.512853+00:00"
     },
     "39a06c99deaa1965e4b00ba4af766cb9b8cfba80": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/family-favourites/healthy-family-meals/",
-      "attempts": 3,
-      "last_attempt": "2026-09-30T21:46:15.696856+00:00",
-      "next_retry": "2026-10-08T21:46:15.696856+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-10-08T22:44:54.512853+00:00",
+      "next_retry": "2026-10-24T22:44:54.512853+00:00"
     },
     "480710ea60b54ba8d47109e8592868966d2644dc": {
       "source": "jamieoliver",
@@ -20415,9 +20572,9 @@
     "8576b8bf5c4993875600ecdbccf36fd6764b3581": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/occasion/summer-cocktails/",
-      "attempts": 1,
-      "last_attempt": "2026-10-06T22:09:38.431324+00:00",
-      "next_retry": "2026-10-08T22:09:38.431324+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-10-08T22:44:54.512853+00:00",
+      "next_retry": "2026-10-12T22:44:54.512853+00:00"
     }
   },
   "aliases": {
