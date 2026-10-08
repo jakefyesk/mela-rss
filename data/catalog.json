@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-07T22:32:07.331372+00:00",
-  "count": 502,
+  "generated_at": "2026-10-08T04:02:40.404166+00:00",
+  "count": 503,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16628,7 +16628,7 @@
       "content_hash": "b399eba829a7c9b529841bfaf0d640f08097913f",
       "content_fingerprint": "2e38e6cf1455a06a85b1c23abc3a308b514f88e6",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "d0fa2069358da818a6318110b3e529149bf2743e": {
@@ -19901,6 +19901,43 @@
       "content_hash": "79d6579eac0c7b5e1ea81851dd46af18a4a39fce",
       "content_fingerprint": "fe8c6385725cd787aaa92bc2ad1b328ac738b986",
       "last_seen_at": "2026-10-07T22:32:07.331372+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "3f247bba8b727e2ff7c23bdd38c6eda5451c0b34": {
+      "dedup_key": "3f247bba8b727e2ff7c23bdd38c6eda5451c0b34",
+      "source": "joshuaweissman",
+      "source_url": "https://www.joshuaweissman.com/recipes/easy-10-minute-tiramisu-recipe",
+      "page_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/easy-10-minute-tiramisu-recipe-3f247bba.html",
+      "mode": "rehost",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Easy 10 Minute Tiramisu Recipe",
+      "text": "",
+      "author": "Joshua Weissman",
+      "cuisine": "",
+      "categories": [
+        "Easy 10 Minute Tiramisu Recipe",
+        "Chef Joshua Weissman recipe"
+      ],
+      "ingredients": "1½ cups (360mL) heavy whipping cream\n3 Tbsp (38g) granulated sugar\n2½ tsp (13g) vanilla bean paste, or vanilla extract\n½ tsp (2g) fine sea salt\n1½ cups (340g) mascarpone cheese, at room temperature\n⅓ cup (80g) sweetened condensed milk\n2 cups (480mL) espresso or very strong coffee, at room temperature\n1 Tbsp (15mL) bourbon, *optional\n2 (7-oz/200g) packages ladyfingers\nCocoa powder, for dusting",
+      "instructions": "In a large mixing bowl, add the heavy cream and sugar. Whisk until silky soft peaks form. Add the vanilla bean paste, salt, mascarpone, and sweetened condensed milk, then continue whisking until the mixture is smooth and stiff peaks form. Be careful not to overwhip.\nIn a shallow bowl, whisk together the espresso and bourbon, if using. Quickly dunk each ladyfinger in the coffee mixture for 1 second. Immediately arrange the dipped ladyfingers in a single, even layer in an 8x8-inch (20x20cm) pan. Cut them as needed to fit snugly in the pan.\nOnce the bottom of the pan is completely covered with ladyfingers, spread half of the cream mixture over the top. Add a second layer of dipped ladyfingers, then spread the remaining cream mixture evenly over the top.\nDust the top with an even layer of cocoa powder. You can eat the tiramisu right away, but for the best texture, cover it with plastic wrap and refrigerate for 2–3 hours, or up to overnight, to allow the ladyfingers to fully soften and the flavors to meld. Serve and enjoy!",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "prep_minutes": null,
+      "cook_minutes": null,
+      "total_minutes": null,
+      "image_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/img/easy-10-minute-tiramisu-recipe-3f247bba.jpg",
+      "local_image": "recipes/joshuaweissman/img/easy-10-minute-tiramisu-recipe-3f247bba.jpg",
+      "published_at": "2026-10-08T02:45:50.675000+00:00",
+      "discovered_at": "2026-10-08T04:02:40.404166+00:00",
+      "content_hash": "c247c971203a3c8b6039c5f9d1e6c4b9868ef39a",
+      "content_fingerprint": "27642df0ca150fb557fb57adab36a62815356afe",
+      "last_seen_at": "2026-10-08T04:02:40.404166+00:00",
       "in_feed": true,
       "backfill": false
     }
