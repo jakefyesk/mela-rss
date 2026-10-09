@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-08T22:44:54.512853+00:00",
-  "count": 507,
+  "generated_at": "2026-10-09T04:07:49.796865+00:00",
+  "count": 508,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16440,7 +16440,7 @@
       "content_hash": "b7dcbe55e53a8acf6c277ed2d381d920b05e1118",
       "content_fingerprint": "a45cb41bd7289db52e43181e7102c0ececaefd41",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "58d5183ca9ec0ce32acec4847d16f29715bca4ff": {
@@ -20061,7 +20061,7 @@
     "e2e30ea607d53e59947849c5795891924fb43fa5": {
       "dedup_key": "e2e30ea607d53e59947849c5795891924fb43fa5",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/squash-zotto",
+      "source_url": "https://justinesnacks.com/squash-zotto/",
       "page_url": "https://justinesnacks.com/squash-zotto/",
       "mode": "link_through",
       "category": "recipe",
@@ -20095,6 +20095,44 @@
       "content_hash": "e000157af5ca403656eb7cf422f74b682c0191a4",
       "content_fingerprint": "6e24d2ec519bb25ea2608782af36c833dac47a62",
       "last_seen_at": "2026-10-08T22:44:54.512853+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "395ca39f824d8a92a08bcef09da94b0cef442599": {
+      "dedup_key": "395ca39f824d8a92a08bcef09da94b0cef442599",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/lamb-keema",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/lamb-keema",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Lamb Keema with Potatoes",
+      "text": "Lamb keema is a quick, hearty dish packed with flavour! Keema is generally minced meat cooked down with onion, ginger, garlic and spice. It's a type of dish that you can tweak the recipe to suit your taste or what's in your fridge. For example, we're using ground lamb in this curry but you can swap it for beef, turkey, chicken etc. We'll also add potato to make it a little more hearty. You can use peanut oil or ghee as the cooking base and adding in a mix of spices. It's a very easy curry to make at home and you can increase or dial down the spice as much as you like. Ingredient NotesLamb mince: Lamb, goat or mutton is the traditional choice for this dish. Chicken, beef or pork mince all work well if that’s what’s in the fridge or more your taste. Spices: We'll use whole cloves, cinnamon and cardamom first and let them infuse in the oil (or ghee). Then we'll add the ground chilli powder, garam masala and ground coriander once the mince is in. This recipe does have a little but of heat, but you can remove the green chillies or deseed them, and swap the chilli powder for Kashmiri chilli powder to make it milder. EquipmentChopping boardChef’s knifeFine graterSaucier or saucepan with a lidSpatulaMeasuring jugMeasuring spoonsKitchen scalesFrying pan (optional, for searing the lamb separately)",
+      "author": "Andy",
+      "cuisine": "Indian",
+      "categories": [
+        "Dinner",
+        "Lamb",
+        "Soups and curries"
+      ],
+      "ingredients": "500g (1 lb 2 oz) lamb mince\n2 tbsp neutral-flavoured oil\n1 red onion, diced\n15g or thumb-sized piece of ginger, finely grated\n3 cloves of garlic, finely grated\n2 whole cloves\n4 green cardamom pods\n1 cinnamon stick\n2 small green chillies, sliced\n1 tsp chilli powder\n1 tsp garam masala\n½ tsp ground coriander\n5 small potatoes, diced\nsalt, to taste\n150g (5 oz) frozen peas\n½ bunch of coriander, finely chopped\nnaan bread or rice, to serve",
+      "instructions": "Peel and finely slice the onion and set aside. Then finely grate the garlic and ginger, set aside. Finely slice the chillies and set aside.\nPlace a medium saucier or saucepan over medium heat and add the oil. Add the cinnamon stick, cardamom pods, and cloves, allowing them to infuse for 1-2 minutes or until aromatic. Be careful because they can easily burn and turn bitter. When the spices are ready, add the onions and stir for 2 minutes with a pinch of salt, then add the garlic, ginger and chillies. Stir often to prevent the garlic and ginger from burning for 3 minutes or until soft and aromatic.\nAdd the lamb mince, stirring well. Turn the heat to high, breaking up the mince as it cooks until the fat renders and the mince lightly browns, about 6-7 minutes. Add the ground coriander, chilli powder, garam masala and mix well.\nCut the potatoes into quarters and add to the saucepan. Pour in 250-300 ml (1-1 1/4 cups) of water. Stir well, bring to a gentle simmer, then reduce the heat to low and cover with a lid. Cook for 20-25 minutes, stirring every 5-10 minutes, until the potatoes are fully cooked.\nIn the last minute of cooking, add the frozen peas and stir through. Taste and adjust seasoning with more salt if needed.\nRemove the hard spices and serve with steamed rice or naan bread. Garnish with a few sprigs of fresh coriander.",
+      "notes": "",
+      "nutrition": "Serving size: 4",
+      "yield_": "4 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT35M",
+      "total_time": "PT45M",
+      "prep_minutes": 10,
+      "cook_minutes": 35,
+      "total_minutes": 45,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20261009011631-andy-20cooks-20-20lamb-20keema-20easy-20curry-20recipe.jpg?v=1791508747",
+      "local_image": "",
+      "published_at": "2026-10-09T01:19:20+00:00",
+      "discovered_at": "2026-10-09T04:07:49.796865+00:00",
+      "content_hash": "11741972c8d32d47a8bdcfc37b30a5502ad29a76",
+      "content_fingerprint": "80ce7eb53bdf002ac1a032c693d717db1b2ad7f9",
+      "last_seen_at": "2026-10-09T04:07:49.796865+00:00",
       "in_feed": true,
       "backfill": false
     }
@@ -20558,9 +20596,9 @@
     "480710ea60b54ba8d47109e8592868966d2644dc": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/course/",
-      "attempts": 3,
-      "last_attempt": "2026-10-01T03:38:12.212778+00:00",
-      "next_retry": "2026-10-09T03:38:12.212778+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-10-09T04:07:49.796865+00:00",
+      "next_retry": "2026-10-25T04:07:49.796865+00:00"
     },
     "e59249dd1691ecbfbd3ecdfeedaef3c544c845d6": {
       "source": "andycooks",

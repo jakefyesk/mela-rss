@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 22:46:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 04:09:06 +0000</lastBuildDate>
+    <item>
+      <title>Lamb Keema with Potatoes</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/lamb-keema</link>
+      <description>Lamb keema is a quick, hearty dish packed with flavour! Keema is generally minced meat cooked down with onion, ginger, garlic and spice. It's a type of dish that you can tweak the recipe to suit your taste or what's in your fridge. For example, we're using ground lamb in this curry but you can swap it for beef, turkey, chicken etc. We'll also add potato to make it a little more hearty. You can use peanut oil or ghee as the cooking base and adding in a mix of spices. It's a very easy curry to make at home and you can increase or dial down the spice as much as you like. Ingredient NotesLamb mince: Lamb, goat or mutton is the traditional choice for this dish. Chicken, beef or pork mince all work well if that’s what’s in the fridge or more your taste. Spices: We'll use whole cloves, cinnamon and cardamom first and let them infuse in the oil (or ghee). Then we'll add the ground chilli powder, garam masala and ground coriander once the mince is in. This recipe does have a little but of heat, but you can remove the green chillies or deseed them, and swap the chilli powder for Kashmiri chilli powder to make it milder. EquipmentChopping boardChef’s knifeFine graterSaucier or saucepan with a lidSpatulaMeasuring jugMeasuring spoonsKitchen scalesFrying pan (optional, for searing the lamb separately) — 4 servings · PT45M</description>
+      <guid isPermaLink="false">395ca39f824d8a92a08bcef09da94b0cef442599</guid>
+      <pubDate>Fri, 09 Oct 2026 01:19:20 +0000</pubDate>
+    </item>
     <item>
       <title>Spicy Tuna Rice Bowl</title>
       <link>https://www.andy-cooks.com/blogs/recipes/spicy-tuna-rice-bowl</link>
@@ -351,13 +358,6 @@
       <description>Have leftover stale croissants for Christmas, make this! It's a twist on a bread &amp; butter pudding using buttery croissants, cream, chocolate, cherries, and toasted coconut, all baked into one glorious dessert. — 8 servings · PT55M</description>
       <guid isPermaLink="false">9f5d21380900cd0ca8c5999b41f473afa7b9c3fa</guid>
       <pubDate>Mon, 05 Oct 2026 00:23:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ham and cheese quiche</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/ham-and-cheese-quiche</link>
-      <description>Ham and cheese quiche is a savoury classic that’s perfect for any occasion. With a crisp, golden pastry shell and a rich filling of Gruyère, ham, and chives, it’s all about simple ingredients done right. Bake it to golden perfection and serve warm, at room temperature, or chilled the next day. — 8 servings · PT2H</description>
-      <guid isPermaLink="false">9429daa035dee1da8fe51c3952b6546cf1716976</guid>
-      <pubDate>Mon, 05 Oct 2026 00:22:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
