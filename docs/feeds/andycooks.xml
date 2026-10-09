@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 04:09:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 12:27:21 +0000</lastBuildDate>
+    <item>
+      <title>48-Hour Sous Vide Chuck Roast</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/48-hour-sous-vide-chuck-roast</link>
+      <description>This recipe is a little unique as I’m aware that many kitchens don’t have a sous video machine. However, I get asked all the time to do sous vide recipes so here’s one of my favourites, a piece of chuck roast that’s cooked slowly in the sous vide for 48 hours and then nicely seared in the pan giving it a good crust. We’ll pair with a lovely jus using the juices from the beef after the sous vide. The result is medium rare beef from edge to edge with the texture of a tenderloin, from a cut that costs a fraction of the price. Sous Vide Chuck Roast ExplainedThe Sous VideSo what is sous vide? It's just a precise water bath where a small immersion circulator clipped to a stockpot heats the water to whatever temperature you want and keeps it there. You have to put the beef in a vacuum-sealed bag with the aromatics before adding it to the bath and cook it at low temperature for a reasonable amount of time. For our chuck, it will be 52°C (125°F) which is hot enough to slowly convert the connective tissue into gelatine over 48 hours, cool enough that the meat stays a rosy medium rare. If you don’t have a sous vide setup but want one, I've seen some for a decent price online these days. The Sear and the JusOnce you pull the bag out of the bath (don't throw away the juices!!!), the meat is medium rare from edge to edge but may look grey and uninviting. Don't stress! We're going to give it a nice sear in the pan to give it a lovely golden brown crust on the outside. While the pan is still hot, we use it to caramelise an onion, deglaze with red wine, and reduce that down with the juices reserved from the bag. Then, add a knob of cold butter and whisk it in at the end to give the sauce its glossy finish. That last step is called monter au beurre, French for “mounting with butter”. It is what restaurant sauces use to get that silky texture but you can skip this step. Ingredient NotesChuck roast: Chuck comes from the shoulder, which is packed with connective tissue and intramuscular fat. Normally that connective tissue is what makes the cut tough, but cooked low and slow at 52°C for 48 hours it converts into gelatine and gives you tenderloin-soft beef. Red wine: Use a dry red you’d happily drink, nothing fancy but nothing cooking-wine awful either. A shiraz, cabernet sauvignon or merlot all work. The wine reduces almost completely in the pan, so any harshness will concentrate. Beef tallow: Tallow is rendered beef fat and gives a deeper, beefier flavour to the sear than oil does. You’ll find it at most butchers and some supermarkets, but olive oil works perfectly if you can’t find it. EquipmentChopping boardChef’s knifeSous vide immersion circulatorLarge stockpot or plastic tub (for the water bath)Vacuum sealer and bagsHeavy-based frying pan or cast iron skilletTongsWire rack and trayWhisk — 6 servings · PT48H40M</description>
+      <guid isPermaLink="false">2758fbb3bd7daa6100914a323880d504553a4f3d</guid>
+      <pubDate>Fri, 09 Oct 2026 07:30:05 +0000</pubDate>
+    </item>
     <item>
       <title>Lamb Keema with Potatoes</title>
       <link>https://www.andy-cooks.com/blogs/recipes/lamb-keema</link>
@@ -351,13 +358,6 @@
       <description>Crispy fried chicken thighs coated in a spicy buffalo sauce, topped with creamy ranch dressing, dill pickles, and lettuce, all nestled in a toasted milk bun. — 6 servings · PT2H30M</description>
       <guid isPermaLink="false">0b5da0e09c3af5c557786efd91a7f6e1fc776b2a</guid>
       <pubDate>Mon, 05 Oct 2026 00:23:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cherry ripe croissant bread pudding</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/cherry-ripe-croissant-bread-pudding</link>
-      <description>Have leftover stale croissants for Christmas, make this! It's a twist on a bread &amp; butter pudding using buttery croissants, cream, chocolate, cherries, and toasted coconut, all baked into one glorious dessert. — 8 servings · PT55M</description>
-      <guid isPermaLink="false">9f5d21380900cd0ca8c5999b41f473afa7b9c3fa</guid>
-      <pubDate>Mon, 05 Oct 2026 00:23:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
