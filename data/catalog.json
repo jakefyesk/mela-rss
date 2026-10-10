@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-09T22:07:39.715644+00:00",
+  "generated_at": "2026-10-10T03:53:04.193466+00:00",
   "count": 513,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -20261,7 +20261,7 @@
     "f4d4a30f77a67960c06676ec3f5ebb3815c966ab": {
       "dedup_key": "f4d4a30f77a67960c06676ec3f5ebb3815c966ab",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/death-by-chocolate-cookies",
+      "source_url": "https://justinesnacks.com/death-by-chocolate-cookies/",
       "page_url": "https://justinesnacks.com/death-by-chocolate-cookies/",
       "mode": "link_through",
       "category": "recipe",
@@ -20301,7 +20301,7 @@
     "dcece50c01533109b4d56642c6b5ed84b680c06a": {
       "dedup_key": "dcece50c01533109b4d56642c6b5ed84b680c06a",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/sage-spanish-tortilla",
+      "source_url": "https://justinesnacks.com/sage-spanish-tortilla/",
       "page_url": "https://justinesnacks.com/sage-spanish-tortilla/",
       "mode": "link_through",
       "category": "recipe",
