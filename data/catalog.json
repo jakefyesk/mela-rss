@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-11T03:27:07.078264+00:00",
-  "count": 513,
+  "generated_at": "2026-10-11T11:57:24.391933+00:00",
+  "count": 514,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16211,7 +16211,7 @@
       "content_hash": "c3552c7f9b512a2c742a8bbdd12dd000c44d3c54",
       "content_fingerprint": "e0218e543bc598d997ec955ea63a29962f7a69c8",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "8638b515577d5001cfe4228de5def8d9fb2be66c": {
@@ -20338,6 +20338,47 @@
       "content_hash": "235f437fabecc8942820130e06bdc4662ef0983d",
       "content_fingerprint": "09f1b88105a1b188f8935bd7bdceac72f0e80469",
       "last_seen_at": "2026-10-09T22:07:39.715644+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "4b684639262ddfbc35d25baddb0d22606a3a5aab": {
+      "dedup_key": "4b684639262ddfbc35d25baddb0d22606a3a5aab",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/chinese-style-fried-rice",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/chinese-style-fried-rice",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Chinese Style Fried Rice",
+      "text": "This is a Chinese style takeaway fried rice, like the one I had growing up when we got our local Chinese for dinner. It’s such a classic dish that uses common ingredients and veg you’ll have in the fridge, even those frozen peas that have been sitting in your freezer for way too long.The two things that make this recipe work are a really hot wok and rice that has been cooked and cooled the day before. Fresh rice holds too much moisture and goes gluey when you fry it. Day-old rice is drier and firmer, which gives you that light, separate texture you get from a good Chinese takeaway. Once you have that sorted, the whole dish comes together in about ten minutes.Everything else is flexible. I have used ham, carrot, corn, and frozen peas, but this works really well as a fridge cleaner. Whatever vegetables you have on hand will work, and you can swap the ham for cooked chicken, prawns, or tofu without any issues.Ingredient NotesRice: Day-old rice is really important here, and it is worth planning ahead for. When rice cooks it absorbs a lot of water, and if you fry it straight away that moisture turns to steam in the wok, making the rice clump together and go soft. Leaving it in the fridge overnight lets it dry out and firm up so each grain stays separate when it hits the hot pan. If you are making this last minute, cook your rice, spread it out flat on a tray, and leave it to cool completely before you start frying.Light and dark soy sauce: You need both and they each do a different job. Light soy sauce is saltier and adds the base seasoning. Dark soy sauce is thicker, a little sweeter, and gives the rice that deep brown colour you see in a Chinese takeaway. If you only use one, the rice will either taste right but look pale, or look right but taste a bit flat. Use both for the best result.MSG: MSG is a flavour enhancer that is used in most restaurant kitchens, Chinese ones included. It gives food that extra savouriness that is hard to describe but easy to taste. I use it in this recipe because it genuinely makes a difference, but it is completely optional. If you leave it out, just add a small extra pinch of salt to compensate.Ham: Any cooked ham from the deli will work here. You can also use cooked chicken, prawns, Chinese sausage, or diced firm tofu if you want to go vegetarian. Leftover roast meat is also a great option and a good way to use up what is in the fridge.Veg: In this recipe I'm using fresh carrot and corn, and then frozen peas. However, you can use all frozen veg if that’s what you have, it will still be delicious. You can also use other vege like capsicum, green beans, baby corn, zucchini, broccolini. You make sure you cut it small enough to cook quickly in the wok.Eggs: Beaten eggs are cooked separately and added back at the end, which keeps them light and fluffy rather than rubbery. Do not rush this step by scrambling them straight away. Let them start to set in the pan first, then gently move them around. Pull them out when they are just cooked through and set them aside until the rice is ready.Equipment you'll need:Wok or large frying pan: A wok is the best tool for this because its shape lets you toss everything around easily and the high sides stop food going everywhere. If you do not have one, a large heavy frying pan will do the job, just make sure it is properly hot before you add anything.Sharp knife and chopping boardSmall bowlsWok spatula or tongs",
+      "author": "Andy",
+      "cuisine": "Chinese",
+      "categories": [
+        "Dinner",
+        "Lunch",
+        "Quick",
+        "Easy",
+        "Grains and Rice",
+        "Rice"
+      ],
+      "ingredients": "3 tbsp neutral-flavoured oil\n½ cup frozen peas\n½ cup corn kernels (off the cob)\n3 spring onions, sliced thinly, whites and greens kept separate\n1 carrot, finely diced\n200g ham, diced (approximately 7 oz)\n2 eggs, beaten\n3 cups cooked jasmine rice, completely cooled in the fridge overnight\n1 tbsp light soy sauce\n1 tbsp dark soy sauce\n1 tsp sugar\n½ tsp salt\n¼ tsp MSG",
+      "instructions": "Dice the ham, finely dice the carrot, then remove the corn kernels from the cob with a sharp knife. Thinly slice the spring onions, keeping the white and green parts separated.\nPlace a wok over high heat and add 1 tbsp of the oil. Add the carrot and corn and cook, tossing, for 1 minute.\nAdd the spring onion whites, peas and ham. Toss well to combine, then spread out evenly across the wok and cook for 1-2 minutes, without tossing, to get some caramelisation on the base (trying to build a bit of wok hei from high-heat wok-frying).\nToss the vegetables, then cook again for a further 1 minute. Remove the vegetables to a bowl and return the wok to the heat.\nAdd some more oil, then once it is smoking add the beaten eggs and stir-fry until they are 80% cooked. Remove the eggs from the wok and set aside.\nAdd the remaining oil to the wok and the then add the rice and toss for 1 minute.\nAdd the soy sauces, sugar, salt, and MSG. Stir-fry for 2-3 minutes, ensuring the rice is nicely broken up.\nReturn the vegetables and egg to the pan along with the green of the spring onions, reserving some for garnish. Toss well to mix through the rice and cook for 1 minute until everything is heated through.\nServe immediately, garnished with the remaining spring onions.",
+      "notes": "",
+      "nutrition": "Serving size: 4",
+      "yield_": "4 servings",
+      "prep_time": "PT20M",
+      "cook_time": "PT10M",
+      "total_time": "PT30M",
+      "prep_minutes": 20,
+      "cook_minutes": 10,
+      "total_minutes": 30,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260305004641-andy-20cooks-20-20chinese-20takeaway-20fried-20rice-20recipe_2a7891fb-6caa-4b4f-b472-21e6dd037b80.jpg?v=1778213772",
+      "local_image": "",
+      "published_at": "2026-10-11T06:47:08+00:00",
+      "discovered_at": "2026-10-11T11:57:24.391933+00:00",
+      "content_hash": "c5b800533b0ccfe73ed35f0736edd85b6bd30900",
+      "content_fingerprint": "fe746a9033a18f850aa04af52dd3f910e1a7c33c",
+      "last_seen_at": "2026-10-11T11:57:24.391933+00:00",
       "in_feed": true,
       "backfill": false
     }
