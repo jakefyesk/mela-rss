@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-11T21:22:03.806151+00:00",
-  "count": 514,
+  "generated_at": "2026-10-12T03:50:42.395122+00:00",
+  "count": 515,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16173,7 +16173,7 @@
       "content_hash": "955e00b47b2cfb1d1a87dccd66f62f9d2280d0a5",
       "content_fingerprint": "012fd191741d81f278428a34b592d4679c7548b1",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "353ed7b5affbb112fc3479ce0eb26b8f1062953c": {
@@ -20379,6 +20379,43 @@
       "content_hash": "c5b800533b0ccfe73ed35f0736edd85b6bd30900",
       "content_fingerprint": "fe746a9033a18f850aa04af52dd3f910e1a7c33c",
       "last_seen_at": "2026-10-11T11:57:24.391933+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "2e5d408e0b853c4dce83b441549fa1688e5fd29e": {
+      "dedup_key": "2e5d408e0b853c4dce83b441549fa1688e5fd29e",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/tornado-eggs",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/tornado-eggs",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Tornado Eggs",
+      "text": "You may have seen me cook these on MasterChef Australia recently when I taught the contestants an egg masterclass. Tornado eggs were everywhere on Melbourne cafe menus when I was working in them about ten years ago, and they’re one of the easier ways to turn three eggs into something that looks like it took skill. This is how I make them at home. Tornado Eggs ExplainedThe pan and the fatWe’re going to cook these in a stainless steel pan, not non-stick. The stainless surface gets nice and hot and gives the egg something to grab onto as you roll it, which is how the spiral holds its shape. Olive oil goes in first, then butter once the pan’s up to heat. The butter is for flavour and to coat the surface, but it’ll burn fast on its own, so the oil sits underneath as a buffer. Watch for the butter to stop foaming, that’s the signal it’s ready for the eggs. The rolling motionPour the whisked eggs into the centre of the pan, then immediately start pulling the cooked edge toward you with a fork while tilting the pan so the raw egg flows in behind it. Keep going in a circular motion. As one ribbon sets, you keep rolling more raw egg under and around it, building up the tornado shape. The whole thing takes about thirty seconds. Stop while there’s still a tiny bit of glossy egg in the centre because it carries through cooking on the toast. Ingredient NotesEggs: Use the freshest eggs you can find. Older eggs have looser whites that spread out in the pan instead of holding a tight shape. If you can, take them out of the fridge fifteen minutes before cooking. Cold eggs hit the hot pan and seize unevenly, which makes the rolling harder to control. Butter and olive oil: I use both. The olive oil goes in first because it has a higher smoke point and can take the heat without burning. The butter goes in second for flavour and to coat the pan. If you only used butter, it would burn before you got the eggs in. If you only used oil, the eggs wouldn’t taste of much. Around a tablespoon of each is right for a three-egg tornado. Fine herb salad: A small handful of soft herbs, dressed lightly. I like to use parsley, chives and chervil if I can get it, with a squeeze of lemon and a drizzle of olive oil. The herbs cut through the richness of the butter and the cracked pepper on top. Nothing else needs to go on the plate. EquipmentMixing bowlForkMaryse spatulaStainless steel frying pan, around 20 to 22cmToaster or grillChef’s knifeChopping board",
+      "author": "Andy",
+      "cuisine": "Australian",
+      "categories": [
+        "Breakfast",
+        "Eggs"
+      ],
+      "ingredients": "3 eggs\npinch of sea salt\n1 tbsp olive oil\n1 tbsp butter\n2 slices sourdough, toasted\nsmall handful of soft herbs (parsley, chives and chervil)\ncracked black pepper, to serve",
+      "instructions": "Crack the eggs into a bowl with a pinch of salt and whisk vigorously with a fork until you have one consistent yellow colour with no streaks of white.\nPlace a stainless steel frying pan over medium-high heat for about a minute until it’s properly hot. Test with a drop of water, it should ball up and dance across the surface.\nAdd the olive oil and swirl it around to coat the base of the pan, then add the butter and let it melt (don’t let it burn).\nPour the eggs into the centre of the pan all at once.\nUsing a maryse spatula, pull the cooked edge of the egg toward you while tilting the pan so the raw egg flows in behind it. Keep going in a circular motion, rolling the cooked egg around the pan and adding more raw egg behind it as you go. Build it up into a tornado shape.\nStop while there’s still a tiny bit of glossy egg in the centre. The whole cook takes around thirty seconds.\nSlide the tornado onto a slice of freshly toasted sourdough, top with a small handful of dressed herbs and a generous crack of black pepper. Serve immediately.",
+      "notes": "",
+      "nutrition": "Serving size: 1",
+      "yield_": "1 serving",
+      "prep_time": "PT5M",
+      "cook_time": "PT2M",
+      "total_time": "PT7M",
+      "prep_minutes": 5,
+      "cook_minutes": 2,
+      "total_minutes": 7,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20260504024322-andy-20cooks-20-20masterchef-20tornado-20eggs-20recipe.jpg?v=1791761712",
+      "local_image": "",
+      "published_at": "2026-10-11T23:35:12+00:00",
+      "discovered_at": "2026-10-12T03:50:42.395122+00:00",
+      "content_hash": "bdcfcf804116a87703e4eac2854f438843471852",
+      "content_fingerprint": "a98d52c538fe1e9092ea06140a682b67a3d565b9",
+      "last_seen_at": "2026-10-12T03:50:42.395122+00:00",
       "in_feed": true,
       "backfill": false
     }
