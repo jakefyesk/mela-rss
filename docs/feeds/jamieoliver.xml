@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 03:51:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 14:11:18 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -101,6 +101,13 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Fragrant trout &amp; green veg</title>
+      <link>https://www.jamieoliver.com/recipes/fish/fragrant-trout-and-green-veg/</link>
+      <description>Enjoy fragrant trout served with green veg, herby tomato salsa, crisp lettuce and tender potatoes – a light, health and flavourful weeknight meal! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">6f25029ef14c0f819cdd1b5ca16f059819bdeaa1</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Golden chicken &amp; garlicky beans</title>
       <link>https://www.jamieoliver.com/recipes/chicken/golden-chicken-and-garlickly-beans/</link>
       <description>2 servings · PT20M</description>
@@ -119,6 +126,13 @@
       <link>https://www.jamieoliver.com/recipes/lamb/crispy-lamb-chops/</link>
       <description>Serve up crispy lamb chops with fluffy couscous, spicy harissa, hearty chickpeas and a quick carrot pickle – a bold, vibrant dinner ready in no time! — 2 servings · PT20M</description>
       <guid isPermaLink="false">e076124a21d132a3d25e14591c8f8055f2ee942e</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New-style steak &amp; chips</title>
+      <link>https://www.jamieoliver.com/recipes/beef/new-style-steak-and-chips/</link>
+      <description>Steak and chips gets a modern upgrade! Tender steak in a creamy sauce, served with crispy gnocchi 'cheat's chips' – discover your new favourite meal! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">645d363a066a23fc08031bd25877b7159606e633</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -344,20 +358,6 @@
       <description>Mighty veg do wonderful things when grilled, blackened, charred and blistered. Here Jamie shares his favourite ways to enjoy them! — 6 servings</description>
       <guid isPermaLink="false">633ef5693e0ee3e8cad1daec564e4ed16816657b</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Herby grilled veg, halloumi skewers &amp; pancakes</title>
-      <link>https://www.jamieoliver.com/recipes/herby-grilled-veg-halloumi-skewers-pancakes/</link>
-      <description>Beautiful grilled veg, golden halloumi skewers and pancakes, plus a nutty herby dressing, yoghurt and pops of pomegranate. Delicious! — 8 servings · PT45M</description>
-      <guid isPermaLink="false">65ed76be28b6f740432067c6e38f3bb8960077fa</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grilled fish tacos &amp; stone fruit salsa</title>
-      <link>https://www.jamieoliver.com/recipes/fish/grilled-fish-tacos-stone-fruit-salsa/</link>
-      <description>Sizzling scallops, trout and mackerel topped with spicy stone fruit salsa, soured cream and herbs, all served in corn tortillas – what a feast! — 4 servings · PT45M</description>
-      <guid isPermaLink="false">ae15c5aad82792be594aa9d1ab440d013cc6ed50</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
