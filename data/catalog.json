@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-12T14:09:58.690321+00:00",
-  "count": 517,
+  "generated_at": "2026-10-13T00:02:18.316947+00:00",
+  "count": 518,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -16135,7 +16135,7 @@
       "content_hash": "a62182e8087d3cdf05cb0f7d2bcf073be45d976b",
       "content_fingerprint": "14002666f870b83ba0cc352fc8fb0661e55de882",
       "last_seen_at": "2026-10-04T03:50:00.669179+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "d94e92849fe311f48b1417bc4d5f2360366b5175": {
@@ -20422,7 +20422,7 @@
     "6f25029ef14c0f819cdd1b5ca16f059819bdeaa1": {
       "dedup_key": "6f25029ef14c0f819cdd1b5ca16f059819bdeaa1",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/fish/fragrant-trout-and-green-veg",
+      "source_url": "https://www.jamieoliver.com/recipes/fish/fragrant-trout-and-green-veg/",
       "page_url": "https://www.jamieoliver.com/recipes/fish/fragrant-trout-and-green-veg/",
       "mode": "link_through",
       "category": "recipe",
@@ -20466,7 +20466,7 @@
     "645d363a066a23fc08031bd25877b7159606e633": {
       "dedup_key": "645d363a066a23fc08031bd25877b7159606e633",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/new-style-steak-and-chips",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/new-style-steak-and-chips/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/new-style-steak-and-chips/",
       "mode": "link_through",
       "category": "recipe",
@@ -20500,6 +20500,46 @@
       "content_hash": "f4b49fe9587a302d81dd335722f63cecf8c3f42a",
       "content_fingerprint": "6eb8a5a85bba88006cc6bec3ae46d3a646e6e1a6",
       "last_seen_at": "2026-10-12T14:09:58.690321+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "862acd43101cf3d61dbcd229096acddb2970c171": {
+      "dedup_key": "862acd43101cf3d61dbcd229096acddb2970c171",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/marry-me-chicken",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/marry-me-chicken",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Marry Me Chicken",
+      "text": "This creamy Tuscan-style chicken is packed with garlic, sun-dried tomatoes, and all done in one pan. Quick to cook, big on flavour, and yes apparently proposal-worthy.Sear your chicken until golden, simmer it in a rich cream sauce, and serve it with rice or pasta.",
+      "author": "Andy",
+      "cuisine": "Italian",
+      "categories": [
+        "Dinner",
+        "Chicken",
+        "Protein",
+        "Pasta",
+        "Easy"
+      ],
+      "ingredients": "2 chicken breasts\nsea salt and white pepper, to season\n2 tbsp plain flour\n1 tbsp olive oil\n25g (0.9 oz) butter\n3 cloves garlic, finely crushed\n100g (3.5 oz) sun-dried tomatoes, cut into strips\n2 tsp dried oregano\n1 cup (250ml) chicken stock\n½ cup (125ml) cream\nsteamed rice, steamed broccolini to serve\nfresh basil, to garnish",
+      "instructions": "Season the flour with salt and pepper, then dust the chicken breasts, shaking off to remove any excess.\nIn a large skillet or frying pan on medium high heat, add the olive oil and butter. Once the butter starts to foam, add the chicken and sear on both sides, until well browned. Remove from the pan and set aside.\nTurn the heat down on your pan and add the crushed garlic to the pan, sun-dried tomatoes, and oregano and sauté for 40 seconds to 1 minute. Deglaze the pan with chicken stock. Stir to remove frond from the bottom of the pan.\nStir in the cream and return the chicken breasts back to the pan. Simmer on low with the lid on until the chicken breasts are fully cooked, approximately 10-15 minutes.\nUncover and check the chicken doneness. Cook for a further 5 minutes (with lid off) to reduce sauce. Serve the chicken and sauce with steamed rice and broccolini. Garnish with some basil.",
+      "notes": "",
+      "nutrition": "Serving size: 2",
+      "yield_": "2 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT30M",
+      "total_time": "PT40M",
+      "prep_minutes": 10,
+      "cook_minutes": 30,
+      "total_minutes": 40,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20250816050839-andy-20cooks-20-20dinner-20recipe-20chicken-20breast-20marry-20me-20chicken_45f2b3e0-e757-446b-859c-b18b431b308f.jpg?v=1755501056",
+      "local_image": "",
+      "published_at": "2026-10-12T20:54:10+00:00",
+      "discovered_at": "2026-10-13T00:02:18.316947+00:00",
+      "content_hash": "a7e91024b4b2b295db1623473cce265e48b29e7f",
+      "content_fingerprint": "466dbbe2b4a93f4f3da580ef58afb4e8b76c9c0e",
+      "last_seen_at": "2026-10-13T00:02:18.316947+00:00",
       "in_feed": true,
       "backfill": false
     }
@@ -20977,9 +21017,9 @@
     "8576b8bf5c4993875600ecdbccf36fd6764b3581": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/occasion/summer-cocktails/",
-      "attempts": 2,
-      "last_attempt": "2026-10-08T22:44:54.512853+00:00",
-      "next_retry": "2026-10-12T22:44:54.512853+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-10-13T00:02:18.316947+00:00",
+      "next_retry": "2026-10-21T00:02:18.316947+00:00"
     }
   },
   "aliases": {
