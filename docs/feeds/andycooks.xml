@@ -8,7 +8,147 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 11:01:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 16:22:30 +0000</lastBuildDate>
+    <item>
+      <title>Jollof Rice</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/jollof-rice</link>
+      <description>This is my Nigerian-style Jollof rice, slow-cooked with tomatoes, capsicum, Scotch bonnet chillies and spices for deep, fragrant flavour. — 4 servings · PT1H30M</description>
+      <guid isPermaLink="false">3d8471e82b807ef07b19a2a3820040d046ee0bf7</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pico de Gallo</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/pico-de-gallo</link>
+      <description>This is my five-minute pico de gallo with tomato, onion, jalapeño, coriander and lime—fresh, bright and great with tacos or corn chips. — 1.5 cups · PT5M</description>
+      <guid isPermaLink="false">182dddfde388ccfd1bd810a69c02059e5de33e8e</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemon, Olive and Oregano Focaccia</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/lemon-olive-and-oregano-focaccia</link>
+      <description>This focaccia is light and airy with a crispy base, preserved lemon, Sicilian olives and fresh oregano, baked in a cast iron pan. — 8 servings · PT4H30M</description>
+      <guid isPermaLink="false">28e762939acbb4a2b8ad1fab7da46cb9d7d58da4</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Baked Eggs</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/baked-eggs</link>
+      <description>My baked eggs with chorizo, chilli and homemade sugo bake in 10–12 minutes, then get served with toasted focaccia for dipping. — 4 servings · PT30M</description>
+      <guid isPermaLink="false">6295211cb06f5258ffb96ba844b62c594d90e576</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cowboy Caviar</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/cowboy-caviar</link>
+      <description>This cowboy caviar has charred corn, black beans, avocado, lime and Tajín, served cold with crisp homemade corn chips for scooping. — 8 servings · PT35M</description>
+      <guid isPermaLink="false">80b753c44a27316d85c86fed29159f384491b631</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Braised Beef</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/braised-beef</link>
+      <description>My weekend braised beef cooks low and slow with veg and stock until fall-apart tender, giving you 8–10 portions for midweek meals. — 10 servings · PT4H35M</description>
+      <guid isPermaLink="false">bff542b317cc48d78f65a3ad4f3ab9db4ef474b2</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chicken Ragu with Risoni</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/chicken-ragu-risoni</link>
+      <description>This quick chicken ragu with risoni combines browned chicken thighs, tomato sugo, lemon and green olives for an easy weeknight dinner. — 4 servings · PT15M</description>
+      <guid isPermaLink="false">dceed18a87b6974ad373980d7d22f0958831f16c</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reverse Sear Rib Roast (Prime Rib)</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/reverse-sear-rib-roast</link>
+      <description>This is my reliable reverse-seared rib roast with Dijon, garlic and rosemary crust, cooked low and slow for even, tender beef. — 8 servings · PT29H</description>
+      <guid isPermaLink="false">159b81f0f66473548069eb78f405e3cb85dab2f4</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate Roast Potatoes</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/ultimate-roast-potatoes</link>
+      <description>These roast potatoes are parboiled in beef stock, roughed up and cooked in tallow for a deeply savoury flavour and shatteringly crisp crust. — 8 servings · PT1H50M</description>
+      <guid isPermaLink="false">3e353443bf8afa9ac8a6c61e4b3e050a963a5cca</guid>
+      <pubDate>Wed, 14 Oct 2026 14:12:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grilled chicken drumsticks with fish sauce marinade</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/chicken-drumsticks</link>
+      <description>These grilled chicken drumsticks are marinated with fish sauce, ginger, turmeric and chilli for juicy meat and golden, flavour-packed skin. — 6 servings · PT2H20M</description>
+      <guid isPermaLink="false">cd4c57d14a14c669ce7adb5f2e0a61620cc4ffda</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grilled coconut chilli chicken</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/coconut-chilli-chicken</link>
+      <description>This is my grilled coconut chilli chicken with a smoky char, juicy meat and fresh cucumber, spring onions and pomegranate to serve. — 4 servings · PT4H30M</description>
+      <guid isPermaLink="false">5527a63489ba39ef73462d24407f542058d41017</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beer can chicken</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/beer-can-chicken</link>
+      <description>This beer can chicken is a favourite Aussie BBQ method, roasted with olive oil and BBQ rub for juicy meat and easy cooking in the oven or BBQ. — 4 servings · PT1H20M</description>
+      <guid isPermaLink="false">55a1486cf88e38c54bd793d0f55a8d71268f71b0</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Toowoomba pasta</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/toowoomba-pasta</link>
+      <description>This is my creamy Toowoomba pasta with prawns, mushrooms, garlic, gochugaru, cream and Parmesan, finished with spring onions. — 4 servings · PT55M</description>
+      <guid isPermaLink="false">65553994e9ea093a291b09240a1de9aa0090abcf</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pan-fried chicken</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/pan-fried-chicken</link>
+      <description>This is my method for pan-fried chicken breast with golden, crispy skin and juicy meat, finished with a simple low-and-slow cook. — 1 serving · PT1H25M</description>
+      <guid isPermaLink="false">706f180f5e11e6692f62068c0a1f426a8bd6794e</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chicken stir fry</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/chicken-stir-fry</link>
+      <description>This simple chicken stir fry uses velveting for tender chicken, crisp capsicum, garlic and spring onions in a savoury soy and oyster sauce. — 4 servings · PT1H15M</description>
+      <guid isPermaLink="false">9a3aab5fe0c56f7fe1956549f36ae591325a83ad</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adana kebab</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/adana-kebab</link>
+      <description>This is my Adana kebab with hand-minced lamb grilled over charcoal, warm flatbreads, grilled bullhorn peppers and a fresh sumac salad. — 6 servings · PT1H20M</description>
+      <guid isPermaLink="false">adc88b1beecc8bb6b72e6d7f7b597b3b9c17e32e</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arancini alla norma</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/arancini-alla-norma</link>
+      <description>These vegetarian arancini are filled with eggplant, basil, ricotta and tomato, then crumbed and fried until golden and crisp. — 10 servings · PT2H30M</description>
+      <guid isPermaLink="false">eb9103164c3cdac3884ed6f35fa653464f3a03cc</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick pickled cucumber</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/quick-pickled-cucumber</link>
+      <description>This is my quick pickled cucumber with dill, chilli and peppercorns—ready once cooled and handy for cheese boards, salads or avocado toast. — 12 servings · PT20M</description>
+      <guid isPermaLink="false">f04742bf9390676468a143100d479c6e2c59b6cb</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grilled flatbread, whipped feta and blistered tomatoes</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/grilled-flatbread-whipped-feta-with-blistered-tomatoes</link>
+      <description>This is my favourite BBQ snack: grilled flatbread with zesty whipped feta, blistered tomatoes, chilli and fresh basil. — 6 servings · PT1H40M</description>
+      <guid isPermaLink="false">f6969696f0792dbea78d3fed6a9682cf3b4dafad</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mayonnaise</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/mayonnaise</link>
+      <description>This easy homemade mayonnaise is a creamy base for adding lemon, chilli, harissa or Vegemite, made with an immersion blender. — 8 servings · PT10M</description>
+      <guid isPermaLink="false">682ba4896a9bb4e510d2a05da775ba86b842b666</guid>
+      <pubDate>Wed, 14 Oct 2026 14:11:51 +0000</pubDate>
+    </item>
     <item>
       <title>Leek and Lemon Fish Cakes</title>
       <link>https://www.andy-cooks.com/blogs/recipes/leek-and-lemon-fish-cakes</link>
@@ -218,146 +358,6 @@
       <description>This five ingredient Spanish tortilla recipe is a great dinner option when you want something simple, quick and easy to make. Now, you can add more to it if you want (like cheese or ham) but this is closer to the classic recipe and I like it as it is.This recipe is best cooked in either a carbon steel or non stick pan as you want the eggs to release once cooked so it comes out in one piece. Ingredient NotesDutch Cream potatoes: A waxy potato holds its shape through cooking where a high starch variety breaks down and turns to mash in the pan. All purpose potatoes work fine too. Slice them 2mm thick, no thicker, because they only get three or four minutes and they need to be cooked through before they go back in the pan with the eggs. EquipmentChopping boardChef’s knifePeelerCarbon steel or non stick pan, 20cm or smallerLarge mixing bowlSecond bowl for the potatoesWhiskWooden spatulaTwo flat platesPaper towel — 1 serving · PT20M</description>
       <guid isPermaLink="false">b7ec32dfb17b554c8a6e281ffed0398642b00484</guid>
       <pubDate>Thu, 08 Oct 2026 05:35:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken &amp; White Bean Stew</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/chicken-white-bean-stew</link>
-      <description>This is an Andy classic. I've been making version of this since I started cooking as it quick, easy and pretty cheap to make. You can also use whatever veg is lying around your fridge. I generally use chicken as the protein and tomato as the base. This recipe is just for one person, but I like to cook a lot of it and keep in the fridge or freezer for later. We'll use a spice mix of gochugaru, cumin and coriander to add flavour and some warmth to the dish. The first part of the recipe is the prep which will only take 5 minutes and then the cook will take about 15 minutes. Ingredients NotesGochugaru: Korean chilli flake, coarse and bright red. It’s fruity and slightly smoky rather than hot, so a teaspoon gives you warmth and colour without making it a spicy dish. You will be able to find it in your local Asian grocer and some supermarkets. Whole canned tomatoes: I like to use whole tomatoes, not pre-crushed. I think the fruit in the whole cans is better quality so it tastes better in your cooking. Just break them up in the pan with a spatula and leave a few larger chunks in there, because that bit of texture against the beans and the chicken works really well. Pre-crushed works if that is what you have. Asparagus: We'll add this in the last four minutes only, so it stays green and keeps its texture. Slice from the tip down and stop when the stalk starts to sound woody under the knife, then throw the tough base away. Thin spears need only a minute or two, so watch them. Out of season, green beans, frozen peas or diced zucchini also work. EquipmentChopping boardChef’s knifeSmall saucier or saucepanWooden spatulaTin openerSieve or colanderMeasuring spoonsKitchen scales — 1 serving · PT20M</description>
-      <guid isPermaLink="false">8093f6398c9dcd429af86bed7aae58cd52f35a72</guid>
-      <pubDate>Thu, 08 Oct 2026 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rice Cooker Chicken Za'atar</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/rice-cooker-chicken-zaatar</link>
-      <description>This is how you make a good dinner with about five minutes of actual effort and then it's done in 30 minutes. This is my Za'atar chicken with saffron rice all cooked in the simple rice cooker. I like to add a cinnamon stick, the juice of half a lemon, a small handful of currants to the rice (along with the saffron) so it's really fragrant and has a great flavour. For the chicken, we'll season is with salt, pepper and lots of za'atar! I'm using a standard rice cooker and it only takes one cycle for the rice and chicken to be cooked through. If you want to check that your chicken is cooked, poke it with a digital thermometer and it should be at 62°C. If it's not, run another cycle and check it every 5 minutes. Ingredient NotesChicken thighs: I use thighs as hey stay juicy and tender through 30 minutes of steam. If you prefer chicken breast over thighs, cut them into thick strips so they don't dry out during the steaming process. If you want to avoid chicken altogether you can use a white fish or tofu. Make sure you still season them with the Za’atar before cooking. Za’atar: A dried herb and sesame blend, and the sumac in it is what brings the sourness. If you don’t have any, mix equal parts dried thyme, toasted sesame seeds, sumac and ground coriander ands it will be pretty close. No sumac either? you can use lemon zest can instead for the sharpness. Currants: These add sweetness to the dish which balances the salt and the sour sumac. If you don't have currants, dried apricots chopped small, cranberries or sultanas also work. EquipmentRice cookerChopping boardChef’s knifeSmall trayMicroplane or fine graterMeasuring cupRice paddleTongs — 1 serving · PT35M</description>
-      <guid isPermaLink="false">cac06c53b631da5f722b57a7e0d76beed0ed4f0c</guid>
-      <pubDate>Wed, 07 Oct 2026 06:42:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vietnamese shaking beef (Bò Lúc Lắc)</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/vietnamese-shaking-beef-bo-luc-l%E1%BA%AFc</link>
-      <description>Bò Lúc Lắc, or Vietnamese Shaking Beef, is a sizzling stir-fry of tender marinated beef, seared until golden and tossed with onions. Bold, savoury, and perfect with red rice. — 4 servings · PT2H10M</description>
-      <guid isPermaLink="false">c0f30e3c398a78e84a0bdb33e1912231a7ecc90d</guid>
-      <pubDate>Mon, 05 Oct 2026 17:24:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vietnamese red fried rice (Cơm Đỏ)</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/vietnamese-red-fried-rice-c%C6%A1m-d%E1%BB%8F</link>
-      <description>Cơm Đỏ is Vietnam’s vibrant red fried rice—light, buttery jasmine rice stir-fried with garlic, tomato purée, and a hint of chicken bouillon. Simple, savoury, and perfect alongside grilled meats or stir-fries! — 4 servings · PT20M</description>
-      <guid isPermaLink="false">e517cad8f823f20db8331c3ffefebb7638d91e49</guid>
-      <pubDate>Mon, 05 Oct 2026 17:24:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nem nướng (grilled pork skewers)</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/nem-n%C6%B0%E1%BB%9Bng-pork-skewers</link>
-      <description>Vietnamese grilled pork skewers - juicy, savoury, and bursting with flavour, these skewers are perfect for BBQs, parties, or as a tasty snack. Roll them up in fresh lettuce or herbs and dunk them in your dipping sauce for the full experience. — 8 servings · PT4H20M</description>
-      <guid isPermaLink="false">e2978cec3afa7c41fb5fbd816d693a51247b690e</guid>
-      <pubDate>Mon, 05 Oct 2026 17:23:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vietnamese pizza</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/vietnamese-pizza-banh-trang-n%C6%B0%E1%BB%9Bng</link>
-      <description>This is a grilled Vietnamese rice paper dish that's layered with your choice of toppings. Very easy dish to make and it's pretty delicious! I had it for the first time while travelling in Vietnam. — 1 serving · PT30M</description>
-      <guid isPermaLink="false">9d0ec969afb9e589abf6ee9cc50ab2ba2f8efa36</guid>
-      <pubDate>Mon, 05 Oct 2026 17:23:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ground beef curry</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/simple-ground-beef-curry</link>
-      <description>This one’s a weeknight winner. Quick, hearty, and packed with protein. It’s just beef mince, a few pantry bits, and boom – you’ve got a cracking curry on the table in 20. Serve it over rice, scatter some coriander on top, and you’re sorted. — 4 servings · PT20M</description>
-      <guid isPermaLink="false">d3bff21c0f042e14e4b191f2fa2ea401c7ca1b72</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steak fajitas</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/steak-fajitas</link>
-      <description>Quick to make, heaps of flavour, and all done in one pan. Juicy strips of steak, charred capsicum, a bit of spice, and a fresh pico on top. Wrap it up in a warm tortilla with some guac – simple, tasty, and perfect for sharing. — 4 servings · PT25M</description>
-      <guid isPermaLink="false">e4b9ddcb4350a88a67e70d3258047f139ae52031</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hot Cross Buns</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/hot-cross-buns</link>
-      <description>Hot Cross Buns: the Easter classic! These ones are soft, spiced just right, and packed with juicy raisins and orange zest. — 12 servings · PT1H</description>
-      <guid isPermaLink="false">3f206aa89571753b5b85634bc8a4de599fef30f1</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Spring onion noodles</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/spring-onion-noodles</link>
-      <description>Spring onions get slow-cooked until golden and crisp, turning simple oil into liquid gold. Toss that with chewy noodles, a sweet-salty soy mix, and top it all with a crispy egg for good measure. — 1 serving · PT30M</description>
-      <guid isPermaLink="false">03c336505bf6e414e78cc25087c9a07b6ec13b80</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tortilla de Patatas</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/tortilla-de-patatas</link>
-      <description>Tortilla de Patatas is a Spanish style omelette—potatoes and caramelised onions bound together with egg, cooked low and slow until golden and just set. It’s simple, satisfying, and just as good cold as it is warm. Slice it up for a picnic, a tapas spread, or straight from the pan when no one’s looking. — 6 servings · PT50M</description>
-      <guid isPermaLink="false">2778b7c185990235b6b62ee3e6ef3827d603e398</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Filipino eggplant omelette</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/filipino-eggplant-omelette</link>
-      <description>Tortang Talong is a classic Filipino eggplant omelette—soft roasted eggplant flattened and dipped in egg, then pan-fried with (optional) savoury pork filling until golden. It’s smoky, meaty, and properly comforting, especially with a good drizzle of soy sauce and a squirt of banana ketchup on the side. Sort of like an omelette, but better. — 4 servings · PT1H15M</description>
-      <guid isPermaLink="false">f8aa5300581ea69771d070cbf9db87da59323a37</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vanilla custard, poached meringue and berries</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/floating-islands</link>
-      <description>Floating Islands are a classic French dessert with poached meringues served on top of a creamy vanilla custard. They're soft, airy, and usually finished with a sprinkle of something crunchy—like pistachios—or a few tart berries to balance the sweetness. — 4 servings · PT40M</description>
-      <guid isPermaLink="false">1ec6bf71f7ca742c6d47462c20fac89932b92bd7</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bacon crack</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/bacon-crack</link>
-      <description>Sweet, salty, spicy and totally moreish. This brittle treat is like peanut brittle’s cooler, slightly unhinged cousin. I’ve swapped out the peanuts for buttery pecans, chucked in crispy maple bacon, and added a cheeky kick of chilli. — 6 servings · PT40M</description>
-      <guid isPermaLink="false">37fea897e267b5312808d8657ba09e8d6866aa3c</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mole</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/mole</link>
-      <description>A traditional Mexican sauce made with dried chillies, toasted spices, nuts, seeds, tomatoes, tomatillos, and a bit of chocolate. Thick, rich, and complex, mole’s often served with chicken or poured over enchiladas. — 1 serving · PT1H30M</description>
-      <guid isPermaLink="false">27bdd3396664c28559eeafce4ecd07099682c055</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rice salad</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/rice-salad</link>
-      <description>Fresh, zesty rice salad made with fluffy white rice, crunchy wombok, toasted almonds and pepitas, juicy orange segments, and loads of herbs. It’s tossed with a splash of raspberry vinegar and finished with a sprinkle of sumac. A solid side dish or light main that’s anything but boring. — 4 servings · PT40M</description>
-      <guid isPermaLink="false">a1bac86c0d6966be4acbc859e83c68a5af6982b0</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steakhouse Burger</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/steakhouse-burger</link>
-      <description>The steakhouse burger is a hefty, juicy patty made from a rich blend of chuck and brisket, cooked and stacked with melty Swiss cheese, fresh toppings, and a tangy homemade burger sauce. Served in a toasted sesame bun, it’s big, bold, and seriously satisfying.It's what i cook up if i want something a little more hefty that your classic smash burger (another favourite of mine). Grind your own minceI like to grind the beef myself so it's fresh but you can also get freshly ground beef from your local butcher. We'll use 50/50 split of chuck and brisket, sitting at around 80/20 meat to fat. Chuck has the meaty depth, brisket brings the fat that bastes the patty as it cooks. Too much fat and the patty falls apart in the pan, too little and the burger ends up dry, the 80/20 ratio is the sweet spot. When it’s time to grind, you can freeze the beef slightly. The cold firms up the fat and stops it smearing through the blades, which gives you a cleaner, looser mince. Cut the meat into pieces that fit your grinder, remove any big bits of silverskin, and feed it through on the coarse setting in batches. Press down with the pusher to clear the chamber as you go. Coarse, not fine. Supermarket-grade fine mince packs too tight and gives you a dense, dry patty. Burger sauceI think burger sauce is elite and there are so many variations of it. This is how I like to make burger sauce but feel feel to tweak to your liking. Mayonnaise as the base, ketchup for sweetness and acid, yellow mustard for sharpness, Worcestershire for depth, green relish or finely chopped cornichons for the pickled crunch. Ingredient NotesBuns: I like to use soft sesame seed buns. Brioche, milk buns or potato buns also work. Skip anything too crusty or chewy, or it will be too hard to eat. Swiss cheese: Two slices per patty melted on at the end. Swiss melts evenly and brings a nutty depth without overpowering the beef. American gives you a saltier, smoother melt and is closer to a classic American steakhouse burger. Gruyère sharper if you want it more grown-up. Red onion: Slice it thin, separate the rings, then rinse them under cold water for 30 seconds before draining. The rinse pulls out the harshest sulphur compounds and leaves you with crisp onion that doesn’t punch you in the face. Skip the rinse if you like the raw bite. EquipmentChopping boardChef’s knife, palette knife, spatula, tongs and butter knifeMixing bowlsMeat grinder (if grinding your own)10-12cm round cookie cutter or burger pressSheet tray with baking paperLarge heavy-based frying pan or cast iron skilletSecond frying pan or chargrill (for buns)Meat thermometer — 4 servings · PT25M</description>
-      <guid isPermaLink="false">b567d6fd765c343a0ef1cf32679638ebbea4593f</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tomato Soup with Grilled Cheese</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/grilled-cheese-with-tomato-soup</link>
-      <description>This has to be comfort food at its best. I'm not usually a big fan of soups, but I can't say no to a creamy tomato soup with a grilled cheese toastie on the side. So for this recipe, we’re roasting the tomatoes first to concentrate their sweetness and bring out a bit of caramelisation, then blending everything down to a silky, rich soup. The grilled cheese uses two cheeses, melty mozzarella for the stretch and smoked cheddar for depth. Ingredient NotesTomatoes: Use ripe, in-season tomatoes for the best flavour. Roma, vine-ripened or any deep-red variety work brilliantly. Avoid pale or out-of-season tomatoes, they don’t have the sugar or acidity to make a great soup. If you’re stuck mid-winter, two 400g tins of whole peeled tomatoes work fine, just skip the roast and add them straight to the saucepan. Smoked cheddar: The smoky note is what makes this grilled cheese a step above a standard cheese toastie. Look for a properly smoked cheddar, not a smoke-flavoured one. Try the deli section or a good cheesemonger. If you can’t find it, regular sharp cheddar plus a tiny pinch of smoked paprika in the soup gets you somewhere close. Mozzarella: Use block mozzarella, not fresh. Fresh mozzarella has too much moisture and will make the sandwich soggy. Block (sometimes called pizza mozzarella) melts evenly and gives you that signature stretchy pull when you tear the sandwich apart. EquipmentChopping boardChef’s knifeLarge oven trayLarge saucepanWooden spoonStick blender (or regular blender)Medium frying panSpatulaPanini press or heavy pan (for pressing)Box grater — 4 servings · PT35M</description>
-      <guid isPermaLink="false">40865ad1cf59acf9b6930deb9ef484c73ac2c172</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Spatchcock roast chicken</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/spatchcock-roast-chicken</link>
-      <description>Spatchcock roast chicken is a whole chicken with the backbone removed and flattened for even cooking. It’s dry-brined for extra flavour, roasted until crispy, and served with a grape pan sauce made from sautéed eschalots, garlic, wine, and stock. Juicy, crispy, and a little bit fancy. — 4 servings · PT1H</description>
-      <guid isPermaLink="false">bdfb78bdd123efe312cd447431024fe11baddc5a</guid>
-      <pubDate>Mon, 05 Oct 2026 00:26:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Flank steak with shallot pan sauce</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/steak-with-shallot-pan-sauce</link>
-      <description>Flank steak is the underdog of the beef world—big on taste, low on fame. Here, it gets the French bistro treatment with a rich shallot sauce and crispy crinkle-cut chips. — 4 servings · PT45M</description>
-      <guid isPermaLink="false">bfbcd841185f9ae2ef395d2d6e1f02dfa48307b9</guid>
-      <pubDate>Mon, 05 Oct 2026 00:26:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
