@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-16T10:30:08.075091+00:00",
-  "count": 566,
+  "generated_at": "2026-10-16T15:55:45.847813+00:00",
+  "count": 567,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -3015,7 +3015,7 @@
       "discovered_at": "2026-07-13T17:35:00.126614+00:00",
       "content_hash": "32f7c822451670f70efd1b0ce972c4e2f5a878be",
       "last_seen_at": "2026-07-13T17:35:00.126614+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "18108f73e3318d2327a70a92a543fcfae72ef46f"
     },
@@ -22573,6 +22573,49 @@
       "content_hash": "ce9f58b51c5809632352e0203404c6f6ed0caa9d",
       "content_fingerprint": "547401f3b09019f4ee5230f3bf0305ea824d5b99",
       "last_seen_at": "2026-10-14T21:12:20.141810+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "cba312c418bb327c4221d2c5f9b1a391c5b5e6de": {
+      "dedup_key": "cba312c418bb327c4221d2c5f9b1a391c5b5e6de",
+      "source": "jamieoliver",
+      "source_url": "https://www.jamieoliver.com/recipes/cheese/easy-cheesy-ham-filo-quichy",
+      "page_url": "https://www.jamieoliver.com/recipes/cheese/easy-cheesy-ham-filo-quichy/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Easy cheesy ham filo quichy",
+      "text": "Impress with this easy, cheesy ham filo quiche! Paired with a fresh tomato and bean salad, it's a quick but impressive dinner that's ready in no time.",
+      "author": "Jamie Oliver",
+      "cuisine": "",
+      "categories": [
+        "Quiche",
+        "New potatoes",
+        "Spinach",
+        "Egg",
+        "Cheese",
+        "Pastry",
+        "Beans",
+        "Salad"
+      ],
+      "ingredients": "1 bunch of spring onions\n1 x 300g tin of peeled new potatoes\n200g baby spinach\n8 large eggs\n3 teaspoons English mustard\n100g sliced higher-welfare ham\n100g Cheddar cheese\n270g filo pastry\n500g ripe mixed-colour tomatoes\n1 x 570g jar or 2 x 400g tins of cannellini beans",
+      "instructions": "Turn the oven on to 240°C. Place a large ovenproof frying pan on a high heat and add 1 tablespoon of olive oil. Trim, finely slice and add the spring onions, drain and crumble in the potatoes, then add the spinach and 1 tablespoon of red wine vinegar. Cook and stir until the spinach has wilted, then season to perfection with sea salt and black pepper.\nMeanwhile, whisk the eggs and 2 teaspoons of mustard in a large bowl. Chop and add the ham, then coarsely grate and add most of the cheese. Add the contents of the frying pan and mix well to combine.\nOff the heat, roughly layer up the filo in the frying pan (there’s no need to clean it), spritzing with oil between the layers. Push it into the edges of the pan and roughly scrunch in the overhang to make a crust. Pour in the egg mixture and cook on a high heat for 1 minute while you grate over the remaining cheese. Transfer to the oven and bake for 12 minutes, or until set and the filo is golden.\nPut the remaining 1 teaspoon of mustard, 1 tablespoon of red wine vinegar and 2 tablespoons of extra virgin olive oil into a large shallow serving bowl, chop and add the tomatoes, drain and add the beans, toss together and season to perfection. Serve with the hot filo quichy.",
+      "notes": "",
+      "nutrition": "Calories: 566 calories\nProtein: 34.6 g\nCarbs: 44.4 g\nFat: 29.8 g\nFiber: 6.6 g\nSugar: 4.9 g\nSodium: 1.8 g",
+      "yield_": "6 servings",
+      "prep_time": "",
+      "cook_time": "PT20M",
+      "total_time": "PT20M",
+      "prep_minutes": null,
+      "cook_minutes": 20,
+      "total_minutes": 20,
+      "image_url": "https://cdn.sanity.io/images/cq7w2e71/production/bf138c166cdde3cc78813da2e79ddd70485e37c0-1334x2000.jpg",
+      "local_image": "",
+      "published_at": "2026-07-16T00:00:00+00:00",
+      "discovered_at": "2026-10-16T15:55:45.847813+00:00",
+      "content_hash": "2eb4216f31fe62c419386edc88e5748d24e70cae",
+      "content_fingerprint": "da8ca6217c2110b9fad554b197b7fb4b85a4c2d9",
+      "last_seen_at": "2026-10-16T15:55:45.847813+00:00",
       "in_feed": true,
       "backfill": false
     }

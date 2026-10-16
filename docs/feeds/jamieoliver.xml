@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 10:31:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 15:57:14 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -105,6 +105,13 @@
       <link>https://www.jamieoliver.com/recipes/fish/fragrant-trout-and-green-veg/</link>
       <description>Enjoy fragrant trout served with green veg, herby tomato salsa, crisp lettuce and tender potatoes – a light, health and flavourful weeknight meal! — 2 servings · PT20M</description>
       <guid isPermaLink="false">6f25029ef14c0f819cdd1b5ca16f059819bdeaa1</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy cheesy ham filo quichy</title>
+      <link>https://www.jamieoliver.com/recipes/cheese/easy-cheesy-ham-filo-quichy/</link>
+      <description>Impress with this easy, cheesy ham filo quiche! Paired with a fresh tomato and bean salad, it's a quick but impressive dinner that's ready in no time. — 6 servings · PT20M</description>
+      <guid isPermaLink="false">cba312c418bb327c4221d2c5f9b1a391c5b5e6de</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -350,13 +357,6 @@
       <link>https://www.jamieoliver.com/recipes/chicken/sesame-chicken-burgers/</link>
       <description>A sizzling sesame burger served in homemade burger buns with gochujang yoghurt and pickled veg – yes please! — 4 servings · PT30M</description>
       <guid isPermaLink="false">b8dcac423884aef97d0b448878f5fd849a4127a5</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Veg-tastic barbecue mezze</title>
-      <link>https://www.jamieoliver.com/recipes/veg-tastic-barbecue-mezze/</link>
-      <description>Mighty veg do wonderful things when grilled, blackened, charred and blistered. Here Jamie shares his favourite ways to enjoy them! — 6 servings</description>
-      <guid isPermaLink="false">633ef5693e0ee3e8cad1daec564e4ed16816657b</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
