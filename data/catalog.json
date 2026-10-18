@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-17T19:57:39.878580+00:00",
+  "generated_at": "2026-10-18T02:37:29.190823+00:00",
   "count": 567,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -23023,16 +23023,16 @@
     "55f8e5cf57373a834f79182f8308c3416f6011cb": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/budget-friendly-hub/5-pounds/",
-      "attempts": 4,
-      "last_attempt": "2026-10-01T22:14:24.845923+00:00",
-      "next_retry": "2026-10-17T22:14:24.845923+00:00"
+      "attempts": 5,
+      "last_attempt": "2026-10-18T02:37:29.190823+00:00",
+      "next_retry": "2026-11-17T02:37:29.190823+00:00"
     },
     "b2d403c06b33be6bc27e810d81aae7db6e2a022c": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/budget-friendly-family-recipes/",
-      "attempts": 4,
-      "last_attempt": "2026-10-01T22:14:24.845923+00:00",
-      "next_retry": "2026-10-17T22:14:24.845923+00:00"
+      "attempts": 5,
+      "last_attempt": "2026-10-18T02:37:29.190823+00:00",
+      "next_retry": "2026-11-17T02:37:29.190823+00:00"
     },
     "35c54b0d5f89fe10f0d1ff7bed2e9f787711d374": {
       "source": "jamieoliver",
@@ -23044,9 +23044,9 @@
     "6d63e0ae1b7a80c40327c601408ae19cf54da231": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/budget-friendly-hub/",
-      "attempts": 4,
-      "last_attempt": "2026-10-01T22:14:24.845923+00:00",
-      "next_retry": "2026-10-17T22:14:24.845923+00:00"
+      "attempts": 5,
+      "last_attempt": "2026-10-18T02:37:29.190823+00:00",
+      "next_retry": "2026-11-17T02:37:29.190823+00:00"
     },
     "5d25efea437f87af6d529f387ad3af61c0275e32": {
       "source": "jamieoliver",
