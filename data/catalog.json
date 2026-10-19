@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-19T02:50:41.434432+00:00",
-  "count": 582,
+  "generated_at": "2026-10-19T11:50:29.840459+00:00",
+  "count": 583,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -1254,8 +1254,8 @@
     "92d0819c1b5b35bb1fcd0d57c88c1a19837906b9": {
       "dedup_key": "92d0819c1b5b35bb1fcd0d57c88c1a19837906b9",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/blogs/recipes/arrabiata-sauce",
-      "page_url": "https://www.andy-cooks.com/blogs/recipes/arrabiata-sauce",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/arrabbiata-sauce",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/arrabbiata-sauce",
       "mode": "link_through",
       "category": "recipe",
       "title": "Penne all' Arrabbiata (Tomato and Chilli Pasta)",
@@ -10905,8 +10905,8 @@
     "06606e53ea3170e45dd1b70f2b8e87a6ab28ec7a": {
       "dedup_key": "06606e53ea3170e45dd1b70f2b8e87a6ab28ec7a",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/blogs/recipes/crispy-chili-beef",
-      "page_url": "https://www.andy-cooks.com/blogs/recipes/crispy-chili-beef",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/crispy-chilli-beef",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/crispy-chilli-beef",
       "mode": "link_through",
       "category": "recipe",
       "saved_via": "",
@@ -16671,8 +16671,8 @@
     "609ce745ff5f3367b8a62cb8f1a8c9951e396990": {
       "dedup_key": "609ce745ff5f3367b8a62cb8f1a8c9951e396990",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/blogs/recipes/char-sui-pork-packet-ramen",
-      "page_url": "https://www.andy-cooks.com/blogs/recipes/char-sui-pork-packet-ramen",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/char-siu-pork-packet-ramen",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/char-siu-pork-packet-ramen",
       "mode": "link_through",
       "category": "recipe",
       "saved_via": "",
@@ -18479,7 +18479,7 @@
       "content_hash": "6083a02185884decf83d3249c698f9702d0190ef",
       "content_fingerprint": "b3a242dec16c70a024f3bae9af585fad2b96c981",
       "last_seen_at": "2026-10-05T03:34:46.358095+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "37936253eee3af998adb46d887b8159a1b224ab9": {
@@ -21302,8 +21302,8 @@
     "ad991365b648e128e1e63bc475267f78dc81cee9": {
       "dedup_key": "ad991365b648e128e1e63bc475267f78dc81cee9",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/blogs/recipes/grillen-chicken-sun-dried-tomato-pasta-salad",
-      "page_url": "https://www.andy-cooks.com/blogs/recipes/grillen-chicken-sun-dried-tomato-pasta-salad",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/grilled-chicken-sun-dried-tomato-pasta-salad",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/grilled-chicken-sun-dried-tomato-pasta-salad",
       "mode": "link_through",
       "category": "recipe",
       "saved_via": "",
@@ -23261,6 +23261,49 @@
       "content_hash": "9551093c3bee9e507552e6aa76685a6961c96d09",
       "content_fingerprint": "207d15895d4548686d4e9cefa6d303a8348b5f5a",
       "last_seen_at": "2026-10-19T02:50:41.434432+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "f534bd4391be1472981a704983aa74b475c636f5": {
+      "dedup_key": "f534bd4391be1472981a704983aa74b475c636f5",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/ramen-noodle-pancake",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/ramen-noodle-pancake",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Ramen Noodle Pancake",
+      "text": "This is my crispy-chewy ramen noodle pancake with prawns, savoury seasoning, spring onion, Kewpie mayo and Bulldog sauce.",
+      "author": "Andy | Andy Cooks Recipes",
+      "cuisine": "Japanese",
+      "categories": [
+        "Lunch",
+        "ramen noodle pancake recipe",
+        "crispy noodle pancake",
+        "instant noodle pancake",
+        "prawn noodle pancake",
+        "Japanese style noodle pancake",
+        "okonomiyaki style ramen",
+        "quick noodle lunch"
+      ],
+      "ingredients": "1 packet ramen\n8 raw prawns, peeled\n1 spring onion, sliced, white and green parts separated\n100g (⅔ cup) plain flour\n1 tbsp olive oil\nkewpie mayo and bulldog sauce, to serve",
+      "instructions": "Place 500ml water in a small saucepan over high heat and bring to a boil.\nEmpty all the seasoning packets from the ramen noodles packet into the water. Stir to combine until water comes to a simmer.\nAdd noodles and cook for 45 seconds, then stir to break up the noodles a little.\nStrain the noodles through a sieve, reserving the broth. Set the broth aside for 10 minutes to cool.\nStir the spring onion whites through the broth, then the flour. Mix until well combined, then stir through the drained noodles.\nHeat the oil in a 25cm (10 in) frying pan over a high heat. Pour in the noodle batter and spread to an even thickness. Add the prawns on top and reduce heat to medium.\nCook for 2 minutes or until the under side is browned, then carefully flip over to cook the other side. Cook for a further 2 minutes, then invert onto a serving plate.\nDrizzle the kewpie and bulldog sauce over the top then garnish with the green of the spring onion.",
+      "notes": "",
+      "nutrition": "Calories: 1020 calories",
+      "yield_": "1 serving",
+      "prep_time": "PT5M",
+      "cook_time": "PT7M",
+      "total_time": "PT12M",
+      "prep_minutes": 5,
+      "cook_minutes": 7,
+      "total_minutes": 12,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/articles/20251210041642-andy-20cooks-20-20ramen-20noodle-20pancake-20with-20prawns.jpg?v=1773033643",
+      "local_image": "",
+      "published_at": "2026-10-18T21:20:59+00:00",
+      "discovered_at": "2026-10-19T11:50:29.840459+00:00",
+      "content_hash": "ade8134cf337a80ebb8152dd12c42629ebba550b",
+      "content_fingerprint": "6c9f31ebb7aab8394d296e737e263a815569e390",
+      "last_seen_at": "2026-10-19T11:50:29.840459+00:00",
       "in_feed": true,
       "backfill": false
     }

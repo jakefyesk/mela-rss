@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 02:52:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 11:51:59 +0000</lastBuildDate>
     <item>
       <title>Olive tapenade</title>
       <link>https://www.andy-cooks.com/blogs/recipes/olive-tapenade</link>
@@ -112,6 +112,13 @@
       <link>https://www.andy-cooks.com/blogs/recipes/charred-bug-tails-with-lime-leaf-butter</link>
       <description>Charred Moreton Bay bug tails finished with fragrant lime leaf butter. A simple BBQ seafood dish ready in under 30 minutes. — 4 servings · PT28M</description>
       <guid isPermaLink="false">e58d61075b8e8bf1af98872ec5f89087729f9cea</guid>
+      <pubDate>Sun, 18 Oct 2026 21:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ramen Noodle Pancake</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/ramen-noodle-pancake</link>
+      <description>This is my crispy-chewy ramen noodle pancake with prawns, savoury seasoning, spring onion, Kewpie mayo and Bulldog sauce. — 1 serving · PT12M</description>
+      <guid isPermaLink="false">f534bd4391be1472981a704983aa74b475c636f5</guid>
       <pubDate>Sun, 18 Oct 2026 21:20:59 +0000</pubDate>
     </item>
     <item>
@@ -312,7 +319,7 @@
     </item>
     <item>
       <title>Grilled Chicken, Sun-dried Tomato Pasta Salad</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/grillen-chicken-sun-dried-tomato-pasta-salad</link>
+      <link>https://www.andy-cooks.com/blogs/recipes/grilled-chicken-sun-dried-tomato-pasta-salad</link>
       <description>This is my quick grilled chicken pasta salad with orecchiette, zucchini and smoky sun-dried tomato pesto. — 4 servings · PT30M</description>
       <guid isPermaLink="false">ad991365b648e128e1e63bc475267f78dc81cee9</guid>
       <pubDate>Wed, 14 Oct 2026 10:09:38 +0000</pubDate>
@@ -701,13 +708,6 @@
       <description>Nicoise salad is a fresh, hearty French classic that’s basically a perfectly balanced meal on a plate. It’s got tender potatoes, crisp green beans, juicy tomatoes, briny olives, and protein-packed tuna, all topped with jammy eggs and a zippy lemon dressing — 1 serving · PT30M</description>
       <guid isPermaLink="false">076b0f11eacdabad4ecfafcdb1302d116352b33b</guid>
       <pubDate>Mon, 05 Oct 2026 00:26:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beef quesadilla</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/beef-quesadilla</link>
-      <description>Crispy, golden tortilla stuffed with spiced beef, melted cheese, and a touch of capsicum. It’s pan-fried until crunchy and served with fresh pico de gallo for a zesty kick. Think of it as a toasted sandwich, but way better! — 1 serving · PT25M</description>
-      <guid isPermaLink="false">3495f0db7499f5a5fd61770bb5bebd3ddb79c2e8</guid>
-      <pubDate>Mon, 05 Oct 2026 00:26:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
