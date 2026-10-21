@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-20T21:08:17.349746+00:00",
-  "count": 583,
+  "generated_at": "2026-10-21T02:55:45.011509+00:00",
+  "count": 584,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -18439,7 +18439,7 @@
       "content_hash": "2bf959535e0e48fe1009746dcf035c1fc37db02c",
       "content_fingerprint": "21f9958ac568b5407dcab59a2ec6557d85dfd24b",
       "last_seen_at": "2026-10-05T03:34:46.358095+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "3495f0db7499f5a5fd61770bb5bebd3ddb79c2e8": {
@@ -23306,6 +23306,49 @@
       "last_seen_at": "2026-10-19T11:50:29.840459+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "08193333976ae3d5b7d3568e508ea6bf52f8242a": {
+      "dedup_key": "08193333976ae3d5b7d3568e508ea6bf52f8242a",
+      "source": "andycooks",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/lamb-arayes",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/lamb-arayes",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Lamb arayes",
+      "text": "Crispy lamb arayes stuffed with seasoned mince, parsley and garlic, pan-fried until golden and served with lemon yoghurt and salad.",
+      "author": "Andy | Andy Cooks Recipes",
+      "cuisine": "Middle Eastern",
+      "categories": [
+        "Lunch",
+        "lamb arayes recipe",
+        "Lebanese arayes",
+        "stuffed pita with lamb",
+        "crispy lamb pita",
+        "Middle Eastern lamb mince sandwich",
+        "arayes with lemon yoghurt",
+        "quick lamb pita lunch"
+      ],
+      "ingredients": "500g lamb mince\n1 brown onion, grated\n2 garlic cloves, finely grated\n1 bunch parsley, leaves chopped\n½ tsp allspice\nsea salt and pepper, to season\n4 pita pockets, halved\n1 cup Greek yoghurt\nzest of 1 lemon\nsalad to serve",
+      "instructions": "In a bowl, combine the lamb mince, onion, garlic, parsley, salt, black pepper, and allspice. Mix well until you achieve a smooth and slightly sticky mixture, then divide into 8 portions.\nTake one half of a pita bread and evenly fill it with some of the lamb mixture, ensuring the filling is spread out to the edges.\nHeat a drizzle of olive oil in a frypan over medium heat. Place the stuffed pita halves in the pan and fry them slowly, turning until they are golden brown on both sides. Make sure to press down lightly on the arayes while they cook to ensure even contact with the pan, which helps to crisp the pita and cook the lamb thoroughly.\nCombine yoghurt and zest in a small bowl, and season to taste.\nServe arayes with yoghurt for dipping and some salad on the side.",
+      "notes": "",
+      "nutrition": "Calories: 670 calories",
+      "yield_": "4 servings",
+      "prep_time": "PT20M",
+      "cook_time": "PT10M",
+      "total_time": "PT30M",
+      "prep_minutes": 20,
+      "cook_minutes": 10,
+      "total_minutes": 30,
+      "image_url": "https://www.andy-cooks.com/cdn/shop/files/20240420042112-andy-20cooks-20-20lamb-20arayes.jpg?crop=center&height=900&v=1791158440&width=1600",
+      "local_image": "",
+      "published_at": "2026-10-21T01:30:24+00:00",
+      "discovered_at": "2026-10-21T02:55:45.011509+00:00",
+      "content_hash": "2217e14c3bf9e0e082bb8f63eaa1e50a53c8775f",
+      "content_fingerprint": "997a74baa0f660eae92c5e60fd3cf6f3f611fe06",
+      "last_seen_at": "2026-10-21T02:55:45.011509+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -23781,9 +23824,9 @@
     "8576b8bf5c4993875600ecdbccf36fd6764b3581": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/occasion/summer-cocktails/",
-      "attempts": 3,
-      "last_attempt": "2026-10-13T00:02:18.316947+00:00",
-      "next_retry": "2026-10-21T00:02:18.316947+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-10-21T02:55:45.011509+00:00",
+      "next_retry": "2026-11-06T02:55:45.011509+00:00"
     },
     "5e16c797890722a363ea5f8ef5405e3bc74f1607": {
       "source": "andycooks",
