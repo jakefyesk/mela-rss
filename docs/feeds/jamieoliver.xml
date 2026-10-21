@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 11:03:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 16:28:34 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -78,6 +78,13 @@
       <description>An easy 20-minute chicken, sausage &amp; borlotti bean stew with tomatoes, broccoli, garlic and a crispy rosemary bread topping. Seriously tasty! — 2 servings · PT20M</description>
       <guid isPermaLink="false">fa62aca5c330a9a932e5a97cbf1fdf16c8ef6141</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crispy prosciutto pork</title>
+      <link>https://www.jamieoliver.com/recipes/pork/crispy-prosciutto-pork/</link>
+      <description>You won't believe you can make this juicy pork dish with green-veg gnocchi in just 20 minutes. Finish with crispy sage to take it to the next level! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">14e06cf15fef3d7b67ff7b722d088a78ae227111</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bobotie</title>
@@ -350,13 +357,6 @@
       <link>https://www.jamieoliver.com/recipes/sausage/ultimate-barbecue-brekkie/</link>
       <description>Pick and choose whichever elements excite you to make up your own perfect brekkie or brunch – what a feast! — 4 servings</description>
       <guid isPermaLink="false">906e632cbc9dd15da38542fc960bcf0748e510ff</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sesame chicken burgers</title>
-      <link>https://www.jamieoliver.com/recipes/chicken/sesame-chicken-burgers/</link>
-      <description>A sizzling sesame burger served in homemade burger buns with gochujang yoghurt and pickled veg – yes please! — 4 servings · PT30M</description>
-      <guid isPermaLink="false">b8dcac423884aef97d0b448878f5fd849a4127a5</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

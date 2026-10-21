@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-21T11:00:18.350171+00:00",
-  "count": 601,
+  "generated_at": "2026-10-21T16:27:06.070344+00:00",
+  "count": 602,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -2125,7 +2125,7 @@
       "discovered_at": "2026-07-13T17:26:49.966420+00:00",
       "content_hash": "7d026c786302e58af55808643fa53ae737617b8d",
       "last_seen_at": "2026-07-13T17:26:49.966420+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false,
       "content_fingerprint": "1d869706bc4bd1f20cb1d37abfac775a52b3148b"
     },
@@ -12067,8 +12067,8 @@
     "850d8f3139c8e7a8e6c778eff6ee07dc34735467": {
       "dedup_key": "850d8f3139c8e7a8e6c778eff6ee07dc34735467",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/chicken-veg-pie/",
-      "page_url": "https://www.jamieoliver.com/recipes/chicken/chicken-veg-pie/",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/proper-chicken-pie/",
+      "page_url": "https://www.jamieoliver.com/recipes/chicken/proper-chicken-pie/",
       "mode": "link_through",
       "category": "recipe",
       "saved_via": "",
@@ -23353,7 +23353,7 @@
     "f4461793154497f713f0e60d2430600e48ddafd6": {
       "dedup_key": "f4461793154497f713f0e60d2430600e48ddafd6",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/beef-and-broccoli-stir-fry",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/beef-and-broccoli-stir-fry/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/beef-and-broccoli-stir-fry/",
       "mode": "link_through",
       "category": "recipe",
@@ -23399,7 +23399,7 @@
     "715fd5200d5496063d42e9a52e74af5bc665ab0d": {
       "dedup_key": "715fd5200d5496063d42e9a52e74af5bc665ab0d",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/beef-noodle-soup",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/beef-noodle-soup/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/beef-noodle-soup/",
       "mode": "link_through",
       "category": "recipe",
@@ -23441,7 +23441,7 @@
     "a0ec1ecf96eced2c2cc24f38852c024148886353": {
       "dedup_key": "a0ec1ecf96eced2c2cc24f38852c024148886353",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/jools-simple-chicken-and-veg-stew",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/jools-simple-chicken-and-veg-stew/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/jools-simple-chicken-and-veg-stew/",
       "mode": "link_through",
       "category": "recipe",
@@ -23500,7 +23500,7 @@
     "4bd9d09f5d82992d049247ba082f47e276a040cb": {
       "dedup_key": "4bd9d09f5d82992d049247ba082f47e276a040cb",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/mash-topped-beef-guinness-pie",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/mash-topped-beef-guinness-pie/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/mash-topped-beef-guinness-pie/",
       "mode": "link_through",
       "category": "recipe",
@@ -23549,7 +23549,7 @@
     "f3a82989f5e09fc152477f12086d499b2d9ad049": {
       "dedup_key": "f3a82989f5e09fc152477f12086d499b2d9ad049",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/healthy-chicken/chicken-pot-pie",
+      "source_url": "https://www.jamieoliver.com/recipes/healthy-chicken/chicken-pot-pie/",
       "page_url": "https://www.jamieoliver.com/recipes/healthy-chicken/chicken-pot-pie/",
       "mode": "link_through",
       "category": "recipe",
@@ -23596,7 +23596,7 @@
     "91b5e81b5aaff4a42fd6915bcc058230b20a74fe": {
       "dedup_key": "91b5e81b5aaff4a42fd6915bcc058230b20a74fe",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/humble-chicken-pie",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/humble-chicken-pie/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/humble-chicken-pie/",
       "mode": "link_through",
       "category": "recipe",
@@ -23638,7 +23638,7 @@
     "09d8390a0ab14c682c193d9aaf1a02390af773eb": {
       "dedup_key": "09d8390a0ab14c682c193d9aaf1a02390af773eb",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/lamb/lovely-lamb-pie",
+      "source_url": "https://www.jamieoliver.com/recipes/lamb/lovely-lamb-pie/",
       "page_url": "https://www.jamieoliver.com/recipes/lamb/lovely-lamb-pie/",
       "mode": "link_through",
       "category": "recipe",
@@ -23680,7 +23680,7 @@
     "e7d43507ca42dfde88bb32b136c2244a052240ed": {
       "dedup_key": "e7d43507ca42dfde88bb32b136c2244a052240ed",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pasta/broccoli-anchovy-orecchiette",
+      "source_url": "https://www.jamieoliver.com/recipes/pasta/broccoli-anchovy-orecchiette/",
       "page_url": "https://www.jamieoliver.com/recipes/pasta/broccoli-anchovy-orecchiette/",
       "mode": "link_through",
       "category": "recipe",
@@ -23723,7 +23723,7 @@
     "63d8b4a1e569b38c7005740a765d11dcd61d3d6f": {
       "dedup_key": "63d8b4a1e569b38c7005740a765d11dcd61d3d6f",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/festive-roast-chicken",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/festive-roast-chicken/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/festive-roast-chicken/",
       "mode": "link_through",
       "category": "recipe",
@@ -23763,7 +23763,7 @@
     "39e9977c9e3a43d47b053785798b65dae55ed4b3": {
       "dedup_key": "39e9977c9e3a43d47b053785798b65dae55ed4b3",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/energy-saving-chicken-roast",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/energy-saving-chicken-roast/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/energy-saving-chicken-roast/",
       "mode": "link_through",
       "category": "recipe",
@@ -23800,7 +23800,7 @@
     "2688582010d1bc4996bff6fcb970bdb1d8e872ec": {
       "dedup_key": "2688582010d1bc4996bff6fcb970bdb1d8e872ec",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pasta/tortelli-al-magro",
+      "source_url": "https://www.jamieoliver.com/recipes/pasta/tortelli-al-magro/",
       "page_url": "https://www.jamieoliver.com/recipes/pasta/tortelli-al-magro/",
       "mode": "link_through",
       "category": "recipe",
@@ -23837,7 +23837,7 @@
     "ae05a36e3f1a6bba571483559dff1ec6e988faef": {
       "dedup_key": "ae05a36e3f1a6bba571483559dff1ec6e988faef",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pork/meatball-kebabs",
+      "source_url": "https://www.jamieoliver.com/recipes/pork/meatball-kebabs/",
       "page_url": "https://www.jamieoliver.com/recipes/pork/meatball-kebabs/",
       "mode": "link_through",
       "category": "recipe",
@@ -23886,7 +23886,7 @@
     "71a4c895c4d07f9a97f828ae737b9414c22a9a3f": {
       "dedup_key": "71a4c895c4d07f9a97f828ae737b9414c22a9a3f",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pork-belly/hot-n-sour-rhubarb-with-crispy-pork",
+      "source_url": "https://www.jamieoliver.com/recipes/pork-belly/hot-n-sour-rhubarb-with-crispy-pork/",
       "page_url": "https://www.jamieoliver.com/recipes/pork-belly/hot-n-sour-rhubarb-with-crispy-pork/",
       "mode": "link_through",
       "category": "recipe",
@@ -23968,7 +23968,7 @@
     "68310f3efd9ffa1db14f981bca0f6a84a1855603": {
       "dedup_key": "68310f3efd9ffa1db14f981bca0f6a84a1855603",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/fish/stuffed-pancakes",
+      "source_url": "https://www.jamieoliver.com/recipes/fish/stuffed-pancakes/",
       "page_url": "https://www.jamieoliver.com/recipes/fish/stuffed-pancakes/",
       "mode": "link_through",
       "category": "recipe",
@@ -24016,7 +24016,7 @@
     "61257c3fd9a0cf31f99a260aadbe6c615d57f1e5": {
       "dedup_key": "61257c3fd9a0cf31f99a260aadbe6c615d57f1e5",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/vegetables/crispy-veggie-mince-mushroom-bowl",
+      "source_url": "https://www.jamieoliver.com/recipes/vegetables/crispy-veggie-mince-mushroom-bowl/",
       "page_url": "https://www.jamieoliver.com/recipes/vegetables/crispy-veggie-mince-mushroom-bowl/",
       "mode": "link_through",
       "category": "recipe",
@@ -24057,7 +24057,7 @@
     "74f051837affdd69f1d0cf0f6b6ec2570b5eb898": {
       "dedup_key": "74f051837affdd69f1d0cf0f6b6ec2570b5eb898",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/hearty-chicken-hotpot",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/hearty-chicken-hotpot/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/hearty-chicken-hotpot/",
       "mode": "link_through",
       "category": "recipe",
@@ -24095,6 +24095,49 @@
       "content_fingerprint": "4565f6b5f0d0a9535e599e0bc755ddd44ea95620",
       "last_seen_at": "2026-10-21T11:00:18.350171+00:00",
       "in_feed": false,
+      "backfill": false
+    },
+    "14e06cf15fef3d7b67ff7b722d088a78ae227111": {
+      "dedup_key": "14e06cf15fef3d7b67ff7b722d088a78ae227111",
+      "source": "jamieoliver",
+      "source_url": "https://www.jamieoliver.com/recipes/pork/crispy-prosciutto-pork",
+      "page_url": "https://www.jamieoliver.com/recipes/pork/crispy-prosciutto-pork/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Crispy prosciutto pork",
+      "text": "You won't believe you can make this juicy pork dish with green-veg gnocchi in just 20 minutes. Finish with crispy sage to take it to the next level!",
+      "author": "Jamie Oliver",
+      "cuisine": "",
+      "categories": [
+        "Pork",
+        "Pork loin",
+        "Gnocchi",
+        "Dinner for two",
+        "Dinner Party",
+        "Quick & easy",
+        "Asparagus",
+        "Broad beans"
+      ],
+      "ingredients": "1 onion (160g)\n160g asparagus\n½ a bunch of mint (15g)\n2 x 200g higher-welfare pork loin steaks\n20g Parmesan cheese, plus extra to serve\n4 slices of higher-welfare prosciutto\n160g frozen broad beans\n160g frozen peas\n400g potato gnocchi\n2 sprigs of sage",
+      "instructions": "Boil the kettle. Peel and finely chop the onion, and trim and finely slice the asparagus stalks, leaving the tips whole. Put a medium non-stick frying pan on a medium heat. Go in with 1 tablespoon of olive oil, then pick, roughly chop and add most of the mint leaves, along with the onions and asparagus stalks, reserving the tips. Cover and cook for 3 minutes, stirring regularly.\nRemove and discard the fat from the pork, then very carefully slice the steaks through the middle and open each one out flat like a book. Lay side by side on one half of a large sheet of greaseproof paper. Season with black pepper, finely grate over the Parmesan, lay over the prosciutto and drizzle with 1 tablespoon of olive oil. Fold over the paper and flatten with a rolling pin to ½cm thick.\nStir the frozen broad beans and peas into the veg pan. Add the gnocchi with 300ml of boiling kettle water, cover, and cook for a final 5 minutes, or until saucy and delicious, then add a swig of red wine vinegar and season to perfection.\nPut a large non-stick pan on a high heat alongside, and flip the pork into the pan prosciutto side down. Cook for 4 minutes, or until golden and crispy, then flip, add ½ a tablespoon of oil, sprinkle the sage leaves and asparagus tips in the gaps and cook for 2 more minutes, or until the pork is cooked through.\nPick the reserved mint over the gnocchi and serve with the prosciutto pork, crispy sage leaves, asparagus and an extra grating of Parmesan, if you like.",
+      "notes": "",
+      "nutrition": "Calories: 896 calories\nProtein: 56.9 g\nCarbs: 80.4 g\nFat: 38.7 g\nFiber: 16.1 g\nSugar: 9.4 g\nSodium: 2.8 g",
+      "yield_": "2 servings",
+      "prep_time": "",
+      "cook_time": "PT20M",
+      "total_time": "PT20M",
+      "prep_minutes": null,
+      "cook_minutes": 20,
+      "total_minutes": 20,
+      "image_url": "https://cdn.sanity.io/images/cq7w2e71/production/867fcb196a160eebc8c5666f0c251fa7f11a167a-1333x2000.jpg",
+      "local_image": "",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "discovered_at": "2026-10-21T16:27:06.070344+00:00",
+      "content_hash": "a3068584be9cbfc171fc08100db33274bb93c6ec",
+      "content_fingerprint": "92688ff766e50764687d4bde1af46f4e0107c9cf",
+      "last_seen_at": "2026-10-21T16:27:06.070344+00:00",
+      "in_feed": true,
       "backfill": false
     }
   },
