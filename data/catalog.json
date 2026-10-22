@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-22T16:27:29.768571+00:00",
+  "generated_at": "2026-10-22T21:06:11.905092+00:00",
   "count": 608,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -24344,7 +24344,7 @@
     "a6b16567e90969b29163e8dc6450a6f8bade2166": {
       "dedup_key": "a6b16567e90969b29163e8dc6450a6f8bade2166",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/honeynut-squash-beans",
+      "source_url": "https://justinesnacks.com/honeynut-squash-beans/",
       "page_url": "https://justinesnacks.com/honeynut-squash-beans/",
       "mode": "link_through",
       "category": "recipe",
