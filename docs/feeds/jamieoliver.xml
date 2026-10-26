@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 20:18:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 02:46:52 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -84,6 +84,20 @@
       <link>https://www.jamieoliver.com/recipes/pork/crispy-prosciutto-pork/</link>
       <description>You won't believe you can make this juicy pork dish with green-veg gnocchi in just 20 minutes. Finish with crispy sage to take it to the next level! — 2 servings · PT20M</description>
       <guid isPermaLink="false">14e06cf15fef3d7b67ff7b722d088a78ae227111</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gnocchi peperonata</title>
+      <link>https://www.jamieoliver.com/recipes/potato/gnocchi-peperonata/</link>
+      <description>Beautiful potato gnocchi served in a rich tomato sauce with crispy capers and almonds, then topped with mozzarella – yes please! All in 20 minutes. — 2 servings · PT20M</description>
+      <guid isPermaLink="false">42a94ed8003299d408ba0c690d58e0dd09fec8f6</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wasabi steak skewers</title>
+      <link>https://www.jamieoliver.com/recipes/beef/wasabi-steak-skewers/</link>
+      <description>Bashed, marinated, rolled and sliced for max flavour, these wasabi steak skewers are brilliantly bold and super-tasty – 20-minute dinner, sorted! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">4590fd46df4bf893a80783945b9fd5013a322add</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -344,20 +358,6 @@
       <description>A traditional bean and sausage risotto from Piemonte. Try Gennaro's Paniscia – a nutritious, soul-warming meal perfect for a glass of red wine. — 4 servings</description>
       <guid isPermaLink="false">68703c281a2b1d15e73b0187a9cc03c7b99ecc58</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pasta all’anciova e muddica</title>
-      <link>https://www.jamieoliver.com/recipes/pasta/pasta-all-anciova/</link>
-      <description>Discover Gennaro's traditional Sicilian bucatini dish with salted anchovies, rich tomato, and crunchy toasted breadcrumbs. — 4 servings</description>
-      <guid isPermaLink="false">b169f02145b26b3e18820aafe85ada1947183b5c</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ultimate barbecue brekkie</title>
-      <link>https://www.jamieoliver.com/recipes/sausage/ultimate-barbecue-brekkie/</link>
-      <description>Pick and choose whichever elements excite you to make up your own perfect brekkie or brunch – what a feast! — 4 servings</description>
-      <guid isPermaLink="false">906e632cbc9dd15da38542fc960bcf0748e510ff</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
