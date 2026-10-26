@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-26T02:45:23.493217+00:00",
+  "generated_at": "2026-10-26T12:05:20.586349+00:00",
   "count": 610,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -24387,7 +24387,7 @@
     "4590fd46df4bf893a80783945b9fd5013a322add": {
       "dedup_key": "4590fd46df4bf893a80783945b9fd5013a322add",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/beef/wasabi-steak-skewers",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/wasabi-steak-skewers/",
       "page_url": "https://www.jamieoliver.com/recipes/beef/wasabi-steak-skewers/",
       "mode": "link_through",
       "category": "recipe",
@@ -24427,7 +24427,7 @@
     "42a94ed8003299d408ba0c690d58e0dd09fec8f6": {
       "dedup_key": "42a94ed8003299d408ba0c690d58e0dd09fec8f6",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/potato/gnocchi-peperonata",
+      "source_url": "https://www.jamieoliver.com/recipes/potato/gnocchi-peperonata/",
       "page_url": "https://www.jamieoliver.com/recipes/potato/gnocchi-peperonata/",
       "mode": "link_through",
       "category": "recipe",
