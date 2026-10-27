@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-27T17:14:41.333112+00:00",
+  "generated_at": "2026-10-27T21:42:20.161401+00:00",
   "count": 611,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -24469,7 +24469,7 @@
     "9f43bc1279048fb88cf05703eb07910b33b2b32a": {
       "dedup_key": "9f43bc1279048fb88cf05703eb07910b33b2b32a",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/pugliese-fava-beans-chicories",
+      "source_url": "https://justinesnacks.com/pugliese-fava-beans-chicories/",
       "page_url": "https://justinesnacks.com/pugliese-fava-beans-chicories/",
       "mode": "link_through",
       "category": "recipe",
