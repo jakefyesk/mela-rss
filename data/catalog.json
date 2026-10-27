@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-27T11:25:46.420469+00:00",
-  "count": 610,
+  "generated_at": "2026-10-27T17:14:41.333112+00:00",
+  "count": 611,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -18319,7 +18319,7 @@
       "content_hash": "42a7790309904074d1b9c0a908a02d4bcccff560",
       "content_fingerprint": "f339b08fbb24bbc6874cebb7bf7ecdee89aa6dbc",
       "last_seen_at": "2026-10-05T03:34:46.358095+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "bfbcd841185f9ae2ef395d2d6e1f02dfa48307b9": {
@@ -24465,6 +24465,48 @@
       "last_seen_at": "2026-10-26T02:45:23.493217+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "9f43bc1279048fb88cf05703eb07910b33b2b32a": {
+      "dedup_key": "9f43bc1279048fb88cf05703eb07910b33b2b32a",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/pugliese-fava-beans-chicories",
+      "page_url": "https://justinesnacks.com/pugliese-fava-beans-chicories/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Pugliese Fava Beans & Chicories",
+      "text": "Sometimes, there is nothing better than a big, filling bowl of beans and greens. The Italians (Pugliese, specifically) have mastered this. I'm not sure how they designed these beans to be so satisfying, but I could have them with a big hunk of crusty bread for meal after meal.",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion,Italian",
+      "categories": [
+        "Lunch",
+        "Main Course",
+        "beans",
+        "fava beans",
+        "fave e cicoria",
+        "puglian recipes",
+        "pugliese"
+      ],
+      "ingredients": "8 ounces dried fava beans\n6 ounces any variety of potato (cubed)\n1 (2 oz) shallot\n1-2 sprigs rosemary\n6-8 sage leaves\n1/4 cup extra-virgin olive oil (plus more for serving)\n2 teaspoons Diamond Crystal kosher salt\n8 cups water\n1 pound chicories (or any leafy green)\n2 garlic cloves (smashed)\n1 lemon (juiced)\nSourdough (optional for serving)",
+      "instructions": "The day before you plan to cook, soak 8 ounces of dried fava beans in water overnight up to 24 hours. See Note.\nChop 6 ounces of potatoes into 1-inch pieces, thinly slice the shallot, tie the rosemary sprigs and sage leaves together with twine (optional).\nAdd the drained beans, potatoes, sliced shallot, herbs and 1/4 cup of olive oil to a pot. Season with 2 teaspoons of salt and cover with 8 cups of water.\nBring to a robust simmer and cook for 50-60 minutes, bubbling the entire time.\nAs the beans are coming to a boil, clean 1 pound of chicories and cut off the base. Prepare an ice bath to the side.\n“Blanch” the chicory in the simmering bean broth for 2-3 minutes, then use tongs to transfer the greens to the ice bath. Squeeze out the excess moisture and roughly chop the greens. Let them hang out on the side until the beans are nearly finished.\nAs the beans cook, they'll start to turn into a mash and the potatoes will soften into them. Around the 40 minute mark, remove the herbs. Continue stirring until you have a chunky mash, kind of like mashed potatoes. Taste and season with salt and pepper as you like. If you'd like the mash silkier, add more olive oil.\nWhen the beans are nearly done, place a large sauté pan on medium heat next to them. Add the chicory (it should be a little oily from the blanching), the 2 garlic cloves, and the juice of 1 lemon. Season with salt and cook until the chicories are wilted and warm, 4-5 minutes.\nTo serve, pile the bean mash on a plate and portion the chicories on top. Drizzle with olive oil as needed. This is best eaten with crusty toasted sourdough.",
+      "notes": "",
+      "nutrition": "Calories: 457 kcal\nProtein: 16 g\nCarbs: 44 g\nFat: 25 g\nServing size: 1 bowl",
+      "yield_": "3 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT1H",
+      "total_time": "PT13H15M",
+      "prep_minutes": 15,
+      "cook_minutes": 60,
+      "total_minutes": 795,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/10/Pugliese-Fava-Beans-Topped-with-Sauteed-.jpg",
+      "local_image": "",
+      "published_at": "2026-10-27T14:44:17+00:00",
+      "discovered_at": "2026-10-27T17:14:41.333112+00:00",
+      "content_hash": "aaa4f5b7e673eb7fc2cb59d3228a5664ce5f1036",
+      "content_fingerprint": "af0826c622ea100ea982d9ae192800b5d4a829e0",
+      "last_seen_at": "2026-10-27T17:14:41.333112+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -24954,9 +24996,9 @@
     "8d9f4536e7f94e98a7c4318f12d7a86398096038": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/family-fakeaway-recipes/",
-      "attempts": 2,
-      "last_attempt": "2026-10-23T16:16:50.214346+00:00",
-      "next_retry": "2026-10-27T16:16:50.214346+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-10-27T17:14:41.333112+00:00",
+      "next_retry": "2026-11-04T17:14:41.333112+00:00"
     },
     "a5470013c91c84e449203478d44c0ce5cf2a1f9b": {
       "source": "jamieoliver",
