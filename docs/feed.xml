@@ -8,7 +8,42 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 17:59:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:17:30 +0000</lastBuildDate>
+    <item>
+      <title>Porchetta Sandwich</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/porchetta-sandwich</link>
+      <description>This Italian porchetta sandwich pairs juicy pork, crisp crackling, sundried tomato pesto and basil in a sturdy ciabatta roll. — 8 servings · PT20M</description>
+      <guid isPermaLink="false">5ad2992f1ff0b63cce7ce7503be2aaa11c9b7d3a</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sundried Tomato Pesto</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/sundried-tomato-pesto</link>
+      <description>This is my smoky pesto rosso with sundried tomatoes, smoked almonds, parmesan and chilli—great with pasta, bread or grilled meat. — 350 servings · PT5M</description>
+      <guid isPermaLink="false">e4b787f22e811f65bdca05949b323f02700506ed</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crispy Skin Salmon</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/crispy-skin-salmon</link>
+      <description>Crispy skin salmon with hearty kale, white beans, garlic and lemon—a complete weeknight dinner cooked in two pans. — 2 servings · PT25M</description>
+      <guid isPermaLink="false">0b33f496ffbfdc799e3452f6f49765045257e94a</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pork Belly Burnt Ends</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/pork-belly-burnt-ends</link>
+      <description>This is my pork belly burnt ends with a smoky rub and sticky miso butterscotch glaze, served with wombok slaw and kimchi mac and cheese. — 8 servings · PT3H50M</description>
+      <guid isPermaLink="false">ccc4a9b9d9171f281f75d6e460708c9e40905c0e</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lamb Biryani</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/lamb-lucknowi-biryani</link>
+      <description>This is my Lucknowi lamb biryani, with slow-cooked spiced lamb, saffron milk, rosewater and fluffy aged basmati rice. — 6 servings · PT3H</description>
+      <guid isPermaLink="false">0f00c94b2f6bda3e9edb296abc5161031f6ae506</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:22 +0000</pubDate>
+    </item>
     <item>
       <title>The Perfect French Onion Soup</title>
       <link>https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/the-perfect-french-onion-soup-0405d137.html</link>
@@ -673,41 +708,6 @@
       <description>Tortilla de Patatas is a Spanish style omelette—potatoes and caramelised onions bound together with egg, cooked low and slow until golden and just set. It’s simple, satisfying, and just as good cold as it is warm. Slice it up for a picnic, a tapas spread, or straight from the pan when no one’s looking. — 6 servings · PT50M</description>
       <guid isPermaLink="false">2778b7c185990235b6b62ee3e6ef3827d603e398</guid>
       <pubDate>Mon, 05 Oct 2026 00:28:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Filipino eggplant omelette</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/filipino-eggplant-omelette</link>
-      <description>Tortang Talong is a classic Filipino eggplant omelette—soft roasted eggplant flattened and dipped in egg, then pan-fried with (optional) savoury pork filling until golden. It’s smoky, meaty, and properly comforting, especially with a good drizzle of soy sauce and a squirt of banana ketchup on the side. Sort of like an omelette, but better. — 4 servings · PT1H15M</description>
-      <guid isPermaLink="false">f8aa5300581ea69771d070cbf9db87da59323a37</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vanilla custard, poached meringue and berries</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/floating-islands</link>
-      <description>Floating Islands are a classic French dessert with poached meringues served on top of a creamy vanilla custard. They're soft, airy, and usually finished with a sprinkle of something crunchy—like pistachios—or a few tart berries to balance the sweetness. — 4 servings · PT40M</description>
-      <guid isPermaLink="false">1ec6bf71f7ca742c6d47462c20fac89932b92bd7</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bacon crack</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/bacon-crack</link>
-      <description>Sweet, salty, spicy and totally moreish. This brittle treat is like peanut brittle’s cooler, slightly unhinged cousin. I’ve swapped out the peanuts for buttery pecans, chucked in crispy maple bacon, and added a cheeky kick of chilli. — 6 servings · PT40M</description>
-      <guid isPermaLink="false">37fea897e267b5312808d8657ba09e8d6866aa3c</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mole</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/mole</link>
-      <description>A traditional Mexican sauce made with dried chillies, toasted spices, nuts, seeds, tomatoes, tomatillos, and a bit of chocolate. Thick, rich, and complex, mole’s often served with chicken or poured over enchiladas. — 1 serving · PT1H30M</description>
-      <guid isPermaLink="false">27bdd3396664c28559eeafce4ecd07099682c055</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rice salad</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/rice-salad</link>
-      <description>Fresh, zesty rice salad made with fluffy white rice, crunchy wombok, toasted almonds and pepitas, juicy orange segments, and loads of herbs. It’s tossed with a splash of raspberry vinegar and finished with a sprinkle of sumac. A solid side dish or light main that’s anything but boring. — 4 servings · PT40M</description>
-      <guid isPermaLink="false">a1bac86c0d6966be4acbc859e83c68a5af6982b0</guid>
-      <pubDate>Mon, 05 Oct 2026 00:27:26 +0000</pubDate>
     </item>
   </channel>
 </rss>

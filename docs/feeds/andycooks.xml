@@ -8,7 +8,42 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 17:59:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:17:30 +0000</lastBuildDate>
+    <item>
+      <title>Porchetta Sandwich</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/porchetta-sandwich</link>
+      <description>This Italian porchetta sandwich pairs juicy pork, crisp crackling, sundried tomato pesto and basil in a sturdy ciabatta roll. — 8 servings · PT20M</description>
+      <guid isPermaLink="false">5ad2992f1ff0b63cce7ce7503be2aaa11c9b7d3a</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sundried Tomato Pesto</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/sundried-tomato-pesto</link>
+      <description>This is my smoky pesto rosso with sundried tomatoes, smoked almonds, parmesan and chilli—great with pasta, bread or grilled meat. — 350 servings · PT5M</description>
+      <guid isPermaLink="false">e4b787f22e811f65bdca05949b323f02700506ed</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crispy Skin Salmon</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/crispy-skin-salmon</link>
+      <description>Crispy skin salmon with hearty kale, white beans, garlic and lemon—a complete weeknight dinner cooked in two pans. — 2 servings · PT25M</description>
+      <guid isPermaLink="false">0b33f496ffbfdc799e3452f6f49765045257e94a</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pork Belly Burnt Ends</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/pork-belly-burnt-ends</link>
+      <description>This is my pork belly burnt ends with a smoky rub and sticky miso butterscotch glaze, served with wombok slaw and kimchi mac and cheese. — 8 servings · PT3H50M</description>
+      <guid isPermaLink="false">ccc4a9b9d9171f281f75d6e460708c9e40905c0e</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lamb Biryani</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/lamb-lucknowi-biryani</link>
+      <description>This is my Lucknowi lamb biryani, with slow-cooked spiced lamb, saffron milk, rosewater and fluffy aged basmati rice. — 6 servings · PT3H</description>
+      <guid isPermaLink="false">0f00c94b2f6bda3e9edb296abc5161031f6ae506</guid>
+      <pubDate>Wed, 28 Oct 2026 18:11:22 +0000</pubDate>
+    </item>
     <item>
       <title>Crispy Potato Rosti, Poached Egg and Caramelised Onions</title>
       <link>https://www.andy-cooks.com/blogs/recipes/crispy-potato-rosti-poached-egg-and-caramelised-onions</link>
@@ -323,41 +358,6 @@
       <description>This Irish Spice Bag combines crispy fried chicken, chips, capsicum and onion with a savoury spice mix and curry sauce. — 4 servings · PT1H30M</description>
       <guid isPermaLink="false">6989bbf82c2331a0bd3b5c40f686f5f1ed0a3c24</guid>
       <pubDate>Wed, 14 Oct 2026 10:09:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grilled Chicken, Sun-dried Tomato Pasta Salad</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/grilled-chicken-sun-dried-tomato-pasta-salad</link>
-      <description>This is my quick grilled chicken pasta salad with orecchiette, zucchini and smoky sun-dried tomato pesto. — 4 servings · PT30M</description>
-      <guid isPermaLink="false">ad991365b648e128e1e63bc475267f78dc81cee9</guid>
-      <pubDate>Wed, 14 Oct 2026 10:09:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>South Indian Egg Curry</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/south-indian-egg-curry</link>
-      <description>This is my Keralan-style egg curry with golden fried eggs, coconut milk, curry leaves and warm spices, served with rice. — 4 servings · PT1H</description>
-      <guid isPermaLink="false">fce4968d89ec83ffc71d454b1e1ff2aed2d133fd</guid>
-      <pubDate>Wed, 14 Oct 2026 10:09:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ropa Vieja</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/ropa-vieja</link>
-      <description>This slow-cooked ropa vieja braises brisket with cumin, oregano and paprika, then finishes with olives and parsley for a rich, savoury dinner. — 6 servings · PT3H35M</description>
-      <guid isPermaLink="false">8d223fe184a9b5a352ff5d44fdca4b628b960d58</guid>
-      <pubDate>Wed, 14 Oct 2026 10:09:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pa-Kimchi</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/pa-kimchi</link>
-      <description>This pa-kimchi is a quick, punchy Korean spring onion kimchi with gochugaru, garlic, ginger and fish sauce. — 2 servings · PT1H25M</description>
-      <guid isPermaLink="false">f97052c67bffb94154eece5253422f99e99d4590</guid>
-      <pubDate>Wed, 14 Oct 2026 10:09:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zucchini and Butter Bean Salad</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/zucchini-and-butter-bean-salad-1</link>
-      <description>This grilled zucchini and butter bean salad has a bright lemon tahini dressing and fresh dill, ready in 15 minutes as a side or light meal. — 4 servings · PT15M</description>
-      <guid isPermaLink="false">36fe3f3ee642a1630c292f34e15932840c21a935</guid>
-      <pubDate>Tue, 13 Oct 2026 23:42:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
