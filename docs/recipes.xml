@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 12:08:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 22:20:47 +0000</lastBuildDate>
+    <item>
+      <title>Sheet Pan Tofu with Spiced Carrots, Dates, and Feta</title>
+      <link>https://justinesnacks.com/sheet-pan-tofu-with-spiced-carrots-dates-feta/</link>
+      <description>My answer when people say sheetpan meals are boring. This savory-but-sweet, lightly spiced tofu dish is filling, fast and incredibly easy. (Plus! Healthy!! Which is why it's in my fall and winter rotation when I could a little color in my life). For extra vibrancy, go for rainbow carrots, but a mix of carrots and parsnips is also delicious, too. — 4 servings · PT45M</description>
+      <guid isPermaLink="false">bb772350a411e9f8e9590825c8a7759266fd1a59</guid>
+      <pubDate>Thu, 29 Oct 2026 14:42:19 +0000</pubDate>
+    </item>
     <item>
       <title>Porchetta Sandwich</title>
       <link>https://www.andy-cooks.com/blogs/recipes/porchetta-sandwich</link>
@@ -701,13 +708,6 @@
       <description>Spring onions get slow-cooked until golden and crisp, turning simple oil into liquid gold. Toss that with chewy noodles, a sweet-salty soy mix, and top it all with a crispy egg for good measure. — 1 serving · PT30M</description>
       <guid isPermaLink="false">03c336505bf6e414e78cc25087c9a07b6ec13b80</guid>
       <pubDate>Mon, 05 Oct 2026 00:28:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tortilla de Patatas</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/tortilla-de-patatas</link>
-      <description>Tortilla de Patatas is a Spanish style omelette—potatoes and caramelised onions bound together with egg, cooked low and slow until golden and just set. It’s simple, satisfying, and just as good cold as it is warm. Slice it up for a picnic, a tapas spread, or straight from the pan when no one’s looking. — 6 servings · PT50M</description>
-      <guid isPermaLink="false">2778b7c185990235b6b62ee3e6ef3827d603e398</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:18 +0000</pubDate>
     </item>
   </channel>
 </rss>

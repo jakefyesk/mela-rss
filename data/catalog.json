@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-29T12:07:20.741206+00:00",
-  "count": 618,
+  "generated_at": "2026-10-29T22:19:19.125949+00:00",
+  "count": 619,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -18013,7 +18013,7 @@
       "content_hash": "2bd3a0d7bc68a3157df864aee83237064489c524",
       "content_fingerprint": "45f30151b1a4dbe478c1c6b204330166eca93d2e",
       "last_seen_at": "2026-10-05T03:34:46.358095+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "f8aa5300581ea69771d070cbf9db87da59323a37": {
@@ -24800,6 +24800,50 @@
       "content_hash": "637f56dbb92be258d40904cbeba74ee34326200c",
       "content_fingerprint": "5829c85dde6755ec40fba6459975f822820a2c86",
       "last_seen_at": "2026-10-28T22:15:51.373684+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "bb772350a411e9f8e9590825c8a7759266fd1a59": {
+      "dedup_key": "bb772350a411e9f8e9590825c8a7759266fd1a59",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/sheet-pan-tofu-with-spiced-carrots-dates-feta",
+      "page_url": "https://justinesnacks.com/sheet-pan-tofu-with-spiced-carrots-dates-feta/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Sheet Pan Tofu with Spiced Carrots, Dates, and Feta",
+      "text": "My answer when people say sheetpan meals are boring. This savory-but-sweet, lightly spiced tofu dish is filling, fast and incredibly easy. (Plus! Healthy!! Which is why it's in my fall and winter rotation when I could a little color in my life). For extra vibrancy, go for rainbow carrots, but a mix of carrots and parsnips is also delicious, too.",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion",
+      "categories": [
+        "Lunch",
+        "Main Course",
+        "Protein",
+        "Vegetable",
+        "baked tofu",
+        "sheet pan dinner",
+        "sheet pan meals",
+        "tofu",
+        "vegetables"
+      ],
+      "ingredients": "1 cup basmati rice\n1 (14 oz) package extra-firm tofu\n1 medium (8 oz) red onion\n1 1/2 pounds carrots\n6 medjool dates (pits in )\n1 teaspoon ground cumin\n1 teaspoon ground coriander\n1 teaspoon smoked paprika\n1 teaspoon za’atar\n1/4 teaspoon red pepper flakes\n1/2 teaspoon Diamond Crystal kosher salt\n1/4 cup extra-virgin olive oil\n2 tablespoons honey\n2 tablespoons white wine vinegar\n1 cup assorted herbs (such as mint, cilantro, parsley)\n1/3 cup (2 oz) feta (stored in brine)\nLime wedges (optional, for serving)",
+      "instructions": "Preheat the oven to 425°F.\nCook 1 cup of basmati rice according to package instructions. Set aside.\nPress any excess moisture out of the tofu and cut it into 1-inch pieces. Cut the red onion into large chunks. Halve the carrots lengthwise, then cut them into your preferred length. Halve the dates and remove the pits.\nScatter the veggies, tofu, and dates on a half-sheet pan. Add 1 teaspoon each of cumin, coriander, paprika, and za’atar, 1/4 teaspoon of red pepper flakes, and 1/2 teaspoon of salt. Drizzle with 1/4 cup of olive oil and toss everything together with clean hands until evenly coated. Give the pan a shake so everything evenly lays on the surface.\nBake for 20-25 minutes, or until the carrots are fully softened.\nMeanwhile, whisk together 2 tablespoons of honey and 2 tablespoons of white wine vinegar.\nRemove the sheet pan from the oven and drizzle the honey mixture over everything. Toss to coat, then return the pan to the oven for another 2–3 minutes.\nRemove the sheet pan from the oven and tear over 1 cup of herbs and crumble on 2 ounces of feta.\nServe warm over the basmati rice.",
+      "notes": "",
+      "nutrition": "Calories: 413 kcal\nProtein: 15 g\nCarbs: 38 g\nFat: 23 g\nServing size: 1 bowl",
+      "yield_": "4 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT30M",
+      "total_time": "PT45M",
+      "prep_minutes": 15,
+      "cook_minutes": 30,
+      "total_minutes": 45,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/10/Sheetpan-Tofu-with-Spiced-Carrots-Dates-over-Rice.jpg",
+      "local_image": "",
+      "published_at": "2026-10-29T14:42:19+00:00",
+      "discovered_at": "2026-10-29T22:19:19.125949+00:00",
+      "content_hash": "78a06963f540b833b52fc48564e0c5af05cee372",
+      "content_fingerprint": "790f38b01aed9f429b0e2f5110090ed9c4053578",
+      "last_seen_at": "2026-10-29T22:19:19.125949+00:00",
       "in_feed": true,
       "backfill": false
     }
