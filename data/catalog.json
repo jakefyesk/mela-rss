@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-10-30T11:58:38.707041+00:00",
-  "count": 622,
+  "generated_at": "2026-10-30T17:50:47.979139+00:00",
+  "count": 623,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -24995,6 +24995,45 @@
       "content_hash": "c7fc7be725ee3be8f2f00d94e097dacc55987597",
       "content_fingerprint": "78ae0b40b583035e53ba9631c21a3dc1c9758cb9",
       "last_seen_at": "2026-10-30T03:58:03.562240+00:00",
+      "in_feed": false,
+      "backfill": false
+    },
+    "5399851f0c10050fdd361272d32f0a1ee5c9b98c": {
+      "dedup_key": "5399851f0c10050fdd361272d32f0a1ee5c9b98c",
+      "source": "jamieoliver",
+      "source_url": "https://www.jamieoliver.com/recipes/beef/juicy-seared-steak",
+      "page_url": "https://www.jamieoliver.com/recipes/beef/juicy-seared-steak/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Juicy seared steak",
+      "text": "If you’re cooking to impress, a juicy, flavour-packed steak ticks a lot of boxes, and this dish takes your average steak night to a totally different place.",
+      "author": "Jamie Oliver",
+      "cuisine": "",
+      "categories": [
+        "Meat",
+        "steak",
+        "Dinner for two",
+        "Occasion"
+      ],
+      "ingredients": "½ a bunch of mint (15g)\n100g couscous\n1 x 200g higher-welfare sirloin steak\n20g flaked almonds\n½ tablespoon runny honey\n160g ripe mixed-colour cherry tomatoes\n½ x 185g jar of artichoke hearts in oil\n1 small preserved lemon",
+      "instructions": "Pick the mint leaves. Pop the stalks into a bowl with the couscous, just cover with boiling kettle water, and cover.\nCut off the sinew, season the steak with a small pinch of sea salt and a pinch of black pepper, then use tongs to stand it fat-side down in a large frying pan on a medium-high heat, turning it on to the flat sides once crisp and golden. Sear on each side, cooking to your liking – I like mine medium rare.\nToast the almonds alongside for the last 30 seconds. Toss in the honey, then immediately remove the steak and almonds to a plate to rest.\nPlace the tomatoes in the hot pan, then drain and add the artichokes, along with a good splash of water. Fry and stir for 2 minutes while you finely chop the lemon, removing any seeds. Stir it into the pan with most of the mint leaves and cook for a few more minutes.\nFluff up the couscous, season to perfection and divide between your plates, then spoon over the tomatoes and artichokes. Slice and add the steak, almonds, juices and all, then finish with the remaining mint leaves.",
+      "notes": "",
+      "nutrition": "Calories: 470 calories\nProtein: 34.4 g\nCarbs: 47.9 g\nFat: 16.9 g\nFiber: 7.1 g\nSugar: 8.8 g\nSodium: 1.4 g",
+      "yield_": "2 servings",
+      "prep_time": "",
+      "cook_time": "PT20M",
+      "total_time": "PT20M",
+      "prep_minutes": null,
+      "cook_minutes": 20,
+      "total_minutes": 20,
+      "image_url": "https://asset.jamieoliver.com/images/cq7w2e71/production/21cb0c7329b457dfb08d529f43c7ce1336a2d416-958x1280.jpg/121303481.webp?rect=0,161,958,958&w=1200&h=1200&fm=webp&q=75&fit=crop&auto=format",
+      "local_image": "",
+      "published_at": "2021-04-13T00:00:00+00:00",
+      "discovered_at": "2026-10-30T17:50:47.979139+00:00",
+      "content_hash": "8bcf5b8d0aa8a32f15b76d3bd10d25a4e535dd73",
+      "content_fingerprint": "01d4dea10085d000f7cffc03d1673d2087e055d7",
+      "last_seen_at": "2026-10-30T17:50:47.979139+00:00",
       "in_feed": false,
       "backfill": false
     }
