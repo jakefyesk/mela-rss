@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-30T03:58:03.562240+00:00",
+  "generated_at": "2026-10-30T11:58:38.707041+00:00",
   "count": 622,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -16217,8 +16217,8 @@
     "8638b515577d5001cfe4228de5def8d9fb2be66c": {
       "dedup_key": "8638b515577d5001cfe4228de5def8d9fb2be66c",
       "source": "andycooks",
-      "source_url": "https://www.andy-cooks.com/blogs/recipes/crispy-maple-brussel-sprouts-with-bacon",
-      "page_url": "https://www.andy-cooks.com/blogs/recipes/crispy-maple-brussel-sprouts-with-bacon",
+      "source_url": "https://www.andy-cooks.com/blogs/recipes/crispy-air-fryer-brussels-sprouts",
+      "page_url": "https://www.andy-cooks.com/blogs/recipes/crispy-air-fryer-brussels-sprouts",
       "mode": "link_through",
       "category": "recipe",
       "saved_via": "",
