@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 12:32:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 21:37:19 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -98,6 +98,20 @@
       <link>https://www.jamieoliver.com/recipes/beef/wasabi-steak-skewers/</link>
       <description>Bashed, marinated, rolled and sliced for max flavour, these wasabi steak skewers are brilliantly bold and super-tasty – 20-minute dinner, sorted! — 2 servings · PT20M</description>
       <guid isPermaLink="false">4590fd46df4bf893a80783945b9fd5013a322add</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gnarly spiced chicken</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/gnarly-spiced-chicken/</link>
+      <description>Cooked until gnarly with Thai curry paste, this chicken is packed full of flavour. Served with crispy sesame noodles, it's a winning 20-minute dinner! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">8b9fc1fe4e9175db38eb631b541f95d0017658f4</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fish pie pasta bake</title>
+      <link>https://www.jamieoliver.com/recipes/fish/fish-pie-pasta-bake/</link>
+      <description>This 20-minute fish pie pasta bake mash-up is a real winner – everything we love about a fish pie combined with the familiar magic of a pasta bake! — 4 servings · PT20M</description>
+      <guid isPermaLink="false">a7d845abd72ba0d5dd731ae93959e2324ee86634</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -344,20 +358,6 @@
       <description>Mackerel is a real nutritional powerhouse, packed with those heart-healthy Omega-3 oils - enjoy it in this beautifully simple grains salad. — 4 servings · PT20M</description>
       <guid isPermaLink="false">e2ce0cf6dca6019aa674069598bc1870c96df544</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Buchteln</title>
-      <link>https://www.jamieoliver.com/recipes/bread/buchteln/</link>
-      <description>Fluffy Northern Italian brioche buns filled with sweet apricot jam, give it a go! — 14 items</description>
-      <guid isPermaLink="false">4f3bccfeb7965510416cbaca6cee9cb06da34eb9</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Paniscia</title>
-      <link>https://www.jamieoliver.com/recipes/pasta-risotto/paniscia/</link>
-      <description>A traditional bean and sausage risotto from Piemonte. Try Gennaro's Paniscia – a nutritious, soul-warming meal perfect for a glass of red wine. — 4 servings</description>
-      <guid isPermaLink="false">68703c281a2b1d15e73b0187a9cc03c7b99ecc58</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
