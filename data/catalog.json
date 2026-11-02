@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-01T21:35:46.080825+00:00",
+  "generated_at": "2026-11-02T03:54:45.002202+00:00",
   "count": 625,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -25040,7 +25040,7 @@
     "a7d845abd72ba0d5dd731ae93959e2324ee86634": {
       "dedup_key": "a7d845abd72ba0d5dd731ae93959e2324ee86634",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/fish/fish-pie-pasta-bake",
+      "source_url": "https://www.jamieoliver.com/recipes/fish/fish-pie-pasta-bake/",
       "page_url": "https://www.jamieoliver.com/recipes/fish/fish-pie-pasta-bake/",
       "mode": "link_through",
       "category": "recipe",
@@ -25083,7 +25083,7 @@
     "8b9fc1fe4e9175db38eb631b541f95d0017658f4": {
       "dedup_key": "8b9fc1fe4e9175db38eb631b541f95d0017658f4",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/chicken/gnarly-spiced-chicken",
+      "source_url": "https://www.jamieoliver.com/recipes/chicken/gnarly-spiced-chicken/",
       "page_url": "https://www.jamieoliver.com/recipes/chicken/gnarly-spiced-chicken/",
       "mode": "link_through",
       "category": "recipe",
