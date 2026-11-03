@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-11-03T13:27:29.331748+00:00",
-  "count": 625,
+  "generated_at": "2026-11-03T22:46:38.506107+00:00",
+  "count": 626,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -17976,7 +17976,7 @@
       "content_hash": "5ed837fce8ff1177427f480331b8b795bcb64d0d",
       "content_fingerprint": "010ed7ff4e35006a97b0b2fe1221716586cf1d6b",
       "last_seen_at": "2026-10-05T03:34:46.358095+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "2778b7c185990235b6b62ee3e6ef3827d603e398": {
@@ -25117,6 +25117,49 @@
       "content_hash": "d4c851d6116aca2ad76f1e69528ad5ae05399a4b",
       "content_fingerprint": "a7dc83c95bbff04a1a4484fff7da9efc73c9deef",
       "last_seen_at": "2026-11-01T21:35:46.080825+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "beb95423c6e45e9fd305e0ad48846080843f8965": {
+      "dedup_key": "beb95423c6e45e9fd305e0ad48846080843f8965",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/thanksgiving-stuffing-lasagna",
+      "page_url": "https://justinesnacks.com/thanksgiving-stuffing-lasagna/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Thanksgiving Stuffing Lasagna",
+      "text": "As the title tells you, this is a lasagna that tastes like holiday stuffing and lasagna had a baby. It's herby, hearty, cheesy - all the things you'd want in either dish. I like it for if you are having a smaller Thanksgiving and just want to make one thing to satisfy everybody, or if you are going to a potluck or Friendsgiving and want to show out!",
+      "author": "Justine Doiron",
+      "cuisine": "American,Fusion",
+      "categories": [
+        "Dinner",
+        "Holidays",
+        "Main Course",
+        "Pasta",
+        "lasagna",
+        "thanksgiving lasagna",
+        "Thanksgiving recipes",
+        "white lasagna"
+      ],
+      "ingredients": "1 pound oyster mushrooms (or a variety of mushrooms)\n6 tablespoons extra-virgin olive oil (divided, plus more for drizzling)\nDiamond Crystal kosher salt\n2 (4 oz total) shallots\n1 medium (12 oz) fennel bulb\n3 (4 oz total) celery stalks\n2-3 sprigs sage (or 12-15 leaves)\n4 sprigs rosemary\n2 cups (3 oz) fresh parsley\n4 garlic cloves\n1 1/2 pounds mozzarella\n4 ounces parmesan\n16 ounces whole milk ricotta\n12 ounces vegetarian or chicken fennel apple sausage (I love the Field Roast brand)\nFreshly cracked black pepper\n1/4 cup dried cranberries\n1 tablespoon white balsamic vinegar (or white wine vinegar)\n4 tablespoons salted butter\n1/2 cup all-purpose flour\n2 1/2 cups milk of choice\n12 ounces lasagna noodles",
+      "instructions": "Position a rack in the center of the oven and preheat to 375°F convection, 400°F standard.\nRoast the mushrooms: Tear the mushrooms into a 9x13-inch baking dish. Drizzle with 1-2 tablespoons of olive oil and season with 1/2 teaspoon of salt. Roast for 30-40 minutes, or until the mushrooms are darkened and crisp.\nDuring this time, prepare your mise: Thinly slice two shallots, one fennel bulb, and three celery stalks. Finely chop up 15 leaves of sage, 4 sprigs of rosemary and 3 ounces of parsley. Grate four garlic cloves. Tear up 1 1/2 pounds of mozzarella into a large bowl. Grate in 4 ounces of parmesan. Portion out 16 ounces of ricotta. Roughly chop up 12 ounces of sausage. Set everything aside.\nPrepare the vegetable mixture: Place a large pan over medium heat. Add the remaining 1/4 cup of olive oil. Add the sliced shallots, fennel, celery, sage, and rosemary. Season with 1/2 teaspoon of salt and black pepper. Cook for 10-13 minutes, or until incredibly soft and halved in size. Halfway through cooking, add the garlic and half of the parsley. Set the other half of the parsley aside for topping.\nTurn the heat off of the vegetables and stir in 1/4 cup of dried cranberries and 1 tablespoon white balsamic vinegar. Transfer the vegetables out of the pan.\nPrepare the mushroom béchamel: Place the pan back over medium heat. Add 4 tablespoons of butter to the pan and 1/2 cup of flour. Mix into a paste and toast, stirring and mixing constantly, until the paste goes from a light golden to a deeper brown. It will be clumpy, but will loosen into a smoother paste as it darkens, kind of like peanut butter. This will take 5-6 minutes so be patient!\nReduce the heat to low, then in 1/2 cup increments, mix in 2 1/2 cups of milk, stirring in each addition until it’s smooth. Season with salt and black pepper, then stir in the roasted mushrooms. Set this aside. It will thicken as it sits, which it totally fine!\nCook the noodles: Boil the lasagna noodles in batches for 4-5 minutes, or until soft but still al dente. Lay them on a half sheet pan, drizzling with olive oil as needed to prevent sticking.\nAdd 1 cup of pasta water to the mushroom sauce to help loosen it up.\nNow it’s time to assemble! In a 9 by 13-inch baking dish, layer as so: - 1 thin layer of olive oil - 1 layer of noodles- Half of the mushroom béchamel- Half of the vegetable mixture- Half of the sausage- Half of the ricotta- One third of the mozzarella- 1 layer of noodles- The remaining half of the bechamel- The remaining half of the vegetable mixture- The remaining half of the sausage- The remaining half of the ricotta- The second third of the mozzarella- 1 layer of noodles- Cover with the remaining mozzarella and parsley\nNow you can either store this in the fridge, covered for 12-24 hours, then bake. Or, bake at 375°F convection for 40-45 minutes or until the lasagna is bubbling and browned.\nServe warm! Accept the compliments!",
+      "notes": "",
+      "nutrition": "Calories: 521 kcal\nProtein: 30 g\nCarbs: 27 g\nFat: 32 g\nServing size: 1 square",
+      "yield_": "12 servings",
+      "prep_time": "PT15M",
+      "cook_time": "PT1H45M",
+      "total_time": "PT2H",
+      "prep_minutes": 15,
+      "cook_minutes": 105,
+      "total_minutes": 120,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/10/Thanksgiving-Lasagna-on-a-Plate.jpg",
+      "local_image": "",
+      "published_at": "2026-11-03T14:32:22+00:00",
+      "discovered_at": "2026-11-03T22:46:38.506107+00:00",
+      "content_hash": "7e333dfb8bcd1ef71941f7efe01cda694e1ad9f3",
+      "content_fingerprint": "8a480f8dd1a4fab7f34737e3d7b1d9badf472505",
+      "last_seen_at": "2026-11-03T22:46:38.506107+00:00",
       "in_feed": true,
       "backfill": false
     }

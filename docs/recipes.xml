@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 13:28:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 22:48:06 +0000</lastBuildDate>
+    <item>
+      <title>Thanksgiving Stuffing Lasagna</title>
+      <link>https://justinesnacks.com/thanksgiving-stuffing-lasagna/</link>
+      <description>As the title tells you, this is a lasagna that tastes like holiday stuffing and lasagna had a baby. It's herby, hearty, cheesy - all the things you'd want in either dish. I like it for if you are having a smaller Thanksgiving and just want to make one thing to satisfy everybody, or if you are going to a potluck or Friendsgiving and want to show out! — 12 servings · PT2H</description>
+      <guid isPermaLink="false">beb95423c6e45e9fd305e0ad48846080843f8965</guid>
+      <pubDate>Tue, 03 Nov 2026 14:32:22 +0000</pubDate>
+    </item>
     <item>
       <title>Sheet Pan Tofu with Spiced Carrots, Dates, and Feta</title>
       <link>https://justinesnacks.com/sheet-pan-tofu-with-spiced-carrots-dates-feta/</link>
@@ -701,13 +708,6 @@
       <description>Hot Cross Buns: the Easter classic! These ones are soft, spiced just right, and packed with juicy raisins and orange zest. — 12 servings · PT1H</description>
       <guid isPermaLink="false">3f206aa89571753b5b85634bc8a4de599fef30f1</guid>
       <pubDate>Mon, 05 Oct 2026 00:28:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Spring onion noodles</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/spring-onion-noodles</link>
-      <description>Spring onions get slow-cooked until golden and crisp, turning simple oil into liquid gold. Toss that with chewy noodles, a sweet-salty soy mix, and top it all with a crispy egg for good measure. — 1 serving · PT30M</description>
-      <guid isPermaLink="false">03c336505bf6e414e78cc25087c9a07b6ec13b80</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
