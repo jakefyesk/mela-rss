@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-04T23:05:28.276767+00:00",
+  "generated_at": "2026-11-05T04:43:33.258210+00:00",
   "count": 633,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -25316,7 +25316,7 @@
     "a40239d7763b3b50bc99fdb369c31bd3051db391": {
       "dedup_key": "a40239d7763b3b50bc99fdb369c31bd3051db391",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/fish/hot-smoked-trout",
+      "source_url": "https://www.jamieoliver.com/recipes/fish/hot-smoked-trout/",
       "page_url": "https://www.jamieoliver.com/recipes/fish/hot-smoked-trout/",
       "mode": "link_through",
       "category": "recipe",
@@ -25357,7 +25357,7 @@
     "65ef8df516334ecdc447f84ef8e49afbc0065f68": {
       "dedup_key": "65ef8df516334ecdc447f84ef8e49afbc0065f68",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/potato/best-roast-potatoes",
+      "source_url": "https://www.jamieoliver.com/recipes/potato/best-roast-potatoes/",
       "page_url": "https://www.jamieoliver.com/recipes/potato/best-roast-potatoes/",
       "mode": "link_through",
       "category": "recipe",
@@ -25407,7 +25407,7 @@
     "57462af3a7b8ebc5984bcff86eef0934a3f24592": {
       "dedup_key": "57462af3a7b8ebc5984bcff86eef0934a3f24592",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/potato/roast-new-potato-pickle-salad",
+      "source_url": "https://www.jamieoliver.com/recipes/potato/roast-new-potato-pickle-salad/",
       "page_url": "https://www.jamieoliver.com/recipes/potato/roast-new-potato-pickle-salad/",
       "mode": "link_through",
       "category": "recipe",
@@ -25454,7 +25454,7 @@
     "1a86d5e1bab74ee1b9da02298c1071d7449f336f": {
       "dedup_key": "1a86d5e1bab74ee1b9da02298c1071d7449f336f",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/potato/ultimate-roast-potatoes",
+      "source_url": "https://www.jamieoliver.com/recipes/potato/ultimate-roast-potatoes/",
       "page_url": "https://www.jamieoliver.com/recipes/potato/ultimate-roast-potatoes/",
       "mode": "link_through",
       "category": "recipe",
@@ -25998,16 +25998,16 @@
     "a5470013c91c84e449203478d44c0ce5cf2a1f9b": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/chicken-breast/",
-      "attempts": 3,
-      "last_attempt": "2026-10-28T03:35:18.507707+00:00",
-      "next_retry": "2026-11-05T03:35:18.507707+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-11-05T04:43:33.258210+00:00",
+      "next_retry": "2026-11-21T04:43:33.258210+00:00"
     },
     "514b5f707421005ad3c0ec962d32596451e6db1c": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/dishtype/barbecue-food/",
-      "attempts": 3,
-      "last_attempt": "2026-10-28T03:35:18.507707+00:00",
-      "next_retry": "2026-11-05T03:35:18.507707+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-11-05T04:43:33.258210+00:00",
+      "next_retry": "2026-11-21T04:43:33.258210+00:00"
     },
     "e62ed23d30741788f84bf71b8fc872a38b6048b8": {
       "source": "andycooks",
