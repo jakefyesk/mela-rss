@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 13:52:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 23:10:04 +0000</lastBuildDate>
+    <item>
+      <title>Koginut Squash Stew with Big Noodles and Burrata</title>
+      <link>https://justinesnacks.com/koginut-squash-stew-with-big-noodles-and-burrata/</link>
+      <description>I love any noodle soup, but this one has my heart in the fall. You can use any type of pasta (I love breaking up lasagna noodles for it), and the broth gets so effortlessly rich thanks to a few tricks with the pasta water. Top it with burrata for a little extra creaminess and cheese-pull (how lucky are we!) and enjoy!PS, this makes a lot of food, so halve the recipe if you're only serving four or less! — 8 servings · PT1H</description>
+      <guid isPermaLink="false">1dd8612ec72fa699bbe42dd3a17faa104b262bfd</guid>
+      <pubDate>Thu, 05 Nov 2026 14:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Healthy Beef Burger</title>
       <link>https://www.andy-cooks.com/blogs/recipes/healthy-beef-burger</link>
@@ -701,13 +708,6 @@
       <description>This is a grilled Vietnamese rice paper dish that's layered with your choice of toppings. Very easy dish to make and it's pretty delicious! I had it for the first time while travelling in Vietnam. — 1 serving · PT30M</description>
       <guid isPermaLink="false">9d0ec969afb9e589abf6ee9cc50ab2ba2f8efa36</guid>
       <pubDate>Mon, 05 Oct 2026 17:23:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ground beef curry</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/simple-ground-beef-curry</link>
-      <description>This one’s a weeknight winner. Quick, hearty, and packed with protein. It’s just beef mince, a few pantry bits, and boom – you’ve got a cracking curry on the table in 20. Serve it over rice, scatter some coriander on top, and you’re sorted. — 4 servings · PT20M</description>
-      <guid isPermaLink="false">d3bff21c0f042e14e4b191f2fa2ea401c7ca1b72</guid>
-      <pubDate>Mon, 05 Oct 2026 00:28:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
