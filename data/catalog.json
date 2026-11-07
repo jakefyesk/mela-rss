@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-06T22:37:41.251738+00:00",
+  "generated_at": "2026-11-07T04:10:16.652766+00:00",
   "count": 636,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -26155,9 +26155,9 @@
     "e62ed23d30741788f84bf71b8fc872a38b6048b8": {
       "source": "andycooks",
       "source_url": "https://www.andy-cooks.com/blogs/recipes/healthy-fish-tacos-2",
-      "attempts": 1,
-      "last_attempt": "2026-11-04T23:05:28.276767+00:00",
-      "next_retry": "2026-11-06T23:05:28.276767+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-11-07T04:10:16.652766+00:00",
+      "next_retry": "2026-11-11T04:10:16.652766+00:00"
     },
     "ee8ccd05771c432cdc9bed9360732c781519f1ec": {
       "source": "andycooks",
