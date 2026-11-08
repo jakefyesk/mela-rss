@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 12:38:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 21:36:24 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -115,6 +115,13 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Tuna bean turnover</title>
+      <link>https://www.jamieoliver.com/recipes/fish/tuna-bean-turnover/</link>
+      <description>Impressive in just 20 minutes, this puff pastry tuna bean turnover is totally delicious – serve with a zingy tomato and cucumber for a fresh crunch! — 4 servings · PT20M</description>
+      <guid isPermaLink="false">1633d4fc791dbafbd91ce2a02280a06e41965e35</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Bobotie</title>
       <link>https://www.jamieoliver.com/recipes/beef/bobotie/</link>
       <description>Bring the flavours of Cape Town home with this classic South African Bobotie. Perfectly spiced beef mince topped with a rich, golden egg custard. — 6 servings</description>
@@ -147,6 +154,13 @@
       <link>https://www.jamieoliver.com/recipes/cheese/easy-cheesy-ham-filo-quichy/</link>
       <description>Impress with this easy, cheesy ham filo quiche! Paired with a fresh tomato and bean salad, it's a quick but impressive dinner that's ready in no time. — 6 servings · PT20M</description>
       <guid isPermaLink="false">cba312c418bb327c4221d2c5f9b1a391c5b5e6de</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rosemary chicken &amp; fried red spaghetti</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/rosemary-chicken-and-fried-red-spaghetti/</link>
+      <description>Ready in just 20 minutes, this rosemary chicken and fried red spaghetti is the ultimate quick dinner for two. Simple, speedy and so delicious! — 2 servings · PT20M</description>
+      <guid isPermaLink="false">b9fbca8a9a0de979e579182917ced39f65199869</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -343,20 +357,6 @@
       <link>https://www.jamieoliver.com/recipes/fish/salsa-verde/</link>
       <description>Made with top-quality anchovies, this easy-to-make salsa verde is a great way to add big flavour to all kinds of dishes. Delicious! — 8 servings · PT10M</description>
       <guid isPermaLink="false">ab11966c01b12e96e1a2c071d9379f3ec210ff3d</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Italian-style tuna salad</title>
-      <link>https://www.jamieoliver.com/recipes/fish/italian-style-tuna-salad/</link>
-      <description>Celebrate humble tinned tuna in this delicious Italian-style salad, served with bang-in-season tomatoes on toast and beautiful marinated anchovies. — 4 servings · PT20M</description>
-      <guid isPermaLink="false">ddfcb2758bbb26613e5c83aaa2c487a9177b70cf</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supergrains mackerel salad</title>
-      <link>https://www.jamieoliver.com/recipes/fish/supergrains-mackerel-salad/</link>
-      <description>Mackerel is a real nutritional powerhouse, packed with those heart-healthy Omega-3 oils - enjoy it in this beautifully simple grains salad. — 4 servings · PT20M</description>
-      <guid isPermaLink="false">e2ce0cf6dca6019aa674069598bc1870c96df544</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
