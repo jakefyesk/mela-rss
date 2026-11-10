@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-11-10T14:08:06.295992+00:00",
-  "count": 693,
+  "generated_at": "2026-11-10T22:44:03.358535+00:00",
+  "count": 694,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -19472,7 +19472,7 @@
       "content_hash": "2c697b83958dbba48de1abd15bf21d3e70f48f97",
       "content_fingerprint": "4699d3361e5c00d0fa62cdbe1270e1fe346f60d6",
       "last_seen_at": "2026-10-05T23:35:54.068894+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "9d0ec969afb9e589abf6ee9cc50ab2ba2f8efa36": {
@@ -28441,6 +28441,47 @@
       "last_seen_at": "2026-11-09T14:55:06.481249+00:00",
       "in_feed": false,
       "backfill": false
+    },
+    "3315bf07b59a75f351ae32cbb848e395987d8f40": {
+      "dedup_key": "3315bf07b59a75f351ae32cbb848e395987d8f40",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/jammy-grape-and-goat-cheese-tarts",
+      "page_url": "https://justinesnacks.com/jammy-grape-and-goat-cheese-tarts/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Jammy Grape and Goat Cheese Tarts",
+      "text": "A small, snackable tart is my favorite thing to add to a cheese plate. And these taste like an elevated charcuterie board all in a few bites. In the fall season grapes are often overlooked, but they are one of my favorite seasonal items. They cook down to a rich, ultra-sweet, jammy texture and pair perfectly with goat cheese. And if you're looking for a good cheese, Cypress Grove's Humboldt Fog is my favorite.",
+      "author": "Justine Doiron",
+      "cuisine": "American",
+      "categories": [
+        "Appetizer",
+        "Dessert",
+        "Holidays",
+        "fall recipes",
+        "grape tart",
+        "roasted grape tart"
+      ],
+      "ingredients": "# For the crust (if using homemade):\n7 tablespoons (65g) dark rye flour\n1 cup and 2 tablespoons (160g) all-purpose flour (plus more for dusting)\n1 teaspoon Diamond Crystal kosher salt\n3/4 cup (170g) salted butter (chilled)\n5 tablespoons (75g) ice water (divided)\n# For the filling:\n1 pound grapes\n1/4 cup (60g) turbinado sugar\n2 tablespoons freshly grated ginger (or 1/2 teaspoon dried ginger)\n1 teaspoon cornstarch\n4 ounces goat cheese\nhoney (for drizzling)\n# For the hazelnut sage sugar:\n1 ounce hazelnuts\n7-8 sage leaves\n1/4 teaspoon cinnamon\n1 tablespoon turbinado sugar\n1/4 teaspoon Diamond Crystal kosher salt\n1 egg (for egg wash)",
+      "instructions": "Make the dough (if using store bought, jump ahead to step 4): In a large bowl, whisk together 65 grams of dark rye flour, 160 grams of all purpose flour, and 1 teaspoon of salt. Add the 12 tablespoons of butter in cubes and use your hands to toss and coat the butter in flour, then press each cube into disks, flattening and cutting into the flour until all the butter is well coated and no size is bigger than a bean. Working quickly, whisk in 4 tablespoons of the ice water and use your hands to form a shaggy dough. Add the remaining 1 tablespoon ice water, if needed.\nTransfer the dough to a lightly floured work surface, pat it into a disk 1 inch thick, and sprinkle any butter pockets with more flour to seal them up. Cut the dough into thirds, layer them on top of one another, and press down to flatten the dough until it's 1 inch thick again. Rotate 90 degrees and repeat. This creates lamination and flaky, buttery layers.\nWrap the disk in plastic wrap, then use a rolling pin to roll it out into the edges of the plastic wrap, making a smooth dough. Place it in the fridge to chill and hydrate for 12 hours.\nWhen you are ready to bake, preheat the oven to 375°F.\nHalve a pound of grapes and add them to a large bowl with 60 grams of turbinado sugar, 2 tablespoons of freshly grated ginger, and 1 teaspoon of cornstarch. Mix and set aside.\nIn a food processor, pulse 1 ounce of hazelnuts and 7-8 sage leaves until you have a rough and crumbly texture. Mix in 1/4 teaspoon of cinnamon, 1 tablespoon of turbinado sugar, and 1/4 teaspoon of salt. Set aside.\nRemove the crust from the fridge and roll it out very thin. Cut the dough into eight 6-inch squares and then transfer them to a parchment-lined half sheet pan.\nDivide the grapes evenly between the eight squares, piling them in the center of each and leaving a little border around the edges. Drizzle any remaining juices from the bowl over the grapes.\nFold the edges of each square over the grapes, with only a little of the grape mixture peeking out. You don't have to fold the pastry in as tightly as I did/as you see pictured. I just like to do it that way to maximize the amount of hazelnut sage sugar people get in every bite.\nBrush the crust heavily with egg wash,then scatter the hazelnut sage sugar all over.\nBake at 375°F for 20-25 minutes, until the crust is deeply golden and the grapes are thickened and bubbling.\nRemove from the oven and top each mini tart with a thin slice of goat cheese and a drizzle of honey. Serve warm! These are incredibly snackable and great to serve with a starting cheese course or as part of a big dessert spread.",
+      "notes": "",
+      "nutrition": "Calories: 292 kcal\nProtein: 5 g\nCarbs: 30 g\nFat: 18 g\nServing size: 1 tart",
+      "yield_": "8 servings",
+      "prep_time": "PT30M",
+      "cook_time": "PT25M",
+      "total_time": "PT55M",
+      "prep_minutes": 30,
+      "cook_minutes": 25,
+      "total_minutes": 55,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/11/Goat-Cheese-and-Honey-Grape-Tarts.jpg",
+      "local_image": "",
+      "published_at": "2026-11-10T14:00:00+00:00",
+      "discovered_at": "2026-11-10T22:44:03.358535+00:00",
+      "content_hash": "63c9ccdbd8fe1a553bffab5c91e2542e43afc1db",
+      "content_fingerprint": "25c6bb81a91d65739f2c8836bdfb3ed2717d2c2a",
+      "last_seen_at": "2026-11-10T22:44:03.358535+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -28965,9 +29006,9 @@
     "64ad4a9ea91b5a9733747aa2be7891d105152b97": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/eggs/aioli",
-      "attempts": 1,
-      "last_attempt": "2026-11-08T21:34:15.343413+00:00",
-      "next_retry": "2026-11-10T21:34:15.343413+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-11-10T22:44:03.358535+00:00",
+      "next_retry": "2026-11-14T22:44:03.358535+00:00"
     },
     "a7a2513e79e57743dcd8c97e6a6382b5c1b1d3c4": {
       "source": "jamieoliver",
