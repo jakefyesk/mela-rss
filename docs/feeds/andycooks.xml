@@ -8,7 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 13:25:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 23:58:24 +0000</lastBuildDate>
+    <item>
+      <title>One Pan Roast Chicken</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/one-pan-roast-chicken</link>
+      <description>My one-pan roast chicken with crispy-skinned thighs, potatoes, carrots and Brussels sprouts, plus a roasted garlic gravy made in the same pan. — 4 servings · PT1H20M</description>
+      <guid isPermaLink="false">2a7d528fb718d55967d100104f82fc96f9b2b676</guid>
+      <pubDate>Wed, 11 Nov 2026 07:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fish and Potato Stew</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/fish-and-potato-stew</link>
+      <description>My one-pot smoked paprika fish stew with firm white fish, baby potatoes, zucchini, olives and lemon. Ready in 25 minutes! — 4 servings · PT45M</description>
+      <guid isPermaLink="false">2fafe0cb9ac8128e801531b4e49b9cb8f134abbd</guid>
+      <pubDate>Wed, 11 Nov 2026 06:07:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Black Pudding</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/black-pudding</link>
+      <description>My homemade black pudding with fresh pig’s blood, pork back fat, oats and warm spices. Baked in a tin, chilled overnight, then sliced and fried until crisp. — 24 servings · PT1H55M</description>
+      <guid isPermaLink="false">58a71e99193cf696e8bca56c63ae8fdd874d8354</guid>
+      <pubDate>Wed, 11 Nov 2026 05:09:16 +0000</pubDate>
+    </item>
     <item>
       <title>Healthy Beef Burger</title>
       <link>https://www.andy-cooks.com/blogs/recipes/healthy-beef-burger</link>
@@ -337,27 +358,6 @@
       <description>This wholegrain mustard combines yellow and black mustard seeds with verjuice, cider vinegar and sauerkraut juice, fermented for five days. — 30 servings · PT1H</description>
       <guid isPermaLink="false">208f82ef9af4aeb966fd2060c8731e5f567cd5d2</guid>
       <pubDate>Wed, 14 Oct 2026 14:11:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nuoc cham</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/nuoc-cham</link>
-      <description>This Vietnamese nuoc cham is tangy, sweet and spicy with lime, fish sauce, garlic, carrot and chillies—ready in 10 minutes. — 20 servings · PT10M</description>
-      <guid isPermaLink="false">28639beab5466db5854febaed535a34af2446971</guid>
-      <pubDate>Wed, 14 Oct 2026 14:11:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grilled chicken sandwich</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/grilled-chicken-sandwich</link>
-      <description>This grilled chicken sandwich has chilli crisp mayo, crispy bacon, avocado and pickled red onions on toasted buns. — 4 servings · PT1H</description>
-      <guid isPermaLink="false">f95f3ba438aabe5602dc4a50f921a1075641387d</guid>
-      <pubDate>Wed, 14 Oct 2026 14:11:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Leek and Lemon Fish Cakes</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/leek-and-lemon-fish-cakes</link>
-      <description>These easy tuna fish cakes combine mashed potato, sweet leek and lemon, then fry in panko for a crisp, budget-friendly dinner. — 4 servings · PT1H15M</description>
-      <guid isPermaLink="false">27db98dfe35d88081c799d767bbd314502d0cf87</guid>
-      <pubDate>Wed, 14 Oct 2026 10:09:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
