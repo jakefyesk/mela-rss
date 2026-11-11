@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-10T22:44:03.358535+00:00",
+  "generated_at": "2026-11-11T04:12:10.567025+00:00",
   "count": 694,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -28445,7 +28445,7 @@
     "3315bf07b59a75f351ae32cbb848e395987d8f40": {
       "dedup_key": "3315bf07b59a75f351ae32cbb848e395987d8f40",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/jammy-grape-and-goat-cheese-tarts",
+      "source_url": "https://justinesnacks.com/jammy-grape-and-goat-cheese-tarts/",
       "page_url": "https://justinesnacks.com/jammy-grape-and-goat-cheese-tarts/",
       "mode": "link_through",
       "category": "recipe",
