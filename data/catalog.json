@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-13T23:08:14.773104+00:00",
+  "generated_at": "2026-11-14T04:33:38.241889+00:00",
   "count": 709,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -28984,7 +28984,7 @@
     "d66e2f9124b587cd9efc26d73d4075b08ae373cd": {
       "dedup_key": "d66e2f9124b587cd9efc26d73d4075b08ae373cd",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pasta/beautiful-courgette-carbonara",
+      "source_url": "https://www.jamieoliver.com/recipes/pasta/beautiful-courgette-carbonara/",
       "page_url": "https://www.jamieoliver.com/recipes/pasta/beautiful-courgette-carbonara/",
       "mode": "link_through",
       "category": "recipe",
@@ -29036,7 +29036,7 @@
     "b3d1623c5e6af50fddcba84ff523ddef8c376185": {
       "dedup_key": "b3d1623c5e6af50fddcba84ff523ddef8c376185",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/vegetables/batch-curry-base-sauce",
+      "source_url": "https://www.jamieoliver.com/recipes/vegetables/batch-curry-base-sauce/",
       "page_url": "https://www.jamieoliver.com/recipes/vegetables/batch-curry-base-sauce/",
       "mode": "link_through",
       "category": "recipe",
@@ -29088,7 +29088,7 @@
     "7c7e5b0d12e3d3627dc58af0c8940c0e18361975": {
       "dedup_key": "7c7e5b0d12e3d3627dc58af0c8940c0e18361975",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/fruit/tea-party-fairy-cakes",
+      "source_url": "https://www.jamieoliver.com/recipes/fruit/tea-party-fairy-cakes/",
       "page_url": "https://www.jamieoliver.com/recipes/fruit/tea-party-fairy-cakes/",
       "mode": "link_through",
       "category": "recipe",
@@ -29136,7 +29136,7 @@
     "853e7eab58ef14f214390a0d0266c2901ae94342": {
       "dedup_key": "853e7eab58ef14f214390a0d0266c2901ae94342",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/vegetables/the-quickest-tomato-sauce",
+      "source_url": "https://www.jamieoliver.com/recipes/vegetables/the-quickest-tomato-sauce/",
       "page_url": "https://www.jamieoliver.com/recipes/vegetables/the-quickest-tomato-sauce/",
       "mode": "link_through",
       "category": "recipe",
