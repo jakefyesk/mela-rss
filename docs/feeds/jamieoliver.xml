@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 04:35:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:52:42 +0000</lastBuildDate>
     <item>
       <title>Sardine linguine</title>
       <link>https://www.jamieoliver.com/recipes/pasta/sardine-linguine/</link>
@@ -161,6 +161,13 @@
       <link>https://www.jamieoliver.com/recipes/chicken/rosemary-chicken-and-fried-red-spaghetti/</link>
       <description>Ready in just 20 minutes, this rosemary chicken and fried red spaghetti is the ultimate quick dinner for two. Simple, speedy and so delicious! — 2 servings · PT20M</description>
       <guid isPermaLink="false">b9fbca8a9a0de979e579182917ced39f65199869</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Curried green chicken</title>
+      <link>https://www.jamieoliver.com/recipes/chicken/curried-green-chicken/</link>
+      <description>Spice up dinnertime with this fragrant curried chicken – served with a green yoghurt sauce, it’s vibrant, flavour-packed and a real weeknight winner! — 4 servings · PT20M</description>
+      <guid isPermaLink="false">ed3f9beadea95259884ec261c480ddbff0106174</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -350,13 +357,6 @@
       <link>https://www.jamieoliver.com/recipes/fish/hot-crispy-rostis-and-smoked-salmon/</link>
       <description>Made with waves of quality wild smoked salmon, these hot and crispy rostis topped with a fried egg and asparagus ribbons are totally delicious. — 2 servings · PT20M</description>
       <guid isPermaLink="false">8dfdd0581a3a2283cca9501e053edde4cdef91a4</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Salsa verde</title>
-      <link>https://www.jamieoliver.com/recipes/fish/salsa-verde/</link>
-      <description>Made with top-quality anchovies, this easy-to-make salsa verde is a great way to add big flavour to all kinds of dishes. Delicious! — 8 servings · PT10M</description>
-      <guid isPermaLink="false">ab11966c01b12e96e1a2c071d9379f3ec210ff3d</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
