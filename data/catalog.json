@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-15T22:23:24.579502+00:00",
+  "generated_at": "2026-11-16T04:21:06.705805+00:00",
   "count": 712,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -29840,16 +29840,16 @@
     "a7a2513e79e57743dcd8c97e6a6382b5c1b1d3c4": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/vegetables/baked-potato-skins-with-gorgonzola-rocket-and-mustard-fruit",
-      "attempts": 2,
-      "last_attempt": "2026-11-11T23:56:37.704185+00:00",
-      "next_retry": "2026-11-15T23:56:37.704185+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-11-16T04:21:06.705805+00:00",
+      "next_retry": "2026-11-24T04:21:06.705805+00:00"
     },
     "aefe55c0a8364b67635421376117fbce779e435b": {
       "source": "justinesnacks",
       "source_url": "https://justinesnacks.com/2026-cookie-advent-calendar/",
-      "attempts": 1,
-      "last_attempt": "2026-11-13T23:08:14.773104+00:00",
-      "next_retry": "2026-11-15T23:08:14.773104+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-11-16T04:21:06.705805+00:00",
+      "next_retry": "2026-11-20T04:21:06.705805+00:00"
     },
     "bc7e1edf35988446544ddd1589014185786905c4": {
       "source": "jamieoliver",
