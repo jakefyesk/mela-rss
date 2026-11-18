@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>mela-rss</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:24:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 14:58:50 +0000</lastBuildDate>
+    <item>
+      <title>Whipped Onion Dip with Seasonal Vegetables</title>
+      <link>https://www.andy-cooks.com/blogs/recipes/whipped-onion-dip-with-seasonal-vegetables</link>
+      <description>My whipped onion and feta dip with seasonal vegetables. Slow-cooked onions blended with feta and lemon, served with fresh veg for dipping. — 6 servings · PT30M</description>
+      <guid isPermaLink="false">4a4b0130110122a7598981327fa8dfea94c574fc</guid>
+      <pubDate>Wed, 18 Nov 2026 06:50:56 +0000</pubDate>
+    </item>
     <item>
       <title>Cumin Beef Rice Bake</title>
       <link>https://www.andy-cooks.com/blogs/recipes/cumin-beef-rice-bake</link>
@@ -350,13 +357,6 @@
       <link>https://www.andy-cooks.com/blogs/recipes/quick-pickled-cucumber</link>
       <description>This is my quick pickled cucumber with dill, chilli and peppercorns—ready once cooled and handy for cheese boards, salads or avocado toast. — 12 servings · PT20M</description>
       <guid isPermaLink="false">f04742bf9390676468a143100d479c6e2c59b6cb</guid>
-      <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grilled flatbread, whipped feta and blistered tomatoes</title>
-      <link>https://www.andy-cooks.com/blogs/recipes/grilled-flatbread-whipped-feta-with-blistered-tomatoes</link>
-      <description>This is my favourite BBQ snack: grilled flatbread with zesty whipped feta, blistered tomatoes, chilli and fresh basil. — 6 servings · PT1H40M</description>
-      <guid isPermaLink="false">f6969696f0792dbea78d3fed6a9682cf3b4dafad</guid>
       <pubDate>Wed, 14 Oct 2026 14:11:52 +0000</pubDate>
     </item>
   </channel>
