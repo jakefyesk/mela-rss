@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-11-17T15:22:20.540831+00:00",
-  "count": 712,
+  "generated_at": "2026-11-18T00:22:51.906601+00:00",
+  "count": 713,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -20171,7 +20171,7 @@
       "content_hash": "3e1cfad84601d75a4714452701a634daa272da8c",
       "content_fingerprint": "a6757b3c7c57b80b316b435d8ba190569225a8fd",
       "last_seen_at": "2026-10-09T12:26:03.711202+00:00",
-      "in_feed": true,
+      "in_feed": false,
       "backfill": false
     },
     "10d999c3a5f71b2873d81c899e37e77e3f0ef047": {
@@ -29309,6 +29309,47 @@
       "last_seen_at": "2026-11-14T12:51:12.697686+00:00",
       "in_feed": true,
       "backfill": false
+    },
+    "6e99643e27a8e5d17e84c09bc6042760b4800afc": {
+      "dedup_key": "6e99643e27a8e5d17e84c09bc6042760b4800afc",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/savory-frangipane-tart",
+      "page_url": "https://justinesnacks.com/savory-frangipane-tart/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Savory Romanesco Frangipane Tart",
+      "text": "",
+      "author": "Justine Doiron",
+      "cuisine": "American,French,Fusion",
+      "categories": [
+        "Dessert",
+        "Holidays",
+        "fall recipes",
+        "frangipane",
+        "savory tart",
+        "Thanksgiving"
+      ],
+      "ingredients": "7 tablespoons (65g) dark rye flour\n1 cup and 2 tablespoons (160g) all-purpose flour (plus more for dusting)\n1 teaspoon Diamond Crystal kosher salt\n3/4 cup (170g) salted butter, chilled (chilled)\n5 tablespoons (75g) ice water (divided)\n1 pound romanesco, broccoli, or broccolini\n1 small shallot\nExtra-virgin olive oil\n3/4 cup (170g) salted butter (softened)\n2 tablespoons (25g) granulated sugar\n1 ounce (30g) freshly grated parmesan\n1 1/2 cups (180g) superfine almond flour (loosely packed)\n1 teaspoon Diamond Crystal kosher salt (plus more as needed)\n1 teaspoon rubbed sage\n3 large eggs\n2 tablespoons (20g) all-purpose flour",
+      "instructions": "Make the dough (if using store bought, jump ahead to step 4): In a large bowl, whisk together 65 grams of dark rye flour, 160 grams of all purpose flour, and 1 teaspoon of salt. Add the 12 tablespoons of butter in cubes and use your hands to toss and coat the butter in flour, then press each cube into disks, flattening and cutting into the flour until all the butter is well coated and no size is bigger than a bean. Working quickly, whisk in 4 tablespoons of the ice water and use your hands to form a shaggy dough. Add the remaining 1 tablespoon ice water, if needed.\nTransfer the dough to a lightly floured work surface, pat it into a disk 1 inch thick, and sprinkle any butter pockets with more flour to seal them up. Cut the dough into thirds, layer them on top of one another, and press down to flatten the dough until it's 1 inch thick again. Rotate 90 degrees and repeat. This creates lamination and flaky, buttery layers.\nWrap the disk in plastic wrap, then use a rolling pin to roll it out into the edges of the plastic wrap, making a smooth dough. Place it in the fridge to chill and hydrate for 12 hours.\nWhen you are ready to bake, preheat the oven to 375°F. Remove the crust from the fridge and roll it a few times to warm it up, dusting with flour and slicing off edges as needed, roll it out into a 13-inch circle.\nFold the crust into quarters to transfer it to a pie or tart dish. Press the crust into the dish, cutting off any uneven sides to make a circular tart shell about 1 1/2 inches tall. Dock the bottom with a fork, then cover with parchment paper and weigh down the crust with dried beans or pie beads.\nPar bake at 375°F for 22-24 minutes.\nWhile the crust is par baking, chop off the top parts of the romanesco and thinly slice the shallot. Drizzle with olive oil and season with salt. Set aside.\nFor the frangipane, add 170 grams of softened butter and 25 grams of sugar to the bowl of a stand mixer (do not do this by hand!). Beat until very softened and fluffy, about 2-3 minutes. Grate in 30 grams of parmesan and mix again until fluffy.\nAdd 180 grams of almond flour and mix on medium-high until it’s beginning to look whipped. Add 1 teaspoon each of salt and sage and mix.\nWith the mixer on medium speed, add the eggs one at a time, mixing until the frangipane looks very fluffy and light. If it does not look light and whipped, you didn’t mix the sugar and butter together long enough. I suggest restarting, otherwise (while still delicious), it will not rise and may be greasy or tough.\nTo finish, add 20 grams of all-purpose flour and mix until just combined. Set this aside.\nWhen the crust is done par-baking, remove the pie beads and put the crust in the fridge to chill for just a few minutes.\nOnce it’s cool to the touch, spread in the frangipane (it should feel satisfying to spread out) and scatter the romanesco and shallot on top.\nBake at 375°F for another 30-40 minutes, until the frangipane is golden on the edges.\nRemove from the oven and serve warm. It should taste like a soft, cakier, (savory) cheesecake.",
+      "notes": "",
+      "nutrition": "Calories: 412 kcal\nProtein: 8 g\nCarbs: 22 g\nFat: 34 g\nServing size: 1 slice",
+      "yield_": "12 servings",
+      "prep_time": "PT25M",
+      "cook_time": "PT1H",
+      "total_time": "PT1H25M",
+      "prep_minutes": 25,
+      "cook_minutes": 60,
+      "total_minutes": 85,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/10/Baked-Romanesco-Frangipane.jpg",
+      "local_image": "",
+      "published_at": "2026-11-17T16:28:24+00:00",
+      "discovered_at": "2026-11-18T00:22:51.906601+00:00",
+      "content_hash": "196e33caa562c713617eee4ed46120b259e9e59c",
+      "content_fingerprint": "919d9ee03382a0c833317b17874031de68ff72ee",
+      "last_seen_at": "2026-11-18T00:22:51.906601+00:00",
+      "in_feed": true,
+      "backfill": false
     }
   },
   "failures": {
@@ -29854,9 +29895,9 @@
     "bc7e1edf35988446544ddd1589014185786905c4": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/christmas/",
-      "attempts": 1,
-      "last_attempt": "2026-11-15T22:23:24.579502+00:00",
-      "next_retry": "2026-11-17T22:23:24.579502+00:00"
+      "attempts": 2,
+      "last_attempt": "2026-11-18T00:22:51.906601+00:00",
+      "next_retry": "2026-11-22T00:22:51.906601+00:00"
     }
   },
   "aliases": {
