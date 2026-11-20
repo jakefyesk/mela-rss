@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-20T00:10:12.754659+00:00",
+  "generated_at": "2026-11-20T14:45:16.549603+00:00",
   "count": 714,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -29939,9 +29939,9 @@
     "aefe55c0a8364b67635421376117fbce779e435b": {
       "source": "justinesnacks",
       "source_url": "https://justinesnacks.com/2026-cookie-advent-calendar/",
-      "attempts": 2,
-      "last_attempt": "2026-11-16T04:21:06.705805+00:00",
-      "next_retry": "2026-11-20T04:21:06.705805+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-11-20T14:45:16.549603+00:00",
+      "next_retry": "2026-11-28T14:45:16.549603+00:00"
     },
     "bc7e1edf35988446544ddd1589014185786905c4": {
       "source": "jamieoliver",
