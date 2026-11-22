@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-21T22:41:06.703548+00:00",
+  "generated_at": "2026-11-22T04:38:51.901460+00:00",
   "count": 714,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -29946,9 +29946,9 @@
     "bc7e1edf35988446544ddd1589014185786905c4": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/christmas/",
-      "attempts": 2,
-      "last_attempt": "2026-11-18T00:22:51.906601+00:00",
-      "next_retry": "2026-11-22T00:22:51.906601+00:00"
+      "attempts": 3,
+      "last_attempt": "2026-11-22T04:38:51.901460+00:00",
+      "next_retry": "2026-11-30T04:38:51.901460+00:00"
     }
   },
   "aliases": {
