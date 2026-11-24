@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-24T03:42:36.869589+00:00",
+  "generated_at": "2026-11-24T16:51:16.895679+00:00",
   "count": 715,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -29405,7 +29405,7 @@
     "663b48f45423139a32d8ce189754f2bd676cfe69": {
       "dedup_key": "663b48f45423139a32d8ce189754f2bd676cfe69",
       "source": "justinesnacks",
-      "source_url": "https://justinesnacks.com/spiced-candied-nuts",
+      "source_url": "https://justinesnacks.com/spiced-candied-nuts/",
       "page_url": "https://justinesnacks.com/spiced-candied-nuts/",
       "mode": "link_through",
       "category": "recipe",
@@ -29973,9 +29973,9 @@
     "a7a2513e79e57743dcd8c97e6a6382b5c1b1d3c4": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/vegetables/baked-potato-skins-with-gorgonzola-rocket-and-mustard-fruit",
-      "attempts": 3,
-      "last_attempt": "2026-11-16T04:21:06.705805+00:00",
-      "next_retry": "2026-11-24T04:21:06.705805+00:00"
+      "attempts": 4,
+      "last_attempt": "2026-11-24T16:51:16.895679+00:00",
+      "next_retry": "2026-12-10T16:51:16.895679+00:00"
     },
     "aefe55c0a8364b67635421376117fbce779e435b": {
       "source": "justinesnacks",
