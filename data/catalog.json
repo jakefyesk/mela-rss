@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-11-23T17:06:43.498554+00:00",
-  "count": 714,
+  "generated_at": "2026-11-24T03:42:36.869589+00:00",
+  "count": 715,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -29399,6 +29399,47 @@
       "content_hash": "b292761a0bef22b07a9fec08d3199b43b218ffb7",
       "content_fingerprint": "d532673314face74ce8488b37d39f15bab5c32d3",
       "last_seen_at": "2026-11-18T14:57:18.484526+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "663b48f45423139a32d8ce189754f2bd676cfe69": {
+      "dedup_key": "663b48f45423139a32d8ce189754f2bd676cfe69",
+      "source": "justinesnacks",
+      "source_url": "https://justinesnacks.com/spiced-candied-nuts",
+      "page_url": "https://justinesnacks.com/spiced-candied-nuts/",
+      "mode": "link_through",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Spiced Candied Nuts",
+      "text": "Mixed candied nuts feel like a holiday staple, a necessity really. And while you can definitely buy them, I love being able to control the sweetness and spices when I make them on my own. This easy nut mix is the perfect amount of sweet, golden and lightly crispy from their quick egg white coating. It takes just a few minutes and is worth every second.",
+      "author": "Justine Doiron",
+      "cuisine": "American",
+      "categories": [
+        "Holidays",
+        "Side Dish",
+        "Snack",
+        "candied nuts",
+        "candied pecans",
+        "holiday spiced candied nuts"
+      ],
+      "ingredients": "2 egg whites\n3 cups mixed nuts (such as macadamia, walnuts and cashews)\n1/4 cup lightly packed dark brown sugar\n1/2 teaspoon allspice\n1/2 teaspoon cinnamon\n1/2 teaspoon ginger\n1/2 teaspoon clove\n1/8 teaspoon Diamond Crystal kosher salt",
+      "instructions": "Preheat the oven to 350°F and line a half sheet pan with parchment paper.\nWhip the egg whites until you have soft peaks.\nAdd 3 cups of nuts and gently mix to get them lightly coated, try not to let the egg whites deflate and get runny.\nSprinkle over 1/4 cup of dark brown sugar, 1/2 teaspoon each of allspice, cinnamon, ginger, and clove, and 1/8 teaspoon of salt and gently fold them in.\nScoop the candied nuts onto the baking sheet (don’t pour, you don’t want any excess egg white to hit the pan!). Scatter the nuts out so the aren’t overlapping or touching.\nRoast on the top rack of the oven for 10-15 minutes, until golden. Let fully cool until crisp.",
+      "notes": "",
+      "nutrition": "Calories: 249 kcal\nProtein: 9 g\nCarbs: 17 g\nFat: 17 g\nServing size: 0.5 cup",
+      "yield_": "6 servings",
+      "prep_time": "PT10M",
+      "cook_time": "PT15M",
+      "total_time": "PT25M",
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "total_minutes": 25,
+      "image_url": "https://justinesnacks.com/wp-content/uploads/2026/11/Candied-Nuts-being-Served-on-Thanksgiving.jpg",
+      "local_image": "",
+      "published_at": "2026-11-24T02:03:33+00:00",
+      "discovered_at": "2026-11-24T03:42:36.869589+00:00",
+      "content_hash": "eaf81dff00fbe3fdbd99b8798a9c83784f1cf521",
+      "content_fingerprint": "056195b07a89db5ad9bacdf03093769fdb8f1f50",
+      "last_seen_at": "2026-11-24T03:42:36.869589+00:00",
       "in_feed": true,
       "backfill": false
     }
