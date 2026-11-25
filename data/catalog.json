@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-11-25T01:50:02.545100+00:00",
-  "count": 715,
+  "generated_at": "2026-11-25T16:39:15.685441+00:00",
+  "count": 716,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
       "dedup_key": "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f",
@@ -29440,6 +29440,43 @@
       "content_hash": "eaf81dff00fbe3fdbd99b8798a9c83784f1cf521",
       "content_fingerprint": "056195b07a89db5ad9bacdf03093769fdb8f1f50",
       "last_seen_at": "2026-11-24T03:42:36.869589+00:00",
+      "in_feed": true,
+      "backfill": false
+    },
+    "34aeee28875bb515548a49f0efbd9725535154bc": {
+      "dedup_key": "34aeee28875bb515548a49f0efbd9725535154bc",
+      "source": "joshuaweissman",
+      "source_url": "https://www.joshuaweissman.com/recipes/brown-butter-potato-chip-rice-krispie-treats",
+      "page_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/brown-butter-potato-chip-rice-krispie-treats-34aeee28.html",
+      "mode": "rehost",
+      "category": "recipe",
+      "saved_via": "",
+      "title": "Brown Butter Potato Chip Rice Krispie Treats",
+      "text": "",
+      "author": "Joshua Weissman",
+      "cuisine": "",
+      "categories": [
+        "Brown Butter Potato Chip Rice Krispie Treats",
+        "Chef Joshua Weissman recipe"
+      ],
+      "ingredients": "Cooking spray\n1 cup or 2 sticks (227g) salted butter\n40 oz (1.1kg) mini marshmallows\n2 tsp (12g) vanilla bean paste, optional\n8 cups (216g) plain Rice Krispies cereal\n1 1/2 cups (45g) crushed salted kettle cooked potato chips",
+      "instructions": "Generously grease a non-stick 9x13-inch baking pan with cooking spray. Optionally, you can also line the tray with parchment paper and grease the top of the parchment paper as well for easy removal of the treats.\nIn a large stock pot, over medium heat, add the butter. Let the butter melt down completely. Once the butter has melted, it will begin to bubble until there is a layer of foam over the top. Carefully swirl the pan to keep the heat evenly distributed as the butter begins to brown. If you cannot see the butter below the foam, tilt the pan to see the butter underneath. Continue to cook the butter, swirling the pan often over the heat, until the foam evaporates and the butter is a rich, deep brown color. This process should take approximately 8-10 minutes, but you can turn down the heat to low if you’d like to slow down the process at any time.\nAs soon as the butter is browned, immediately pour in the marshmallows to stop the butter from continuing to brown. Stir the marshmallows, over medium-low heat, until they are completely melted and evenly incorporated with the browned butter. Optionally, stir in the vanilla bean paste until evenly incorporated.\nRemove the pot from the heat and immediately add in the Rice Krispies cereal and potato chips, stirring to evenly coat the cereal and chips completely in the melted marshmallow mixture. You must work quickly so that the marshmallows don’t set before everything is evenly combined.\nImmediately pour the mixture into the prepared pan and, using the back of a wooden spoon, spread it out into an even layer. Next, spray another piece of parchment paper with cooking spray, and place the sprayed side of the paper down on top of the treats. Use your hands to lightly press down on the mixture to spread it out evenly and create a flat, even top. Make sure not to press down too hard, just enough to evenly distribute the treat, leaving some airy pockets throughout.\nRemove the parchment paper from the top and let the treats cool to room temperature for at least 1 hour but ideally overnight. If leaving the treats overnight, cover with foil once they have cooled to room temperature.\nWhen ready to serve, remove the whole block from the baking pan, using an offset spatula to help release the edges from the sides of the pan. Place on a cutting board, turning the longer edge so that it is parallel to you. Cut the block into 6 long strips that are 2-inches wide. Next cut each one of the long strips in half, creating two 2x4-inch Rice Krispie Treats. Repeat this with the remaining treats.\nServe the Rice Krispie Treats immediately or store in an airtight container wrapped in greased wax paper at room temperature.",
+      "notes": "",
+      "nutrition": "",
+      "yield_": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "prep_minutes": null,
+      "cook_minutes": null,
+      "total_minutes": null,
+      "image_url": "https://jakefyesk.github.io/mela-rss/recipes/joshuaweissman/img/brown-butter-potato-chip-rice-krispie-treats-34aeee28.jpg",
+      "local_image": "recipes/joshuaweissman/img/brown-butter-potato-chip-rice-krispie-treats-34aeee28.jpg",
+      "published_at": "2026-11-25T15:30:01.311000+00:00",
+      "discovered_at": "2026-11-25T16:39:15.685441+00:00",
+      "content_hash": "72cc1f2307a7feb7c5d78ea0e8109f83935c7971",
+      "content_fingerprint": "92386fa89195cd597107d808d2d9c415fafad216",
+      "last_seen_at": "2026-11-25T16:39:15.685441+00:00",
       "in_feed": true,
       "backfill": false
     }
