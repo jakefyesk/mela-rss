@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-27T15:58:23.807447+00:00",
+  "generated_at": "2026-11-28T00:57:27.209435+00:00",
   "count": 747,
   "recipes": {
     "bc7687e0848a53b1a04dc0fbd035cebaca6e5a3f": {
@@ -30631,7 +30631,7 @@
     "f5ae0d8eac0f1a2f238798bbe4717f6dc4db8310": {
       "dedup_key": "f5ae0d8eac0f1a2f238798bbe4717f6dc4db8310",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/salmon/silky-salmon-tagliatelle",
+      "source_url": "https://www.jamieoliver.com/recipes/salmon/silky-salmon-tagliatelle/",
       "page_url": "https://www.jamieoliver.com/recipes/salmon/silky-salmon-tagliatelle/",
       "mode": "link_through",
       "category": "recipe",
@@ -30673,7 +30673,7 @@
     "71eb94c03280c504b487731fe88ab2a9f51fe031": {
       "dedup_key": "71eb94c03280c504b487731fe88ab2a9f51fe031",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/salmon/stuffed-salmon",
+      "source_url": "https://www.jamieoliver.com/recipes/salmon/stuffed-salmon/",
       "page_url": "https://www.jamieoliver.com/recipes/salmon/stuffed-salmon/",
       "mode": "link_through",
       "category": "recipe",
@@ -30716,7 +30716,7 @@
     "901340b8c1339e8ac5d6ffc670e0be04b938919a": {
       "dedup_key": "901340b8c1339e8ac5d6ffc670e0be04b938919a",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/pasta/smoked-salmon-pasta",
+      "source_url": "https://www.jamieoliver.com/recipes/pasta/smoked-salmon-pasta/",
       "page_url": "https://www.jamieoliver.com/recipes/pasta/smoked-salmon-pasta/",
       "mode": "link_through",
       "category": "recipe",
@@ -30756,7 +30756,7 @@
     "26ced9ab30c9d06f0bed57dfe9e4e3fe674b62dc": {
       "dedup_key": "26ced9ab30c9d06f0bed57dfe9e4e3fe674b62dc",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/salmon/sesame-seared-salmon",
+      "source_url": "https://www.jamieoliver.com/recipes/salmon/sesame-seared-salmon/",
       "page_url": "https://www.jamieoliver.com/recipes/salmon/sesame-seared-salmon/",
       "mode": "link_through",
       "category": "recipe",
@@ -30796,7 +30796,7 @@
     "83b2eb0330fb87c2dcc6ba5a52bd97698081fa8c": {
       "dedup_key": "83b2eb0330fb87c2dcc6ba5a52bd97698081fa8c",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/salmon/salmon-gravadlax",
+      "source_url": "https://www.jamieoliver.com/recipes/salmon/salmon-gravadlax/",
       "page_url": "https://www.jamieoliver.com/recipes/salmon/salmon-gravadlax/",
       "mode": "link_through",
       "category": "recipe",
@@ -30836,7 +30836,7 @@
     "ffaa97cf3a9a7a56e2a10a5b1ea1d1ec2a29a78e": {
       "dedup_key": "ffaa97cf3a9a7a56e2a10a5b1ea1d1ec2a29a78e",
       "source": "jamieoliver",
-      "source_url": "https://www.jamieoliver.com/recipes/baking/air-fryer-everything-scones",
+      "source_url": "https://www.jamieoliver.com/recipes/baking/air-fryer-everything-scones/",
       "page_url": "https://www.jamieoliver.com/recipes/baking/air-fryer-everything-scones/",
       "mode": "link_through",
       "category": "recipe",
@@ -31234,9 +31234,9 @@
     "ebeea714935416e98b3354740c957aa3d7b0ad60": {
       "source": "jamieoliver",
       "source_url": "https://www.jamieoliver.com/recipes/books/shop/20-minute-meals/",
-      "attempts": 5,
-      "last_attempt": "2026-10-28T17:57:27.587343+00:00",
-      "next_retry": "2026-11-27T17:57:27.587343+00:00"
+      "attempts": 6,
+      "last_attempt": "2026-11-28T00:57:27.209435+00:00",
+      "next_retry": "2026-12-28T00:57:27.209435+00:00"
     },
     "640017dab4053d9cabae74f1254a9678fa9fa397": {
       "source": "jamieoliver",
